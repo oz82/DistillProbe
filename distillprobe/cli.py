@@ -84,7 +84,7 @@ def cmd_describe(args: argparse.Namespace) -> int:
 
 
 def cmd_sanity_check(args: argparse.Namespace) -> int:
-    """Module-aware sanity check. Faz 1 ile birlikte morphology desteği gelir."""
+    """Module-aware sanity check."""
     p = Path(args.data_path)
     if not p.exists():
         print(f"not found: {p}", file=sys.stderr)

@@ -1,50 +1,76 @@
-# Polysemy human annotation (P1-5)
+# Polysemy human annotation
 
-Bu klasör, polysemy probe'una **insan altın-standardı + insan tavanı** eklemek için
-gereken anotasyon materyalini içerir (revizyon item P1-5).
+This directory holds the material for the **human gold standard and human
+ceiling** added to the polysemy probe: four native speakers of Turkish rated how
+readily each dictionary sense of a polysemous noun comes to mind for that word
+in isolation.
 
-## Dosyalar
-- **`polysemy_annotation_GUIDE.md`** — işaretleyici kılavuzu. **Önce bunu okuyun.**
-- **`polysemy_form_annotator_A.xlsx` … `…_E.xlsx`** — boş şablon formlar. PII içermez, **ama *Form* sekmesi 346 TDK tanımını ve örnek cümlesini birebir gömer** → telif nedeniyle **release arşivine girmez** (`.gitattributes` export-ignore). Dev repo'da yerel üretim için durur; arşivi alan `scripts/build_polysemy_form.py` ile sense manifest'inden yeniden üretir.
-- **`polysemy_ratings_anon.csv`** — anonim (R1–R4) 0–3 derecelendirmeler; yayımlanan veri.
-- **`ethics/etik_kurul_raporu.docx`** — etik kurul başvuru/bilgilendirme raporu (Türkçe). **Yalnız dev repo**: doldurulmamış bir başvuru formudur, arşive girmez (makale kurul incelemesinin aranmadığını/gerekmediğini beyan ediyor; boş bir başvuru formu bununla çelişir görünür).
-- **`responses/`** — ham dolu formlar + `_coder_map.txt` (PII; **gitignored**, release edilmez).
-- İlgili: `data/polysemy/tr_polysemy.v3.sense_manifest.json` (+`.sha256`) — TDK datasetinin verbatim metin olmadan yeniden üretim reçetesi.
+## Files
 
-Excel formu (.xlsx; Excel, Google Sheets, LibreOffice, Numbers — hepsinde açılır)
-iki sekmeli: *Yönerge* (kısa talimat + **işaretleyici bilgileri & onay** alanları) ve
-*Form*. `PUAN_0_3` sütununda **0–3 açılır menü** (yanlış değer girilemez), başlık satırı
-sabit, puan sütunu sarı ile vurgulu, kelimeler dönüşümlü gölgeli. Formlar
-`data/polysemy/tr_polysemy.v3.json` (leak-free primary, 50 kelime / 346 anlam)
-içeriğinden üretildi.
+- **`polysemy_annotation_GUIDE.md`** — the annotator guide. **Kept in Turkish
+  verbatim**: it is the document the annotators actually read, so it is evidence
+  of what participants were told, not documentation to be translated. An English
+  summary is at the top of that file.
+- **`polysemy_form_annotator_A.xlsx` … `…_E.xlsx`** — blank annotation
+  workbooks. They contain no personal data, **but their *Form* sheet embeds all
+  346 TDK definitions and example sentences verbatim**, so they are excluded from
+  the public release for copyright reasons (`.gitattributes` export-ignore).
+  Regenerate them from the released sense manifest with
+  `python scripts/build_polysemy_form.py -n 5`.
+- **`polysemy_ratings_anon.csv`** — the de-identified 0–3 ratings (R1–R4). **This
+  is the published data artefact.**
+- **`ethics/etik_kurul_raporu.docx`** — an ethics-committee information report
+  (Turkish). **Development repository only**: it is an unfilled application form,
+  and the article states that committee review was not sought and not required,
+  so shipping a blank application alongside it would read as a contradiction.
+- **`responses/`** — raw filled workbooks and the name↔code map. Contains
+  personal data; **gitignored, never released**.
+- Related: `data/polysemy/tr_polysemy.v3.sense_manifest.json` (+ `.sha256`) — the
+  regeneration recipe that rebuilds the dataset without redistributing TDK text.
 
-## Akış
-1. **Türkçe anadil konuşucuları** (hedef 5; toplanan 4 bağımsız kodlayıcı), kılavuzu
-   okuyup Yönerge'deki bilgi+onay alanlarını doldurur, sonra **bağımsız** olarak kendi
-   Excel formunu doldurur (`PUAN_0_3`: her anlama 0–3).
-2. Doldurulmuş ham Excel'ler **`annotation/responses/`** altına konur. Bu klasör
-   **gitignore'lu**: formların Yönerge sayfası işaretleyici **ad/yaş (PII)** içerir,
-   commit/release edilmez.
-3. **Anonimleştirme:** ham formlardan PII'siz `annotation/polysemy_ratings_anon.csv`
-   üretilir. Sütunlar **`R1..R4`** (ad/baş-harf yok); anahtar `kelime_no, anlam_no`.
-   **TDK metni (`tanim`) CSV'de YOK** — telif için dağıtılmaz; gerekirse build
-   script/manifest ile join edilir. Commit/release edilen bilimsel artifact budur.
-   Ad↔R-kodu eşlemesi yalnızca yerel `responses/_coder_map.txt`'de (gitignored,
-   submit edilmez).
-4. Skorlama: **`python scripts/score_polysemy_annotation.py --encoder-metrics
-   results/polysemy/<primary_run>/metrics.json`**. Varsayılan girdi = anonim CSV
-   (PII'siz, repo'dan tam reprodüktif); ham xlsx için `--forms-glob annotation/responses/...`.
-   Hesaplar: İnsan-tavanı = işaretleyiciler arası uyum (**Krippendorff α**, ordinal);
-   gold = anlam başına medyan/ortalama; her encoder'ın (M2V, LaBSE) sense-sıralamasının
-   gold'a uyumu (Spearman ρ + winner-agreement, bootstrap CI). Boş/kısmi formlarda
-   fill-status raporlar. (Gerekirse: `pip install -e ".[annotation]"`.)
+The workbook has two sheets: *Yönerge* (instructions plus annotator information
+and consent fields) and *Form* (the rating table). The `PUAN_0_3` column is a
+constrained 0–3 dropdown, so out-of-range values cannot be entered.
 
-**Sonuç (2026-06-30, 4 kodlayıcı):** α=0.477 (insan tavanı); gold-vs-encoder LaBSE
-ρ=0.10, M2V ρ=0.06 — ikisi de ~0 → statik embedding insan salience'ını izlemiyor.
-Detay: paper §4.3 "Human ceiling" paragrafı.
+## Procedure
 
-## Önemli
-- İşaretleyiciler **birbirinden bağımsız** çalışmalı (uyum ölçümü için şart).
-- İsteğe bağlı **kalibrasyon turu:** herkes önce aynı 5 kelimeyi yapıp *ölçeği* (0–3'ün
-  anlamını) bir kez hizalasın, sonra gerisini bağımsız doldursun.
-- Formlar yeniden üretilebilir: `python scripts/build_polysemy_form.py -n 5`.
+1. Four native speakers read the guide, completed the information and consent
+   fields, and then filled in their own workbook **independently** — independence
+   is required for the agreement measurement to mean anything.
+2. Filled workbooks go to `annotation/responses/`, which is gitignored: the
+   instruction sheet carries annotator names and ages.
+3. **De-identification.** The anonymized `polysemy_ratings_anon.csv` is derived
+   from the raw workbooks. Columns are `R1..R4` (no names, no initials), keyed by
+   `kelime_no, anlam_no`. **The TDK gloss column is absent** — the text is
+   copyrighted and joined back in from the manifest when needed. This CSV is the
+   scientific artefact that is committed and released. The name↔code mapping
+   exists only in the local, gitignored `responses/_coder_map.txt`.
+4. **Scoring:**
+   ```bash
+   python scripts/score_polysemy_annotation.py \
+     --encoder-metrics results/polysemy/<primary_run>/metrics.json
+   ```
+   It reports the human ceiling (Krippendorff's ordinal α, plus
+   leave-one-annotator-out α and the mean pairwise per-word rank correlation), a
+   per-sense gold (median or mean), and each encoder's agreement with that gold
+   (Spearman ρ and winner agreement, with bootstrap confidence intervals). Run
+   without `--encoder-metrics` to get the human-ceiling figures alone. Requires
+   `pip install -e ".[annotation]"`.
+
+## Result (four annotators)
+
+α = 0.477 (human ceiling; leave-one-out 0.463–0.499; mean pairwise per-word
+ρ = 0.514). Gold-vs-encoder: LaBSE ρ = 0.10, Model2Vec ρ = 0.06 — both
+indistinguishable from zero.
+
+The annotators agree with each other five- to ten-fold more than either encoder
+agrees with them, so the cross-encoder agreement reported for the polysemy axis
+reflects shared embedding-space structure rather than human sense salience. See
+the "Human ceiling and gold-vs-encoder alignment" paragraph in the article.
+
+## Notes
+
+- Annotators must work **independently**; the agreement statistic is meaningless
+  otherwise.
+- An optional calibration round — everyone rates the same five words first to
+  align on what 0–3 mean, then proceeds independently — is recommended.

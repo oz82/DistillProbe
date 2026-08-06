@@ -1,4 +1,4 @@
-"""Faz 5 numeric audit: extract headline metrics from the canonical runs listed in
+"""Numeric audit: extract headline metrics from the canonical runs listed in
 results/_canonical_runs.txt so they can be checked against the manuscript.
 
 Usage: python scripts/audit_canonical.py

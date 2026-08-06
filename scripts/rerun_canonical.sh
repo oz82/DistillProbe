@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Faz 5: canonical re-run of every config that feeds the IEEE Access manuscript.
+# Canonical re-run of every config that feeds the IEEE Access manuscript.
 # Runs each to results/ (so manifests carry the final committed git_rev), and
 # records run_id per config into results/_canonical_runs.txt for the numeric audit.
 set -u

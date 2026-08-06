@@ -1,3 +1,22 @@
+<!-- ENGLISH NOTE FOR READERS OF THE RELEASE -->
+> **This document is intentionally in Turkish and is reproduced verbatim.**
+>
+> It is the guide that the four native-speaker annotators actually read before
+> rating word senses, so it is part of the record of what participants were
+> told, not documentation about the code. Translating it would misrepresent the
+> study; it is therefore left exactly as administered.
+>
+> **What it asks them to do:** for each dictionary sense of a polysemous Turkish
+> noun, rate on a 0–3 scale how readily that sense comes to mind when the word is
+> heard *in isolation*, with no sentence context. 3 = the sense that comes to
+> mind first; 0 = a sense they know but which is marginal for the word. If they
+> do not know a sense at all they leave the score **blank** and write
+> "bilmiyorum" ("I don't know") in the note column — blank is treated as missing
+> data, which is deliberately distinguished from a score of 0. Annotators work
+> independently and see only dictionary senses and example sentences, never model
+> output, so the task elicits ordinary linguistic intuition and has no right or
+> wrong answers.
+
 # Polysemy (çok-anlamlılık) anotasyon kılavuzu
 
 > Bu görevi **5 kişi ayrı ayrı** (birbirinden bağımsız) yapacak. Lütfen okumadan doldurmaya başlama; 5 dakikada her şey nettir. Başlamadan önce *Yönerge* sekmesindeki **İşaretleyici Bilgileri** + **Onay** bölümlerini doldur.

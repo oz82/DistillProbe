@@ -11,7 +11,7 @@ class EncoderConfig(BaseModel):
     type: Literal["model2vec", "fasttext", "transformer"]
     model_id: str | None = None
     path: str | None = None
-    pool: str | None = None  # transformer için: "mean" | "cls"
+    pool: str | None = None  # transformer only: "mean" | "cls"
 
 
 class RunConfig(BaseModel):
@@ -50,8 +50,8 @@ def build_encoder(cfg: EncoderConfig):
         return FastTextEncoder(path=cfg.path)
 
     if cfg.type == "transformer":
-        # Faz 2'den itibaren etkin. Modül burada lazy import edilir; Faz 0'da
-        # paket kurulu olmayabilir (sentence-transformers extras-only).
+        # Imported lazily: sentence-transformers is an optional extra, so the
+        # package need not be installed unless a transformer encoder is used.
         from .encoders.transformer_encoder import TransformerEncoder  # type: ignore[attr-defined]
 
         if not cfg.model_id:

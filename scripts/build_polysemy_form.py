@@ -93,6 +93,12 @@ def _write_xlsx(rows, who):
     span("  0 = bu anlamı biliyorum ama kelime için neredeyse hiç akla gelmez (marjinal)")
     span("  Bu anlamı BİLMİYORSAN: PUAN'ı boş bırak + NOT'a 'bilmiyorum' yaz (0 verme).", bold=True)
     blank()
+    # NOTE: the instruction strings in this function are deliberately kept in
+    # Turkish. They are the text the native-speaker annotators actually read
+    # inside the workbook, so they are part of the record of what participants
+    # were told; translating them would produce a form different from the one
+    # administered. An English summary of the task is at the top of
+    # annotation/polysemy_annotation_GUIDE.md.
     span("Kurallar:", bold=True)
     span("  • Sadece PUAN_0_3 (ve istersen NOT) sütununu doldur. Diğerlerine dokunma.")
     span("  • Örnek cümleyi anlamı ANLAMAK için oku; ama puanı KELİME için ver, cümle için değil.")
