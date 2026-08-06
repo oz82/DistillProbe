@@ -1,0 +1,62 @@
+# Release-archive exclusions (git archive / export tarballs).
+# TDK GTS definitions & example sentences are cited, not redistributed:
+# these files embed verbatim TDK text and are regenerated from the sense
+# manifest + build script (see Data availability). They stay in the dev repo
+# for local reproducibility but are omitted from release tarballs.
+data/polysemy/tr_polysemy.v1.json      export-ignore
+data/polysemy/tr_polysemy.v2.json      export-ignore
+data/polysemy/tr_polysemy.v3.json      export-ignore
+data/polysemy/tr_polysemy.v3_aug.json  export-ignore
+# Raw filled annotation forms carry annotator names/ages (PII) — never released.
+annotation/responses/                  export-ignore
+# Internal planning and peer-review documents. These are working notes, not
+# release artifacts, and two of them quote the annotators' real initials
+# (SUBMISSION_CHECKLIST.md, PLOS_ONE_PRESUBMISSION_REVIEW.md) — with n=4 known
+# participants those initials are re-identifying, which would falsify the
+# manuscript's own R1–R4 anonymization and ethics statements. They also contain
+# internal review criticism that has no place in a citable archive.
+# NOTE: paper/canonical_runs.md and paper/README.md deliberately DO ship —
+# Appendix A points readers at the canonical run manifest.
+paper/SUBMISSION_CHECKLIST.md          export-ignore
+paper/PLOS_ONE_PRESUBMISSION_REVIEW.md export-ignore
+paper/PLOS_ONE_REVISION.md             export-ignore
+paper/COMMITTEE_REVIEW.md              export-ignore
+paper/IEEE_ACCESS_REVIEW_R5.md         export-ignore
+paper/draft.md                         export-ignore
+PLAN.md                                export-ignore
+migration.md                           export-ignore
+findings.md                            export-ignore
+claude.md                              export-ignore
+
+# The manuscript source and the author photograph carry the author's contact
+# address and likeness. The release archive is a code-and-data release; the
+# article itself is published by IEEE. Keeping the manuscript out of the archive
+# is what lets the release contain no e-mail address at all. paper/ still ships
+# canonical_runs.md (Appendix A points readers at it) and figures/.
+paper/main_ieee.tex                    export-ignore
+paper/author_photo.jpg                 export-ignore
+paper/Makefile                         export-ignore
+paper/README.md                        export-ignore
+
+# Superseded manuscript variants. Shipping them puts banner-less alternative
+# papers next to the submitted one, asserting claims the current version
+# deliberately retracted (the pre-Tatoeba retention figure, the case-marking
+# mechanism stated as fact, the older scoping). The archive ships the submitted
+# manuscript only.
+paper/main_plos.tex                    export-ignore
+paper/main.tex                         export-ignore
+paper/main_article.tex                 export-ignore
+paper/acl.sty                          export-ignore
+paper/acl_natbib.bst                   export-ignore
+
+# Unfilled ethics-committee application form. Its own text says it is being
+# submitted to request a decision, which reads as contradicting the
+# manuscript's statement that no review was sought or required. It is an
+# internal document, not a release artifact.
+annotation/ethics/                     export-ignore
+
+# The blank annotation workbooks embed all 346 TDK definitions and example
+# sentences verbatim in their Form sheet, so shipping them would redistribute
+# TDK's copyrighted text and contradict the Data and Code Availability
+# statement. They rebuild from the sense manifest via the form build script.
+annotation/polysemy_form_annotator_*.xlsx  export-ignore

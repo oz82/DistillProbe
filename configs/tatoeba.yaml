@@ -1,0 +1,18 @@
+# Harder cross-lingual retrieval (Tatoeba bitext) complementing FLORES-200.
+# English<->XX P@1 per language; the contextual reference is no longer at ceiling,
+# so the student/reference retention is non-degenerate.
+module: tatoeba
+data_path: data/xlingual/tatoeba_langs.json
+seed: 42
+bootstrap_n: 10000
+extra:
+  csls_k: 10
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean

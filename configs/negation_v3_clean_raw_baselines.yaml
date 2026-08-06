@@ -1,0 +1,20 @@
+# Negation probe with fastText baseline added: tests whether a second, independent
+# subword bag-of-words static model (fastText, co-occurrence-trained) also fails to
+# flip polarity — corroborating that the failure is structural to BoW, not specific
+# to Model2Vec distillation. (raw mode)
+module: negation
+data_path: data/negation/tr_negation.v3_clean.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean
+  fasttext_tr:
+    type: fasttext
+    path: data/fasttext/cc.tr.300.bin

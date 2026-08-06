@@ -1,0 +1,595 @@
+{
+  "language": "tr",
+  "version": "v3-clean-2026-06-19",
+  "source": "Cleaned from v2-kenet-2026-05-06: removed morphological-negation contaminants (same-stem -lI/-sIz privatives, -sIz members, shared-stem derivations). Kept 98/224 genuine lexical antonyms.",
+  "triplets": [
+    {
+      "positive": "iyi",
+      "negation": "iyi değil",
+      "antonym": "kötü",
+      "note": null
+    },
+    {
+      "positive": "büyük",
+      "negation": "büyük değil",
+      "antonym": "küçük",
+      "note": null
+    },
+    {
+      "positive": "güzel",
+      "negation": "güzel değil",
+      "antonym": "çirkin",
+      "note": null
+    },
+    {
+      "positive": "mutlu",
+      "negation": "mutlu değil",
+      "antonym": "üzgün",
+      "note": null
+    },
+    {
+      "positive": "zengin",
+      "negation": "zengin değil",
+      "antonym": "fakir",
+      "note": null
+    },
+    {
+      "positive": "sıcak",
+      "negation": "sıcak değil",
+      "antonym": "soğuk",
+      "note": null
+    },
+    {
+      "positive": "yüksek",
+      "negation": "yüksek değil",
+      "antonym": "alçak",
+      "note": null
+    },
+    {
+      "positive": "uzun",
+      "negation": "uzun değil",
+      "antonym": "kısa",
+      "note": null
+    },
+    {
+      "positive": "genç",
+      "negation": "genç değil",
+      "antonym": "yaşlı",
+      "note": null
+    },
+    {
+      "positive": "açık",
+      "negation": "açık değil",
+      "antonym": "kapalı",
+      "note": null
+    },
+    {
+      "positive": "erken",
+      "negation": "erken değil",
+      "antonym": "geç",
+      "note": null
+    },
+    {
+      "positive": "hızlı",
+      "negation": "hızlı değil",
+      "antonym": "yavaş",
+      "note": null
+    },
+    {
+      "positive": "pahalı",
+      "negation": "pahalı değil",
+      "antonym": "ucuz",
+      "note": null
+    },
+    {
+      "positive": "doğru",
+      "negation": "doğru değil",
+      "antonym": "yanlış",
+      "note": null
+    },
+    {
+      "positive": "cesur",
+      "negation": "cesur değil",
+      "antonym": "korkak",
+      "note": null
+    },
+    {
+      "positive": "çalışkan",
+      "negation": "çalışkan değil",
+      "antonym": "tembel",
+      "note": null
+    },
+    {
+      "positive": "parlak",
+      "negation": "parlak değil",
+      "antonym": "donuk",
+      "note": null
+    },
+    {
+      "positive": "ince",
+      "negation": "ince değil",
+      "antonym": "kalın",
+      "note": null
+    },
+    {
+      "positive": "yumuşak",
+      "negation": "yumuşak değil",
+      "antonym": "sert",
+      "note": null
+    },
+    {
+      "positive": "tatlı",
+      "negation": "tatlı değil",
+      "antonym": "acı",
+      "note": null
+    },
+    {
+      "positive": "taze",
+      "negation": "taze değil",
+      "antonym": "bayat",
+      "note": null
+    },
+    {
+      "positive": "yeni",
+      "negation": "yeni değil",
+      "antonym": "eski",
+      "note": null
+    },
+    {
+      "positive": "dolu",
+      "negation": "dolu değil",
+      "antonym": "boş",
+      "note": null
+    },
+    {
+      "positive": "temiz",
+      "negation": "temiz değil",
+      "antonym": "kirli",
+      "note": null
+    },
+    {
+      "positive": "kolay",
+      "negation": "kolay değil",
+      "antonym": "zor",
+      "note": null
+    },
+    {
+      "positive": "aheste",
+      "negation": "aheste değil",
+      "antonym": "süratli",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "diğerkâm",
+      "negation": "diğerkâm değil",
+      "antonym": "egoist",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "cimri",
+      "negation": "cimri değil",
+      "antonym": "koçak",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "bodur",
+      "negation": "bodur değil",
+      "antonym": "maksi",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "göreneksel",
+      "negation": "göreneksel değil",
+      "antonym": "olağandışı",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "mükemmel",
+      "negation": "mükemmel değil",
+      "antonym": "eksik",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "ak",
+      "negation": "ak değil",
+      "antonym": "sıkıntılı",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "yasal",
+      "negation": "yasal değil",
+      "antonym": "illegal",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "kuruyasıca",
+      "negation": "kuruyasıca değil",
+      "antonym": "tıynetli",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "bağlantılı",
+      "negation": "bağlantılı değil",
+      "antonym": "uzak",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "derişik",
+      "negation": "derişik değil",
+      "antonym": "seyreltik",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "girgin",
+      "negation": "girgin değil",
+      "antonym": "mıymıntı",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "yararlı",
+      "negation": "yararlı değil",
+      "antonym": "kötücül",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "maddi",
+      "negation": "maddi değil",
+      "antonym": "gayrimaddi",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "çabuk",
+      "negation": "çabuk değil",
+      "antonym": "aheste",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "fiilî",
+      "negation": "fiilî değil",
+      "antonym": "dizaynlı",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "kadim",
+      "negation": "kadim değil",
+      "antonym": "taze",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "menfi",
+      "negation": "menfi değil",
+      "antonym": "yapıcı",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "sağ",
+      "negation": "sağ değil",
+      "antonym": "sol",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "kısıtlı",
+      "negation": "kısıtlı değil",
+      "antonym": "mutlak",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "fiili",
+      "negation": "fiili değil",
+      "antonym": "dizaynlı",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "aşağı",
+      "negation": "aşağı değil",
+      "antonym": "yüksek",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "domestik",
+      "negation": "domestik değil",
+      "antonym": "yabani",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "eşeyli",
+      "negation": "eşeyli değil",
+      "antonym": "aseksüel",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "cüzi",
+      "negation": "cüzi değil",
+      "antonym": "tümel",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "artı",
+      "negation": "artı değil",
+      "antonym": "negatif",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "alt",
+      "negation": "alt değil",
+      "antonym": "yukarı",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "eksi",
+      "negation": "eksi değil",
+      "antonym": "pozitif",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "dolmuş",
+      "negation": "dolmuş değil",
+      "antonym": "tamtakır",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "heterojen",
+      "negation": "heterojen değil",
+      "antonym": "bağdaşık",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "etçil",
+      "negation": "etçil değil",
+      "antonym": "otçul",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "etkin",
+      "negation": "etkin değil",
+      "antonym": "pasif",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "eski",
+      "negation": "eski değil",
+      "antonym": "sıfır",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "optimist",
+      "negation": "optimist değil",
+      "antonym": "pesimist",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "bütün",
+      "negation": "bütün değil",
+      "antonym": "kırılmış",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "özdeksel",
+      "negation": "özdeksel değil",
+      "antonym": "manevi",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "asgari",
+      "negation": "asgari değil",
+      "antonym": "azami",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "bugünkü",
+      "negation": "bugünkü değil",
+      "antonym": "gelecek",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "hoş",
+      "negation": "hoş değil",
+      "antonym": "sinir",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "fiilî",
+      "negation": "fiilî değil",
+      "antonym": "tasarımlı",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "özgül",
+      "negation": "özgül değil",
+      "antonym": "nonspesifik",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "doğru",
+      "negation": "doğru değil",
+      "antonym": "münhani",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "dünyevî",
+      "negation": "dünyevî değil",
+      "antonym": "uhrevî",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "gelgeç",
+      "negation": "gelgeç değil",
+      "antonym": "temelli",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "diri",
+      "negation": "diri değil",
+      "antonym": "ölü",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "cılız",
+      "negation": "cılız değil",
+      "antonym": "ciddi",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "irtibatlı",
+      "negation": "irtibatlı değil",
+      "antonym": "uzak",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "dünyevî",
+      "negation": "dünyevî değil",
+      "antonym": "uhrevi",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "nâkil",
+      "negation": "nâkil değil",
+      "antonym": "yalıtkan",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "geçici",
+      "negation": "geçici değil",
+      "antonym": "sürekli",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "uzak",
+      "negation": "uzak değil",
+      "antonym": "yakın",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "dikey",
+      "negation": "dikey değil",
+      "antonym": "koşut",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "hain",
+      "negation": "hain değil",
+      "antonym": "sâdık",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "gelgeç",
+      "negation": "gelgeç değil",
+      "antonym": "kalıcı",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "cimri",
+      "negation": "cimri değil",
+      "antonym": "kerim",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "pak",
+      "negation": "pak değil",
+      "antonym": "pis",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "fiili",
+      "negation": "fiili değil",
+      "antonym": "görünmez",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "devamlı",
+      "negation": "devamlı değil",
+      "antonym": "palyatif",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "dinamik",
+      "negation": "dinamik değil",
+      "antonym": "statik",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "tabii",
+      "negation": "tabii değil",
+      "antonym": "yapma",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "boşboğaz",
+      "negation": "boşboğaz değil",
+      "antonym": "denli",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "mücerret",
+      "negation": "mücerret değil",
+      "antonym": "somut",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "meşru",
+      "negation": "meşru değil",
+      "antonym": "illegal",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "hareketli",
+      "negation": "hareketli değil",
+      "antonym": "durağan",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "brüt",
+      "negation": "brüt değil",
+      "antonym": "safi",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "doğru",
+      "negation": "doğru değil",
+      "antonym": "eğri",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "âdil",
+      "negation": "âdil değil",
+      "antonym": "nahak",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "objektif",
+      "negation": "objektif değil",
+      "antonym": "subjektif",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "donuk",
+      "negation": "donuk değil",
+      "antonym": "enerjik",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "dışrak",
+      "negation": "dışrak değil",
+      "antonym": "ezoterik",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "antidemokratik",
+      "negation": "antidemokratik değil",
+      "antonym": "demokratîk",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "dışrak",
+      "negation": "dışrak değil",
+      "antonym": "içrek",
+      "note": "from KeNet adjective ANTONYM"
+    },
+    {
+      "positive": "yıkıcı",
+      "negation": "yıkıcı değil",
+      "antonym": "yapıcı",
+      "note": "from KeNet adjective ANTONYM"
+    }
+  ]
+}

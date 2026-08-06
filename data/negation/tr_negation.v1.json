@@ -1,0 +1,32 @@
+{
+  "language": "tr",
+  "version": "v1-draft-2026-05-05",
+  "source": "Hand-curated antonymic adjective triplets (Turkish-speaker draft, pending user review)",
+  "triplets": [
+    {"positive": "iyi", "negation": "iyi değil", "antonym": "kötü"},
+    {"positive": "büyük", "negation": "büyük değil", "antonym": "küçük"},
+    {"positive": "güzel", "negation": "güzel değil", "antonym": "çirkin"},
+    {"positive": "mutlu", "negation": "mutlu değil", "antonym": "üzgün"},
+    {"positive": "zengin", "negation": "zengin değil", "antonym": "fakir"},
+    {"positive": "sıcak", "negation": "sıcak değil", "antonym": "soğuk"},
+    {"positive": "yüksek", "negation": "yüksek değil", "antonym": "alçak"},
+    {"positive": "uzun", "negation": "uzun değil", "antonym": "kısa"},
+    {"positive": "genç", "negation": "genç değil", "antonym": "yaşlı"},
+    {"positive": "açık", "negation": "açık değil", "antonym": "kapalı"},
+    {"positive": "erken", "negation": "erken değil", "antonym": "geç"},
+    {"positive": "hızlı", "negation": "hızlı değil", "antonym": "yavaş"},
+    {"positive": "pahalı", "negation": "pahalı değil", "antonym": "ucuz"},
+    {"positive": "doğru", "negation": "doğru değil", "antonym": "yanlış"},
+    {"positive": "cesur", "negation": "cesur değil", "antonym": "korkak"},
+    {"positive": "çalışkan", "negation": "çalışkan değil", "antonym": "tembel"},
+    {"positive": "parlak", "negation": "parlak değil", "antonym": "donuk"},
+    {"positive": "ince", "negation": "ince değil", "antonym": "kalın"},
+    {"positive": "yumuşak", "negation": "yumuşak değil", "antonym": "sert"},
+    {"positive": "tatlı", "negation": "tatlı değil", "antonym": "acı"},
+    {"positive": "taze", "negation": "taze değil", "antonym": "bayat"},
+    {"positive": "yeni", "negation": "yeni değil", "antonym": "eski"},
+    {"positive": "dolu", "negation": "dolu değil", "antonym": "boş"},
+    {"positive": "temiz", "negation": "temiz değil", "antonym": "kirli"},
+    {"positive": "kolay", "negation": "kolay değil", "antonym": "zor"}
+  ]
+}

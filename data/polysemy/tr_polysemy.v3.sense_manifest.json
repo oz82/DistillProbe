@@ -1,0 +1,1996 @@
+{
+  "language": "tr",
+  "version": "v3-kenet-2026-05-06",
+  "note": "Regeneration recipe for tr_polysemy.v3. Contains only structure (word -> TDK sense_ids kept, in order) so the full dataset can be rebuilt from the TDK GTS API via scripts/build_polysemy_dataset.py WITHOUT redistributing TDK's copyrighted definitions/examples. Verify the rebuild against sha256 in polysemy_v3.sha256.",
+  "manual_edits": [
+    {
+      "word": "alem",
+      "anlam_no": 3,
+      "sense_id": "tdk:3303",
+      "edit": "dangling-anaphora resolved: definition inlined its antecedent tdk:3302 -> 'Aynı konu ile ilgili kimselerin uğraşlarının bütünü'",
+      "new_definition": "Aynı konu ile ilgili kimselerin uğraşlarının bütünü"
+    }
+  ],
+  "words": [
+    {
+      "word": "iş",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:44456",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:44458",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:44459",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:44460",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:44461",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:44462",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:44464",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:44465",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 9,
+          "sense_id": "tdk:44466",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 10,
+          "sense_id": "tdk:44467",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 11,
+          "sense_id": "tdk:44468",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 12,
+          "sense_id": "tdk:44469",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 13,
+          "sense_id": "tdk:44470",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 14,
+          "sense_id": "tdk:44471",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 15,
+          "sense_id": "tdk:738503",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 16,
+          "sense_id": "tdk:738504",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 17,
+          "sense_id": "tdk:44472",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 18,
+          "sense_id": "tdk:44473",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 19,
+          "sense_id": "tdk:44474",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "kat",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:47966",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:47967",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:47969",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:47971",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:47973",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:47975",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:47977",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "ağırlık",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:1548",
+          "n_examples": 2
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:1551",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:1554",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:1555",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:1557",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:1559",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:1560",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:1561",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 9,
+          "sense_id": "tdk:1562",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 10,
+          "sense_id": "tdk:1563",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "yer",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:94826",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:94827",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:94828",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:94829",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:94831",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:94832",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:94834",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:94835",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 9,
+          "sense_id": "tdk:94836",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 10,
+          "sense_id": "tdk:94837",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 11,
+          "sense_id": "tdk:94839",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "ayak",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:7141",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:7143",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:7144",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:7145",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:7152",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:7153",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "taban",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:82241",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:82245",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:82260",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "baş",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:16501",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:16502",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:16503",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:16504",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:16505",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:16506",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:16507",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:16508",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 9,
+          "sense_id": "tdk:16510",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 10,
+          "sense_id": "tdk:16511",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 11,
+          "sense_id": "tdk:16512",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "iç",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:41257",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:41259",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:41261",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:41262",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:41265",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:41266",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:41268",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:41269",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "ağız",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:1606",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:1607",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:1608",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:1609",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:1610",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:1611",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:1614",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:735313",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "alem",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:3315",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:3301",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:3303",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:3304",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:3305",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:3306",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:3307",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:3310",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "hava",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:38293",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:38294",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:38295",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:38296",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:38297",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:38298",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:38300",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:38301",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 9,
+          "sense_id": "tdk:38302",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 10,
+          "sense_id": "tdk:38303",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 11,
+          "sense_id": "tdk:38304",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 12,
+          "sense_id": "tdk:38305",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "baba",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:8051",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:8052",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:8055",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:8057",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:8059",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:8061",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:8062",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "göz",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:35290",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:35291",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:35292",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:35293",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:35294",
+          "n_examples": 2
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:35295",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:35297",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:35298",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 9,
+          "sense_id": "tdk:35299",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 10,
+          "sense_id": "tdk:35300",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 11,
+          "sense_id": "tdk:35301",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "dil",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:23663",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:739819",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:739820",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:739821",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:739822",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:23664",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:23665",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:23668",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "yan",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:92739",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:92740",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:92743",
+          "n_examples": 2
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:92745",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:92747",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "orta",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:66945",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:66946",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:66947",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:66951",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:66954",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:66958",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "yüz",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:96950",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:96951",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:96952",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:96953",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:96956",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:96957",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:96960",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:96961",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "hayat",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:38600",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:38601",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:38602",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:38603",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:38604",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:38605",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:38606",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:38607",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "kol",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:52364",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:52370",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:52372",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:52374",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:52373",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:741829",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "yatak",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:93822",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:93825",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:93826",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:93827",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:93830",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:93831",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "yol",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:95865",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:95866",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:95867",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:95868",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:95869",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:95870",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:95871",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:95873",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 9,
+          "sense_id": "tdk:95876",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 10,
+          "sense_id": "tdk:95877",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "aralık",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:5220",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:5226",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:735752",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:5230",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "askı",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:6102",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:6103",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:6108",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "göbek",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:34419",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:34421",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:34423",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:34429",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "iğne",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:41883",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:41886",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:41887",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:41888",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "takım",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:82727",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:82728",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:82733",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:82734",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "adam",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:919",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:920",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:921",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:922",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:923",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:924",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:926",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "el",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:27682",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:27683",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:27684",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:27686",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:27687",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:103414",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:27946",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:27948",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "öz",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:68626",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:68627",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:68628",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:68631",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:68632",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:68634",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "ateş",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:6636",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:6638",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:6639",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:6640",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:6641",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:6642",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:6644",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "gün",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:36239",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:36240",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:36241",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:36242",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:36244",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:36245",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:36246",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "üst",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:89711",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:89712",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:89714",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:89715",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:89716",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:89717",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:89718",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:89720",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "yurt",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:96451",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:96452",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:96453",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:96455",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:96456",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "koltuk",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:52559",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:52560",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:52561",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:52565",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:52566",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:52567",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "hak",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:742910",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:37029",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:37030",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:37031",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:37032",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:37033",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:37034",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:37058",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 9,
+          "sense_id": "tdk:37059",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 10,
+          "sense_id": "tdk:104204",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "kanat",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:53572",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:53575",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:53576",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:53577",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:53578",
+          "n_examples": 2
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:53580",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "nokta",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:65684",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:65685",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:65686",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:65687",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:65688",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "biçim",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:11328",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:11318",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:11322",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:11325",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "hal",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:37171",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:37172",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:37173",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:37174",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:37175",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "dalga",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:20918",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:20919",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:20920",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:20922",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:20928",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "hareket",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:37807",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:37808",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:37809",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:37810",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:37811",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:37812",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "posta",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:71427",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:71428",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:71429",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:71430",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:738235",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:71431",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:71434",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:71435",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "sıra",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:77095",
+          "n_examples": 2
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:77096",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:77097",
+          "n_examples": 2
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:77098",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:77100",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:77103",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "yük",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:96596",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:96598",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:96599",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:96600",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:96603",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:96605",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "ocak",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:65970",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:65971",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:65972",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:65973",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:65974",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:65975",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 7,
+          "sense_id": "tdk:65976",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 8,
+          "sense_id": "tdk:65977",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 9,
+          "sense_id": "tdk:65979",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 10,
+          "sense_id": "tdk:65980",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 11,
+          "sense_id": "tdk:745489",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "kayıt",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:48599",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:48600",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:48604",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:48605",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "kök",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:55051",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:55052",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:55053",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:55054",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "oyun",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:67534",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:67536",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:67537",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:67538",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:67541",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:745790",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "perde",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:70363",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:70364",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:70366",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 4,
+          "sense_id": "tdk:70367",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 5,
+          "sense_id": "tdk:70371",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 6,
+          "sense_id": "tdk:70372",
+          "n_examples": 1
+        }
+      ]
+    },
+    {
+      "word": "açıklık",
+      "senses": [
+        {
+          "anlam_no": 1,
+          "sense_id": "tdk:642",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 2,
+          "sense_id": "tdk:645",
+          "n_examples": 1
+        },
+        {
+          "anlam_no": 3,
+          "sense_id": "tdk:646",
+          "n_examples": 1
+        }
+      ]
+    }
+  ]
+}

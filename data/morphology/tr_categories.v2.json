@@ -1,0 +1,5103 @@
+{
+  "language": "tr",
+  "version": "v2-corpus-clean-2026-06-20",
+  "categories": [
+    {
+      "id": "plural_lAr",
+      "label": "plural -lAr",
+      "description": "Çoğul eki -lar/-ler, PARSEME-tr UD katmanından (Number=Plur).",
+      "pairs": [
+        {
+          "stem": "delege",
+          "form": "delegeler",
+          "note": null
+        },
+        {
+          "stem": "yasa",
+          "form": "yasalar",
+          "note": null
+        },
+        {
+          "stem": "disco",
+          "form": "discolar",
+          "note": null
+        },
+        {
+          "stem": "yankı",
+          "form": "yankılar",
+          "note": null
+        },
+        {
+          "stem": "park",
+          "form": "parklar",
+          "note": null
+        },
+        {
+          "stem": "meslek",
+          "form": "meslekler",
+          "note": null
+        },
+        {
+          "stem": "kurul",
+          "form": "kurullar",
+          "note": null
+        },
+        {
+          "stem": "düşman",
+          "form": "düşmanlar",
+          "note": null
+        },
+        {
+          "stem": "ça",
+          "form": "çalar",
+          "note": null
+        },
+        {
+          "stem": "sohbet",
+          "form": "sohbetler",
+          "note": null
+        },
+        {
+          "stem": "memur",
+          "form": "memurlar",
+          "note": null
+        },
+        {
+          "stem": "ne",
+          "form": "neler",
+          "note": null
+        },
+        {
+          "stem": "araç",
+          "form": "araçlar",
+          "note": null
+        },
+        {
+          "stem": "fark",
+          "form": "farklar",
+          "note": null
+        },
+        {
+          "stem": "kulüp",
+          "form": "kulüpler",
+          "note": null
+        },
+        {
+          "stem": "ton",
+          "form": "tonlar",
+          "note": null
+        },
+        {
+          "stem": "güç",
+          "form": "güçler",
+          "note": null
+        },
+        {
+          "stem": "cerrah",
+          "form": "cerrahlar",
+          "note": null
+        },
+        {
+          "stem": "borçlu",
+          "form": "borçlular",
+          "note": null
+        },
+        {
+          "stem": "okyanusbilimci",
+          "form": "okyanusbilimciler",
+          "note": null
+        },
+        {
+          "stem": "sentez",
+          "form": "sentezler",
+          "note": null
+        },
+        {
+          "stem": "dörtlük",
+          "form": "dörtlükler",
+          "note": null
+        },
+        {
+          "stem": "patlama",
+          "form": "patlamalar",
+          "note": null
+        },
+        {
+          "stem": "hadis",
+          "form": "hadisler",
+          "note": null
+        },
+        {
+          "stem": "ziyaret",
+          "form": "ziyaretler",
+          "note": null
+        },
+        {
+          "stem": "kışkırtıcı",
+          "form": "kışkırtıcılar",
+          "note": null
+        },
+        {
+          "stem": "top",
+          "form": "toplar",
+          "note": null
+        },
+        {
+          "stem": "sayı",
+          "form": "sayılar",
+          "note": null
+        },
+        {
+          "stem": "büyükelçi",
+          "form": "büyükelçiler",
+          "note": null
+        },
+        {
+          "stem": "sıcak",
+          "form": "sıcaklar",
+          "note": null
+        },
+        {
+          "stem": "müdahale",
+          "form": "müdahaleler",
+          "note": null
+        },
+        {
+          "stem": "par",
+          "form": "parlar",
+          "note": null
+        },
+        {
+          "stem": "yağ",
+          "form": "yağlar",
+          "note": null
+        },
+        {
+          "stem": "seans",
+          "form": "seanslar",
+          "note": null
+        },
+        {
+          "stem": "onyıl",
+          "form": "onyıllar",
+          "note": null
+        },
+        {
+          "stem": "endişe",
+          "form": "endişeler",
+          "note": null
+        },
+        {
+          "stem": "öğrenci",
+          "form": "öğrenciler",
+          "note": null
+        },
+        {
+          "stem": "halı",
+          "form": "halılar",
+          "note": null
+        },
+        {
+          "stem": "savunmacı",
+          "form": "savunmacılar",
+          "note": null
+        },
+        {
+          "stem": "deli",
+          "form": "deliler",
+          "note": null
+        },
+        {
+          "stem": "virüs",
+          "form": "virüsler",
+          "note": null
+        },
+        {
+          "stem": "yüzmilyon",
+          "form": "yüzmilyonlar",
+          "note": null
+        },
+        {
+          "stem": "mevki",
+          "form": "mevkiler",
+          "note": null
+        },
+        {
+          "stem": "irtibat",
+          "form": "irtibatlar",
+          "note": null
+        },
+        {
+          "stem": "sözleşme",
+          "form": "sözleşmeler",
+          "note": null
+        },
+        {
+          "stem": "maç",
+          "form": "maçlar",
+          "note": null
+        },
+        {
+          "stem": "parlayan",
+          "form": "parlayanlar",
+          "note": null
+        },
+        {
+          "stem": "gezi",
+          "form": "geziler",
+          "note": null
+        },
+        {
+          "stem": "dil",
+          "form": "diller",
+          "note": null
+        },
+        {
+          "stem": "tarikatçı",
+          "form": "tarikatçılar",
+          "note": null
+        },
+        {
+          "stem": "müdür",
+          "form": "müdürler",
+          "note": null
+        },
+        {
+          "stem": "para",
+          "form": "paralar",
+          "note": null
+        },
+        {
+          "stem": "denetçi",
+          "form": "denetçiler",
+          "note": null
+        },
+        {
+          "stem": "ayrılan",
+          "form": "ayrılanlar",
+          "note": null
+        },
+        {
+          "stem": "popü",
+          "form": "popüler",
+          "note": null
+        },
+        {
+          "stem": "bağ",
+          "form": "bağlar",
+          "note": null
+        },
+        {
+          "stem": "aşağıdaki",
+          "form": "aşağıdakiler",
+          "note": null
+        },
+        {
+          "stem": "hayret",
+          "form": "hayretler",
+          "note": null
+        },
+        {
+          "stem": "yoksunluk",
+          "form": "yoksunluklar",
+          "note": null
+        },
+        {
+          "stem": "zam",
+          "form": "zamlar",
+          "note": null
+        },
+        {
+          "stem": "ideoloji",
+          "form": "ideolojiler",
+          "note": null
+        },
+        {
+          "stem": "harcama",
+          "form": "harcamalar",
+          "note": null
+        },
+        {
+          "stem": "komisyon",
+          "form": "komisyonlar",
+          "note": null
+        },
+        {
+          "stem": "tanım",
+          "form": "tanımlar",
+          "note": null
+        },
+        {
+          "stem": "yunanlı",
+          "form": "yunanlılar",
+          "note": null
+        },
+        {
+          "stem": "melek",
+          "form": "melekler",
+          "note": null
+        },
+        {
+          "stem": "üslup",
+          "form": "üsluplar",
+          "note": null
+        },
+        {
+          "stem": "milyar",
+          "form": "milyarlar",
+          "note": null
+        },
+        {
+          "stem": "atmalı",
+          "form": "atmalılar",
+          "note": null
+        },
+        {
+          "stem": "kavga",
+          "form": "kavgalar",
+          "note": null
+        },
+        {
+          "stem": "mahkeme",
+          "form": "mahkemeler",
+          "note": null
+        },
+        {
+          "stem": "figür",
+          "form": "figürler",
+          "note": null
+        },
+        {
+          "stem": "malzeme",
+          "form": "malzemeler",
+          "note": null
+        },
+        {
+          "stem": "yorumcu",
+          "form": "yorumcular",
+          "note": null
+        },
+        {
+          "stem": "tembel",
+          "form": "tembeller",
+          "note": null
+        },
+        {
+          "stem": "gü",
+          "form": "güler",
+          "note": null
+        },
+        {
+          "stem": "çalgı",
+          "form": "çalgılar",
+          "note": null
+        },
+        {
+          "stem": "doktor",
+          "form": "doktorlar",
+          "note": null
+        },
+        {
+          "stem": "kumaş",
+          "form": "kumaşlar",
+          "note": null
+        },
+        {
+          "stem": "azınlık",
+          "form": "azınlıklar",
+          "note": null
+        },
+        {
+          "stem": "eleman",
+          "form": "elemanlar",
+          "note": null
+        },
+        {
+          "stem": "kartpostal",
+          "form": "kartpostallar",
+          "note": null
+        },
+        {
+          "stem": "klasik",
+          "form": "klasikler",
+          "note": null
+        },
+        {
+          "stem": "fezleke",
+          "form": "fezlekeler",
+          "note": null
+        },
+        {
+          "stem": "alan",
+          "form": "alanlar",
+          "note": null
+        },
+        {
+          "stem": "düşmanlık",
+          "form": "düşmanlıklar",
+          "note": null
+        },
+        {
+          "stem": "lokanta",
+          "form": "lokantalar",
+          "note": null
+        },
+        {
+          "stem": "doküman",
+          "form": "dokümanlar",
+          "note": null
+        },
+        {
+          "stem": "şişe",
+          "form": "şişeler",
+          "note": null
+        },
+        {
+          "stem": "anı",
+          "form": "anılar",
+          "note": null
+        },
+        {
+          "stem": "modacı",
+          "form": "modacılar",
+          "note": null
+        },
+        {
+          "stem": "örgütçü",
+          "form": "örgütçüler",
+          "note": null
+        },
+        {
+          "stem": "yanlışlık",
+          "form": "yanlışlıklar",
+          "note": null
+        },
+        {
+          "stem": "faktör",
+          "form": "faktörler",
+          "note": null
+        },
+        {
+          "stem": "suçlu",
+          "form": "suçlular",
+          "note": null
+        },
+        {
+          "stem": "duyum",
+          "form": "duyumlar",
+          "note": null
+        },
+        {
+          "stem": "seçim",
+          "form": "seçimler",
+          "note": null
+        },
+        {
+          "stem": "demeç",
+          "form": "demeçler",
+          "note": null
+        },
+        {
+          "stem": "poz",
+          "form": "pozlar",
+          "note": null
+        },
+        {
+          "stem": "nikah",
+          "form": "nikahlar",
+          "note": null
+        },
+        {
+          "stem": "militan",
+          "form": "militanlar",
+          "note": null
+        },
+        {
+          "stem": "hapseder",
+          "form": "hapsederler",
+          "note": null
+        },
+        {
+          "stem": "yalancı",
+          "form": "yalancılar",
+          "note": null
+        },
+        {
+          "stem": "aksaklık",
+          "form": "aksaklıklar",
+          "note": null
+        },
+        {
+          "stem": "blok",
+          "form": "bloklar",
+          "note": null
+        },
+        {
+          "stem": "savcı",
+          "form": "savcılar",
+          "note": null
+        },
+        {
+          "stem": "yer",
+          "form": "yerler",
+          "note": null
+        },
+        {
+          "stem": "yarık",
+          "form": "yarıklar",
+          "note": null
+        },
+        {
+          "stem": "halka",
+          "form": "halkalar",
+          "note": null
+        },
+        {
+          "stem": "vatandaş",
+          "form": "vatandaşlar",
+          "note": null
+        },
+        {
+          "stem": "televizyoncu",
+          "form": "televizyoncular",
+          "note": null
+        },
+        {
+          "stem": "konferans",
+          "form": "konferanslar",
+          "note": null
+        },
+        {
+          "stem": "dava",
+          "form": "davalar",
+          "note": null
+        },
+        {
+          "stem": "yönetmelik",
+          "form": "yönetmelikler",
+          "note": null
+        },
+        {
+          "stem": "fikir",
+          "form": "fikirler",
+          "note": null
+        },
+        {
+          "stem": "yazı",
+          "form": "yazılar",
+          "note": null
+        },
+        {
+          "stem": "şube",
+          "form": "şubeler",
+          "note": null
+        },
+        {
+          "stem": "uygulamacı",
+          "form": "uygulamacılar",
+          "note": null
+        },
+        {
+          "stem": "papaz",
+          "form": "papazlar",
+          "note": null
+        },
+        {
+          "stem": "katleden",
+          "form": "katledenler",
+          "note": null
+        },
+        {
+          "stem": "senet",
+          "form": "senetler",
+          "note": null
+        },
+        {
+          "stem": "jurnalleyen",
+          "form": "jurnalleyenler",
+          "note": null
+        },
+        {
+          "stem": "şoför",
+          "form": "şoförler",
+          "note": null
+        },
+        {
+          "stem": "idareci",
+          "form": "idareciler",
+          "note": null
+        },
+        {
+          "stem": "sekreter",
+          "form": "sekreterler",
+          "note": null
+        },
+        {
+          "stem": "saniye",
+          "form": "saniyeler",
+          "note": null
+        },
+        {
+          "stem": "gün",
+          "form": "günler",
+          "note": null
+        },
+        {
+          "stem": "üs",
+          "form": "üsler",
+          "note": null
+        },
+        {
+          "stem": "tabela",
+          "form": "tabelalar",
+          "note": null
+        },
+        {
+          "stem": "kitle",
+          "form": "kitleler",
+          "note": null
+        },
+        {
+          "stem": "darbe",
+          "form": "darbeler",
+          "note": null
+        },
+        {
+          "stem": "kesim",
+          "form": "kesimler",
+          "note": null
+        },
+        {
+          "stem": "kutlu",
+          "form": "kutlular",
+          "note": null
+        },
+        {
+          "stem": "yabancı",
+          "form": "yabancılar",
+          "note": null
+        },
+        {
+          "stem": "sakınca",
+          "form": "sakıncalar",
+          "note": null
+        },
+        {
+          "stem": "belge",
+          "form": "belgeler",
+          "note": null
+        },
+        {
+          "stem": "ödeme",
+          "form": "ödemeler",
+          "note": null
+        },
+        {
+          "stem": "dere",
+          "form": "dereler",
+          "note": null
+        },
+        {
+          "stem": "çıksa",
+          "form": "çıksalar",
+          "note": null
+        },
+        {
+          "stem": "damla",
+          "form": "damlalar",
+          "note": null
+        },
+        {
+          "stem": "cisim",
+          "form": "cisimler",
+          "note": null
+        },
+        {
+          "stem": "spekülasyon",
+          "form": "spekülasyonlar",
+          "note": null
+        },
+        {
+          "stem": "ahlaksız",
+          "form": "ahlaksızlar",
+          "note": null
+        },
+        {
+          "stem": "düğüm",
+          "form": "düğümler",
+          "note": null
+        },
+        {
+          "stem": "kaygı",
+          "form": "kaygılar",
+          "note": null
+        },
+        {
+          "stem": "yolcu",
+          "form": "yolcular",
+          "note": null
+        },
+        {
+          "stem": "kanca",
+          "form": "kancalar",
+          "note": null
+        },
+        {
+          "stem": "kat",
+          "form": "katlar",
+          "note": null
+        },
+        {
+          "stem": "okumaz",
+          "form": "okumazlar",
+          "note": null
+        },
+        {
+          "stem": "panel",
+          "form": "paneller",
+          "note": null
+        },
+        {
+          "stem": "koku",
+          "form": "kokular",
+          "note": null
+        },
+        {
+          "stem": "kişi",
+          "form": "kişiler",
+          "note": null
+        },
+        {
+          "stem": "tasarı",
+          "form": "tasarılar",
+          "note": null
+        },
+        {
+          "stem": "sütun",
+          "form": "sütunlar",
+          "note": null
+        },
+        {
+          "stem": "milyon",
+          "form": "milyonlar",
+          "note": null
+        },
+        {
+          "stem": "şiir",
+          "form": "şiirler",
+          "note": null
+        },
+        {
+          "stem": "parti",
+          "form": "partiler",
+          "note": null
+        },
+        {
+          "stem": "veli",
+          "form": "veliler",
+          "note": null
+        },
+        {
+          "stem": "mimar",
+          "form": "mimarlar",
+          "note": null
+        },
+        {
+          "stem": "sakatlık",
+          "form": "sakatlıklar",
+          "note": null
+        },
+        {
+          "stem": "römork",
+          "form": "römorklar",
+          "note": null
+        },
+        {
+          "stem": "hatip",
+          "form": "hatipler",
+          "note": null
+        },
+        {
+          "stem": "operasyon",
+          "form": "operasyonlar",
+          "note": null
+        },
+        {
+          "stem": "suçlama",
+          "form": "suçlamalar",
+          "note": null
+        },
+        {
+          "stem": "asker",
+          "form": "askerler",
+          "note": null
+        },
+        {
+          "stem": "opsiyon",
+          "form": "opsiyonlar",
+          "note": null
+        },
+        {
+          "stem": "takı",
+          "form": "takılar",
+          "note": null
+        },
+        {
+          "stem": "düş",
+          "form": "düşler",
+          "note": null
+        },
+        {
+          "stem": "kayıp",
+          "form": "kayıplar",
+          "note": null
+        },
+        {
+          "stem": "nasihat",
+          "form": "nasihatlar",
+          "note": null
+        },
+        {
+          "stem": "atılım",
+          "form": "atılımlar",
+          "note": null
+        },
+        {
+          "stem": "sahnede",
+          "form": "sahnedeler",
+          "note": null
+        },
+        {
+          "stem": "kesinti",
+          "form": "kesintiler",
+          "note": null
+        },
+        {
+          "stem": "kurmay",
+          "form": "kurmaylar",
+          "note": null
+        },
+        {
+          "stem": "parlamenter",
+          "form": "parlamenterler",
+          "note": null
+        },
+        {
+          "stem": "dövizzede",
+          "form": "dövizzedeler",
+          "note": null
+        },
+        {
+          "stem": "robot",
+          "form": "robotlar",
+          "note": null
+        },
+        {
+          "stem": "kuyumcu",
+          "form": "kuyumcular",
+          "note": null
+        },
+        {
+          "stem": "deney",
+          "form": "deneyler",
+          "note": null
+        },
+        {
+          "stem": "çiçek",
+          "form": "çiçekler",
+          "note": null
+        },
+        {
+          "stem": "satır",
+          "form": "satırlar",
+          "note": null
+        },
+        {
+          "stem": "indirim",
+          "form": "indirimler",
+          "note": null
+        },
+        {
+          "stem": "kas",
+          "form": "kaslar",
+          "note": null
+        },
+        {
+          "stem": "jeolog",
+          "form": "jeologlar",
+          "note": null
+        },
+        {
+          "stem": "eşitsizlik",
+          "form": "eşitsizlikler",
+          "note": null
+        },
+        {
+          "stem": "kural",
+          "form": "kurallar",
+          "note": null
+        },
+        {
+          "stem": "radyo",
+          "form": "radyolar",
+          "note": null
+        },
+        {
+          "stem": "marş",
+          "form": "marşlar",
+          "note": null
+        },
+        {
+          "stem": "çevreci",
+          "form": "çevreciler",
+          "note": null
+        },
+        {
+          "stem": "bölge",
+          "form": "bölgeler",
+          "note": null
+        },
+        {
+          "stem": "hastane",
+          "form": "hastaneler",
+          "note": null
+        },
+        {
+          "stem": "müsabaka",
+          "form": "müsabakalar",
+          "note": null
+        },
+        {
+          "stem": "kürt",
+          "form": "kürtler",
+          "note": null
+        },
+        {
+          "stem": "aile",
+          "form": "aileler",
+          "note": null
+        },
+        {
+          "stem": "yükümlülük",
+          "form": "yükümlülükler",
+          "note": null
+        },
+        {
+          "stem": "kimse",
+          "form": "kimseler",
+          "note": null
+        },
+        {
+          "stem": "şemi",
+          "form": "şemiler",
+          "note": null
+        },
+        {
+          "stem": "ciddiyse",
+          "form": "ciddiyseler",
+          "note": null
+        },
+        {
+          "stem": "ittifak",
+          "form": "ittifaklar",
+          "note": null
+        },
+        {
+          "stem": "macar",
+          "form": "macarlar",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "locative_DA",
+      "label": "locative -DA",
+      "description": "Bulunma hâli -da/-de/-ta/-te (Case=Loc).",
+      "pairs": [
+        {
+          "stem": "mühendislik",
+          "form": "mühendislikte",
+          "note": null
+        },
+        {
+          "stem": "çerceve",
+          "form": "çercevede",
+          "note": null
+        },
+        {
+          "stem": "görev",
+          "form": "görevde",
+          "note": null
+        },
+        {
+          "stem": "sınav",
+          "form": "sınavda",
+          "note": null
+        },
+        {
+          "stem": "tiğnet",
+          "form": "tiğnette",
+          "note": null
+        },
+        {
+          "stem": "kanal",
+          "form": "kanalda",
+          "note": null
+        },
+        {
+          "stem": "dil",
+          "form": "dilde",
+          "note": null
+        },
+        {
+          "stem": "uygun",
+          "form": "uygunda",
+          "note": null
+        },
+        {
+          "stem": "spor",
+          "form": "sporda",
+          "note": null
+        },
+        {
+          "stem": "müzaye",
+          "form": "müzayede",
+          "note": null
+        },
+        {
+          "stem": "söyledikleriniz",
+          "form": "söylediklerinizde",
+          "note": null
+        },
+        {
+          "stem": "bel",
+          "form": "belde",
+          "note": null
+        },
+        {
+          "stem": "plaj",
+          "form": "plajda",
+          "note": null
+        },
+        {
+          "stem": "dönem",
+          "form": "dönemde",
+          "note": null
+        },
+        {
+          "stem": "mektup",
+          "form": "mektupta",
+          "note": null
+        },
+        {
+          "stem": "hükümet",
+          "form": "hükümette",
+          "note": null
+        },
+        {
+          "stem": "intihar",
+          "form": "intiharda",
+          "note": null
+        },
+        {
+          "stem": "koy",
+          "form": "koyda",
+          "note": null
+        },
+        {
+          "stem": "bahçe",
+          "form": "bahçede",
+          "note": null
+        },
+        {
+          "stem": "ulaşım",
+          "form": "ulaşımda",
+          "note": null
+        },
+        {
+          "stem": "plan",
+          "form": "planda",
+          "note": null
+        },
+        {
+          "stem": "çoğunluk",
+          "form": "çoğunlukta",
+          "note": null
+        },
+        {
+          "stem": "karşı",
+          "form": "karşıda",
+          "note": null
+        },
+        {
+          "stem": "banka",
+          "form": "bankada",
+          "note": null
+        },
+        {
+          "stem": "forvet",
+          "form": "forvette",
+          "note": null
+        },
+        {
+          "stem": "dal",
+          "form": "dalda",
+          "note": null
+        },
+        {
+          "stem": "eşya",
+          "form": "eşyada",
+          "note": null
+        },
+        {
+          "stem": "konjonktür",
+          "form": "konjonktürde",
+          "note": null
+        },
+        {
+          "stem": "vestiyer",
+          "form": "vestiyerde",
+          "note": null
+        },
+        {
+          "stem": "borsa",
+          "form": "borsada",
+          "note": null
+        },
+        {
+          "stem": "dünya",
+          "form": "dünyada",
+          "note": null
+        },
+        {
+          "stem": "ortam",
+          "form": "ortamda",
+          "note": null
+        },
+        {
+          "stem": "kokteyl",
+          "form": "kokteylde",
+          "note": null
+        },
+        {
+          "stem": "ceza",
+          "form": "cezada",
+          "note": null
+        },
+        {
+          "stem": "döviz",
+          "form": "dövizde",
+          "note": null
+        },
+        {
+          "stem": "parlamento",
+          "form": "parlamentoda",
+          "note": null
+        },
+        {
+          "stem": "konum",
+          "form": "konumda",
+          "note": null
+        },
+        {
+          "stem": "ifade",
+          "form": "ifadede",
+          "note": null
+        },
+        {
+          "stem": "rahim",
+          "form": "rahimde",
+          "note": null
+        },
+        {
+          "stem": "başvuru",
+          "form": "başvuruda",
+          "note": null
+        },
+        {
+          "stem": "tavsiye",
+          "form": "tavsiyede",
+          "note": null
+        },
+        {
+          "stem": "ramazan",
+          "form": "ramazanda",
+          "note": null
+        },
+        {
+          "stem": "uzak",
+          "form": "uzakta",
+          "note": null
+        },
+        {
+          "stem": "taahhüt",
+          "form": "taahhütte",
+          "note": null
+        },
+        {
+          "stem": "kart",
+          "form": "kartta",
+          "note": null
+        },
+        {
+          "stem": "sorgu",
+          "form": "sorguda",
+          "note": null
+        },
+        {
+          "stem": "telefon",
+          "form": "telefonda",
+          "note": null
+        },
+        {
+          "stem": "davet",
+          "form": "davette",
+          "note": null
+        },
+        {
+          "stem": "düşlerim",
+          "form": "düşlerimde",
+          "note": null
+        },
+        {
+          "stem": "ora",
+          "form": "orada",
+          "note": null
+        },
+        {
+          "stem": "ihbar",
+          "form": "ihbarda",
+          "note": null
+        },
+        {
+          "stem": "lis",
+          "form": "liste",
+          "note": null
+        },
+        {
+          "stem": "fon",
+          "form": "fonda",
+          "note": null
+        },
+        {
+          "stem": "deniz",
+          "form": "denizde",
+          "note": null
+        },
+        {
+          "stem": "mukavele",
+          "form": "mukavelede",
+          "note": null
+        },
+        {
+          "stem": "fezleke",
+          "form": "fezlekede",
+          "note": null
+        },
+        {
+          "stem": "altı",
+          "form": "altıda",
+          "note": null
+        },
+        {
+          "stem": "iklim",
+          "form": "iklimde",
+          "note": null
+        },
+        {
+          "stem": "düzey",
+          "form": "düzeyde",
+          "note": null
+        },
+        {
+          "stem": "çağrı",
+          "form": "çağrıda",
+          "note": null
+        },
+        {
+          "stem": "gece",
+          "form": "gecede",
+          "note": null
+        },
+        {
+          "stem": "ikram",
+          "form": "ikramda",
+          "note": null
+        },
+        {
+          "stem": "sahne",
+          "form": "sahnede",
+          "note": null
+        },
+        {
+          "stem": "sergi",
+          "form": "sergide",
+          "note": null
+        },
+        {
+          "stem": "raporun",
+          "form": "raporunda",
+          "note": null
+        },
+        {
+          "stem": "doğru",
+          "form": "doğruda",
+          "note": null
+        },
+        {
+          "stem": "yükseköğretim",
+          "form": "yükseköğretimde",
+          "note": null
+        },
+        {
+          "stem": "çağ",
+          "form": "çağda",
+          "note": null
+        },
+        {
+          "stem": "kolaylık",
+          "form": "kolaylıkta",
+          "note": null
+        },
+        {
+          "stem": "temel",
+          "form": "temelde",
+          "note": null
+        },
+        {
+          "stem": "yayın",
+          "form": "yayında",
+          "note": null
+        },
+        {
+          "stem": "devre",
+          "form": "devrede",
+          "note": null
+        },
+        {
+          "stem": "sektör",
+          "form": "sektörde",
+          "note": null
+        },
+        {
+          "stem": "operasyon",
+          "form": "operasyonda",
+          "note": null
+        },
+        {
+          "stem": "uyarı",
+          "form": "uyarıda",
+          "note": null
+        },
+        {
+          "stem": "sözlerim",
+          "form": "sözlerimde",
+          "note": null
+        },
+        {
+          "stem": "muhalefet",
+          "form": "muhalefette",
+          "note": null
+        },
+        {
+          "stem": "bestelerim",
+          "form": "bestelerimde",
+          "note": null
+        },
+        {
+          "stem": "miting",
+          "form": "mitingde",
+          "note": null
+        },
+        {
+          "stem": "yöre",
+          "form": "yörede",
+          "note": null
+        },
+        {
+          "stem": "sayeniz",
+          "form": "sayenizde",
+          "note": null
+        },
+        {
+          "stem": "kontrbas",
+          "form": "kontrbasta",
+          "note": null
+        },
+        {
+          "stem": "ölçü",
+          "form": "ölçüde",
+          "note": null
+        },
+        {
+          "stem": "kitaplarım",
+          "form": "kitaplarımda",
+          "note": null
+        },
+        {
+          "stem": "yaş",
+          "form": "yaşta",
+          "note": null
+        },
+        {
+          "stem": "hacim",
+          "form": "hacimde",
+          "note": null
+        },
+        {
+          "stem": "ordu",
+          "form": "orduda",
+          "note": null
+        },
+        {
+          "stem": "adalet",
+          "form": "adalette",
+          "note": null
+        },
+        {
+          "stem": "proje",
+          "form": "projede",
+          "note": null
+        },
+        {
+          "stem": "hayat",
+          "form": "hayatta",
+          "note": null
+        },
+        {
+          "stem": "meslek",
+          "form": "meslekte",
+          "note": null
+        },
+        {
+          "stem": "hudu",
+          "form": "hududa",
+          "note": null
+        },
+        {
+          "stem": "mide",
+          "form": "midede",
+          "note": null
+        },
+        {
+          "stem": "atmosfer",
+          "form": "atmosferde",
+          "note": null
+        },
+        {
+          "stem": "mangal",
+          "form": "mangalda",
+          "note": null
+        },
+        {
+          "stem": "zorun",
+          "form": "zorunda",
+          "note": null
+        },
+        {
+          "stem": "tasarı",
+          "form": "tasarıda",
+          "note": null
+        },
+        {
+          "stem": "sof",
+          "form": "softa",
+          "note": null
+        },
+        {
+          "stem": "inşaat",
+          "form": "inşaatta",
+          "note": null
+        },
+        {
+          "stem": "nitelik",
+          "form": "nitelikte",
+          "note": null
+        },
+        {
+          "stem": "polislik",
+          "form": "polislikte",
+          "note": null
+        },
+        {
+          "stem": "içeri",
+          "form": "içeride",
+          "note": null
+        },
+        {
+          "stem": "avuç",
+          "form": "avuçta",
+          "note": null
+        },
+        {
+          "stem": "meyhane",
+          "form": "meyhanede",
+          "note": null
+        },
+        {
+          "stem": "ay",
+          "form": "ayda",
+          "note": null
+        },
+        {
+          "stem": "yemek",
+          "form": "yemekte",
+          "note": null
+        },
+        {
+          "stem": "yedek",
+          "form": "yedekte",
+          "note": null
+        },
+        {
+          "stem": "doğa",
+          "form": "doğada",
+          "note": null
+        },
+        {
+          "stem": "arbe",
+          "form": "arbede",
+          "note": null
+        },
+        {
+          "stem": "aralık",
+          "form": "aralıkta",
+          "note": null
+        },
+        {
+          "stem": "çam",
+          "form": "çamda",
+          "note": null
+        },
+        {
+          "stem": "tampon",
+          "form": "tamponda",
+          "note": null
+        },
+        {
+          "stem": "neru",
+          "form": "neruda",
+          "note": null
+        },
+        {
+          "stem": "tivi",
+          "form": "tivide",
+          "note": null
+        },
+        {
+          "stem": "çözüm",
+          "form": "çözümde",
+          "note": null
+        },
+        {
+          "stem": "tarikat",
+          "form": "tarikatta",
+          "note": null
+        },
+        {
+          "stem": "dekor",
+          "form": "dekorda",
+          "note": null
+        },
+        {
+          "stem": "makam",
+          "form": "makamda",
+          "note": null
+        },
+        {
+          "stem": "seminer",
+          "form": "seminerde",
+          "note": null
+        },
+        {
+          "stem": "karar",
+          "form": "kararda",
+          "note": null
+        },
+        {
+          "stem": "kişi",
+          "form": "kişide",
+          "note": null
+        },
+        {
+          "stem": "hayaliniz",
+          "form": "hayalinizde",
+          "note": null
+        },
+        {
+          "stem": "kağı",
+          "form": "kağıda",
+          "note": null
+        },
+        {
+          "stem": "boy",
+          "form": "boyda",
+          "note": null
+        },
+        {
+          "stem": "fabrika",
+          "form": "fabrikada",
+          "note": null
+        },
+        {
+          "stem": "piyasa",
+          "form": "piyasada",
+          "note": null
+        },
+        {
+          "stem": "yorum",
+          "form": "yorumda",
+          "note": null
+        },
+        {
+          "stem": "dolmuş",
+          "form": "dolmuşta",
+          "note": null
+        },
+        {
+          "stem": "şanzıman",
+          "form": "şanzımanda",
+          "note": null
+        },
+        {
+          "stem": "zindan",
+          "form": "zindanda",
+          "note": null
+        },
+        {
+          "stem": "mahkeme",
+          "form": "mahkemede",
+          "note": null
+        },
+        {
+          "stem": "broşür",
+          "form": "broşürde",
+          "note": null
+        },
+        {
+          "stem": "türkçe",
+          "form": "türkçede",
+          "note": null
+        },
+        {
+          "stem": "toplantı",
+          "form": "toplantıda",
+          "note": null
+        },
+        {
+          "stem": "dağ",
+          "form": "dağda",
+          "note": null
+        },
+        {
+          "stem": "pazar",
+          "form": "pazarda",
+          "note": null
+        },
+        {
+          "stem": "olduğunuz",
+          "form": "olduğunuzda",
+          "note": null
+        },
+        {
+          "stem": "basketbol",
+          "form": "basketbolda",
+          "note": null
+        },
+        {
+          "stem": "faaliyet",
+          "form": "faaliyette",
+          "note": null
+        },
+        {
+          "stem": "malzeme",
+          "form": "malzemede",
+          "note": null
+        },
+        {
+          "stem": "maraton",
+          "form": "maratonda",
+          "note": null
+        },
+        {
+          "stem": "geçtiğim",
+          "form": "geçtiğimde",
+          "note": null
+        },
+        {
+          "stem": "televizyon",
+          "form": "televizyonda",
+          "note": null
+        },
+        {
+          "stem": "mevki",
+          "form": "mevkide",
+          "note": null
+        },
+        {
+          "stem": "moda",
+          "form": "modada",
+          "note": null
+        },
+        {
+          "stem": "gıp",
+          "form": "gıpta",
+          "note": null
+        },
+        {
+          "stem": "düğün",
+          "form": "düğünde",
+          "note": null
+        },
+        {
+          "stem": "çapım",
+          "form": "çapımda",
+          "note": null
+        },
+        {
+          "stem": "yeşila",
+          "form": "yeşilada",
+          "note": null
+        },
+        {
+          "stem": "aj",
+          "form": "ajda",
+          "note": null
+        },
+        {
+          "stem": "danışma",
+          "form": "danışmada",
+          "note": null
+        },
+        {
+          "stem": "yazarlık",
+          "form": "yazarlıkta",
+          "note": null
+        },
+        {
+          "stem": "mahiyet",
+          "form": "mahiyette",
+          "note": null
+        },
+        {
+          "stem": "uyku",
+          "form": "uykuda",
+          "note": null
+        },
+        {
+          "stem": "savunma",
+          "form": "savunmada",
+          "note": null
+        },
+        {
+          "stem": "taslak",
+          "form": "taslakta",
+          "note": null
+        },
+        {
+          "stem": "an",
+          "form": "anda",
+          "note": null
+        },
+        {
+          "stem": "kaset",
+          "form": "kasette",
+          "note": null
+        },
+        {
+          "stem": "soğuk",
+          "form": "soğukta",
+          "note": null
+        },
+        {
+          "stem": "sene",
+          "form": "senede",
+          "note": null
+        },
+        {
+          "stem": "cevap",
+          "form": "cevapta",
+          "note": null
+        },
+        {
+          "stem": "uğur",
+          "form": "uğurda",
+          "note": null
+        },
+        {
+          "stem": "kasaba",
+          "form": "kasabada",
+          "note": null
+        },
+        {
+          "stem": "kale",
+          "form": "kalede",
+          "note": null
+        },
+        {
+          "stem": "ısı",
+          "form": "ısıda",
+          "note": null
+        },
+        {
+          "stem": "yayınlanış",
+          "form": "yayınlanışta",
+          "note": null
+        },
+        {
+          "stem": "yetenek",
+          "form": "yetenekte",
+          "note": null
+        },
+        {
+          "stem": "asker",
+          "form": "askerde",
+          "note": null
+        },
+        {
+          "stem": "biz",
+          "form": "bizde",
+          "note": null
+        },
+        {
+          "stem": "haber",
+          "form": "haberde",
+          "note": null
+        },
+        {
+          "stem": "kuyruk",
+          "form": "kuyrukta",
+          "note": null
+        },
+        {
+          "stem": "bölüm",
+          "form": "bölümde",
+          "note": null
+        },
+        {
+          "stem": "kasa",
+          "form": "kasada",
+          "note": null
+        },
+        {
+          "stem": "şey",
+          "form": "şeyde",
+          "note": null
+        },
+        {
+          "stem": "fırsat",
+          "form": "fırsatta",
+          "note": null
+        },
+        {
+          "stem": "siz",
+          "form": "sizde",
+          "note": null
+        },
+        {
+          "stem": "saray",
+          "form": "sarayda",
+          "note": null
+        },
+        {
+          "stem": "sınır",
+          "form": "sınırda",
+          "note": null
+        },
+        {
+          "stem": "trilyon",
+          "form": "trilyonda",
+          "note": null
+        },
+        {
+          "stem": "uygulama",
+          "form": "uygulamada",
+          "note": null
+        },
+        {
+          "stem": "nokta",
+          "form": "noktada",
+          "note": null
+        },
+        {
+          "stem": "kamp",
+          "form": "kampta",
+          "note": null
+        },
+        {
+          "stem": "girdiğiniz",
+          "form": "girdiğinizde",
+          "note": null
+        },
+        {
+          "stem": "kuzey",
+          "form": "kuzeyde",
+          "note": null
+        },
+        {
+          "stem": "miktar",
+          "form": "miktarda",
+          "note": null
+        },
+        {
+          "stem": "antrenman",
+          "form": "antrenmanda",
+          "note": null
+        },
+        {
+          "stem": "casusluk",
+          "form": "casuslukta",
+          "note": null
+        },
+        {
+          "stem": "müzik",
+          "form": "müzikte",
+          "note": null
+        },
+        {
+          "stem": "hentbol",
+          "form": "hentbolda",
+          "note": null
+        },
+        {
+          "stem": "zahi",
+          "form": "zahide",
+          "note": null
+        },
+        {
+          "stem": "yaşlarım",
+          "form": "yaşlarımda",
+          "note": null
+        },
+        {
+          "stem": "heyet",
+          "form": "heyette",
+          "note": null
+        },
+        {
+          "stem": "saha",
+          "form": "sahada",
+          "note": null
+        },
+        {
+          "stem": "müfi",
+          "form": "müfide",
+          "note": null
+        },
+        {
+          "stem": "davul",
+          "form": "davulda",
+          "note": null
+        },
+        {
+          "stem": "hafta",
+          "form": "haftada",
+          "note": null
+        },
+        {
+          "stem": "zaman",
+          "form": "zamanda",
+          "note": null
+        },
+        {
+          "stem": "mesaj",
+          "form": "mesajda",
+          "note": null
+        },
+        {
+          "stem": "tahta",
+          "form": "tahtada",
+          "note": null
+        },
+        {
+          "stem": "dergi",
+          "form": "dergide",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "ablative_DAn",
+      "label": "ablative -DAn",
+      "description": "Ayrılma hâli -dan/-den/-tan/-ten (Case=Abl).",
+      "pairs": [
+        {
+          "stem": "pazar",
+          "form": "pazardan",
+          "note": null
+        },
+        {
+          "stem": "sebep",
+          "form": "sebepten",
+          "note": null
+        },
+        {
+          "stem": "kurnazlık",
+          "form": "kurnazlıktan",
+          "note": null
+        },
+        {
+          "stem": "jor",
+          "form": "jordan",
+          "note": null
+        },
+        {
+          "stem": "paşa",
+          "form": "paşadan",
+          "note": null
+        },
+        {
+          "stem": "toprak",
+          "form": "topraktan",
+          "note": null
+        },
+        {
+          "stem": "parça",
+          "form": "parçadan",
+          "note": null
+        },
+        {
+          "stem": "çamur",
+          "form": "çamurdan",
+          "note": null
+        },
+        {
+          "stem": "başbakanlık",
+          "form": "başbakanlıktan",
+          "note": null
+        },
+        {
+          "stem": "iplik",
+          "form": "iplikten",
+          "note": null
+        },
+        {
+          "stem": "enflasyonun",
+          "form": "enflasyonundan",
+          "note": null
+        },
+        {
+          "stem": "tepe",
+          "form": "tepeden",
+          "note": null
+        },
+        {
+          "stem": "görünüm",
+          "form": "görünümden",
+          "note": null
+        },
+        {
+          "stem": "teslimat",
+          "form": "teslimattan",
+          "note": null
+        },
+        {
+          "stem": "ortaklık",
+          "form": "ortaklıktan",
+          "note": null
+        },
+        {
+          "stem": "yaşam",
+          "form": "yaşamdan",
+          "note": null
+        },
+        {
+          "stem": "saldırı",
+          "form": "saldırıdan",
+          "note": null
+        },
+        {
+          "stem": "kapitalizm",
+          "form": "kapitalizmden",
+          "note": null
+        },
+        {
+          "stem": "dönem",
+          "form": "dönemden",
+          "note": null
+        },
+        {
+          "stem": "nesil",
+          "form": "nesilden",
+          "note": null
+        },
+        {
+          "stem": "şa",
+          "form": "şadan",
+          "note": null
+        },
+        {
+          "stem": "parlamento",
+          "form": "parlamentodan",
+          "note": null
+        },
+        {
+          "stem": "anlaşma",
+          "form": "anlaşmadan",
+          "note": null
+        },
+        {
+          "stem": "or",
+          "form": "ordan",
+          "note": null
+        },
+        {
+          "stem": "dün",
+          "form": "dünden",
+          "note": null
+        },
+        {
+          "stem": "suçun",
+          "form": "suçundan",
+          "note": null
+        },
+        {
+          "stem": "ağız",
+          "form": "ağızdan",
+          "note": null
+        },
+        {
+          "stem": "pencere",
+          "form": "pencereden",
+          "note": null
+        },
+        {
+          "stem": "görmez",
+          "form": "görmezden",
+          "note": null
+        },
+        {
+          "stem": "tarafın",
+          "form": "tarafından",
+          "note": null
+        },
+        {
+          "stem": "aile",
+          "form": "aileden",
+          "note": null
+        },
+        {
+          "stem": "çocukluğun",
+          "form": "çocukluğundan",
+          "note": null
+        },
+        {
+          "stem": "özgüven",
+          "form": "özgüvenden",
+          "note": null
+        },
+        {
+          "stem": "lira",
+          "form": "liradan",
+          "note": null
+        },
+        {
+          "stem": "ittifak",
+          "form": "ittifaktan",
+          "note": null
+        },
+        {
+          "stem": "yukar",
+          "form": "yukardan",
+          "note": null
+        },
+        {
+          "stem": "olan",
+          "form": "olandan",
+          "note": null
+        },
+        {
+          "stem": "yürek",
+          "form": "yürekten",
+          "note": null
+        },
+        {
+          "stem": "salon",
+          "form": "salondan",
+          "note": null
+        },
+        {
+          "stem": "gün",
+          "form": "günden",
+          "note": null
+        },
+        {
+          "stem": "ithalat",
+          "form": "ithalattan",
+          "note": null
+        },
+        {
+          "stem": "ka",
+          "form": "kadan",
+          "note": null
+        },
+        {
+          "stem": "sarsıntı",
+          "form": "sarsıntıdan",
+          "note": null
+        },
+        {
+          "stem": "eser",
+          "form": "eserden",
+          "note": null
+        },
+        {
+          "stem": "sınıf",
+          "form": "sınıftan",
+          "note": null
+        },
+        {
+          "stem": "yarın",
+          "form": "yarından",
+          "note": null
+        },
+        {
+          "stem": "hoca",
+          "form": "hocadan",
+          "note": null
+        },
+        {
+          "stem": "kişi",
+          "form": "kişiden",
+          "note": null
+        },
+        {
+          "stem": "trilyon",
+          "form": "trilyondan",
+          "note": null
+        },
+        {
+          "stem": "babam",
+          "form": "babamdan",
+          "note": null
+        },
+        {
+          "stem": "kaza",
+          "form": "kazadan",
+          "note": null
+        },
+        {
+          "stem": "parite",
+          "form": "pariteden",
+          "note": null
+        },
+        {
+          "stem": "çokluğun",
+          "form": "çokluğundan",
+          "note": null
+        },
+        {
+          "stem": "kamera",
+          "form": "kameradan",
+          "note": null
+        },
+        {
+          "stem": "içer",
+          "form": "içerden",
+          "note": null
+        },
+        {
+          "stem": "düzey",
+          "form": "düzeyden",
+          "note": null
+        },
+        {
+          "stem": "bankalar",
+          "form": "bankalardan",
+          "note": null
+        },
+        {
+          "stem": "hak",
+          "form": "haktan",
+          "note": null
+        },
+        {
+          "stem": "okul",
+          "form": "okuldan",
+          "note": null
+        },
+        {
+          "stem": "gök",
+          "form": "gökten",
+          "note": null
+        },
+        {
+          "stem": "tanı",
+          "form": "tanıdan",
+          "note": null
+        },
+        {
+          "stem": "cinler",
+          "form": "cinlerden",
+          "note": null
+        },
+        {
+          "stem": "sektör",
+          "form": "sektörden",
+          "note": null
+        },
+        {
+          "stem": "kriz",
+          "form": "krizden",
+          "note": null
+        },
+        {
+          "stem": "açı",
+          "form": "açıdan",
+          "note": null
+        },
+        {
+          "stem": "iftar",
+          "form": "iftardan",
+          "note": null
+        },
+        {
+          "stem": "fabrika",
+          "form": "fabrikadan",
+          "note": null
+        },
+        {
+          "stem": "şanssızlık",
+          "form": "şanssızlıktan",
+          "note": null
+        },
+        {
+          "stem": "öğrenci",
+          "form": "öğrenciden",
+          "note": null
+        },
+        {
+          "stem": "piramit",
+          "form": "piramitten",
+          "note": null
+        },
+        {
+          "stem": "dağlar",
+          "form": "dağlardan",
+          "note": null
+        },
+        {
+          "stem": "üretim",
+          "form": "üretimden",
+          "note": null
+        },
+        {
+          "stem": "bölüm",
+          "form": "bölümden",
+          "note": null
+        },
+        {
+          "stem": "güvenlik",
+          "form": "güvenlikten",
+          "note": null
+        },
+        {
+          "stem": "izin",
+          "form": "izinden",
+          "note": null
+        },
+        {
+          "stem": "üye",
+          "form": "üyeden",
+          "note": null
+        },
+        {
+          "stem": "sıkıntı",
+          "form": "sıkıntıdan",
+          "note": null
+        },
+        {
+          "stem": "kaf",
+          "form": "kaftan",
+          "note": null
+        },
+        {
+          "stem": "mutfak",
+          "form": "mutfaktan",
+          "note": null
+        },
+        {
+          "stem": "kapı",
+          "form": "kapıdan",
+          "note": null
+        },
+        {
+          "stem": "ülke",
+          "form": "ülkeden",
+          "note": null
+        },
+        {
+          "stem": "sanayicilerimiz",
+          "form": "sanayicilerimizden",
+          "note": null
+        },
+        {
+          "stem": "hıristiyanlık",
+          "form": "hıristiyanlıktan",
+          "note": null
+        },
+        {
+          "stem": "emeklilik",
+          "form": "emeklilikten",
+          "note": null
+        },
+        {
+          "stem": "yağmur",
+          "form": "yağmurdan",
+          "note": null
+        },
+        {
+          "stem": "beyin",
+          "form": "beyinden",
+          "note": null
+        },
+        {
+          "stem": "adalet",
+          "form": "adaletten",
+          "note": null
+        },
+        {
+          "stem": "piyangosun",
+          "form": "piyangosundan",
+          "note": null
+        },
+        {
+          "stem": "görmezlik",
+          "form": "görmezlikten",
+          "note": null
+        },
+        {
+          "stem": "indirim",
+          "form": "indirimden",
+          "note": null
+        },
+        {
+          "stem": "korktuğun",
+          "form": "korktuğundan",
+          "note": null
+        },
+        {
+          "stem": "yükseliş",
+          "form": "yükselişten",
+          "note": null
+        },
+        {
+          "stem": "güzellerimiz",
+          "form": "güzellerimizden",
+          "note": null
+        },
+        {
+          "stem": "ters",
+          "form": "tersten",
+          "note": null
+        },
+        {
+          "stem": "talan",
+          "form": "talandan",
+          "note": null
+        },
+        {
+          "stem": "cinayet",
+          "form": "cinayetten",
+          "note": null
+        },
+        {
+          "stem": "kirlenmişlik",
+          "form": "kirlenmişlikten",
+          "note": null
+        },
+        {
+          "stem": "piyasa",
+          "form": "piyasadan",
+          "note": null
+        },
+        {
+          "stem": "duyarlılık",
+          "form": "duyarlılıktan",
+          "note": null
+        },
+        {
+          "stem": "tuttuk",
+          "form": "tuttuktan",
+          "note": null
+        },
+        {
+          "stem": "aşk",
+          "form": "aşktan",
+          "note": null
+        },
+        {
+          "stem": "akıl",
+          "form": "akıldan",
+          "note": null
+        },
+        {
+          "stem": "koşullanmışlık",
+          "form": "koşullanmışlıktan",
+          "note": null
+        },
+        {
+          "stem": "taban",
+          "form": "tabandan",
+          "note": null
+        },
+        {
+          "stem": "yönetmen",
+          "form": "yönetmenden",
+          "note": null
+        },
+        {
+          "stem": "içim",
+          "form": "içimden",
+          "note": null
+        },
+        {
+          "stem": "baro",
+          "form": "barodan",
+          "note": null
+        },
+        {
+          "stem": "çark",
+          "form": "çarktan",
+          "note": null
+        },
+        {
+          "stem": "sorun",
+          "form": "sorundan",
+          "note": null
+        },
+        {
+          "stem": "ilgi",
+          "form": "ilgiden",
+          "note": null
+        },
+        {
+          "stem": "sorumluluk",
+          "form": "sorumluluktan",
+          "note": null
+        },
+        {
+          "stem": "cinsellik",
+          "form": "cinsellikten",
+          "note": null
+        },
+        {
+          "stem": "kontrolün",
+          "form": "kontrolünden",
+          "note": null
+        },
+        {
+          "stem": "oyuncular",
+          "form": "oyunculardan",
+          "note": null
+        },
+        {
+          "stem": "sürdü",
+          "form": "sürdüden",
+          "note": null
+        },
+        {
+          "stem": "kulüp",
+          "form": "kulüpten",
+          "note": null
+        },
+        {
+          "stem": "hayat",
+          "form": "hayattan",
+          "note": null
+        },
+        {
+          "stem": "hazlar",
+          "form": "hazlardan",
+          "note": null
+        },
+        {
+          "stem": "gerginlik",
+          "form": "gerginlikten",
+          "note": null
+        },
+        {
+          "stem": "uyarı",
+          "form": "uyarıdan",
+          "note": null
+        },
+        {
+          "stem": "örnekler",
+          "form": "örneklerden",
+          "note": null
+        },
+        {
+          "stem": "beyanname",
+          "form": "beyannameden",
+          "note": null
+        },
+        {
+          "stem": "virgül",
+          "form": "virgülden",
+          "note": null
+        },
+        {
+          "stem": "grubun",
+          "form": "grubundan",
+          "note": null
+        },
+        {
+          "stem": "fikir",
+          "form": "fikirden",
+          "note": null
+        },
+        {
+          "stem": "gücün",
+          "form": "gücünden",
+          "note": null
+        },
+        {
+          "stem": "güvenilirlik",
+          "form": "güvenilirlikten",
+          "note": null
+        },
+        {
+          "stem": "lise",
+          "form": "liseden",
+          "note": null
+        },
+        {
+          "stem": "toplantı",
+          "form": "toplantıdan",
+          "note": null
+        },
+        {
+          "stem": "şeriatçı",
+          "form": "şeriatçıdan",
+          "note": null
+        },
+        {
+          "stem": "yazar",
+          "form": "yazardan",
+          "note": null
+        },
+        {
+          "stem": "yön",
+          "form": "yönden",
+          "note": null
+        },
+        {
+          "stem": "çapkınlık",
+          "form": "çapkınlıktan",
+          "note": null
+        },
+        {
+          "stem": "naz",
+          "form": "nazdan",
+          "note": null
+        },
+        {
+          "stem": "tarla",
+          "form": "tarladan",
+          "note": null
+        },
+        {
+          "stem": "taşeronluk",
+          "form": "taşeronluktan",
+          "note": null
+        },
+        {
+          "stem": "koordinasyonun",
+          "form": "koordinasyonundan",
+          "note": null
+        },
+        {
+          "stem": "zam",
+          "form": "zamdan",
+          "note": null
+        },
+        {
+          "stem": "balkon",
+          "form": "balkondan",
+          "note": null
+        },
+        {
+          "stem": "balıkçı",
+          "form": "balıkçıdan",
+          "note": null
+        },
+        {
+          "stem": "bul",
+          "form": "buldan",
+          "note": null
+        },
+        {
+          "stem": "kamuoyun",
+          "form": "kamuoyundan",
+          "note": null
+        },
+        {
+          "stem": "hiçbirin",
+          "form": "hiçbirinden",
+          "note": null
+        },
+        {
+          "stem": "metre",
+          "form": "metreden",
+          "note": null
+        },
+        {
+          "stem": "sayfa",
+          "form": "sayfadan",
+          "note": null
+        },
+        {
+          "stem": "ilkokul",
+          "form": "ilkokuldan",
+          "note": null
+        },
+        {
+          "stem": "biraz",
+          "form": "birazdan",
+          "note": null
+        },
+        {
+          "stem": "mülakat",
+          "form": "mülakattan",
+          "note": null
+        },
+        {
+          "stem": "zarar",
+          "form": "zarardan",
+          "note": null
+        },
+        {
+          "stem": "ekolün",
+          "form": "ekolünden",
+          "note": null
+        },
+        {
+          "stem": "fiilen",
+          "form": "fiilenden",
+          "note": null
+        },
+        {
+          "stem": "şampiyonluk",
+          "form": "şampiyonluktan",
+          "note": null
+        },
+        {
+          "stem": "yaz",
+          "form": "yazdan",
+          "note": null
+        },
+        {
+          "stem": "mağaza",
+          "form": "mağazadan",
+          "note": null
+        },
+        {
+          "stem": "hükümet",
+          "form": "hükümetten",
+          "note": null
+        },
+        {
+          "stem": "bar",
+          "form": "bardan",
+          "note": null
+        },
+        {
+          "stem": "bulunduğun",
+          "form": "bulunduğundan",
+          "note": null
+        },
+        {
+          "stem": "meslek",
+          "form": "meslekten",
+          "note": null
+        },
+        {
+          "stem": "ızdırap",
+          "form": "ızdıraptan",
+          "note": null
+        },
+        {
+          "stem": "cumhuriyet",
+          "form": "cumhuriyetten",
+          "note": null
+        },
+        {
+          "stem": "bel",
+          "form": "belden",
+          "note": null
+        },
+        {
+          "stem": "kaymakamlık",
+          "form": "kaymakamlıktan",
+          "note": null
+        },
+        {
+          "stem": "temmuzun",
+          "form": "temmuzundan",
+          "note": null
+        },
+        {
+          "stem": "sakatlık",
+          "form": "sakatlıktan",
+          "note": null
+        },
+        {
+          "stem": "gözlülük",
+          "form": "gözlülükten",
+          "note": null
+        },
+        {
+          "stem": "gü",
+          "form": "güden",
+          "note": null
+        },
+        {
+          "stem": "sokak",
+          "form": "sokaktan",
+          "note": null
+        },
+        {
+          "stem": "kuşatılmışlık",
+          "form": "kuşatılmışlıktan",
+          "note": null
+        },
+        {
+          "stem": "trafik",
+          "form": "trafikten",
+          "note": null
+        },
+        {
+          "stem": "karayolun",
+          "form": "karayolundan",
+          "note": null
+        },
+        {
+          "stem": "boyut",
+          "form": "boyuttan",
+          "note": null
+        },
+        {
+          "stem": "ders",
+          "form": "dersten",
+          "note": null
+        },
+        {
+          "stem": "el",
+          "form": "elden",
+          "note": null
+        },
+        {
+          "stem": "kol",
+          "form": "koldan",
+          "note": null
+        },
+        {
+          "stem": "sınav",
+          "form": "sınavdan",
+          "note": null
+        },
+        {
+          "stem": "parçalanma",
+          "form": "parçalanmadan",
+          "note": null
+        },
+        {
+          "stem": "köy",
+          "form": "köyden",
+          "note": null
+        },
+        {
+          "stem": "devlet",
+          "form": "devletten",
+          "note": null
+        },
+        {
+          "stem": "yükseklik",
+          "form": "yükseklikten",
+          "note": null
+        },
+        {
+          "stem": "borçlu",
+          "form": "borçludan",
+          "note": null
+        },
+        {
+          "stem": "faaliyet",
+          "form": "faaliyetten",
+          "note": null
+        },
+        {
+          "stem": "merkez",
+          "form": "merkezden",
+          "note": null
+        },
+        {
+          "stem": "gönül",
+          "form": "gönülden",
+          "note": null
+        },
+        {
+          "stem": "lig",
+          "form": "ligden",
+          "note": null
+        },
+        {
+          "stem": "hapis",
+          "form": "hapisten",
+          "note": null
+        },
+        {
+          "stem": "posta",
+          "form": "postadan",
+          "note": null
+        },
+        {
+          "stem": "yağış",
+          "form": "yağıştan",
+          "note": null
+        },
+        {
+          "stem": "sigara",
+          "form": "sigaradan",
+          "note": null
+        },
+        {
+          "stem": "operasyon",
+          "form": "operasyondan",
+          "note": null
+        },
+        {
+          "stem": "oyuncakçı",
+          "form": "oyuncakçıdan",
+          "note": null
+        },
+        {
+          "stem": "kürsü",
+          "form": "kürsüden",
+          "note": null
+        },
+        {
+          "stem": "tür",
+          "form": "türden",
+          "note": null
+        },
+        {
+          "stem": "köken",
+          "form": "kökenden",
+          "note": null
+        },
+        {
+          "stem": "televizyonun",
+          "form": "televizyonundan",
+          "note": null
+        },
+        {
+          "stem": "yatak",
+          "form": "yataktan",
+          "note": null
+        },
+        {
+          "stem": "şirket",
+          "form": "şirketten",
+          "note": null
+        },
+        {
+          "stem": "öyküsün",
+          "form": "öyküsünden",
+          "note": null
+        },
+        {
+          "stem": "yargı",
+          "form": "yargıdan",
+          "note": null
+        },
+        {
+          "stem": "çocukluğumuz",
+          "form": "çocukluğumuzdan",
+          "note": null
+        },
+        {
+          "stem": "hapishane",
+          "form": "hapishaneden",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "dative_A",
+      "label": "dative -A",
+      "description": "Yönelme hâli -a/-e/-ya/-ye (Case=Dat).",
+      "pairs": [
+        {
+          "stem": "ihale",
+          "form": "ihaleye",
+          "note": null
+        },
+        {
+          "stem": "sirkülasyon",
+          "form": "sirkülasyona",
+          "note": null
+        },
+        {
+          "stem": "iş",
+          "form": "işe",
+          "note": null
+        },
+        {
+          "stem": "ala",
+          "form": "alaya",
+          "note": null
+        },
+        {
+          "stem": "şampiyona",
+          "form": "şampiyonaya",
+          "note": null
+        },
+        {
+          "stem": "bölge",
+          "form": "bölgeye",
+          "note": null
+        },
+        {
+          "stem": "ziyaret",
+          "form": "ziyarete",
+          "note": null
+        },
+        {
+          "stem": "demokrasi",
+          "form": "demokrasiye",
+          "note": null
+        },
+        {
+          "stem": "tatlı",
+          "form": "tatlıya",
+          "note": null
+        },
+        {
+          "stem": "yöre",
+          "form": "yöreye",
+          "note": null
+        },
+        {
+          "stem": "dünya",
+          "form": "dünyaya",
+          "note": null
+        },
+        {
+          "stem": "rehavet",
+          "form": "rehavete",
+          "note": null
+        },
+        {
+          "stem": "kuruluş",
+          "form": "kuruluşa",
+          "note": null
+        },
+        {
+          "stem": "yapı",
+          "form": "yapıya",
+          "note": null
+        },
+        {
+          "stem": "mevzuat",
+          "form": "mevzuata",
+          "note": null
+        },
+        {
+          "stem": "siyaset",
+          "form": "siyasete",
+          "note": null
+        },
+        {
+          "stem": "atılım",
+          "form": "atılıma",
+          "note": null
+        },
+        {
+          "stem": "göz",
+          "form": "göze",
+          "note": null
+        },
+        {
+          "stem": "eleştiri",
+          "form": "eleştiriye",
+          "note": null
+        },
+        {
+          "stem": "ayın",
+          "form": "ayına",
+          "note": null
+        },
+        {
+          "stem": "sınav",
+          "form": "sınava",
+          "note": null
+        },
+        {
+          "stem": "tarım",
+          "form": "tarıma",
+          "note": null
+        },
+        {
+          "stem": "ev",
+          "form": "eve",
+          "note": null
+        },
+        {
+          "stem": "futbolcularım",
+          "form": "futbolcularıma",
+          "note": null
+        },
+        {
+          "stem": "edilince",
+          "form": "edilinceye",
+          "note": null
+        },
+        {
+          "stem": "forvet",
+          "form": "forvete",
+          "note": null
+        },
+        {
+          "stem": "asker",
+          "form": "askere",
+          "note": null
+        },
+        {
+          "stem": "bütçe",
+          "form": "bütçeye",
+          "note": null
+        },
+        {
+          "stem": "arena",
+          "form": "arenaya",
+          "note": null
+        },
+        {
+          "stem": "takım",
+          "form": "takıma",
+          "note": null
+        },
+        {
+          "stem": "durum",
+          "form": "duruma",
+          "note": null
+        },
+        {
+          "stem": "hafta",
+          "form": "haftaya",
+          "note": null
+        },
+        {
+          "stem": "cerrahiler",
+          "form": "cerrahilere",
+          "note": null
+        },
+        {
+          "stem": "organiz",
+          "form": "organize",
+          "note": null
+        },
+        {
+          "stem": "kahkaha",
+          "form": "kahkahaya",
+          "note": null
+        },
+        {
+          "stem": "kereste",
+          "form": "keresteye",
+          "note": null
+        },
+        {
+          "stem": "kapı",
+          "form": "kapıya",
+          "note": null
+        },
+        {
+          "stem": "kadro",
+          "form": "kadroya",
+          "note": null
+        },
+        {
+          "stem": "pencere",
+          "form": "pencereye",
+          "note": null
+        },
+        {
+          "stem": "ticaret",
+          "form": "ticarete",
+          "note": null
+        },
+        {
+          "stem": "çevre",
+          "form": "çevreye",
+          "note": null
+        },
+        {
+          "stem": "saraka",
+          "form": "sarakaya",
+          "note": null
+        },
+        {
+          "stem": "sahur",
+          "form": "sahura",
+          "note": null
+        },
+        {
+          "stem": "bunul",
+          "form": "bunula",
+          "note": null
+        },
+        {
+          "stem": "donn",
+          "form": "donna",
+          "note": null
+        },
+        {
+          "stem": "anayol",
+          "form": "anayola",
+          "note": null
+        },
+        {
+          "stem": "kamu",
+          "form": "kamuya",
+          "note": null
+        },
+        {
+          "stem": "ırzım",
+          "form": "ırzıma",
+          "note": null
+        },
+        {
+          "stem": "şubey",
+          "form": "şubeye",
+          "note": null
+        },
+        {
+          "stem": "dayanışma",
+          "form": "dayanışmaya",
+          "note": null
+        },
+        {
+          "stem": "cumhuriyet",
+          "form": "cumhuriyete",
+          "note": null
+        },
+        {
+          "stem": "atraksiyon",
+          "form": "atraksiyona",
+          "note": null
+        },
+        {
+          "stem": "facia",
+          "form": "faciaya",
+          "note": null
+        },
+        {
+          "stem": "avukat",
+          "form": "avukata",
+          "note": null
+        },
+        {
+          "stem": "falaka",
+          "form": "falakaya",
+          "note": null
+        },
+        {
+          "stem": "sevgi",
+          "form": "sevgiye",
+          "note": null
+        },
+        {
+          "stem": "töre",
+          "form": "töreye",
+          "note": null
+        },
+        {
+          "stem": "çelişki",
+          "form": "çelişkiye",
+          "note": null
+        },
+        {
+          "stem": "tamamlanınca",
+          "form": "tamamlanıncaya",
+          "note": null
+        },
+        {
+          "stem": "kent",
+          "form": "kente",
+          "note": null
+        },
+        {
+          "stem": "mafya",
+          "form": "mafyaya",
+          "note": null
+        },
+        {
+          "stem": "bilgi",
+          "form": "bilgiye",
+          "note": null
+        },
+        {
+          "stem": "düz",
+          "form": "düze",
+          "note": null
+        },
+        {
+          "stem": "müsamah",
+          "form": "müsamaha",
+          "note": null
+        },
+        {
+          "stem": "ihanet",
+          "form": "ihanete",
+          "note": null
+        },
+        {
+          "stem": "kenarın",
+          "form": "kenarına",
+          "note": null
+        },
+        {
+          "stem": "kaleci",
+          "form": "kaleciye",
+          "note": null
+        },
+        {
+          "stem": "tavsiye",
+          "form": "tavsiyeye",
+          "note": null
+        },
+        {
+          "stem": "mezar",
+          "form": "mezara",
+          "note": null
+        },
+        {
+          "stem": "gezi",
+          "form": "geziye",
+          "note": null
+        },
+        {
+          "stem": "konu",
+          "form": "konuya",
+          "note": null
+        },
+        {
+          "stem": "ol",
+          "form": "ola",
+          "note": null
+        },
+        {
+          "stem": "kutsama",
+          "form": "kutsamaya",
+          "note": null
+        },
+        {
+          "stem": "yargı",
+          "form": "yargıya",
+          "note": null
+        },
+        {
+          "stem": "oyuncular",
+          "form": "oyunculara",
+          "note": null
+        },
+        {
+          "stem": "manevra",
+          "form": "manevraya",
+          "note": null
+        },
+        {
+          "stem": "padişah",
+          "form": "padişaha",
+          "note": null
+        },
+        {
+          "stem": "partililer",
+          "form": "partililere",
+          "note": null
+        },
+        {
+          "stem": "uzadı",
+          "form": "uzadıya",
+          "note": null
+        },
+        {
+          "stem": "müşteri",
+          "form": "müşteriye",
+          "note": null
+        },
+        {
+          "stem": "antrenman",
+          "form": "antrenmana",
+          "note": null
+        },
+        {
+          "stem": "makam",
+          "form": "makama",
+          "note": null
+        },
+        {
+          "stem": "protesto",
+          "form": "protestoya",
+          "note": null
+        },
+        {
+          "stem": "misillem",
+          "form": "misilleme",
+          "note": null
+        },
+        {
+          "stem": "nalburi",
+          "form": "nalburiye",
+          "note": null
+        },
+        {
+          "stem": "yatırım",
+          "form": "yatırıma",
+          "note": null
+        },
+        {
+          "stem": "şarkıcı",
+          "form": "şarkıcıya",
+          "note": null
+        },
+        {
+          "stem": "savcı",
+          "form": "savcıya",
+          "note": null
+        },
+        {
+          "stem": "öyles",
+          "form": "öylese",
+          "note": null
+        },
+        {
+          "stem": "okur",
+          "form": "okura",
+          "note": null
+        },
+        {
+          "stem": "roman",
+          "form": "romana",
+          "note": null
+        },
+        {
+          "stem": "eksi",
+          "form": "eksiye",
+          "note": null
+        },
+        {
+          "stem": "firma",
+          "form": "firmaya",
+          "note": null
+        },
+        {
+          "stem": "kunduracı",
+          "form": "kunduracıya",
+          "note": null
+        },
+        {
+          "stem": "sorularım",
+          "form": "sorularıma",
+          "note": null
+        },
+        {
+          "stem": "izin",
+          "form": "izine",
+          "note": null
+        },
+        {
+          "stem": "sıra",
+          "form": "sıraya",
+          "note": null
+        },
+        {
+          "stem": "gazete",
+          "form": "gazeteye",
+          "note": null
+        },
+        {
+          "stem": "yükseliş",
+          "form": "yükselişe",
+          "note": null
+        },
+        {
+          "stem": "bul",
+          "form": "bula",
+          "note": null
+        },
+        {
+          "stem": "lojman",
+          "form": "lojmana",
+          "note": null
+        },
+        {
+          "stem": "ateş",
+          "form": "ateşe",
+          "note": null
+        },
+        {
+          "stem": "yayın",
+          "form": "yayına",
+          "note": null
+        },
+        {
+          "stem": "geçmiş",
+          "form": "geçmişe",
+          "note": null
+        },
+        {
+          "stem": "yaralı",
+          "form": "yaralıya",
+          "note": null
+        },
+        {
+          "stem": "eylülcüler",
+          "form": "eylülcülere",
+          "note": null
+        },
+        {
+          "stem": "coğrafya",
+          "form": "coğrafyaya",
+          "note": null
+        },
+        {
+          "stem": "raf",
+          "form": "rafa",
+          "note": null
+        },
+        {
+          "stem": "yürüyüş",
+          "form": "yürüyüşe",
+          "note": null
+        },
+        {
+          "stem": "alınca",
+          "form": "alıncaya",
+          "note": null
+        },
+        {
+          "stem": "şirket",
+          "form": "şirkete",
+          "note": null
+        },
+        {
+          "stem": "yorum",
+          "form": "yoruma",
+          "note": null
+        },
+        {
+          "stem": "kavram",
+          "form": "kavrama",
+          "note": null
+        },
+        {
+          "stem": "yönün",
+          "form": "yönüne",
+          "note": null
+        },
+        {
+          "stem": "polis",
+          "form": "polise",
+          "note": null
+        },
+        {
+          "stem": "anket",
+          "form": "ankete",
+          "note": null
+        },
+        {
+          "stem": "küm",
+          "form": "küme",
+          "note": null
+        },
+        {
+          "stem": "savaş",
+          "form": "savaşa",
+          "note": null
+        },
+        {
+          "stem": "köy",
+          "form": "köye",
+          "note": null
+        },
+        {
+          "stem": "şema",
+          "form": "şemaya",
+          "note": null
+        },
+        {
+          "stem": "politika",
+          "form": "politikaya",
+          "note": null
+        },
+        {
+          "stem": "lokanta",
+          "form": "lokantaya",
+          "note": null
+        },
+        {
+          "stem": "öğrenci",
+          "form": "öğrenciye",
+          "note": null
+        },
+        {
+          "stem": "kişi",
+          "form": "kişiye",
+          "note": null
+        },
+        {
+          "stem": "edince",
+          "form": "edinceye",
+          "note": null
+        },
+        {
+          "stem": "numara",
+          "form": "numaraya",
+          "note": null
+        },
+        {
+          "stem": "spiridul",
+          "form": "spiridula",
+          "note": null
+        },
+        {
+          "stem": "çanta",
+          "form": "çantaya",
+          "note": null
+        },
+        {
+          "stem": "sakallı",
+          "form": "sakallıya",
+          "note": null
+        },
+        {
+          "stem": "hukuk",
+          "form": "hukuka",
+          "note": null
+        },
+        {
+          "stem": "okul",
+          "form": "okula",
+          "note": null
+        },
+        {
+          "stem": "ekran",
+          "form": "ekrana",
+          "note": null
+        },
+        {
+          "stem": "soruşturma",
+          "form": "soruşturmaya",
+          "note": null
+        },
+        {
+          "stem": "vade",
+          "form": "vadeye",
+          "note": null
+        },
+        {
+          "stem": "marihuan",
+          "form": "marihuana",
+          "note": null
+        },
+        {
+          "stem": "inziva",
+          "form": "inzivaya",
+          "note": null
+        },
+        {
+          "stem": "baka",
+          "form": "bakaya",
+          "note": null
+        },
+        {
+          "stem": "girince",
+          "form": "girinceye",
+          "note": null
+        },
+        {
+          "stem": "dış",
+          "form": "dışa",
+          "note": null
+        },
+        {
+          "stem": "repo",
+          "form": "repoya",
+          "note": null
+        },
+        {
+          "stem": "düzey",
+          "form": "düzeye",
+          "note": null
+        },
+        {
+          "stem": "kal",
+          "form": "kala",
+          "note": null
+        },
+        {
+          "stem": "safha",
+          "form": "safhaya",
+          "note": null
+        },
+        {
+          "stem": "konser",
+          "form": "konsere",
+          "note": null
+        },
+        {
+          "stem": "tasarımcı",
+          "form": "tasarımcıya",
+          "note": null
+        },
+        {
+          "stem": "alan",
+          "form": "alana",
+          "note": null
+        },
+        {
+          "stem": "yararın",
+          "form": "yararına",
+          "note": null
+        },
+        {
+          "stem": "günümüz",
+          "form": "günümüze",
+          "note": null
+        },
+        {
+          "stem": "gariban",
+          "form": "garibana",
+          "note": null
+        },
+        {
+          "stem": "sevgili",
+          "form": "sevgiliye",
+          "note": null
+        },
+        {
+          "stem": "değer",
+          "form": "değere",
+          "note": null
+        },
+        {
+          "stem": "medya",
+          "form": "medyaya",
+          "note": null
+        },
+        {
+          "stem": "kesinleşince",
+          "form": "kesinleşinceye",
+          "note": null
+        },
+        {
+          "stem": "hezimet",
+          "form": "hezimete",
+          "note": null
+        },
+        {
+          "stem": "ölüm",
+          "form": "ölüme",
+          "note": null
+        },
+        {
+          "stem": "söz",
+          "form": "söze",
+          "note": null
+        },
+        {
+          "stem": "ism",
+          "form": "isme",
+          "note": null
+        },
+        {
+          "stem": "defa",
+          "form": "defaya",
+          "note": null
+        },
+        {
+          "stem": "hortum",
+          "form": "hortuma",
+          "note": null
+        },
+        {
+          "stem": "bağlantı",
+          "form": "bağlantıya",
+          "note": null
+        },
+        {
+          "stem": "kaset",
+          "form": "kasete",
+          "note": null
+        },
+        {
+          "stem": "hedef",
+          "form": "hedefe",
+          "note": null
+        },
+        {
+          "stem": "saldırı",
+          "form": "saldırıya",
+          "note": null
+        },
+        {
+          "stem": "çarpmış",
+          "form": "çarpmışa",
+          "note": null
+        },
+        {
+          "stem": "yaşantı",
+          "form": "yaşantıya",
+          "note": null
+        },
+        {
+          "stem": "teknoloji",
+          "form": "teknolojiye",
+          "note": null
+        },
+        {
+          "stem": "fethetme",
+          "form": "fethetmeye",
+          "note": null
+        },
+        {
+          "stem": "istifade",
+          "form": "istifadeye",
+          "note": null
+        },
+        {
+          "stem": "iktidar",
+          "form": "iktidara",
+          "note": null
+        },
+        {
+          "stem": "tarikat",
+          "form": "tarikata",
+          "note": null
+        },
+        {
+          "stem": "bire",
+          "form": "bireye",
+          "note": null
+        },
+        {
+          "stem": "mol",
+          "form": "mola",
+          "note": null
+        },
+        {
+          "stem": "tartışma",
+          "form": "tartışmaya",
+          "note": null
+        },
+        {
+          "stem": "anlaşma",
+          "form": "anlaşmaya",
+          "note": null
+        },
+        {
+          "stem": "kilise",
+          "form": "kiliseye",
+          "note": null
+        },
+        {
+          "stem": "macera",
+          "form": "maceraya",
+          "note": null
+        },
+        {
+          "stem": "barış",
+          "form": "barışa",
+          "note": null
+        },
+        {
+          "stem": "parlamento",
+          "form": "parlamentoya",
+          "note": null
+        },
+        {
+          "stem": "mağaza",
+          "form": "mağazaya",
+          "note": null
+        },
+        {
+          "stem": "sözleşme",
+          "form": "sözleşmeye",
+          "note": null
+        },
+        {
+          "stem": "şampiyon",
+          "form": "şampiyona",
+          "note": null
+        },
+        {
+          "stem": "maaş",
+          "form": "maaşa",
+          "note": null
+        },
+        {
+          "stem": "karar",
+          "form": "karara",
+          "note": null
+        },
+        {
+          "stem": "heyet",
+          "form": "heyete",
+          "note": null
+        },
+        {
+          "stem": "tarih",
+          "form": "tarihe",
+          "note": null
+        },
+        {
+          "stem": "yemekler",
+          "form": "yemeklere",
+          "note": null
+        },
+        {
+          "stem": "harabey",
+          "form": "harabeye",
+          "note": null
+        },
+        {
+          "stem": "görüş",
+          "form": "görüşe",
+          "note": null
+        },
+        {
+          "stem": "zahmet",
+          "form": "zahmete",
+          "note": null
+        },
+        {
+          "stem": "prosedür",
+          "form": "prosedüre",
+          "note": null
+        },
+        {
+          "stem": "hava",
+          "form": "havaya",
+          "note": null
+        },
+        {
+          "stem": "anayasa",
+          "form": "anayasaya",
+          "note": null
+        },
+        {
+          "stem": "ölünce",
+          "form": "ölünceye",
+          "note": null
+        },
+        {
+          "stem": "deniz",
+          "form": "denize",
+          "note": null
+        },
+        {
+          "stem": "giyimci",
+          "form": "giyimciye",
+          "note": null
+        },
+        {
+          "stem": "filizlenme",
+          "form": "filizlenmeye",
+          "note": null
+        },
+        {
+          "stem": "ünite",
+          "form": "üniteye",
+          "note": null
+        },
+        {
+          "stem": "güneş",
+          "form": "güneşe",
+          "note": null
+        },
+        {
+          "stem": "madonn",
+          "form": "madonna",
+          "note": null
+        },
+        {
+          "stem": "aşk",
+          "form": "aşka",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "genitive_In",
+      "label": "genitive -In",
+      "description": "Tamlayan hâli -ın/-in/-un/-ün (Case=Gen).",
+      "pairs": [
+        {
+          "stem": "çapk",
+          "form": "çapkın",
+          "note": null
+        },
+        {
+          "stem": "başkan",
+          "form": "başkanın",
+          "note": null
+        },
+        {
+          "stem": "aile",
+          "form": "ailenin",
+          "note": null
+        },
+        {
+          "stem": "çalışmalarımız",
+          "form": "çalışmalarımızın",
+          "note": null
+        },
+        {
+          "stem": "acenta",
+          "form": "acentanın",
+          "note": null
+        },
+        {
+          "stem": "tablon",
+          "form": "tablonun",
+          "note": null
+        },
+        {
+          "stem": "bildiri",
+          "form": "bildirinin",
+          "note": null
+        },
+        {
+          "stem": "eymel",
+          "form": "eymelin",
+          "note": null
+        },
+        {
+          "stem": "bireyler",
+          "form": "bireylerin",
+          "note": null
+        },
+        {
+          "stem": "dergah",
+          "form": "dergahın",
+          "note": null
+        },
+        {
+          "stem": "anadolu",
+          "form": "anadolunun",
+          "note": null
+        },
+        {
+          "stem": "birimleri",
+          "form": "birimlerinin",
+          "note": null
+        },
+        {
+          "stem": "deka",
+          "form": "dekanın",
+          "note": null
+        },
+        {
+          "stem": "ürün",
+          "form": "ürünün",
+          "note": null
+        },
+        {
+          "stem": "banka",
+          "form": "bankanın",
+          "note": null
+        },
+        {
+          "stem": "gözlerimiz",
+          "form": "gözlerimizin",
+          "note": null
+        },
+        {
+          "stem": "birisi",
+          "form": "birisinin",
+          "note": null
+        },
+        {
+          "stem": "durum",
+          "form": "durumun",
+          "note": null
+        },
+        {
+          "stem": "yarın",
+          "form": "yarının",
+          "note": null
+        },
+        {
+          "stem": "üyelerimiz",
+          "form": "üyelerimizin",
+          "note": null
+        },
+        {
+          "stem": "öğrenci",
+          "form": "öğrencinin",
+          "note": null
+        },
+        {
+          "stem": "sorun",
+          "form": "sorunun",
+          "note": null
+        },
+        {
+          "stem": "ge",
+          "form": "genin",
+          "note": null
+        },
+        {
+          "stem": "stopaj",
+          "form": "stopajın",
+          "note": null
+        },
+        {
+          "stem": "herkes",
+          "form": "herkesin",
+          "note": null
+        },
+        {
+          "stem": "ifade",
+          "form": "ifadenin",
+          "note": null
+        },
+        {
+          "stem": "yorula",
+          "form": "yorulanın",
+          "note": null
+        },
+        {
+          "stem": "gözetmeksiz",
+          "form": "gözetmeksizin",
+          "note": null
+        },
+        {
+          "stem": "fikstür",
+          "form": "fikstürün",
+          "note": null
+        },
+        {
+          "stem": "pua",
+          "form": "puanın",
+          "note": null
+        },
+        {
+          "stem": "arena",
+          "form": "arenanın",
+          "note": null
+        },
+        {
+          "stem": "sınav",
+          "form": "sınavın",
+          "note": null
+        },
+        {
+          "stem": "eğlence",
+          "form": "eğlencenin",
+          "note": null
+        },
+        {
+          "stem": "tavr",
+          "form": "tavrın",
+          "note": null
+        },
+        {
+          "stem": "vata",
+          "form": "vatanın",
+          "note": null
+        },
+        {
+          "stem": "karmaşa",
+          "form": "karmaşanın",
+          "note": null
+        },
+        {
+          "stem": "ateşkes",
+          "form": "ateşkesin",
+          "note": null
+        },
+        {
+          "stem": "sanayici",
+          "form": "sanayicinin",
+          "note": null
+        },
+        {
+          "stem": "cumhurbaşkanı",
+          "form": "cumhurbaşkanının",
+          "note": null
+        },
+        {
+          "stem": "görevlileri",
+          "form": "görevlilerinin",
+          "note": null
+        },
+        {
+          "stem": "çark",
+          "form": "çarkın",
+          "note": null
+        },
+        {
+          "stem": "siyasetçi",
+          "form": "siyasetçinin",
+          "note": null
+        },
+        {
+          "stem": "inisiyatif",
+          "form": "inisiyatifin",
+          "note": null
+        },
+        {
+          "stem": "fiil",
+          "form": "fiilin",
+          "note": null
+        },
+        {
+          "stem": "vaka",
+          "form": "vakanın",
+          "note": null
+        },
+        {
+          "stem": "jandarma",
+          "form": "jandarmanın",
+          "note": null
+        },
+        {
+          "stem": "zirve",
+          "form": "zirvenin",
+          "note": null
+        },
+        {
+          "stem": "camia",
+          "form": "camianın",
+          "note": null
+        },
+        {
+          "stem": "kamyon",
+          "form": "kamyonun",
+          "note": null
+        },
+        {
+          "stem": "bura",
+          "form": "buranın",
+          "note": null
+        },
+        {
+          "stem": "kirlenme",
+          "form": "kirlenmenin",
+          "note": null
+        },
+        {
+          "stem": "komiten",
+          "form": "komitenin",
+          "note": null
+        },
+        {
+          "stem": "herşey",
+          "form": "herşeyin",
+          "note": null
+        },
+        {
+          "stem": "bilgi",
+          "form": "bilginin",
+          "note": null
+        },
+        {
+          "stem": "hediye",
+          "form": "hediyenin",
+          "note": null
+        },
+        {
+          "stem": "yaşamım",
+          "form": "yaşamımın",
+          "note": null
+        },
+        {
+          "stem": "milletvekili",
+          "form": "milletvekilinin",
+          "note": null
+        },
+        {
+          "stem": "not",
+          "form": "notun",
+          "note": null
+        },
+        {
+          "stem": "çete",
+          "form": "çetenin",
+          "note": null
+        },
+        {
+          "stem": "gardiya",
+          "form": "gardiyanın",
+          "note": null
+        },
+        {
+          "stem": "harita",
+          "form": "haritanın",
+          "note": null
+        },
+        {
+          "stem": "görevler",
+          "form": "görevlerin",
+          "note": null
+        },
+        {
+          "stem": "sürücü",
+          "form": "sürücünün",
+          "note": null
+        },
+        {
+          "stem": "tasarı",
+          "form": "tasarının",
+          "note": null
+        },
+        {
+          "stem": "altınımız",
+          "form": "altınımızın",
+          "note": null
+        },
+        {
+          "stem": "üye",
+          "form": "üyenin",
+          "note": null
+        },
+        {
+          "stem": "güven",
+          "form": "güvenin",
+          "note": null
+        },
+        {
+          "stem": "teklif",
+          "form": "teklifin",
+          "note": null
+        },
+        {
+          "stem": "açıkgöz",
+          "form": "açıkgözün",
+          "note": null
+        },
+        {
+          "stem": "bunalım",
+          "form": "bunalımın",
+          "note": null
+        },
+        {
+          "stem": "üretim",
+          "form": "üretimin",
+          "note": null
+        },
+        {
+          "stem": "irade",
+          "form": "iradenin",
+          "note": null
+        },
+        {
+          "stem": "kulüplerimiz",
+          "form": "kulüplerimizin",
+          "note": null
+        },
+        {
+          "stem": "patlama",
+          "form": "patlamanın",
+          "note": null
+        },
+        {
+          "stem": "yalan",
+          "form": "yalanın",
+          "note": null
+        },
+        {
+          "stem": "aday",
+          "form": "adayın",
+          "note": null
+        },
+        {
+          "stem": "taşlar",
+          "form": "taşların",
+          "note": null
+        },
+        {
+          "stem": "mesaj",
+          "form": "mesajın",
+          "note": null
+        },
+        {
+          "stem": "parti",
+          "form": "partinin",
+          "note": null
+        },
+        {
+          "stem": "kalk",
+          "form": "kalkın",
+          "note": null
+        },
+        {
+          "stem": "nikah",
+          "form": "nikahın",
+          "note": null
+        },
+        {
+          "stem": "eylem",
+          "form": "eylemin",
+          "note": null
+        },
+        {
+          "stem": "işkence",
+          "form": "işkencenin",
+          "note": null
+        },
+        {
+          "stem": "iş",
+          "form": "işin",
+          "note": null
+        },
+        {
+          "stem": "sıra",
+          "form": "sıranın",
+          "note": null
+        },
+        {
+          "stem": "aktör",
+          "form": "aktörün",
+          "note": null
+        },
+        {
+          "stem": "arzu",
+          "form": "arzunun",
+          "note": null
+        },
+        {
+          "stem": "brifing",
+          "form": "brifingin",
+          "note": null
+        },
+        {
+          "stem": "jenerasyon",
+          "form": "jenerasyonun",
+          "note": null
+        },
+        {
+          "stem": "tören",
+          "form": "törenin",
+          "note": null
+        },
+        {
+          "stem": "eleştiri",
+          "form": "eleştirinin",
+          "note": null
+        },
+        {
+          "stem": "zaruret",
+          "form": "zaruretin",
+          "note": null
+        },
+        {
+          "stem": "gazeteci",
+          "form": "gazetecinin",
+          "note": null
+        },
+        {
+          "stem": "yazar",
+          "form": "yazarın",
+          "note": null
+        },
+        {
+          "stem": "gündüzler",
+          "form": "gündüzlerin",
+          "note": null
+        },
+        {
+          "stem": "merkez",
+          "form": "merkezin",
+          "note": null
+        },
+        {
+          "stem": "albüm",
+          "form": "albümün",
+          "note": null
+        },
+        {
+          "stem": "sermaye",
+          "form": "sermayenin",
+          "note": null
+        },
+        {
+          "stem": "kelime",
+          "form": "kelimenin",
+          "note": null
+        },
+        {
+          "stem": "ede",
+          "form": "edenin",
+          "note": null
+        },
+        {
+          "stem": "tedirg",
+          "form": "tedirgin",
+          "note": null
+        },
+        {
+          "stem": "yön",
+          "form": "yönün",
+          "note": null
+        },
+        {
+          "stem": "oda",
+          "form": "odanın",
+          "note": null
+        },
+        {
+          "stem": "büfe",
+          "form": "büfenin",
+          "note": null
+        },
+        {
+          "stem": "elbise",
+          "form": "elbisenin",
+          "note": null
+        },
+        {
+          "stem": "memleket",
+          "form": "memleketin",
+          "note": null
+        },
+        {
+          "stem": "edilenler",
+          "form": "edilenlerin",
+          "note": null
+        },
+        {
+          "stem": "kaparon",
+          "form": "kaparonun",
+          "note": null
+        },
+        {
+          "stem": "taşımamız",
+          "form": "taşımamızın",
+          "note": null
+        },
+        {
+          "stem": "çıkar",
+          "form": "çıkarın",
+          "note": null
+        },
+        {
+          "stem": "test",
+          "form": "testin",
+          "note": null
+        },
+        {
+          "stem": "harekat",
+          "form": "harekatın",
+          "note": null
+        },
+        {
+          "stem": "avukat",
+          "form": "avukatın",
+          "note": null
+        },
+        {
+          "stem": "ihracat",
+          "form": "ihracatın",
+          "note": null
+        },
+        {
+          "stem": "girmemiz",
+          "form": "girmemizin",
+          "note": null
+        },
+        {
+          "stem": "takı",
+          "form": "takının",
+          "note": null
+        },
+        {
+          "stem": "rejim",
+          "form": "rejimin",
+          "note": null
+        },
+        {
+          "stem": "israr",
+          "form": "israrın",
+          "note": null
+        },
+        {
+          "stem": "yatırımcı",
+          "form": "yatırımcının",
+          "note": null
+        },
+        {
+          "stem": "ayrışma",
+          "form": "ayrışmanın",
+          "note": null
+        },
+        {
+          "stem": "ses",
+          "form": "sesin",
+          "note": null
+        },
+        {
+          "stem": "şey",
+          "form": "şeyin",
+          "note": null
+        },
+        {
+          "stem": "politikacı",
+          "form": "politikacının",
+          "note": null
+        },
+        {
+          "stem": "saray",
+          "form": "sarayın",
+          "note": null
+        },
+        {
+          "stem": "kasa",
+          "form": "kasanın",
+          "note": null
+        },
+        {
+          "stem": "kortej",
+          "form": "kortejin",
+          "note": null
+        },
+        {
+          "stem": "maaş",
+          "form": "maaşın",
+          "note": null
+        },
+        {
+          "stem": "rakam",
+          "form": "rakamın",
+          "note": null
+        },
+        {
+          "stem": "sevgi",
+          "form": "sevginin",
+          "note": null
+        },
+        {
+          "stem": "ayet",
+          "form": "ayetin",
+          "note": null
+        },
+        {
+          "stem": "personel",
+          "form": "personelin",
+          "note": null
+        },
+        {
+          "stem": "tümü",
+          "form": "tümünün",
+          "note": null
+        },
+        {
+          "stem": "masam",
+          "form": "masamın",
+          "note": null
+        },
+        {
+          "stem": "şive",
+          "form": "şivenin",
+          "note": null
+        },
+        {
+          "stem": "anne",
+          "form": "annenin",
+          "note": null
+        },
+        {
+          "stem": "şahsiyet",
+          "form": "şahsiyetin",
+          "note": null
+        },
+        {
+          "stem": "otel",
+          "form": "otelin",
+          "note": null
+        },
+        {
+          "stem": "şiir",
+          "form": "şiirin",
+          "note": null
+        },
+        {
+          "stem": "koca",
+          "form": "kocanın",
+          "note": null
+        },
+        {
+          "stem": "okul",
+          "form": "okulun",
+          "note": null
+        },
+        {
+          "stem": "istikrar",
+          "form": "istikrarın",
+          "note": null
+        },
+        {
+          "stem": "oruc",
+          "form": "orucun",
+          "note": null
+        },
+        {
+          "stem": "paket",
+          "form": "paketin",
+          "note": null
+        },
+        {
+          "stem": "uçurum",
+          "form": "uçurumun",
+          "note": null
+        },
+        {
+          "stem": "televizyon",
+          "form": "televizyonun",
+          "note": null
+        },
+        {
+          "stem": "hiperenflasyon",
+          "form": "hiperenflasyonun",
+          "note": null
+        },
+        {
+          "stem": "sürün",
+          "form": "sürünün",
+          "note": null
+        },
+        {
+          "stem": "cümle",
+          "form": "cümlenin",
+          "note": null
+        },
+        {
+          "stem": "şemsiye",
+          "form": "şemsiyenin",
+          "note": null
+        },
+        {
+          "stem": "istifa",
+          "form": "istifanın",
+          "note": null
+        },
+        {
+          "stem": "ana",
+          "form": "ananın",
+          "note": null
+        },
+        {
+          "stem": "idealizm",
+          "form": "idealizmin",
+          "note": null
+        },
+        {
+          "stem": "kadron",
+          "form": "kadronun",
+          "note": null
+        },
+        {
+          "stem": "futbol",
+          "form": "futbolun",
+          "note": null
+        },
+        {
+          "stem": "gösterge",
+          "form": "göstergenin",
+          "note": null
+        },
+        {
+          "stem": "külütür",
+          "form": "külütürün",
+          "note": null
+        },
+        {
+          "stem": "çukur",
+          "form": "çukurun",
+          "note": null
+        },
+        {
+          "stem": "şeyh",
+          "form": "şeyhin",
+          "note": null
+        },
+        {
+          "stem": "itibar",
+          "form": "itibarın",
+          "note": null
+        },
+        {
+          "stem": "kariyer",
+          "form": "kariyerin",
+          "note": null
+        },
+        {
+          "stem": "hafta",
+          "form": "haftanın",
+          "note": null
+        },
+        {
+          "stem": "iktidar",
+          "form": "iktidarın",
+          "note": null
+        },
+        {
+          "stem": "kazan",
+          "form": "kazanın",
+          "note": null
+        },
+        {
+          "stem": "husus",
+          "form": "hususun",
+          "note": null
+        },
+        {
+          "stem": "köylü",
+          "form": "köylünün",
+          "note": null
+        },
+        {
+          "stem": "hazz",
+          "form": "hazzın",
+          "note": null
+        },
+        {
+          "stem": "iğne",
+          "form": "iğnenin",
+          "note": null
+        },
+        {
+          "stem": "köşe",
+          "form": "köşenin",
+          "note": null
+        },
+        {
+          "stem": "doğru",
+          "form": "doğrunun",
+          "note": null
+        },
+        {
+          "stem": "milyon",
+          "form": "milyonun",
+          "note": null
+        },
+        {
+          "stem": "plaka",
+          "form": "plakanın",
+          "note": null
+        },
+        {
+          "stem": "ihale",
+          "form": "ihalenin",
+          "note": null
+        },
+        {
+          "stem": "ay",
+          "form": "ayın",
+          "note": null
+        },
+        {
+          "stem": "fır",
+          "form": "fırın",
+          "note": null
+        },
+        {
+          "stem": "toplantı",
+          "form": "toplantının",
+          "note": null
+        },
+        {
+          "stem": "sınıf",
+          "form": "sınıfın",
+          "note": null
+        },
+        {
+          "stem": "satış",
+          "form": "satışın",
+          "note": null
+        },
+        {
+          "stem": "izdiham",
+          "form": "izdihamın",
+          "note": null
+        },
+        {
+          "stem": "kavram",
+          "form": "kavramın",
+          "note": null
+        },
+        {
+          "stem": "kamp",
+          "form": "kampın",
+          "note": null
+        },
+        {
+          "stem": "ücretli",
+          "form": "ücretlinin",
+          "note": null
+        },
+        {
+          "stem": "nefs",
+          "form": "nefsin",
+          "note": null
+        },
+        {
+          "stem": "tahta",
+          "form": "tahtanın",
+          "note": null
+        },
+        {
+          "stem": "bekle",
+          "form": "beklenin",
+          "note": null
+        },
+        {
+          "stem": "ayakkabı",
+          "form": "ayakkabının",
+          "note": null
+        },
+        {
+          "stem": "dansöz",
+          "form": "dansözün",
+          "note": null
+        },
+        {
+          "stem": "dışlanmamız",
+          "form": "dışlanmamızın",
+          "note": null
+        },
+        {
+          "stem": "nüfusumuz",
+          "form": "nüfusumuzun",
+          "note": null
+        },
+        {
+          "stem": "itfa",
+          "form": "itfanın",
+          "note": null
+        },
+        {
+          "stem": "yardım",
+          "form": "yardımın",
+          "note": null
+        },
+        {
+          "stem": "yeğenim",
+          "form": "yeğenimin",
+          "note": null
+        },
+        {
+          "stem": "din",
+          "form": "dinin",
+          "note": null
+        },
+        {
+          "stem": "tayyör",
+          "form": "tayyörün",
+          "note": null
+        },
+        {
+          "stem": "yarbay",
+          "form": "yarbayın",
+          "note": null
+        },
+        {
+          "stem": "şartel",
+          "form": "şartelin",
+          "note": null
+        },
+        {
+          "stem": "cami",
+          "form": "caminin",
+          "note": null
+        },
+        {
+          "stem": "çikolata",
+          "form": "çikolatanın",
+          "note": null
+        },
+        {
+          "stem": "iskemle",
+          "form": "iskemlenin",
+          "note": null
+        },
+        {
+          "stem": "yozlaşma",
+          "form": "yozlaşmanın",
+          "note": null
+        },
+        {
+          "stem": "mahalle",
+          "form": "mahallenin",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "distractor_pool": [
+    "ülke",
+    "aile",
+    "dost",
+    "anlayacak",
+    "çevre",
+    "ilişki",
+    "dünya",
+    "varlık",
+    "değer",
+    "avantaj",
+    "sahip",
+    "dostluk",
+    "önem",
+    "uygulama",
+    "gecekonducu",
+    "tel",
+    "metre",
+    "sokak",
+    "ara",
+    "ölüm",
+    "davetiye",
+    "komisyon",
+    "genelkurmay",
+    "jandarma",
+    "hamile",
+    "hapishane",
+    "başbakan",
+    "doğum",
+    "yapınca",
+    "yer",
+    "telgraf",
+    "hükümet",
+    "velayet",
+    "suriye",
+    "arabuluculuk",
+    "teklif",
+    "idareci",
+    "gün",
+    "dün",
+    "etkinlik",
+    "yapıt",
+    "sürgün",
+    "yıl",
+    "müthiş",
+    "prodüksiyon",
+    "videosu",
+    "toplum",
+    "mazlum",
+    "düzey",
+    "sorun",
+    "çözüm",
+    "yol",
+    "çalışma",
+    "konu",
+    "köşe",
+    "bey",
+    "göz",
+    "ettik",
+    "fark",
+    "gazete"
+  ]
+}

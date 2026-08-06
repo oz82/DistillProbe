@@ -1,0 +1,17 @@
+# PRIMARY polysemy probe (leak-free): un-augmented v3 (TDK definitions + examples
+# only). The v3_aug variant (configs/polysemy_v3.yaml) augments via LaBSE argmax
+# sense-assignment and is reported only as a secondary / upper-bound result.
+module: polysemy
+data_path: data/polysemy/tr_polysemy.v3.json
+seed: 42
+bootstrap_n: 10000
+control_perms: 1000
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean

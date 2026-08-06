@@ -1,0 +1,22 @@
+# Per-axis downstream test of the negation finding: negation-controlled Turkish
+# sentiment (TRSAv1). BoW encoders (potion, fastText) are predicted to lose more
+# accuracy on the negation subset than contextual references (LaBSE, mE5).
+module: downstream_negation
+data_path: data/sts/tr_negation_sentiment.json
+seed: 42
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+  fasttext_tr:
+    type: fasttext
+    path: data/fasttext/cc.tr.300.bin
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean
+  me5_base:
+    type: transformer
+    model_id: intfloat/multilingual-e5-base
+    pool: mean

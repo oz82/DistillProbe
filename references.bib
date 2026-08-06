@@ -1,0 +1,612 @@
+% =====================================================================
+% DistillProbe — references.bib
+%
+% Bu BibTeX dosyası paper yazımı için tematik olarak organize edilmiş
+% canonical referansları içerir. Tüm girdiler aşağıdaki kategorilere
+% bölünmüş:
+%
+%   1. Knowledge distillation
+%   2. Static word & sentence embeddings
+%   3. Multilingual sentence embeddings
+%   4. Probing methodology
+%   5. Idiomaticity & MWE
+%   6. Polysemy & WSD
+%   7. Cross-lingual evaluation
+%   8. Turkish NLP resources
+%   9. Negation
+%  10. Statistical methods
+%  11. Bag-of-words limits & critiques
+%
+% Tüm girdiler ACL Anthology / IEEE Xplore / GWC kaynaklarına karşı
+% doğrulandı (2026-06-19): yazar listeleri, venue ve sayfa numaraları
+% kontrol edildi.
+% =====================================================================
+
+
+% =====================================================================
+% 1. Knowledge distillation
+% =====================================================================
+
+@article{hinton2015distilling,
+  title   = {Distilling the Knowledge in a Neural Network},
+  author  = {Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff},
+  journal = {arXiv preprint arXiv:1503.02531},
+  year    = {2015},
+  note    = {Presented at the {NIPS} 2014 Deep Learning and Representation Learning Workshop}
+}
+
+@inproceedings{sanh2019distilbert,
+  title     = {{DistilBERT}, a Distilled Version of {BERT}: Smaller, Faster, Cheaper and Lighter},
+  author    = {Sanh, Victor and Debut, Lysandre and Chaumond, Julien and Wolf, Thomas},
+  booktitle = {NeurIPS Workshop on Energy Efficient Machine Learning and Cognitive Computing},
+  year      = {2019}
+}
+
+@inproceedings{wang2020minilm,
+  title     = {{MiniLM}: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers},
+  author    = {Wang, Wenhui and Wei, Furu and Dong, Li and Bao, Hangbo and Yang, Nan and Zhou, Ming},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2020}
+}
+
+@inproceedings{xu2020bertoftheseus,
+  title     = {{BERT}-of-{T}heseus: Compressing {BERT} by Progressive Module Replacing},
+  author    = {Xu, Canwen and Zhou, Wangchunshu and Ge, Tao and Wei, Furu and Zhou, Ming},
+  booktitle = {EMNLP},
+  year      = {2020}
+}
+
+@inproceedings{jiao2020tinybert,
+  title     = {{TinyBERT}: Distilling {BERT} for Natural Language Understanding},
+  author    = {Jiao, Xiaoqi and Yin, Yichun and Shang, Lifeng and Jiang, Xin and Chen, Xiao and Li, Linlin and Wang, Fang and Liu, Qun},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020},
+  year      = {2020}
+}
+
+@misc{model2vec_repo,
+  title        = {{Model2Vec}: Distilling Sentence Transformers to Static Embeddings},
+  author       = {Tulkens, St{\'e}phan and {van Dongen}, Thomas},
+  howpublished = {\url{https://github.com/MinishLab/model2vec}},
+  year         = {2024},
+  note         = {{MinishLab}; software archived at {Zenodo}, \url{https://doi.org/10.5281/zenodo.17270888}. No formal paper as of writing.}
+}
+
+@misc{minishlab_tokenlearn,
+  title        = {{Tokenlearn}: Training Static Word Embeddings via Sentence-Transformer Distillation},
+  author       = {Tulkens, St{\'e}phan and {van Dongen}, Thomas},
+  howpublished = {\url{https://github.com/MinishLab/tokenlearn}},
+  year         = {2024},
+  note         = {{MinishLab}; the training procedure used for the \texttt{potion-*} Model2Vec models (mean-embedding targets from the teacher over {C4}, then a static student fit). No formal paper as of writing.}
+}
+
+@inproceedings{chen2024bgem3,
+  title     = {{M3}-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation},
+  author    = {Chen, Jianlyu and Xiao, Shitao and Zhang, Peitian and Luo, Kun and Lian, Defu and Liu, Zheng},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
+  pages     = {2318--2335},
+  year      = {2024},
+  note      = {arXiv:2402.03216}
+}
+
+
+% =====================================================================
+% 2. Static word & sentence embeddings
+% =====================================================================
+
+@inproceedings{mikolov2013word2vec,
+  title     = {Efficient Estimation of Word Representations in Vector Space},
+  author    = {Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey},
+  booktitle = {ICLR Workshop Track},
+  year      = {2013}
+}
+
+@inproceedings{pennington2014glove,
+  title     = {{GloVe}: Global Vectors for Word Representation},
+  author    = {Pennington, Jeffrey and Socher, Richard and Manning, Christopher D.},
+  booktitle = {EMNLP},
+  pages     = {1532--1543},
+  year      = {2014}
+}
+
+@article{bojanowski2017fasttext,
+  title   = {Enriching Word Vectors with Subword Information},
+  author  = {Bojanowski, Piotr and Grave, Edouard and Joulin, Armand and Mikolov, Tomas},
+  journal = {Transactions of the Association for Computational Linguistics (TACL)},
+  volume  = {5},
+  pages   = {135--146},
+  year    = {2017}
+}
+
+@inproceedings{reimers2019sentencebert,
+  title     = {Sentence-{BERT}: Sentence Embeddings using {S}iamese {BERT}-Networks},
+  author    = {Reimers, Nils and Gurevych, Iryna},
+  booktitle = {EMNLP-IJCNLP},
+  year      = {2019}
+}
+
+@inproceedings{reimers2020multilingual,
+  title     = {Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation},
+  author    = {Reimers, Nils and Gurevych, Iryna},
+  booktitle = {EMNLP},
+  year      = {2020}
+}
+
+
+% =====================================================================
+% 3. Multilingual sentence embeddings (our teachers)
+% =====================================================================
+
+@inproceedings{feng2022labse,
+  title     = {Language-agnostic {BERT} Sentence Embedding},
+  author    = {Feng, Fangxiaoyu and Yang, Yinfei and Cer, Daniel and Arivazhagan, Naveen and Wang, Wei},
+  booktitle = {ACL},
+  year      = {2022}
+}
+
+@article{wang2024multilinguale5,
+  title   = {Multilingual {E5} Text Embeddings: A Technical Report},
+  author  = {Wang, Liang and Yang, Nan and Huang, Xiaolong and Yang, Linjun and Majumder, Rangan and Wei, Furu},
+  journal = {arXiv preprint arXiv:2402.05672},
+  year    = {2024}
+}
+
+@article{nllb2022,
+  title   = {No Language Left Behind: Scaling Human-Centered Machine Translation},
+  author  = {{NLLB Team} and Costa-juss{\`a}, Marta R. and Cross, James and \c{C}elebi, Onur and Elbayad, Maha and Heafield, Kenneth and Heffernan, Kevin and Kalbassi, Elahe and Lam, Janice and Licht, Daniel and others},
+  journal = {arXiv preprint arXiv:2207.04672},
+  year    = {2022}
+}
+
+
+% =====================================================================
+% 4. Probing methodology
+% =====================================================================
+
+@inproceedings{conneau2018probing,
+  title     = {What You Can Cram into a Single \$\&!\#* Vector: Probing Sentence Embeddings for Linguistic Properties},
+  author    = {Conneau, Alexis and Kruszewski, German and Lample, Guillaume and Barrault, Lo{\"\i}c and Baroni, Marco},
+  booktitle = {ACL},
+  year      = {2018}
+}
+
+@inproceedings{hewitt2019structural,
+  title     = {A Structural Probe for Finding Syntax in Word Representations},
+  author    = {Hewitt, John and Manning, Christopher D.},
+  booktitle = {NAACL-HLT},
+  year      = {2019}
+}
+
+@inproceedings{hewitt2019designing,
+  title     = {Designing and Interpreting Probes with Control Tasks},
+  author    = {Hewitt, John and Liang, Percy},
+  booktitle = {EMNLP-IJCNLP},
+  year      = {2019}
+}
+
+@inproceedings{ravichander2021probing,
+  title     = {Probing the Probing Paradigm: Does Probing Accuracy Entail Task Relevance?},
+  author    = {Ravichander, Abhilasha and Belinkov, Yonatan and Hovy, Eduard},
+  booktitle = {EACL},
+  year      = {2021}
+}
+
+@inproceedings{tenney2019bert,
+  title     = {{BERT} Rediscovers the Classical {NLP} Pipeline},
+  author    = {Tenney, Ian and Das, Dipanjan and Pavlick, Ellie},
+  booktitle = {ACL},
+  year      = {2019}
+}
+
+@inproceedings{tenney2019edge,
+  title     = {What Do You Learn from Context? Probing for Sentence Structure in Contextualized Word Representations},
+  author    = {Tenney, Ian and Xia, Patrick and Chen, Berlin and Wang, Alex and Poliak, Adam and McCoy, R. Thomas and Kim, Najoung and Van Durme, Benjamin and Bowman, Samuel R. and Das, Dipanjan and Pavlick, Ellie},
+  booktitle = {ICLR},
+  year      = {2019}
+}
+
+@inproceedings{pimentel2020infotheoretic,
+  title     = {Information-Theoretic Probing for Linguistic Structure},
+  author    = {Pimentel, Tiago and Valvoda, Josef and {Hall Maudslay}, Rowan and Zmigrod, Ran and Williams, Adina and Cotterell, Ryan},
+  booktitle = {ACL},
+  year      = {2020}
+}
+
+@inproceedings{voita2019bottomup,
+  title     = {The Bottom-up Evolution of Representations in the Transformer: A Study with Machine Translation and Language Modeling Objectives},
+  author    = {Voita, Elena and Sennrich, Rico and Titov, Ivan},
+  booktitle = {EMNLP-IJCNLP},
+  year      = {2019}
+}
+
+@article{belinkov2019analysis,
+  title   = {Analysis Methods in Neural Language Processing: A Survey},
+  author  = {Belinkov, Yonatan and Glass, James},
+  journal = {Transactions of the Association for Computational Linguistics (TACL)},
+  volume  = {7},
+  pages   = {49--72},
+  year    = {2019}
+}
+
+
+% =====================================================================
+% 5. Idiomaticity & MWE
+% =====================================================================
+
+@inproceedings{ramisch2018parseme1_1,
+  title     = {Edition 1.1 of the {PARSEME} Shared Task on Automatic Identification of Verbal Multiword Expressions},
+  author    = {Ramisch, Carlos and {Cordeiro}, Silvio Ricardo and Savary, Agata and Vincze, Veronika and {Barbu Mititelu}, Verginica and Bhatia, Archna and Buljan, Maja and Candito, Marie and Gantar, Polona and Giouli, Voula and others},
+  booktitle = {Joint Workshop on Linguistic Annotation, Multiword Expressions and Constructions (LAW-MWE-CxG)},
+  year      = {2018}
+}
+
+@inproceedings{ramisch2020parseme1_2,
+  title     = {Edition 1.2 of the {PARSEME} Shared Task on Semi-supervised Identification of Verbal Multiword Expressions},
+  author    = {Ramisch, Carlos and Savary, Agata and Guillaume, Bruno and Waszczuk, Jakub and Candito, Marie and Vaidya, Ashwini and {Barbu Mititelu}, Verginica and Bhatia, Archna and {I{\~n}urrieta}, Uxoa and Giouli, Voula and others},
+  booktitle = {Joint Workshop on Multiword Expressions and Electronic Lexicons (MWE-LEX)},
+  year      = {2020}
+}
+
+@inproceedings{tayyarmadabushi2021astitch,
+  title     = {{AStitchInLanguageModels}: Dataset and Methods for the Exploration of Idiomaticity in Pre-Trained Language Models},
+  author    = {{Tayyar Madabushi}, Harish and Gow-Smith, Edward and Scarton, Carolina and Villavicencio, Aline},
+  booktitle = {Findings of EMNLP},
+  year      = {2021}
+}
+
+@inproceedings{tayyarmadabushi2022semeval,
+  title     = {{SemEval}-2022 Task 2: Multilingual Idiomaticity Detection and Sentence Embedding},
+  author    = {{Tayyar Madabushi}, Harish and Gow-Smith, Edward and Garcia, Marcos and Scarton, Carolina and Idiart, Marco and Villavicencio, Aline},
+  booktitle = {SemEval},
+  year      = {2022}
+}
+
+@inproceedings{haagsma2020magpie,
+  title     = {{MAGPIE}: A Large Corpus of Potentially Idiomatic Expressions},
+  author    = {Haagsma, Hessel and Bos, Johan and Nissim, Malvina},
+  booktitle = {LREC},
+  year      = {2020}
+}
+
+@inproceedings{berk2018turkishvmwe,
+  title     = {Turkish Verbal Multiword Expressions Corpus},
+  author    = {Berk, G{\"o}zde and Erden, Berna and G{\"u}ng{\"o}r, Tunga},
+  booktitle = {26th Signal Processing and Communications Applications Conference (SIU)},
+  publisher = {IEEE},
+  year      = {2018}
+}
+
+
+% =====================================================================
+% 6. Polysemy & WSD
+% =====================================================================
+
+@article{navigli2009wsd,
+  title   = {Word Sense Disambiguation: A Survey},
+  author  = {Navigli, Roberto},
+  journal = {ACM Computing Surveys},
+  volume  = {41},
+  number  = {2},
+  pages   = {1--69},
+  year    = {2009}
+}
+
+@article{navigli2012babelnet,
+  title   = {{BabelNet}: The Automatic Construction, Evaluation and Application of a Wide-Coverage Multilingual Semantic Network},
+  author  = {Navigli, Roberto and Ponzetto, Simone Paolo},
+  journal = {Artificial Intelligence},
+  volume  = {193},
+  pages   = {217--250},
+  year    = {2012}
+}
+
+@inproceedings{ilgen2012turkishlexicalsample,
+  title     = {Building Up Lexical Sample Dataset for {T}urkish Word Sense Disambiguation},
+  author    = {{\.I}lgen, Bahar and Adal{\i}, E{\c{s}}ref and Tantu{\u{g}}, A. C{\"u}neyd},
+  booktitle = {International Symposium on Innovations in Intelligent SysTems and Applications (INISTA)},
+  year      = {2012}
+}
+
+@inproceedings{mccarthy2004finding,
+  title     = {Finding Predominant Word Senses in Untagged Text},
+  author    = {McCarthy, Diana and Koeling, Rob and Weeds, Julie and Carroll, John},
+  booktitle = {ACL},
+  year      = {2004}
+}
+
+@article{arora2018linear,
+  title   = {Linear Algebraic Structure of Word Senses, with Applications to Polysemy},
+  author  = {Arora, Sanjeev and Li, Yuanzhi and Liang, Yingyu and Ma, Tengyu and Risteski, Andrej},
+  journal = {Transactions of the Association for Computational Linguistics (TACL)},
+  volume  = {6},
+  pages   = {483--495},
+  year    = {2018}
+}
+
+@inproceedings{bakay2021kenet,
+  title     = {{T}urkish {W}ord{N}et {KeNet}},
+  author    = {Bakay, {\"O}zge and Ergelen, {\"O}zlem and Sarm{\i}{\c{s}}, Elif and Y{\i}ld{\i}r{\i}m, Selin and Ar{\i}can, Bilge Nas and Kocabalc{\i}o{\u{g}}lu, Atilla and {\"O}z{\c{c}}elik, Merve and San{\i}yar, Ezgi and Kuyruk{\c{c}}u, O{\u{g}}uzhan and Avar, Beg{\"u}m and Y{\i}ld{\i}z, Olcay Taner},
+  booktitle = {Proceedings of the 11th Global WordNet Conference (GWC)},
+  pages     = {166--174},
+  year      = {2021}
+}
+
+
+% =====================================================================
+% 7. Cross-lingual evaluation
+% =====================================================================
+
+@inproceedings{hu2020xtreme,
+  title     = {{XTREME}: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalisation},
+  author    = {Hu, Junjie and Ruder, Sebastian and Siddhant, Aditya and Neubig, Graham and Firat, Orhan and Johnson, Melvin},
+  booktitle = {ICML},
+  year      = {2020}
+}
+
+@inproceedings{liang2020xglue,
+  title     = {{XGLUE}: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation},
+  author    = {Liang, Yaobo and Duan, Nan and Gong, Yeyun and Wu, Ning and Guo, Fenfei and Qi, Weizhen and Gong, Ming and Shou, Linjun and Jiang, Daxin and Cao, Guihong and others},
+  booktitle = {EMNLP},
+  year      = {2020}
+}
+
+@article{artetxe2019massively,
+  title   = {Massively Multilingual Sentence Embeddings for Zero-shot Cross-lingual Transfer and Beyond},
+  author  = {Artetxe, Mikel and Schwenk, Holger},
+  journal = {Transactions of the Association for Computational Linguistics (TACL)},
+  volume  = {7},
+  pages   = {597--610},
+  year    = {2019}
+}
+
+@inproceedings{conneau2018word,
+  title     = {Word Translation Without Parallel Data},
+  author    = {Conneau, Alexis and Lample, Guillaume and Ranzato, Marc'Aurelio and Denoyer, Ludovic and J{\'e}gou, Herv{\'e}},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2018}
+}
+
+@article{radovanovic2010hubs,
+  title   = {Hubs in Space: Popular Nearest Neighbors in High-Dimensional Data},
+  author  = {Radovanovi{\'c}, Milo{\v{s}} and Nanopoulos, Alexandros and Ivanovi{\'c}, Mirjana},
+  journal = {Journal of Machine Learning Research},
+  volume  = {11},
+  pages   = {2487--2531},
+  year    = {2010}
+}
+
+@inproceedings{dinu2015improving,
+  title     = {Improving Zero-Shot Learning by Mitigating the Hubness Problem},
+  author    = {Dinu, Georgiana and Lazaridou, Angeliki and Baroni, Marco},
+  booktitle = {ICLR Workshop Track},
+  year      = {2015}
+}
+
+
+% =====================================================================
+% 8. Turkish NLP resources
+% =====================================================================
+
+@inproceedings{sulubacak2016ud,
+  title     = {Universal Dependencies for {T}urkish},
+  author    = {Sulubacak, Umut and G{\"o}k{\i}rmak, Memduh and Tyers, Francis and {\c{C}}{\"o}ltekin, {\c{C}}a{\u{g}}r{\i} and Nivre, Joakim and Eryi{\u{g}}it, G{\"u}l{\c{s}}en},
+  booktitle = {Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers},
+  pages     = {3444--3454},
+  year      = {2016}
+}
+
+@inproceedings{ozturk2022parsemetrenhancement,
+  title     = {Enhancing the {PARSEME} {T}urkish Corpus of Verbal Multiword Expressions},
+  author    = {Ozturk, Yagmur and {Hadj Mohamed}, Najet and Lion-Bouton, Adam and Savary, Agata},
+  booktitle = {Proceedings of the 18th Workshop on Multiword Expressions (MWE) @LREC2022},
+  pages     = {100--104},
+  year      = {2022}
+}
+
+@misc{tdk_gts,
+  title        = {{T}{\"u}rk {D}il {K}urumu G{\"u}ncel {T}{\"u}rk{\c{c}}e {S}{\"o}zl{\"u}k},
+  author       = {{T{\"u}rk Dil Kurumu}},
+  howpublished = {\url{https://sozluk.gov.tr/}},
+  year         = {2026},
+  note         = {Accessed via the public {GTS} {API} at \texttt{sozluk.gov.tr/gts}}
+}
+
+@misc{starlangsoftware_kenet,
+  title        = {{T}urkish {W}ord{N}et {KeNet}},
+  author       = {{StarlangSoftware}},
+  howpublished = {\url{https://github.com/StarlangSoftware/TurkishWordNet}},
+  year         = {2026},
+  note         = {{GPL-3.0} licensed; see \cite{bakay2021kenet} for the underlying paper}
+}
+
+@misc{stsb_mt_turkish,
+  title        = {{STS-B} Machine-Translated to {T}urkish (\texttt{emrecan/stsb-mt-turkish})},
+  author       = {{\c{C}}elik, Emrecan},
+  howpublished = {\url{https://huggingface.co/datasets/emrecan/stsb-mt-turkish}},
+  year         = {2021},
+  note         = {Machine-translated version of \cite{cer2017semeval} for Turkish; downloaded via HuggingFace datasets}
+}
+
+@article{aydogan2023trsav1,
+  title   = {{TRSAv1}: A New Benchmark Dataset for Classifying User Reviews on {T}urkish E-Commerce Websites},
+  author  = {Aydo{\u{g}}an, Murat and Kocaman, Veysel},
+  journal = {Journal of Information Science},
+  volume  = {49},
+  number  = {6},
+  pages   = {1711--1725},
+  year    = {2023},
+  doi     = {10.1177/01655515221074328},
+  note    = {Dataset: \url{https://github.com/maydogan23/TRSAv1-Dataset}}
+}
+
+
+% =====================================================================
+% 9. Negation
+% =====================================================================
+
+@inproceedings{morante2012sem,
+  title     = {{*SEM} 2012 Shared Task: Resolving the Scope and Focus of Negation},
+  author    = {Morante, Roser and Blanco, Eduardo},
+  booktitle = {*SEM},
+  year      = {2012}
+}
+
+@inproceedings{naik2018stress,
+  title     = {Stress Test Evaluation for Natural Language Inference},
+  author    = {Naik, Aakanksha and Ravichander, Abhilasha and Sadeh, Norman and Rose, Carolyn and Neubig, Graham},
+  booktitle = {COLING},
+  year      = {2018}
+}
+
+@inproceedings{hossain2020negation,
+  title     = {An Analysis of Natural Language Inference Benchmarks through the Lens of Negation},
+  author    = {Hossain, Md Mosharaf and Kovatchev, Venelin and Dutta, Pranoy and Kao, Tiffany and Wei, Elizabeth and Blanco, Eduardo},
+  booktitle = {EMNLP},
+  year      = {2020}
+}
+
+
+% =====================================================================
+% 10. Statistical methods
+% =====================================================================
+
+@book{krippendorff2019content,
+  title     = {Content Analysis: An Introduction to Its Methodology},
+  author    = {Krippendorff, Klaus},
+  edition   = {4th},
+  publisher = {SAGE Publications},
+  address   = {Thousand Oaks, CA},
+  year      = {2019}
+}
+
+@article{hayes2007answering,
+  title   = {Answering the Call for a Standard Reliability Measure for Coding Data},
+  author  = {Hayes, Andrew F. and Krippendorff, Klaus},
+  journal = {Communication Methods and Measures},
+  volume  = {1},
+  number  = {1},
+  pages   = {77--89},
+  year    = {2007}
+}
+
+@article{holm1979simple,
+  title   = {A Simple Sequentially Rejective Multiple Test Procedure},
+  author  = {Holm, Sture},
+  journal = {Scandinavian Journal of Statistics},
+  volume  = {6},
+  number  = {2},
+  pages   = {65--70},
+  year    = {1979}
+}
+
+@article{benjamini1995controlling,
+  title   = {Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing},
+  author  = {Benjamini, Yoav and Hochberg, Yosef},
+  journal = {Journal of the Royal Statistical Society: Series B (Methodological)},
+  volume  = {57},
+  number  = {1},
+  pages   = {289--300},
+  year    = {1995}
+}
+
+@article{wilson1927probable,
+  title   = {Probable Inference, the Law of Succession, and Statistical Inference},
+  author  = {Wilson, Edwin B.},
+  journal = {Journal of the American Statistical Association},
+  volume  = {22},
+  number  = {158},
+  pages   = {209--212},
+  year    = {1927}
+}
+
+@article{hanley1983nothing,
+  title   = {If Nothing Goes Wrong, Is Everything All Right? {I}nterpreting Zero Numerators},
+  author  = {Hanley, James A. and Lippman-Hand, Abby},
+  journal = {JAMA},
+  volume  = {249},
+  number  = {13},
+  pages   = {1743--1745},
+  year    = {1983}
+}
+
+@article{efron1979bootstrap,
+  title   = {Bootstrap Methods: Another Look at the Jackknife},
+  author  = {Efron, Bradley},
+  journal = {The Annals of Statistics},
+  volume  = {7},
+  number  = {1},
+  pages   = {1--26},
+  year    = {1979}
+}
+
+@article{wilcoxon1945individual,
+  title   = {Individual Comparisons by Ranking Methods},
+  author  = {Wilcoxon, Frank},
+  journal = {Biometrics Bulletin},
+  volume  = {1},
+  number  = {6},
+  pages   = {80--83},
+  year    = {1945}
+}
+
+@article{mannwhitney1947test,
+  title   = {On a Test of Whether One of Two Random Variables is Stochastically Larger than the Other},
+  author  = {Mann, Henry B. and Whitney, Donald R.},
+  journal = {The Annals of Mathematical Statistics},
+  volume  = {18},
+  number  = {1},
+  pages   = {50--60},
+  year    = {1947}
+}
+
+@article{cliff1993dominance,
+  title   = {Dominance Statistics: Ordinal Analyses to Answer Ordinal Questions},
+  author  = {Cliff, Norman},
+  journal = {Psychological Bulletin},
+  volume  = {114},
+  number  = {3},
+  pages   = {494--509},
+  year    = {1993}
+}
+
+@article{spearman1904rho,
+  title   = {The Proof and Measurement of Association between Two Things},
+  author  = {Spearman, Charles},
+  journal = {The American Journal of Psychology},
+  volume  = {15},
+  number  = {1},
+  pages   = {72--101},
+  year    = {1904}
+}
+
+@inproceedings{cer2017semeval,
+  title     = {{SemEval}-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation},
+  author    = {Cer, Daniel and Diab, Mona and Agirre, Eneko and Lopez-Gazpio, I{\~n}igo and Specia, Lucia},
+  booktitle = {SemEval},
+  year      = {2017}
+}
+
+
+% =====================================================================
+% 11. Bag-of-words limits & critiques
+% =====================================================================
+
+@inproceedings{bender2020climbing,
+  title     = {Climbing towards {NLU}: On Meaning, Form, and Understanding in the Age of Data},
+  author    = {Bender, Emily M. and Koller, Alexander},
+  booktitle = {ACL},
+  year      = {2020}
+}
+
+
+% =====================================================================
+% Notlar (paper yazımında dikkat edilecekler):
+%
+% - Model2Vec'in resmi makalesi yok; çıkarsa güncelle (şu an Zenodo + repo).
+% - PARSEME-tr veri-kaynağı: orijinal corpus Berk vd. 2018 (SIU/IEEE),
+%   genişletme Ozturk vd. 2022 (MWE at LREC 2022); ikisini de cite et.
+% - KeNet primer atıf: Bakay vd. 2021 (GWC, s.166-174).
+% - Encoder ablation karşılaştırması için multilingual-e5 Wang 2024
+%   (technical report) yeterli; e5 (English) Wang 2022 ek olarak.
+% - STS-Tr emrecan/stsb-mt-turkish için human-readable olarak Cer 2017
+%   (orijinal STS-B) + dataset card cite.
+% =====================================================================

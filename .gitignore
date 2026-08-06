@@ -1,0 +1,55 @@
+# results & logs
+results/
+*.log
+
+# data: large binary models (fastText) — keep small JSON datasets in repo
+data/fasttext/*.bin
+data/fasttext/*.bin.gz
+
+# data: derived from third-party TRSAv1 (regenerate via scripts/build_negation_sentiment.py)
+data/sts/tr_negation_sentiment.json
+
+# data: large / third-party corpora — distributed via Data Availability (Zenodo),
+# not committed (size + redistribution/licensing, incl. KeNet GPL)
+data/idiomaticity/
+data/xlingual/*
+!data/xlingual/tatoeba_langs.json
+data/kenet/
+data/syntax/
+
+# private session transcript — not for distribution
+conversation.jsonl
+.claude/
+
+# LaTeX build artifacts
+paper/main.pdf
+paper/main_plos.pdf
+paper/main_ieee.pdf
+*.aux
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# editor
+.vscode/
+.idea/
+.DS_Store
+
+# raw filled annotation forms (contain annotator names/ages — PII, keep local)
+annotation/responses/

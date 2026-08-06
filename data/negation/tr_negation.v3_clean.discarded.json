@@ -1,0 +1,887 @@
+{
+  "n_discarded": 126,
+  "discarded": [
+    {
+      "positive": "mutabık",
+      "negation": "mutabık değil",
+      "antonym": "uygunsuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "bastonlu",
+      "negation": "bastonlu değil",
+      "antonym": "bastonsuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "ötümlü",
+      "negation": "ötümlü değil",
+      "antonym": "ötümsüz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "sistemli",
+      "negation": "sistemli değil",
+      "antonym": "düzensiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "damarlı",
+      "negation": "damarlı değil",
+      "antonym": "damarsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "sakıntılı",
+      "negation": "sakıntılı değil",
+      "antonym": "sakıntısız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "bariyerli",
+      "negation": "bariyerli değil",
+      "antonym": "bariyersiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "ondüleli",
+      "negation": "ondüleli değil",
+      "antonym": "ondülesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "ötümlü",
+      "negation": "ötümlü değil",
+      "antonym": "titreşimsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "klavyeli",
+      "negation": "klavyeli değil",
+      "antonym": "klavyesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "mahfazalı",
+      "negation": "mahfazalı değil",
+      "antonym": "mahfazasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "şanslı",
+      "negation": "şanslı değil",
+      "antonym": "şanssız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "çuhalı",
+      "negation": "çuhalı değil",
+      "antonym": "çuhasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "depozitolu",
+      "negation": "depozitolu değil",
+      "antonym": "depozitosuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "mendilli",
+      "negation": "mendilli değil",
+      "antonym": "mendilsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "etik",
+      "negation": "etik değil",
+      "antonym": "ahlaksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "çapaklı",
+      "negation": "çapaklı değil",
+      "antonym": "çapaksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "lavabolu",
+      "negation": "lavabolu değil",
+      "antonym": "lavabosuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "gönüllü",
+      "negation": "gönüllü değil",
+      "antonym": "iradesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "damaklı",
+      "negation": "damaklı değil",
+      "antonym": "damaksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "katıksız",
+      "negation": "katıksız değil",
+      "antonym": "yapay",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "şahitli",
+      "negation": "şahitli değil",
+      "antonym": "şahitsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "bölüntülü",
+      "negation": "bölüntülü değil",
+      "antonym": "bölüntüsüz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "peştamallı",
+      "negation": "peştamallı değil",
+      "antonym": "peştamalsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "kaburgalı",
+      "negation": "kaburgalı değil",
+      "antonym": "kaburgasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "yeterli",
+      "negation": "yeterli değil",
+      "antonym": "vasıfsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "vidalı",
+      "negation": "vidalı değil",
+      "antonym": "vidasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "habersiz",
+      "negation": "habersiz değil",
+      "antonym": "bilgili",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "çimentolu",
+      "negation": "çimentolu değil",
+      "antonym": "çimentosuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "şeritli",
+      "negation": "şeritli değil",
+      "antonym": "şeritsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "efsaneli",
+      "negation": "efsaneli değil",
+      "antonym": "efsanesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "pardösülü",
+      "negation": "pardösülü değil",
+      "antonym": "pardösüsüz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "şanslı",
+      "negation": "şanslı değil",
+      "antonym": "bahtsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "simetrik",
+      "negation": "simetrik değil",
+      "antonym": "simetrisiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "yeterli",
+      "negation": "yeterli değil",
+      "antonym": "yetersiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "allahsız",
+      "negation": "allahsız değil",
+      "antonym": "dindar",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "alerjili",
+      "negation": "alerjili değil",
+      "antonym": "alerjisiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "hoparlörlü",
+      "negation": "hoparlörlü değil",
+      "antonym": "hoparlörsüz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "belagatsiz",
+      "negation": "belagatsiz değil",
+      "antonym": "belagatli",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "korseli",
+      "negation": "korseli değil",
+      "antonym": "korsesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "motifli",
+      "negation": "motifli değil",
+      "antonym": "motifsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "mevsimsiz",
+      "negation": "mevsimsiz değil",
+      "antonym": "uygun",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "kuşaklı",
+      "negation": "kuşaklı değil",
+      "antonym": "kuşaksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "posalı",
+      "negation": "posalı değil",
+      "antonym": "posasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "dayaklı",
+      "negation": "dayaklı değil",
+      "antonym": "dayaksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "ateşin",
+      "negation": "ateşin değil",
+      "antonym": "coşkusuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "devinimli",
+      "negation": "devinimli değil",
+      "antonym": "devinimsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "balıklı",
+      "negation": "balıklı değil",
+      "antonym": "balıksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "torbalı",
+      "negation": "torbalı değil",
+      "antonym": "torbasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "ümitli",
+      "negation": "ümitli değil",
+      "antonym": "ümitsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "uygun",
+      "negation": "uygun değil",
+      "antonym": "münasebetsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "bucaklı",
+      "negation": "bucaklı değil",
+      "antonym": "bucaksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "çekmeli",
+      "negation": "çekmeli değil",
+      "antonym": "çekmecesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "direkli",
+      "negation": "direkli değil",
+      "antonym": "direksiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "vuzuhsuz",
+      "negation": "vuzuhsuz değil",
+      "antonym": "açık",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "mesnetli",
+      "negation": "mesnetli değil",
+      "antonym": "mesnetsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "standartlı",
+      "negation": "standartlı değil",
+      "antonym": "standartsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "bulanık",
+      "negation": "bulanık değil",
+      "antonym": "bulutsuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "kıprayışlı",
+      "negation": "kıprayışlı değil",
+      "antonym": "kıpırtısız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "sâdık",
+      "negation": "sâdık değil",
+      "antonym": "sadakatsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "sallantılı",
+      "negation": "sallantılı değil",
+      "antonym": "sallantısız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "sistematik",
+      "negation": "sistematik değil",
+      "antonym": "sistemsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "mutabık",
+      "negation": "mutabık değil",
+      "antonym": "yakışıksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "paltolu",
+      "negation": "paltolu değil",
+      "antonym": "paltosuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "köleli",
+      "negation": "köleli değil",
+      "antonym": "kölesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "daireli",
+      "negation": "daireli değil",
+      "antonym": "dairesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "anıtlı",
+      "negation": "anıtlı değil",
+      "antonym": "anıtsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "dayanaklı",
+      "negation": "dayanaklı değil",
+      "antonym": "dayanaksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "farbalı",
+      "negation": "farbalı değil",
+      "antonym": "farbasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "çevrintili",
+      "negation": "çevrintili değil",
+      "antonym": "çevrintisiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "kumandalı",
+      "negation": "kumandalı değil",
+      "antonym": "kumandasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "çıkrıklı",
+      "negation": "çıkrıklı değil",
+      "antonym": "çıkrıksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "kaliteli",
+      "negation": "kaliteli değil",
+      "antonym": "niteliksiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "homurtulu",
+      "negation": "homurtulu değil",
+      "antonym": "homurtusuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "bağlantısız",
+      "negation": "bağlantısız değil",
+      "antonym": "irtibatlı",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "allahsız",
+      "negation": "allahsız değil",
+      "antonym": "mütedeyyin",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "rizikolu",
+      "negation": "rizikolu değil",
+      "antonym": "rizikosuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "yırtmaçlı",
+      "negation": "yırtmaçlı değil",
+      "antonym": "yırtmaçsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "kıvrımsız",
+      "negation": "kıvrımsız değil",
+      "antonym": "kıvrımlı",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "dinsiz",
+      "negation": "dinsiz değil",
+      "antonym": "mütedeyyin",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "lokomotifli",
+      "negation": "lokomotifli değil",
+      "antonym": "lokomotifsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "latalı",
+      "negation": "latalı değil",
+      "antonym": "latasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "şuurlu",
+      "negation": "şuurlu değil",
+      "antonym": "şuursuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "sağ",
+      "negation": "sağ değil",
+      "antonym": "sağlıksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "kapasiteli",
+      "negation": "kapasiteli değil",
+      "antonym": "kapasitesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "kablolu",
+      "negation": "kablolu değil",
+      "antonym": "kablosuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "bahçeli",
+      "negation": "bahçeli değil",
+      "antonym": "bahçesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "amaçlı",
+      "negation": "amaçlı değil",
+      "antonym": "amaçsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "habersiz",
+      "negation": "habersiz değil",
+      "antonym": "haberli",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "mobilyalı",
+      "negation": "mobilyalı değil",
+      "antonym": "möblesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "faik",
+      "negation": "faik değil",
+      "antonym": "vasıfsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "ödenekli",
+      "negation": "ödenekli değil",
+      "antonym": "ödeneksiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "üstün",
+      "negation": "üstün değil",
+      "antonym": "vasıfsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "makyajlı",
+      "negation": "makyajlı değil",
+      "antonym": "makyajsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "filarlı",
+      "negation": "filarlı değil",
+      "antonym": "filarsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "parazitli",
+      "negation": "parazitli değil",
+      "antonym": "parazitsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "ikramiyeli",
+      "negation": "ikramiyeli değil",
+      "antonym": "ikramiyesiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "korunaklı",
+      "negation": "korunaklı değil",
+      "antonym": "korunaksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "hevesli",
+      "negation": "hevesli değil",
+      "antonym": "hevessiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "parmaklıklı",
+      "negation": "parmaklıklı değil",
+      "antonym": "parmaklıksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "başlıklı",
+      "negation": "başlıklı değil",
+      "antonym": "başlıksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "tapulu",
+      "negation": "tapulu değil",
+      "antonym": "tapusuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "sırasız",
+      "negation": "sırasız değil",
+      "antonym": "vakitli",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "elverişli",
+      "negation": "elverişli değil",
+      "antonym": "sırasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "ümitli",
+      "negation": "ümitli değil",
+      "antonym": "umutsuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "takırtılı",
+      "negation": "takırtılı değil",
+      "antonym": "takırtısız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "vefasız",
+      "negation": "vefasız değil",
+      "antonym": "vefakar",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "sualli",
+      "negation": "sualli değil",
+      "antonym": "sualsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "proteinli",
+      "negation": "proteinli değil",
+      "antonym": "proteinsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "kamalı",
+      "negation": "kamalı değil",
+      "antonym": "kamasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "cazırtılı",
+      "negation": "cazırtılı değil",
+      "antonym": "cazırtısız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "basiretli",
+      "negation": "basiretli değil",
+      "antonym": "tedbirsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "dönüşlü",
+      "negation": "dönüşlü değil",
+      "antonym": "dönüşsüz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "vızıltılı",
+      "negation": "vızıltılı değil",
+      "antonym": "vızıltısız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "manzaralı",
+      "negation": "manzaralı değil",
+      "antonym": "manzarasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "sertifikalı",
+      "negation": "sertifikalı değil",
+      "antonym": "sertifikasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "yemlikli",
+      "negation": "yemlikli değil",
+      "antonym": "yemliksiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "pencereli",
+      "negation": "pencereli değil",
+      "antonym": "penceresiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "falakalı",
+      "negation": "falakalı değil",
+      "antonym": "falakasız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "kıvrımsız",
+      "negation": "kıvrımsız değil",
+      "antonym": "ondüle",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "-sIz privative member"
+    },
+    {
+      "positive": "kılçıklı",
+      "negation": "kılçıklı değil",
+      "antonym": "kılçıksız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "abajurlu",
+      "negation": "abajurlu değil",
+      "antonym": "abajursuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "marjlı",
+      "negation": "marjlı değil",
+      "antonym": "marjsız",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "jiletli",
+      "negation": "jiletli değil",
+      "antonym": "jiletsiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "eşeyli",
+      "negation": "eşeyli değil",
+      "antonym": "eşeysiz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    },
+    {
+      "positive": "raporlu",
+      "negation": "raporlu değil",
+      "antonym": "raporsuz",
+      "note": "from KeNet adjective ANTONYM",
+      "discard_reason": "same-stem -lI/-sIz privative"
+    }
+  ]
+}

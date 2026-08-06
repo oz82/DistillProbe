@@ -1,0 +1,6 @@
+{
+  "source": "mteb/tatoeba-bitext-mining (Tatoeba bitext, 1000 en-XX pairs/lang)",
+  "version": "tatoeba-2026-06-20",
+  "note": "Harder, non-ceiling retrieval benchmark complementing FLORES-200. Each language is evaluated as English<->XX retrieval.",
+  "languages": ["tur","aze","kaz","deu","fra","spa","ita","pol","ell","rus","ara","cmn","jpn","kor","fin","hun"]
+}

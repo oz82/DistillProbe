@@ -1,0 +1,18 @@
+module: negation
+data_path: data/negation/tr_negation.v1.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean
+extra:
+  use_carrier: true
+  carrier_pos: "Bu çok {x}."
+  carrier_neg: "Bu çok {x} değil."
+  carrier_ant: "Bu çok {x}."

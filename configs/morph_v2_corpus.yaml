@@ -1,0 +1,12 @@
+module: morphology
+data_path: data/morphology/tr_categories.v2.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+  fasttext_tr:
+    type: fasttext
+    path: data/fasttext/cc.tr.300.bin

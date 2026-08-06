@@ -1,0 +1,12 @@
+module: idiomaticity_v2
+data_path: data/idiomaticity/tr_parseme.v2.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+extra:
+  teacher_model_id: intfloat/multilingual-e5-base
+  teacher_max_length: 256
