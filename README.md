@@ -78,9 +78,16 @@ morphology probe and go under `data/fasttext/`.
 
 ```bash
 distillprobe list-modules
-distillprobe describe morphology
-distillprobe run --config configs/morph_v2.yaml
+distillprobe describe negation
+
+# The negation probe runs straight from this archive: its dataset is included
+# and both encoders download themselves from HuggingFace on first use.
+distillprobe run --config configs/negation_v3_clean_raw.yaml
 ```
+
+The morphology probe additionally needs fastText's `cc.tr.300.bin` (~6.8 GB,
+placed under `data/fasttext/`), and the idiomaticity and syntax probes need the
+PARSEME corpora, which are not redistributed here — see *Data* below.
 
 Every run writes a self-describing directory:
 
