@@ -185,5 +185,6 @@ Datasets derived from the Turkish WordNet **KeNet** (polysemy candidate lists,
 negation antonym triplets) are redistributed under **GPL-3.0** to honour KeNet's
 copyleft; a verbatim copy is in [`COPYING.GPL-3.0`](COPYING.GPL-3.0). The STS-Tr
 test split is redistributed from the public `emrecan/stsb-mt-turkish` dataset
-under its own terms. PARSEME 1.2 and FLORES-200 retain their original CC-BY-SA
-terms and are not redistributed. See [`LICENSE`](LICENSE) for the full statement.
+under its own terms. PARSEME 1.2 is used under its original CC-BY-NC-SA 4.0
+terms (for Polish the licence is layer-dependent) and FLORES-200 under CC-BY-SA;
+neither is redistributed. See [`LICENSE`](LICENSE) for the full statement.

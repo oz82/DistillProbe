@@ -16,8 +16,9 @@ NOTE ON THIRD-PARTY DATA: This MIT license covers the DistillProbe framework
 source code only. Datasets derived from the Turkish WordNet KeNet (polysemy
 candidate lists, negation antonym triplets) are redistributed under GPL-3.0 to
 honor KeNet's copyleft; a verbatim copy of that license is provided in
-COPYING.GPL-3.0. PARSEME 1.2 corpora and FLORES-200 retain their original CC-
-BY-SA terms and are not redistributed (obtain them from their distributors and
+COPYING.GPL-3.0. PARSEME 1.2 corpora are used under their original CC-BY-NC-SA
+4.0 terms (for Polish the licence is layer-dependent) and FLORES-200 under
+CC-BY-SA; neither is redistributed (obtain them from their distributors and
 pass the paths to the build scripts). The STS-Tr test split is redistributed
 from the public emrecan/stsb-mt-turkish dataset under its own terms. TDK GTS
 definitions are accessed via the public API and cited rather than
