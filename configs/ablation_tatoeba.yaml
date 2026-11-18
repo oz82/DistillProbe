@@ -1,0 +1,22 @@
+# A1 controlled-distillation ablation (Tatoeba bitext retrieval), same three students as ablation_xlingual_v5.
+module: tatoeba
+data_path: data/xlingual/tatoeba_langs.json
+seed: 42
+bootstrap_n: 10000
+extra:
+  csls_k: 10
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+  m2v_multilingual_output:
+    type: model2vec
+    model_id: minishlab/M2V_multilingual_output
+  m2v_bgem3_pca256_sif:
+    type: model2vec
+    model_id: models/m2v_bgem3_pca256_sif
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean

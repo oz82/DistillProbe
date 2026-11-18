@@ -6,7 +6,7 @@ from typing import Any
 import numpy as np
 
 from ..data import load_negation_dataset
-from ..encoders.base import Encoder
+from ..encoders.base import Encoder, first_reference, first_student
 from ..metrics import bootstrap_ci, paired_wilcoxon
 from .base import ProbeModule, ProbeResult
 
@@ -124,13 +124,8 @@ class NegationModule(ProbeModule):
         comparisons: dict[str, Any] = {}
         encoder_names = list(encoders.keys())
         if len(encoder_names) >= 2:
-            # Pick teacher = the one whose internal name flags transformer/labse
-            teacher = next(
-                (n for n in encoder_names
-                 if "transformer" in encoders[n].name.lower() or "labse" in encoders[n].name.lower()),
-                None,
-            )
-            student = next((n for n in encoder_names if n != teacher), None)
+            teacher = first_reference(encoders)
+            student = first_student(encoders) or next((n for n in encoder_names if n != teacher), None)
             if teacher and student:
                 xs = np.array(
                     [r[f"polarity_flip:{teacher}"] for r in per_triplet], dtype=np.float64

@@ -1,0 +1,1076 @@
+{
+  "n_discarded": 153,
+  "discarded": [
+    {
+      "positive": "affected",
+      "negation": "not affected",
+      "antonym": "unaffected",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "stable",
+      "negation": "not stable",
+      "antonym": "unstable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "eared",
+      "negation": "not eared",
+      "antonym": "earless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "arbitrary",
+      "negation": "not arbitrary",
+      "antonym": "nonarbitrary",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "crowned",
+      "negation": "not crowned",
+      "antonym": "uncrowned",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "adjusted",
+      "negation": "not adjusted",
+      "antonym": "unadjusted",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "blemished",
+      "negation": "not blemished",
+      "antonym": "unblemished",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "obstructed",
+      "negation": "not obstructed",
+      "antonym": "unobstructed",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "stratified",
+      "negation": "not stratified",
+      "antonym": "unstratified",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "permissible",
+      "negation": "not permissible",
+      "antonym": "impermissible",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "inductive",
+      "negation": "not inductive",
+      "antonym": "deductive",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "alienable",
+      "negation": "not alienable",
+      "antonym": "inalienable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "polite",
+      "negation": "not polite",
+      "antonym": "impolite",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "damaged",
+      "negation": "not damaged",
+      "antonym": "undamaged",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "metabolic",
+      "negation": "not metabolic",
+      "antonym": "ametabolic",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "plausible",
+      "negation": "not plausible",
+      "antonym": "implausible",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "organized",
+      "negation": "not organized",
+      "antonym": "unorganized",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "discernible",
+      "negation": "not discernible",
+      "antonym": "indiscernible",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "cardinal",
+      "negation": "not cardinal",
+      "antonym": "ordinal",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "reparable",
+      "negation": "not reparable",
+      "antonym": "irreparable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "serviceable",
+      "negation": "not serviceable",
+      "antonym": "unserviceable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "inaugural",
+      "negation": "not inaugural",
+      "antonym": "exaugural",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "credible",
+      "negation": "not credible",
+      "antonym": "incredible",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "merited",
+      "negation": "not merited",
+      "antonym": "unmerited",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "reversible",
+      "negation": "not reversible",
+      "antonym": "irreversible",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "ventilated",
+      "negation": "not ventilated",
+      "antonym": "unventilated",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "abused",
+      "negation": "not abused",
+      "antonym": "unabused",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "impressionable",
+      "negation": "not impressionable",
+      "antonym": "unimpressionable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "useful",
+      "negation": "not useful",
+      "antonym": "useless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "clockwise",
+      "negation": "not clockwise",
+      "antonym": "counterclockwise",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "sanitary",
+      "negation": "not sanitary",
+      "antonym": "unsanitary",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "indulgent",
+      "negation": "not indulgent",
+      "antonym": "nonindulgent",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "radioactive",
+      "negation": "not radioactive",
+      "antonym": "nonradioactive",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "corrected",
+      "negation": "not corrected",
+      "antonym": "uncorrected",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "symmetrical",
+      "negation": "not symmetrical",
+      "antonym": "asymmetrical",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "feathered",
+      "negation": "not feathered",
+      "antonym": "unfeathered",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "beneficent",
+      "negation": "not beneficent",
+      "antonym": "maleficent",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "happy",
+      "negation": "not happy",
+      "antonym": "unhappy",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "bibbed",
+      "negation": "not bibbed",
+      "antonym": "bibless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "frozen",
+      "negation": "not frozen",
+      "antonym": "unfrozen",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "ionic",
+      "negation": "not ionic",
+      "antonym": "nonionic",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "rigid",
+      "negation": "not rigid",
+      "antonym": "nonrigid",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "pointed",
+      "negation": "not pointed",
+      "antonym": "pointless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "returnable",
+      "negation": "not returnable",
+      "antonym": "nonreturnable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "valid",
+      "negation": "not valid",
+      "antonym": "invalid",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "sentient",
+      "negation": "not sentient",
+      "antonym": "insentient",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "normal",
+      "negation": "not normal",
+      "antonym": "abnormal",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "carpeted",
+      "negation": "not carpeted",
+      "antonym": "uncarpeted",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "haploid",
+      "negation": "not haploid",
+      "antonym": "diploid",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "endogamous",
+      "negation": "not endogamous",
+      "antonym": "exogamous",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "worthy",
+      "negation": "not worthy",
+      "antonym": "unworthy",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "protective",
+      "negation": "not protective",
+      "antonym": "unprotective",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "ostentatious",
+      "negation": "not ostentatious",
+      "antonym": "unostentatious",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "nontranslational",
+      "negation": "not nontranslational",
+      "antonym": "translational",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "functioning",
+      "negation": "not functioning",
+      "antonym": "malfunctioning",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "passable",
+      "negation": "not passable",
+      "antonym": "impassable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "crowded",
+      "negation": "not crowded",
+      "antonym": "uncrowded",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "castrated",
+      "negation": "not castrated",
+      "antonym": "uncastrated",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "attractive",
+      "negation": "not attractive",
+      "antonym": "unattractive",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "antemortem",
+      "negation": "not antemortem",
+      "antonym": "postmortem",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "responsive",
+      "negation": "not responsive",
+      "antonym": "unresponsive",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "current",
+      "negation": "not current",
+      "antonym": "noncurrent",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "territorial",
+      "negation": "not territorial",
+      "antonym": "extraterritorial",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "aware",
+      "negation": "not aware",
+      "antonym": "unaware",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "financial",
+      "negation": "not financial",
+      "antonym": "nonfinancial",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "trained",
+      "negation": "not trained",
+      "antonym": "untrained",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "ipsilateral",
+      "negation": "not ipsilateral",
+      "antonym": "contralateral",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "funded",
+      "negation": "not funded",
+      "antonym": "unfunded",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "technical",
+      "negation": "not technical",
+      "antonym": "nontechnical",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "fixed",
+      "negation": "not fixed",
+      "antonym": "unfixed",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "cooperative",
+      "negation": "not cooperative",
+      "antonym": "uncooperative",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "ribbed",
+      "negation": "not ribbed",
+      "antonym": "ribless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "diversified",
+      "negation": "not diversified",
+      "antonym": "undiversified",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "resident",
+      "negation": "not resident",
+      "antonym": "nonresident",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "similar",
+      "negation": "not similar",
+      "antonym": "dissimilar",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "remediable",
+      "negation": "not remediable",
+      "antonym": "irremediable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "qualified",
+      "negation": "not qualified",
+      "antonym": "unqualified",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "proportionate",
+      "negation": "not proportionate",
+      "antonym": "disproportionate",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "neurotic",
+      "negation": "not neurotic",
+      "antonym": "unneurotic",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "inshore",
+      "negation": "not inshore",
+      "antonym": "offshore",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "like",
+      "negation": "not like",
+      "antonym": "unlike",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "diploid",
+      "negation": "not diploid",
+      "antonym": "polyploid",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "racial",
+      "negation": "not racial",
+      "antonym": "nonracial",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "sealed",
+      "negation": "not sealed",
+      "antonym": "unsealed",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "opposable",
+      "negation": "not opposable",
+      "antonym": "unopposable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "sarcastic",
+      "negation": "not sarcastic",
+      "antonym": "unsarcastic",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "extinguishable",
+      "negation": "not extinguishable",
+      "antonym": "inextinguishable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "tactful",
+      "negation": "not tactful",
+      "antonym": "tactless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "approachable",
+      "negation": "not approachable",
+      "antonym": "unapproachable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "curtained",
+      "negation": "not curtained",
+      "antonym": "curtainless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "hydrous",
+      "negation": "not hydrous",
+      "antonym": "anhydrous",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "exhausted",
+      "negation": "not exhausted",
+      "antonym": "unexhausted",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "hipped",
+      "negation": "not hipped",
+      "antonym": "hipless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "documented",
+      "negation": "not documented",
+      "antonym": "undocumented",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "considerable",
+      "negation": "not considerable",
+      "antonym": "inconsiderable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "exculpatory",
+      "negation": "not exculpatory",
+      "antonym": "inculpatory",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "bodied",
+      "negation": "not bodied",
+      "antonym": "unbodied",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "replaceable",
+      "negation": "not replaceable",
+      "antonym": "irreplaceable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "reasonable",
+      "negation": "not reasonable",
+      "antonym": "unreasonable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "deciphered",
+      "negation": "not deciphered",
+      "antonym": "undeciphered",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "mutable",
+      "negation": "not mutable",
+      "antonym": "immutable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "reliable",
+      "negation": "not reliable",
+      "antonym": "unreliable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "steady",
+      "negation": "not steady",
+      "antonym": "unsteady",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "discriminate",
+      "negation": "not discriminate",
+      "antonym": "indiscriminate",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "stomatous",
+      "negation": "not stomatous",
+      "antonym": "astomatous",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "peaceful",
+      "negation": "not peaceful",
+      "antonym": "unpeaceful",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "injured",
+      "negation": "not injured",
+      "antonym": "uninjured",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "paved",
+      "negation": "not paved",
+      "antonym": "unpaved",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "heterologous",
+      "negation": "not heterologous",
+      "antonym": "autologous",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "alterable",
+      "negation": "not alterable",
+      "antonym": "unalterable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "portable",
+      "negation": "not portable",
+      "antonym": "unportable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "married",
+      "negation": "not married",
+      "antonym": "unmarried",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "bellied",
+      "negation": "not bellied",
+      "antonym": "bellyless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "supported",
+      "negation": "not supported",
+      "antonym": "unsupported",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "homeopathic",
+      "negation": "not homeopathic",
+      "antonym": "allopathic",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "civilized",
+      "negation": "not civilized",
+      "antonym": "noncivilized",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "prospective",
+      "negation": "not prospective",
+      "antonym": "retrospective",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "tucked",
+      "negation": "not tucked",
+      "antonym": "untucked",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "sadistic",
+      "negation": "not sadistic",
+      "antonym": "masochistic",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "psychoactive",
+      "negation": "not psychoactive",
+      "antonym": "nonpsychoactive",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "ashamed",
+      "negation": "not ashamed",
+      "antonym": "unashamed",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "pyretic",
+      "negation": "not pyretic",
+      "antonym": "antipyretic",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "hardhearted",
+      "negation": "not hardhearted",
+      "antonym": "softhearted",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "puncturable",
+      "negation": "not puncturable",
+      "antonym": "punctureless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "destructible",
+      "negation": "not destructible",
+      "antonym": "indestructible",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "interdepartmental",
+      "negation": "not interdepartmental",
+      "antonym": "intradepartmental",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "acquisitive",
+      "negation": "not acquisitive",
+      "antonym": "unacquisitive",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "slippery",
+      "negation": "not slippery",
+      "antonym": "nonslippery",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "exergonic",
+      "negation": "not exergonic",
+      "antonym": "endergonic",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "salable",
+      "negation": "not salable",
+      "antonym": "unsalable",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "hypertensive",
+      "negation": "not hypertensive",
+      "antonym": "hypotensive",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "subordinate",
+      "negation": "not subordinate",
+      "antonym": "insubordinate",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "ready",
+      "negation": "not ready",
+      "antonym": "unready",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "autogamous",
+      "negation": "not autogamous",
+      "antonym": "endogamous",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "intelligible",
+      "negation": "not intelligible",
+      "antonym": "unintelligible",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "discriminating",
+      "negation": "not discriminating",
+      "antonym": "undiscriminating",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "meaty",
+      "negation": "not meaty",
+      "antonym": "meatless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "suspected",
+      "negation": "not suspected",
+      "antonym": "unsuspected",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "competent",
+      "negation": "not competent",
+      "antonym": "incompetent",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "military",
+      "negation": "not military",
+      "antonym": "unmilitary",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "prognathous",
+      "negation": "not prognathous",
+      "antonym": "opisthognathous",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "inquiring",
+      "negation": "not inquiring",
+      "antonym": "uninquiring",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "autotrophic",
+      "negation": "not autotrophic",
+      "antonym": "heterotrophic",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "rational",
+      "negation": "not rational",
+      "antonym": "irrational",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "glazed",
+      "negation": "not glazed",
+      "antonym": "unglazed",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "swept",
+      "negation": "not swept",
+      "antonym": "unswept",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "clothed",
+      "negation": "not clothed",
+      "antonym": "unclothed",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "northern",
+      "negation": "not northern",
+      "antonym": "southern",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "toned",
+      "negation": "not toned",
+      "antonym": "toneless",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "morphological-negation member (un-/non- or -less)"
+    },
+    {
+      "positive": "natural",
+      "negation": "not natural",
+      "antonym": "supernatural",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "abaxial",
+      "negation": "not abaxial",
+      "antonym": "adaxial",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "shared stem (prefix-swap derivation)"
+    },
+    {
+      "positive": "religious",
+      "negation": "not religious",
+      "antonym": "irreligious",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    },
+    {
+      "positive": "expansive",
+      "negation": "not expansive",
+      "antonym": "unexpansive",
+      "note": "from WordNet adjective lemma antonym",
+      "discard_reason": "same-stem negative-prefix pair"
+    }
+  ]
+}

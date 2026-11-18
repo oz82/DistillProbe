@@ -31,7 +31,7 @@ class MorphologyModule(ProbeModule):
             "For each (stem, form) category and each encoder: pairwise difference-vector "
             "consistency, stem-form similarity (with bootstrap CI), and a random-pair baseline. "
             "Across encoders: paired Wilcoxon signed-rank + Cliff's delta on per-category "
-            "consistency. Tokenization audit included. See migration.md."
+            "consistency. Tokenization audit included."
         )
 
     # ------------------------------------------------------------------ helpers

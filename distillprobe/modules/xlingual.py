@@ -6,7 +6,7 @@ from typing import Any
 import numpy as np
 
 from ..data import load_xlingual_dataset
-from ..encoders.base import Encoder
+from ..encoders.base import Encoder, is_reference_encoder
 from ..metrics import bootstrap_ci
 from .base import ProbeModule, ProbeResult
 
@@ -195,17 +195,13 @@ class XLingualModule(ProbeModule):
             }
 
         # Cross-encoder retention (student/teacher) for all (student, teacher) pairs.
-        # Teachers = encoders whose underlying name flags a contextual model
-        # (transformer:, labse, or e5). Students = the rest (typically model2vec:).
+        # Teachers = reference encoders (explicit role, else the contextual-name
+        # heuristic); students = every other encoder.
         encoder_names = list(encoders.keys())
         retention: dict[str, Any] = {}
         if len(encoder_names) >= 2:
-            def is_teacher(n: str) -> bool:
-                lname = encoders[n].name.lower()
-                return ("transformer" in lname) or ("labse" in lname) or ("e5" in lname)
-
-            teachers = [n for n in encoder_names if is_teacher(n)]
-            students = [n for n in encoder_names if not is_teacher(n)]
+            teachers = [n for n in encoder_names if is_reference_encoder(encoders[n])]
+            students = [n for n in encoder_names if not is_reference_encoder(encoders[n])]
             for student in students:
                 for teacher in teachers:
                     ratios = []

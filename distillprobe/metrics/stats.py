@@ -70,7 +70,7 @@ def cliffs_delta(x, y) -> float:
 
 
 # ---------------------------------------------------------------------------
-# Multiple-comparison correction (PLOS ONE statistical-rigor requirement).
+# Multiple-comparison correction.
 # Dependency-free implementations of Holm-Bonferroni (FWER) and
 # Benjamini-Hochberg (FDR). Both return adjusted p-values in input order.
 # ---------------------------------------------------------------------------

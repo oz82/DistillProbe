@@ -1,6 +1,7 @@
 from .consistency import difference_vectors, pairwise_consistency
 from .similarity import cosine_similarity, stem_form_similarity
 from .baselines import random_pair_baseline
+from .retrieval import mrr_at_k, ndcg_at_k, recall_at_k
 from .stats import (
     CIResult,
     benjamini_hochberg,
@@ -30,4 +31,7 @@ __all__ = [
     "wilson_ci",
     "rule_of_three",
     "permutation_test",
+    "ndcg_at_k",
+    "recall_at_k",
+    "mrr_at_k",
 ]

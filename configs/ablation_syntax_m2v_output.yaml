@@ -1,0 +1,14 @@
+# A1 controlled-distillation ablation (syntactic role V2). Student: LaBSE teacher + plain PCA-256/Zipf recipe (pre-Tokenlearn Model2Vec release).
+# One student per config because several modules select a single student encoder.
+module: syntax_v2
+data_path: data/syntax/tr_syntax.v1.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+encoders:
+  m2v_multilingual_output:
+    type: model2vec
+    model_id: minishlab/M2V_multilingual_output
+extra:
+  teacher_model_id: sentence-transformers/LaBSE
+  teacher_max_length: 256

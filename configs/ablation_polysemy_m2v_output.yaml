@@ -1,0 +1,16 @@
+# A1 controlled-distillation ablation (polysemy, primary leak-free). Student: LaBSE teacher + plain PCA-256/Zipf recipe (pre-Tokenlearn Model2Vec release).
+# One student per config because several modules select a single student encoder.
+module: polysemy
+data_path: data/polysemy/tr_polysemy.v4.json
+seed: 42
+bootstrap_n: 10000
+control_perms: 1000
+output_dir: results
+encoders:
+  m2v_multilingual_output:
+    type: model2vec
+    model_id: minishlab/M2V_multilingual_output
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean

@@ -1,0 +1,1345 @@
+{
+  "language": "en",
+  "version": "v2-wordnet-2026-09-14",
+  "source": "hand-curated seed (25 triplets) + WordNet 3.0 adjective lemma antonyms (198 new triplets, seeded subsample of 200, deduped vs seed); negation = 'not X'",
+  "triplets": [
+    {
+      "positive": "good",
+      "negation": "not good",
+      "antonym": "bad",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "big",
+      "negation": "not big",
+      "antonym": "small",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "hot",
+      "negation": "not hot",
+      "antonym": "cold",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "tall",
+      "negation": "not tall",
+      "antonym": "short",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "fast",
+      "negation": "not fast",
+      "antonym": "slow",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "happy",
+      "negation": "not happy",
+      "antonym": "sad",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "rich",
+      "negation": "not rich",
+      "antonym": "poor",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "strong",
+      "negation": "not strong",
+      "antonym": "weak",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "new",
+      "negation": "not new",
+      "antonym": "old",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "light",
+      "negation": "not light",
+      "antonym": "dark",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "heavy",
+      "negation": "not heavy",
+      "antonym": "light",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "clean",
+      "negation": "not clean",
+      "antonym": "dirty",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "easy",
+      "negation": "not easy",
+      "antonym": "difficult",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "full",
+      "negation": "not full",
+      "antonym": "empty",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "wet",
+      "negation": "not wet",
+      "antonym": "dry",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "cheap",
+      "negation": "not cheap",
+      "antonym": "expensive",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "early",
+      "negation": "not early",
+      "antonym": "late",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "loud",
+      "negation": "not loud",
+      "antonym": "quiet",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "thick",
+      "negation": "not thick",
+      "antonym": "thin",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "wide",
+      "negation": "not wide",
+      "antonym": "narrow",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "deep",
+      "negation": "not deep",
+      "antonym": "shallow",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "safe",
+      "negation": "not safe",
+      "antonym": "dangerous",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "sweet",
+      "negation": "not sweet",
+      "antonym": "bitter",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "warm",
+      "negation": "not warm",
+      "antonym": "cool",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "bright",
+      "negation": "not bright",
+      "antonym": "dim",
+      "note": "hand-curated seed"
+    },
+    {
+      "positive": "emotional",
+      "negation": "not emotional",
+      "antonym": "cerebral",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "bright",
+      "negation": "not bright",
+      "antonym": "dull",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "affected",
+      "negation": "not affected",
+      "antonym": "unaffected",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "stable",
+      "negation": "not stable",
+      "antonym": "unstable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "eared",
+      "negation": "not eared",
+      "antonym": "earless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "arbitrary",
+      "negation": "not arbitrary",
+      "antonym": "nonarbitrary",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "crowned",
+      "negation": "not crowned",
+      "antonym": "uncrowned",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "adjusted",
+      "negation": "not adjusted",
+      "antonym": "unadjusted",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "spontaneous",
+      "negation": "not spontaneous",
+      "antonym": "induced",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "blemished",
+      "negation": "not blemished",
+      "antonym": "unblemished",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "robust",
+      "negation": "not robust",
+      "antonym": "frail",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "syllabic",
+      "negation": "not syllabic",
+      "antonym": "quantitative",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "obstructed",
+      "negation": "not obstructed",
+      "antonym": "unobstructed",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "stratified",
+      "negation": "not stratified",
+      "antonym": "unstratified",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "permissible",
+      "negation": "not permissible",
+      "antonym": "impermissible",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "inductive",
+      "negation": "not inductive",
+      "antonym": "deductive",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "live",
+      "negation": "not live",
+      "antonym": "dead",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "alienable",
+      "negation": "not alienable",
+      "antonym": "inalienable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "benign",
+      "negation": "not benign",
+      "antonym": "malign",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "polite",
+      "negation": "not polite",
+      "antonym": "impolite",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "damaged",
+      "negation": "not damaged",
+      "antonym": "undamaged",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "metabolic",
+      "negation": "not metabolic",
+      "antonym": "ametabolic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "plausible",
+      "negation": "not plausible",
+      "antonym": "implausible",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "afloat",
+      "negation": "not afloat",
+      "antonym": "aground",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "organized",
+      "negation": "not organized",
+      "antonym": "unorganized",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "discernible",
+      "negation": "not discernible",
+      "antonym": "indiscernible",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "cardinal",
+      "negation": "not cardinal",
+      "antonym": "ordinal",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "reparable",
+      "negation": "not reparable",
+      "antonym": "irreparable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "serviceable",
+      "negation": "not serviceable",
+      "antonym": "unserviceable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "inaugural",
+      "negation": "not inaugural",
+      "antonym": "exaugural",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "credible",
+      "negation": "not credible",
+      "antonym": "incredible",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "merited",
+      "negation": "not merited",
+      "antonym": "unmerited",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "reversible",
+      "negation": "not reversible",
+      "antonym": "irreversible",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "east",
+      "negation": "not east",
+      "antonym": "west",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "ventilated",
+      "negation": "not ventilated",
+      "antonym": "unventilated",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "abused",
+      "negation": "not abused",
+      "antonym": "unabused",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "impressionable",
+      "negation": "not impressionable",
+      "antonym": "unimpressionable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "useful",
+      "negation": "not useful",
+      "antonym": "useless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "clockwise",
+      "negation": "not clockwise",
+      "antonym": "counterclockwise",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "sanitary",
+      "negation": "not sanitary",
+      "antonym": "unsanitary",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "indulgent",
+      "negation": "not indulgent",
+      "antonym": "nonindulgent",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "intermediate",
+      "negation": "not intermediate",
+      "antonym": "terminal",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "radioactive",
+      "negation": "not radioactive",
+      "antonym": "nonradioactive",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "corrected",
+      "negation": "not corrected",
+      "antonym": "uncorrected",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "symmetrical",
+      "negation": "not symmetrical",
+      "antonym": "asymmetrical",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "feathered",
+      "negation": "not feathered",
+      "antonym": "unfeathered",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "beneficent",
+      "negation": "not beneficent",
+      "antonym": "maleficent",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "happy",
+      "negation": "not happy",
+      "antonym": "unhappy",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "bibbed",
+      "negation": "not bibbed",
+      "antonym": "bibless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "frozen",
+      "negation": "not frozen",
+      "antonym": "unfrozen",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "ionic",
+      "negation": "not ionic",
+      "antonym": "nonionic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "rigid",
+      "negation": "not rigid",
+      "antonym": "nonrigid",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "pointed",
+      "negation": "not pointed",
+      "antonym": "pointless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "returnable",
+      "negation": "not returnable",
+      "antonym": "nonreturnable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "valid",
+      "negation": "not valid",
+      "antonym": "invalid",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "sentient",
+      "negation": "not sentient",
+      "antonym": "insentient",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "liquid",
+      "negation": "not liquid",
+      "antonym": "gaseous",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "biological",
+      "negation": "not biological",
+      "antonym": "adoptive",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "normal",
+      "negation": "not normal",
+      "antonym": "abnormal",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "carpeted",
+      "negation": "not carpeted",
+      "antonym": "uncarpeted",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "haploid",
+      "negation": "not haploid",
+      "antonym": "diploid",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "awake",
+      "negation": "not awake",
+      "antonym": "asleep",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "on",
+      "negation": "not on",
+      "antonym": "off",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "endogamous",
+      "negation": "not endogamous",
+      "antonym": "exogamous",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "worthy",
+      "negation": "not worthy",
+      "antonym": "unworthy",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "protective",
+      "negation": "not protective",
+      "antonym": "unprotective",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "ostentatious",
+      "negation": "not ostentatious",
+      "antonym": "unostentatious",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "nontranslational",
+      "negation": "not nontranslational",
+      "antonym": "translational",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "functioning",
+      "negation": "not functioning",
+      "antonym": "malfunctioning",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "passable",
+      "negation": "not passable",
+      "antonym": "impassable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "crowded",
+      "negation": "not crowded",
+      "antonym": "uncrowded",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "castrated",
+      "negation": "not castrated",
+      "antonym": "uncastrated",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "attractive",
+      "negation": "not attractive",
+      "antonym": "unattractive",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "antemortem",
+      "negation": "not antemortem",
+      "antonym": "postmortem",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "responsive",
+      "negation": "not responsive",
+      "antonym": "unresponsive",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "current",
+      "negation": "not current",
+      "antonym": "noncurrent",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "territorial",
+      "negation": "not territorial",
+      "antonym": "extraterritorial",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "salaried",
+      "negation": "not salaried",
+      "antonym": "freelance",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "aware",
+      "negation": "not aware",
+      "antonym": "unaware",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "financial",
+      "negation": "not financial",
+      "antonym": "nonfinancial",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "biped",
+      "negation": "not biped",
+      "antonym": "quadruped",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "large",
+      "negation": "not large",
+      "antonym": "small",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "trained",
+      "negation": "not trained",
+      "antonym": "untrained",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "ipsilateral",
+      "negation": "not ipsilateral",
+      "antonym": "contralateral",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "funded",
+      "negation": "not funded",
+      "antonym": "unfunded",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "coastal",
+      "negation": "not coastal",
+      "antonym": "inland",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "technical",
+      "negation": "not technical",
+      "antonym": "nontechnical",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "fixed",
+      "negation": "not fixed",
+      "antonym": "unfixed",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "cooperative",
+      "negation": "not cooperative",
+      "antonym": "uncooperative",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "ribbed",
+      "negation": "not ribbed",
+      "antonym": "ribless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "diversified",
+      "negation": "not diversified",
+      "antonym": "undiversified",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "resident",
+      "negation": "not resident",
+      "antonym": "nonresident",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "similar",
+      "negation": "not similar",
+      "antonym": "dissimilar",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "remediable",
+      "negation": "not remediable",
+      "antonym": "irremediable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "attributive",
+      "negation": "not attributive",
+      "antonym": "predicative",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "plus",
+      "negation": "not plus",
+      "antonym": "minus",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "qualified",
+      "negation": "not qualified",
+      "antonym": "unqualified",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "proportionate",
+      "negation": "not proportionate",
+      "antonym": "disproportionate",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "neurotic",
+      "negation": "not neurotic",
+      "antonym": "unneurotic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "solid",
+      "negation": "not solid",
+      "antonym": "gaseous",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "inshore",
+      "negation": "not inshore",
+      "antonym": "offshore",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "like",
+      "negation": "not like",
+      "antonym": "unlike",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "diploid",
+      "negation": "not diploid",
+      "antonym": "polyploid",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "dominant",
+      "negation": "not dominant",
+      "antonym": "recessive",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "racial",
+      "negation": "not racial",
+      "antonym": "nonracial",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "sealed",
+      "negation": "not sealed",
+      "antonym": "unsealed",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "opposable",
+      "negation": "not opposable",
+      "antonym": "unopposable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "civil",
+      "negation": "not civil",
+      "antonym": "sidereal",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "sarcastic",
+      "negation": "not sarcastic",
+      "antonym": "unsarcastic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "extinguishable",
+      "negation": "not extinguishable",
+      "antonym": "inextinguishable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "cenobitic",
+      "negation": "not cenobitic",
+      "antonym": "eremitic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "tactful",
+      "negation": "not tactful",
+      "antonym": "tactless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "thrifty",
+      "negation": "not thrifty",
+      "antonym": "wasteful",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "approachable",
+      "negation": "not approachable",
+      "antonym": "unapproachable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "curtained",
+      "negation": "not curtained",
+      "antonym": "curtainless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "hydrous",
+      "negation": "not hydrous",
+      "antonym": "anhydrous",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "uptown",
+      "negation": "not uptown",
+      "antonym": "downtown",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "exhausted",
+      "negation": "not exhausted",
+      "antonym": "unexhausted",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "hipped",
+      "negation": "not hipped",
+      "antonym": "hipless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "documented",
+      "negation": "not documented",
+      "antonym": "undocumented",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "sessile",
+      "negation": "not sessile",
+      "antonym": "pedunculate",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "considerable",
+      "negation": "not considerable",
+      "antonym": "inconsiderable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "covered",
+      "negation": "not covered",
+      "antonym": "bare",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "double",
+      "negation": "not double",
+      "antonym": "single",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "exculpatory",
+      "negation": "not exculpatory",
+      "antonym": "inculpatory",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "bodied",
+      "negation": "not bodied",
+      "antonym": "unbodied",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "replaceable",
+      "negation": "not replaceable",
+      "antonym": "irreplaceable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "maximum",
+      "negation": "not maximum",
+      "antonym": "minimum",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "ceilinged",
+      "negation": "not ceilinged",
+      "antonym": "floored",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "reasonable",
+      "negation": "not reasonable",
+      "antonym": "unreasonable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "deciphered",
+      "negation": "not deciphered",
+      "antonym": "undeciphered",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "mutable",
+      "negation": "not mutable",
+      "antonym": "immutable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "distal",
+      "negation": "not distal",
+      "antonym": "proximal",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "reliable",
+      "negation": "not reliable",
+      "antonym": "unreliable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "steady",
+      "negation": "not steady",
+      "antonym": "unsteady",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "north",
+      "negation": "not north",
+      "antonym": "south",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "discriminate",
+      "negation": "not discriminate",
+      "antonym": "indiscriminate",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "stomatous",
+      "negation": "not stomatous",
+      "antonym": "astomatous",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "peaceful",
+      "negation": "not peaceful",
+      "antonym": "unpeaceful",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "injured",
+      "negation": "not injured",
+      "antonym": "uninjured",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "paved",
+      "negation": "not paved",
+      "antonym": "unpaved",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "heterologous",
+      "negation": "not heterologous",
+      "antonym": "autologous",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "functional",
+      "negation": "not functional",
+      "antonym": "organic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "alterable",
+      "negation": "not alterable",
+      "antonym": "unalterable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "portable",
+      "negation": "not portable",
+      "antonym": "unportable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "married",
+      "negation": "not married",
+      "antonym": "unmarried",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "bellied",
+      "negation": "not bellied",
+      "antonym": "bellyless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "supported",
+      "negation": "not supported",
+      "antonym": "unsupported",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "aquatic",
+      "negation": "not aquatic",
+      "antonym": "terrestrial",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "homeopathic",
+      "negation": "not homeopathic",
+      "antonym": "allopathic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "civilized",
+      "negation": "not civilized",
+      "antonym": "noncivilized",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "prospective",
+      "negation": "not prospective",
+      "antonym": "retrospective",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "far",
+      "negation": "not far",
+      "antonym": "near",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "tucked",
+      "negation": "not tucked",
+      "antonym": "untucked",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "sadistic",
+      "negation": "not sadistic",
+      "antonym": "masochistic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "psychoactive",
+      "negation": "not psychoactive",
+      "antonym": "nonpsychoactive",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "ashamed",
+      "negation": "not ashamed",
+      "antonym": "unashamed",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "pyretic",
+      "negation": "not pyretic",
+      "antonym": "antipyretic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "hardhearted",
+      "negation": "not hardhearted",
+      "antonym": "softhearted",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "puncturable",
+      "negation": "not puncturable",
+      "antonym": "punctureless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "live",
+      "negation": "not live",
+      "antonym": "recorded",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "interstate",
+      "negation": "not interstate",
+      "antonym": "intrastate",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "destructible",
+      "negation": "not destructible",
+      "antonym": "indestructible",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "open",
+      "negation": "not open",
+      "antonym": "closed",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "interdepartmental",
+      "negation": "not interdepartmental",
+      "antonym": "intradepartmental",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "acquisitive",
+      "negation": "not acquisitive",
+      "antonym": "unacquisitive",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "slippery",
+      "negation": "not slippery",
+      "antonym": "nonslippery",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "exergonic",
+      "negation": "not exergonic",
+      "antonym": "endergonic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "salable",
+      "negation": "not salable",
+      "antonym": "unsalable",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "hypertensive",
+      "negation": "not hypertensive",
+      "antonym": "hypotensive",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "subordinate",
+      "negation": "not subordinate",
+      "antonym": "insubordinate",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "ready",
+      "negation": "not ready",
+      "antonym": "unready",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "autogamous",
+      "negation": "not autogamous",
+      "antonym": "endogamous",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "intelligible",
+      "negation": "not intelligible",
+      "antonym": "unintelligible",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "clearheaded",
+      "negation": "not clearheaded",
+      "antonym": "confused",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "big",
+      "negation": "not big",
+      "antonym": "little",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "absolute",
+      "negation": "not absolute",
+      "antonym": "relative",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "smooth",
+      "negation": "not smooth",
+      "antonym": "rough",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "verbal",
+      "negation": "not verbal",
+      "antonym": "numerical",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "discriminating",
+      "negation": "not discriminating",
+      "antonym": "undiscriminating",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "meaty",
+      "negation": "not meaty",
+      "antonym": "meatless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "suspected",
+      "negation": "not suspected",
+      "antonym": "unsuspected",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "competent",
+      "negation": "not competent",
+      "antonym": "incompetent",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "military",
+      "negation": "not military",
+      "antonym": "unmilitary",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "lotic",
+      "negation": "not lotic",
+      "antonym": "lentic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "prognathous",
+      "negation": "not prognathous",
+      "antonym": "opisthognathous",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "inquiring",
+      "negation": "not inquiring",
+      "antonym": "uninquiring",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "autotrophic",
+      "negation": "not autotrophic",
+      "antonym": "heterotrophic",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "rational",
+      "negation": "not rational",
+      "antonym": "irrational",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "glazed",
+      "negation": "not glazed",
+      "antonym": "unglazed",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "swept",
+      "negation": "not swept",
+      "antonym": "unswept",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "clothed",
+      "negation": "not clothed",
+      "antonym": "unclothed",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "northern",
+      "negation": "not northern",
+      "antonym": "southern",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "toned",
+      "negation": "not toned",
+      "antonym": "toneless",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "natural",
+      "negation": "not natural",
+      "antonym": "supernatural",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "abaxial",
+      "negation": "not abaxial",
+      "antonym": "adaxial",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "religious",
+      "negation": "not religious",
+      "antonym": "irreligious",
+      "note": "from WordNet adjective lemma antonym"
+    },
+    {
+      "positive": "expansive",
+      "negation": "not expansive",
+      "antonym": "unexpansive",
+      "note": "from WordNet adjective lemma antonym"
+    }
+  ]
+}

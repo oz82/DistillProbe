@@ -1,0 +1,21 @@
+# Selection-robustness check: the uncleaned v2 candidate pool (224 triplets,
+# including the -lI/-sIz privative contaminants removed in v3_clean). If the student
+# flips none of the 224, any re-selection of genuine antonyms leaves it at 0/N. (carrier mode)
+module: negation
+data_path: data/negation/tr_negation.v2.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+extra:
+  use_carrier: true
+  carrier_pos: "Bu çok {x}."
+  carrier_neg: "Bu çok {x} değil."
+  carrier_ant: "Bu çok {x}."
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean

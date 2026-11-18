@@ -45,4 +45,8 @@ class TransformerEncoder(Encoder):
         return np.asarray(v, dtype=np.float32)
 
     def tokenize(self, text: str) -> list[str]:
-        return list(self._model.tokenizer.tokenize(text))
+        tok = self._model.tokenizer
+        if hasattr(tok, "tokenize"):
+            return list(tok.tokenize(text))
+        # StaticEmbedding models expose a bare `tokenizers.Tokenizer`.
+        return list(tok.encode(text).tokens)

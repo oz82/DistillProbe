@@ -1,5 +1,6 @@
 """Reproduce the manuscript's multiple-comparison correction (Materials & Methods,
-statistical methodology): the primary hypothesis-test family of N=18 tests,
+statistical methodology): the primary hypothesis-test family (N=18 in the first
+submission; N=24 with the English battery added in the revision),
 Holm--Bonferroni (FWER) and Benjamini--Hochberg (FDR).
 
 The family membership is defined here explicitly (it is the set of confirmatory
@@ -21,15 +22,19 @@ from distillprobe.metrics.stats import benjamini_hochberg, holm_bonferroni  # no
 
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "results" / "_canonical_runs.txt"
+MANIFESTS = (MANIFEST, ROOT / "results" / "_revision_runs.txt")
 
 
 def run_dirs() -> dict[str, Path]:
-    """Parse results/_canonical_runs.txt -> {config: run_dir}."""
+    """Parse the canonical and revision run lists -> {config: run_dir} (later entries win)."""
     out: dict[str, Path] = {}
-    for line in MANIFEST.read_text(encoding="utf-8").splitlines():
-        parts = line.split("\t")
-        if len(parts) >= 2 and parts[1].startswith("results/"):
-            out[parts[0]] = ROOT / parts[1]
+    for manifest in MANIFESTS:
+        if not manifest.exists():
+            continue
+        for line in manifest.read_text(encoding="utf-8").splitlines():
+            parts = line.split("\t")
+            if len(parts) >= 2 and parts[1].startswith("results/"):
+                out[parts[0]] = ROOT / parts[1]
     return out
 
 
@@ -42,7 +47,7 @@ def build_family(dirs: dict[str, Path]) -> list[tuple[str, float]]:
 
     # Idiomaticity: per language, the two sequential MWU directional tests.
     idiom = {"idiom_v2": "TR", "idiom_v2_eu": "EU", "idiom_v2_pl": "PL",
-             "idiom_v2_it": "IT", "idiom_v2_el": "EL"}
+             "idiom_v2_it": "IT", "idiom_v2_el": "EL", "idiom_v2_en": "EN"}
     for cfg, lang in idiom.items():
         comp = _metrics(dirs[cfg])["comparisons"]
         for key, short in (("VID_gt_LVC.full", "VID>LVC"), ("LVC.full_gt_LITERAL", "LVC>LIT")):
@@ -51,22 +56,25 @@ def build_family(dirs: dict[str, Path]) -> list[tuple[str, float]]:
 
     # Syntactic role: per language, teacher>student paired Wilcoxon.
     syntax = {"syntax_v2": "TR", "syntax_v2_eu": "EU", "syntax_v2_pl": "PL",
-              "syntax_v2_it": "IT", "syntax_v2_el": "EL"}
+              "syntax_v2_it": "IT", "syntax_v2_el": "EL", "syntax_v2_en": "EN"}
     for cfg, lang in syntax.items():
         m = _metrics(dirs[cfg])
         fam.append((f"syntax/{lang}/T>S", float(m["wilcoxon_one_sided_greater_p"])))
 
     # Negation: LaBSE>M2V paired Wilcoxon, raw and carrier modes.
-    for cfg, mode in (("negation_v3_clean_raw_baselines", "raw"),
-                      ("negation_v3_clean_carrier_baselines", "carrier")):
+    for cfg, lang, mode in (("negation_v3_clean_raw_baselines", "TR", "raw"),
+                            ("negation_v3_clean_carrier_baselines", "TR", "carrier"),
+                            ("negation_en_clean_raw_baselines", "EN", "raw"),
+                            ("negation_en_clean_carrier_baselines", "EN", "carrier")):
         comp = _metrics(dirs[cfg])["comparisons"]
         hit = comp["labse_gt_m2v_potion"]
-        fam.append((f"negation/{mode}/LaBSE>M2V", float(hit["wilcoxon_p"])))
+        fam.append((f"negation/{lang}/{mode}/LaBSE>M2V", float(hit["wilcoxon_p"])))
 
-    # Polysemy: cross-encoder Spearman permutation test (primary, leak-free).
-    ce = _metrics(dirs["polysemy_v3_primary"])["cross_encoder"]
-    block = next(iter(ce.values()))
-    fam.append(("polysemy/spearman-perm", float(block["spearman_perm_p"])))
+    # Polysemy: cross-encoder Spearman permutation test (primary, leak-free), TR and EN.
+    for cfg, lang in (("polysemy_v4_primary", "TR"), ("polysemy_en_primary", "EN")):
+        ce = _metrics(dirs[cfg])["cross_encoder"]
+        block = next(iter(ce.values()))
+        fam.append((f"polysemy/{lang}/spearman-perm", float(block["spearman_perm_p"])))
 
     return fam
 

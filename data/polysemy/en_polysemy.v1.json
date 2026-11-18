@@ -1,0 +1,3313 @@
+{
+  "language": "en",
+  "version": "v1-en-wordnet-2026-09-14",
+  "source": "Princeton WordNet 3.0 via NLTK; noun synsets listing the exact lemma, with >= 1 example(s); words with >= 3 such senses, NOUN lemma frequency >= 5 in 3 UD file(s); seeded random sample of 50 (seed=42)",
+  "words": [
+    {
+      "word": "age",
+      "senses": [
+        {
+          "sense_id": "wn:age.n.01",
+          "homograph_id": null,
+          "definition": "how long something has existed",
+          "pos": "noun",
+          "examples": [
+            "it was replaced because of its age"
+          ]
+        },
+        {
+          "sense_id": "wn:historic_period.n.01",
+          "homograph_id": null,
+          "definition": "an era of history having some distinctive feature",
+          "pos": "noun",
+          "examples": [
+            "we live in a litigious age"
+          ]
+        },
+        {
+          "sense_id": "wn:age.n.03",
+          "homograph_id": null,
+          "definition": "a time of life (usually defined in years) at which some particular qualification or power arises",
+          "pos": "noun",
+          "examples": [
+            "she was now of school age",
+            "tall for his eld"
+          ]
+        },
+        {
+          "sense_id": "wn:long_time.n.01",
+          "homograph_id": null,
+          "definition": "a prolonged period of time",
+          "pos": "noun",
+          "examples": [
+            "we've known each other for ages",
+            "I haven't been there for years and years"
+          ]
+        },
+        {
+          "sense_id": "wn:old_age.n.01",
+          "homograph_id": null,
+          "definition": "a late time of life",
+          "pos": "noun",
+          "examples": [
+            "old age is not for sissies",
+            "he's showing his years",
+            "age hasn't slowed him down at all",
+            "a beard white with eld",
+            "on the brink of geezerhood"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "beginning",
+      "senses": [
+        {
+          "sense_id": "wn:beginning.n.01",
+          "homograph_id": null,
+          "definition": "the event consisting of the start of something",
+          "pos": "noun",
+          "examples": [
+            "the beginning of the war"
+          ]
+        },
+        {
+          "sense_id": "wn:beginning.n.02",
+          "homograph_id": null,
+          "definition": "the time at which something is supposed to begin",
+          "pos": "noun",
+          "examples": [
+            "they got an early start",
+            "she knew from the get-go that he was the man for her"
+          ]
+        },
+        {
+          "sense_id": "wn:beginning.n.03",
+          "homograph_id": null,
+          "definition": "the first part or section of something",
+          "pos": "noun",
+          "examples": [
+            "`It was a dark and stormy night' is a hackneyed beginning for a story"
+          ]
+        },
+        {
+          "sense_id": "wn:beginning.n.04",
+          "homograph_id": null,
+          "definition": "the place where something begins, where it springs into being",
+          "pos": "noun",
+          "examples": [
+            "the Italian beginning of the Renaissance",
+            "Jupiter was the origin of the radiation",
+            "Pittsburgh is the source of the Ohio River",
+            "communism's Russian root"
+          ]
+        },
+        {
+          "sense_id": "wn:beginning.n.05",
+          "homograph_id": null,
+          "definition": "the act of starting something",
+          "pos": "noun",
+          "examples": [
+            "he was responsible for the beginning of negotiations"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "book",
+      "senses": [
+        {
+          "sense_id": "wn:book.n.01",
+          "homograph_id": null,
+          "definition": "a written work or composition that has been published (printed on pages bound together)",
+          "pos": "noun",
+          "examples": [
+            "I am reading a good book on economics"
+          ]
+        },
+        {
+          "sense_id": "wn:book.n.02",
+          "homograph_id": null,
+          "definition": "physical objects consisting of a number of pages bound together",
+          "pos": "noun",
+          "examples": [
+            "he used a large book as a doorstop"
+          ]
+        },
+        {
+          "sense_id": "wn:record.n.05",
+          "homograph_id": null,
+          "definition": "a compilation of the known facts regarding something or someone",
+          "pos": "noun",
+          "examples": [
+            "Al Smith used to say, `Let's look at the record'",
+            "his name is in all the record books"
+          ]
+        },
+        {
+          "sense_id": "wn:ledger.n.01",
+          "homograph_id": null,
+          "definition": "a record in which commercial accounts are recorded",
+          "pos": "noun",
+          "examples": [
+            "they got a subpoena to examine our books"
+          ]
+        },
+        {
+          "sense_id": "wn:book.n.07",
+          "homograph_id": null,
+          "definition": "a collection of rules or prescribed standards on the basis of which decisions are made",
+          "pos": "noun",
+          "examples": [
+            "they run things by the book around here"
+          ]
+        },
+        {
+          "sense_id": "wn:bible.n.01",
+          "homograph_id": null,
+          "definition": "the sacred writings of the Christian religions",
+          "pos": "noun",
+          "examples": [
+            "he went to carry the Word to the heathen"
+          ]
+        },
+        {
+          "sense_id": "wn:book.n.10",
+          "homograph_id": null,
+          "definition": "a major division of a long written composition",
+          "pos": "noun",
+          "examples": [
+            "the book of Isaiah"
+          ]
+        },
+        {
+          "sense_id": "wn:book.n.11",
+          "homograph_id": null,
+          "definition": "a number of sheets (ticket or stamps etc.) bound together on one edge",
+          "pos": "noun",
+          "examples": [
+            "he bought a book of stamps"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "bus",
+      "senses": [
+        {
+          "sense_id": "wn:bus.n.01",
+          "homograph_id": null,
+          "definition": "a vehicle carrying many passengers; used for public transport",
+          "pos": "noun",
+          "examples": [
+            "he always rode the bus to work"
+          ]
+        },
+        {
+          "sense_id": "wn:busbar.n.01",
+          "homograph_id": null,
+          "definition": "an electrical conductor that makes a common connection between several circuits",
+          "pos": "noun",
+          "examples": [
+            "the busbar in this computer can transmit data either way between any two components of the system"
+          ]
+        },
+        {
+          "sense_id": "wn:bus.n.04",
+          "homograph_id": null,
+          "definition": "a car that is old and unreliable",
+          "pos": "noun",
+          "examples": [
+            "the fenders had fallen off that old bus"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "call",
+      "senses": [
+        {
+          "sense_id": "wn:call.n.01",
+          "homograph_id": null,
+          "definition": "a telephone connection",
+          "pos": "noun",
+          "examples": [
+            "she reported several anonymous calls",
+            "he placed a phone call to London",
+            "he heard the phone ringing but didn't want to take the call"
+          ]
+        },
+        {
+          "sense_id": "wn:call.n.02",
+          "homograph_id": null,
+          "definition": "a special disposition (as if from a divine source) to pursue a particular course",
+          "pos": "noun",
+          "examples": [
+            "he was disappointed that he had not heard the Call"
+          ]
+        },
+        {
+          "sense_id": "wn:cry.n.01",
+          "homograph_id": null,
+          "definition": "a loud utterance; often in protest or opposition",
+          "pos": "noun",
+          "examples": [
+            "the speaker was interrupted by loud cries from the rear of the audience"
+          ]
+        },
+        {
+          "sense_id": "wn:call.n.04",
+          "homograph_id": null,
+          "definition": "a demand especially in the phrase",
+          "pos": "noun",
+          "examples": [
+            "the call of duty"
+          ]
+        },
+        {
+          "sense_id": "wn:birdcall.n.01",
+          "homograph_id": null,
+          "definition": "the characteristic sound produced by a bird",
+          "pos": "noun",
+          "examples": [
+            "a bird will not learn its song unless it hears it at an early age"
+          ]
+        },
+        {
+          "sense_id": "wn:call.n.06",
+          "homograph_id": null,
+          "definition": "a brief social visit",
+          "pos": "noun",
+          "examples": [
+            "senior professors' wives no longer make afternoon calls on newcomers",
+            "the characters in Henry James' novels are forever paying calls on each other, usually in the parlor of some residence"
+          ]
+        },
+        {
+          "sense_id": "wn:call.n.08",
+          "homograph_id": null,
+          "definition": "a demand for a show of hands in a card game",
+          "pos": "noun",
+          "examples": [
+            "after two raises there was a call"
+          ]
+        },
+        {
+          "sense_id": "wn:call.n.09",
+          "homograph_id": null,
+          "definition": "a request",
+          "pos": "noun",
+          "examples": [
+            "many calls for Christmas stories",
+            "not many calls for buggywhips"
+          ]
+        },
+        {
+          "sense_id": "wn:call.n.10",
+          "homograph_id": null,
+          "definition": "an instruction that interrupts the program being executed",
+          "pos": "noun",
+          "examples": [
+            "Pascal performs calls by simply giving the name of the routine to be executed"
+          ]
+        },
+        {
+          "sense_id": "wn:call.n.11",
+          "homograph_id": null,
+          "definition": "a visit in an official or professional capacity",
+          "pos": "noun",
+          "examples": [
+            "the pastor's calls on his parishioners",
+            "the salesman's call on a customer"
+          ]
+        },
+        {
+          "sense_id": "wn:call.n.12",
+          "homograph_id": null,
+          "definition": "(sports) the decision made by an umpire or referee",
+          "pos": "noun",
+          "examples": [
+            "he was ejected for protesting the call"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "character",
+      "senses": [
+        {
+          "sense_id": "wn:fictional_character.n.01",
+          "homograph_id": null,
+          "definition": "an imaginary person represented in a work of fiction (play or film or story)",
+          "pos": "noun",
+          "examples": [
+            "she is the main character in the novel"
+          ]
+        },
+        {
+          "sense_id": "wn:quality.n.03",
+          "homograph_id": null,
+          "definition": "a characteristic property that defines the apparent individual nature of something",
+          "pos": "noun",
+          "examples": [
+            "each town has a quality all its own",
+            "the radical character of our demands"
+          ]
+        },
+        {
+          "sense_id": "wn:character.n.03",
+          "homograph_id": null,
+          "definition": "the inherent complex of attributes that determines a persons moral and ethical actions and reactions; - Herbert Spencer",
+          "pos": "noun",
+          "examples": [
+            "education has for its object the formation of character"
+          ]
+        },
+        {
+          "sense_id": "wn:character.n.04",
+          "homograph_id": null,
+          "definition": "an actor's portrayal of someone in a play",
+          "pos": "noun",
+          "examples": [
+            "she played the part of Desdemona"
+          ]
+        },
+        {
+          "sense_id": "wn:character.n.05",
+          "homograph_id": null,
+          "definition": "a person of a specified kind (usually with many eccentricities)",
+          "pos": "noun",
+          "examples": [
+            "a real character",
+            "a strange character",
+            "a friendly eccentric",
+            "the capable type",
+            "a mental case"
+          ]
+        },
+        {
+          "sense_id": "wn:character.n.06",
+          "homograph_id": null,
+          "definition": "good repute",
+          "pos": "noun",
+          "examples": [
+            "he is a man of character"
+          ]
+        },
+        {
+          "sense_id": "wn:character.n.07",
+          "homograph_id": null,
+          "definition": "a formal recommendation by a former employer to a potential future employer describing the person's qualifications and dependability",
+          "pos": "noun",
+          "examples": [
+            "requests for character references are all too often answered evasively"
+          ]
+        },
+        {
+          "sense_id": "wn:character.n.08",
+          "homograph_id": null,
+          "definition": "a written symbol that is used to represent speech",
+          "pos": "noun",
+          "examples": [
+            "the Greek alphabet has 24 characters"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "condition",
+      "senses": [
+        {
+          "sense_id": "wn:condition.n.01",
+          "homograph_id": null,
+          "definition": "a state at a particular time",
+          "pos": "noun",
+          "examples": [
+            "a condition (or state) of disrepair",
+            "the current status of the arms negotiations"
+          ]
+        },
+        {
+          "sense_id": "wn:condition.n.03",
+          "homograph_id": null,
+          "definition": "a mode of being or form of existence of a person or thing",
+          "pos": "noun",
+          "examples": [
+            "the human condition"
+          ]
+        },
+        {
+          "sense_id": "wn:circumstance.n.03",
+          "homograph_id": null,
+          "definition": "information that should be kept in mind when making a decision",
+          "pos": "noun",
+          "examples": [
+            "another consideration is the time it would take"
+          ]
+        },
+        {
+          "sense_id": "wn:condition.n.06",
+          "homograph_id": null,
+          "definition": "an illness, disease, or other medical problem",
+          "pos": "noun",
+          "examples": [
+            "a heart condition",
+            "a skin condition"
+          ]
+        },
+        {
+          "sense_id": "wn:condition.n.07",
+          "homograph_id": null,
+          "definition": "(usually plural) a statement of what is required as part of an agreement",
+          "pos": "noun",
+          "examples": [
+            "the contract set out the conditions of the lease",
+            "the terms of the treaty were generous"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "conflict",
+      "senses": [
+        {
+          "sense_id": "wn:conflict.n.01",
+          "homograph_id": null,
+          "definition": "an open clash between two opposing groups (or individuals); --Thomas Paine",
+          "pos": "noun",
+          "examples": [
+            "the harder the conflict the more glorious the triumph",
+            "police tried to control the battle between the pro- and anti-abortion mobs"
+          ]
+        },
+        {
+          "sense_id": "wn:conflict.n.02",
+          "homograph_id": null,
+          "definition": "opposition between two simultaneous but incompatible feelings",
+          "pos": "noun",
+          "examples": [
+            "he was immobilized by conflict and indecision"
+          ]
+        },
+        {
+          "sense_id": "wn:battle.n.01",
+          "homograph_id": null,
+          "definition": "a hostile meeting of opposing military forces in the course of a war",
+          "pos": "noun",
+          "examples": [
+            "Grant won a decisive victory in the battle of Chickamauga",
+            "he lost his romantic ideas about war when he got into a real engagement"
+          ]
+        },
+        {
+          "sense_id": "wn:conflict.n.04",
+          "homograph_id": null,
+          "definition": "a state of opposition between persons or ideas or interests",
+          "pos": "noun",
+          "examples": [
+            "his conflict of interest made him ineligible for the post",
+            "a conflict of loyalties"
+          ]
+        },
+        {
+          "sense_id": "wn:conflict.n.05",
+          "homograph_id": null,
+          "definition": "an incompatibility of dates or events",
+          "pos": "noun",
+          "examples": [
+            "he noticed a conflict in the dates of the two meetings"
+          ]
+        },
+        {
+          "sense_id": "wn:conflict.n.06",
+          "homograph_id": null,
+          "definition": "opposition in a work of drama or fiction between characters or forces (especially an opposition that motivates the development of the plot)",
+          "pos": "noun",
+          "examples": [
+            "this form of conflict is essential to Mann's writing"
+          ]
+        },
+        {
+          "sense_id": "wn:dispute.n.01",
+          "homograph_id": null,
+          "definition": "a disagreement or argument about something important",
+          "pos": "noun",
+          "examples": [
+            "he had a dispute with his wife",
+            "there were irreconcilable differences",
+            "the familiar conflict between Republicans and Democrats"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "couple",
+      "senses": [
+        {
+          "sense_id": "wn:couple.n.01",
+          "homograph_id": null,
+          "definition": "a pair who associate with one another",
+          "pos": "noun",
+          "examples": [
+            "the engaged couple",
+            "an inseparable twosome"
+          ]
+        },
+        {
+          "sense_id": "wn:couple.n.02",
+          "homograph_id": null,
+          "definition": "a pair of people who live together",
+          "pos": "noun",
+          "examples": [
+            "a married couple from Chicago"
+          ]
+        },
+        {
+          "sense_id": "wn:couple.n.03",
+          "homograph_id": null,
+          "definition": "a small indefinite number",
+          "pos": "noun",
+          "examples": [
+            "he's coming for a couple of days"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "cup",
+      "senses": [
+        {
+          "sense_id": "wn:cup.n.01",
+          "homograph_id": null,
+          "definition": "a small open container usually used for drinking; usually has a handle",
+          "pos": "noun",
+          "examples": [
+            "he put the cup back in the saucer",
+            "the handle of the cup was missing"
+          ]
+        },
+        {
+          "sense_id": "wn:cup.n.02",
+          "homograph_id": null,
+          "definition": "the quantity a cup will hold",
+          "pos": "noun",
+          "examples": [
+            "he drank a cup of coffee",
+            "he borrowed a cup of sugar"
+          ]
+        },
+        {
+          "sense_id": "wn:cup.n.03",
+          "homograph_id": null,
+          "definition": "any cup-shaped concavity",
+          "pos": "noun",
+          "examples": [
+            "bees filled the waxen cups with honey",
+            "he wore a jock strap with a metal cup",
+            "the cup of her bra"
+          ]
+        },
+        {
+          "sense_id": "wn:cup.n.07",
+          "homograph_id": null,
+          "definition": "the hole (or metal container in the hole) on a golf green",
+          "pos": "noun",
+          "examples": [
+            "he swore as the ball rimmed the cup and rolled away",
+            "put the flag back in the cup"
+          ]
+        },
+        {
+          "sense_id": "wn:cup.n.08",
+          "homograph_id": null,
+          "definition": "a large metal vessel with two handles that is awarded as a trophy to the winner of a competition",
+          "pos": "noun",
+          "examples": [
+            "the school kept the cups is a special glass case"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "death",
+      "senses": [
+        {
+          "sense_id": "wn:death.n.01",
+          "homograph_id": null,
+          "definition": "the event of dying or departure from life",
+          "pos": "noun",
+          "examples": [
+            "her death came as a terrible shock",
+            "upon your decease the capital will pass to your grandchildren"
+          ]
+        },
+        {
+          "sense_id": "wn:death.n.02",
+          "homograph_id": null,
+          "definition": "the permanent end of all life functions in an organism or part of an organism",
+          "pos": "noun",
+          "examples": [
+            "the animal died a painful death"
+          ]
+        },
+        {
+          "sense_id": "wn:death.n.03",
+          "homograph_id": null,
+          "definition": "the absence of life or state of being dead",
+          "pos": "noun",
+          "examples": [
+            "he seemed more content in death than he had ever been in life"
+          ]
+        },
+        {
+          "sense_id": "wn:death.n.04",
+          "homograph_id": null,
+          "definition": "the time when something ends",
+          "pos": "noun",
+          "examples": [
+            "it was the death of all his plans",
+            "a dying of old hopes"
+          ]
+        },
+        {
+          "sense_id": "wn:death.n.05",
+          "homograph_id": null,
+          "definition": "the time at which life ends; continuing until dead",
+          "pos": "noun",
+          "examples": [
+            "she stayed until his death",
+            "a struggle to the last"
+          ]
+        },
+        {
+          "sense_id": "wn:death.n.06",
+          "homograph_id": null,
+          "definition": "the personification of death",
+          "pos": "noun",
+          "examples": [
+            "Death walked the streets of the plague-bound city"
+          ]
+        },
+        {
+          "sense_id": "wn:end.n.06",
+          "homograph_id": null,
+          "definition": "a final state",
+          "pos": "noun",
+          "examples": [
+            "he came to a bad end",
+            "the so-called glorious experiment came to an inglorious end"
+          ]
+        },
+        {
+          "sense_id": "wn:death.n.08",
+          "homograph_id": null,
+          "definition": "the act of killing",
+          "pos": "noun",
+          "examples": [
+            "he had two deaths on his conscience"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "dish",
+      "senses": [
+        {
+          "sense_id": "wn:dish.n.01",
+          "homograph_id": null,
+          "definition": "a piece of dishware normally used as a container for holding or serving food",
+          "pos": "noun",
+          "examples": [
+            "we gave them a set of dishes for a wedding present"
+          ]
+        },
+        {
+          "sense_id": "wn:dish.n.02",
+          "homograph_id": null,
+          "definition": "a particular item of prepared food",
+          "pos": "noun",
+          "examples": [
+            "she prepared a special dish for dinner"
+          ]
+        },
+        {
+          "sense_id": "wn:dish.n.03",
+          "homograph_id": null,
+          "definition": "the quantity that a dish will hold",
+          "pos": "noun",
+          "examples": [
+            "they served me a dish of rice"
+          ]
+        },
+        {
+          "sense_id": "wn:cup_of_tea.n.01",
+          "homograph_id": null,
+          "definition": "an activity that you like or at which you are superior",
+          "pos": "noun",
+          "examples": [
+            "chemistry is not my cup of tea",
+            "his bag now is learning to play golf",
+            "marriage was scarcely his dish"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "education",
+      "senses": [
+        {
+          "sense_id": "wn:education.n.01",
+          "homograph_id": null,
+          "definition": "the activities of educating or instructing; activities that impart knowledge or skill",
+          "pos": "noun",
+          "examples": [
+            "he received no formal education",
+            "our instruction was carefully programmed",
+            "good classroom teaching is seldom rewarded"
+          ]
+        },
+        {
+          "sense_id": "wn:education.n.02",
+          "homograph_id": null,
+          "definition": "knowledge acquired by learning and instruction",
+          "pos": "noun",
+          "examples": [
+            "it was clear that he had a very broad education"
+          ]
+        },
+        {
+          "sense_id": "wn:education.n.03",
+          "homograph_id": null,
+          "definition": "the gradual process of acquiring knowledge",
+          "pos": "noun",
+          "examples": [
+            "education is a preparation for life",
+            "a girl's education was less important than a boy's"
+          ]
+        },
+        {
+          "sense_id": "wn:education.n.05",
+          "homograph_id": null,
+          "definition": "the result of good upbringing (especially knowledge of correct social behavior)",
+          "pos": "noun",
+          "examples": [
+            "a woman of breeding and refinement"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "estimate",
+      "senses": [
+        {
+          "sense_id": "wn:estimate.n.01",
+          "homograph_id": null,
+          "definition": "an approximate calculation of quantity or degree or worth",
+          "pos": "noun",
+          "examples": [
+            "an estimate of what it would cost",
+            "a rough idea how long it would take"
+          ]
+        },
+        {
+          "sense_id": "wn:estimate.n.02",
+          "homograph_id": null,
+          "definition": "a judgment of the qualities of something or somebody",
+          "pos": "noun",
+          "examples": [
+            "many factors are involved in any estimate of human life",
+            "in my estimation the boy is innocent"
+          ]
+        },
+        {
+          "sense_id": "wn:estimate.n.04",
+          "homograph_id": null,
+          "definition": "a statement indicating the likely cost of some job",
+          "pos": "noun",
+          "examples": [
+            "he got an estimate from the car repair shop"
+          ]
+        },
+        {
+          "sense_id": "wn:estimate.n.05",
+          "homograph_id": null,
+          "definition": "the respect with which a person is held",
+          "pos": "noun",
+          "examples": [
+            "they had a high estimation of his ability"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "exchange",
+      "senses": [
+        {
+          "sense_id": "wn:exchange.n.02",
+          "homograph_id": null,
+          "definition": "a mutual expression of views (especially an unpleasant one)",
+          "pos": "noun",
+          "examples": [
+            "they had a bitter exchange"
+          ]
+        },
+        {
+          "sense_id": "wn:exchange.n.03",
+          "homograph_id": null,
+          "definition": "the act of changing one thing for another thing",
+          "pos": "noun",
+          "examples": [
+            "Adam was promised immortality in exchange for his disobedience",
+            "there was an interchange of prisoners"
+          ]
+        },
+        {
+          "sense_id": "wn:exchange.n.04",
+          "homograph_id": null,
+          "definition": "the act of giving something in return for something received",
+          "pos": "noun",
+          "examples": [
+            "deductible losses on sales or exchanges of property are allowable"
+          ]
+        },
+        {
+          "sense_id": "wn:rally.n.05",
+          "homograph_id": null,
+          "definition": "(sports) an unbroken sequence of several successive strokes",
+          "pos": "noun",
+          "examples": [
+            "after a short rally Connors won the point"
+          ]
+        },
+        {
+          "sense_id": "wn:exchange.n.08",
+          "homograph_id": null,
+          "definition": "reciprocal transfer of equivalent sums of money (especially the currencies of different countries)",
+          "pos": "noun",
+          "examples": [
+            "he earns his living from the interchange of currency"
+          ]
+        },
+        {
+          "sense_id": "wn:substitution.n.02",
+          "homograph_id": null,
+          "definition": "the act of putting one thing or person in the place of another:",
+          "pos": "noun",
+          "examples": [
+            "he sent Smith in for Jones but the substitution came too late to help"
+          ]
+        },
+        {
+          "sense_id": "wn:exchange.n.10",
+          "homograph_id": null,
+          "definition": "(chess) gaining (or losing) a rook in return for a knight or bishop",
+          "pos": "noun",
+          "examples": [
+            "black lost the exchange"
+          ]
+        },
+        {
+          "sense_id": "wn:exchange.n.11",
+          "homograph_id": null,
+          "definition": "(chess) the capture by both players (usually on consecutive moves) of pieces of equal value",
+          "pos": "noun",
+          "examples": [
+            "the endgame began after the exchange of queens"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "father",
+      "senses": [
+        {
+          "sense_id": "wn:father.n.01",
+          "homograph_id": null,
+          "definition": "a male parent (also used as a term of address to your father)",
+          "pos": "noun",
+          "examples": [
+            "his father was born in Atlanta"
+          ]
+        },
+        {
+          "sense_id": "wn:forefather.n.01",
+          "homograph_id": null,
+          "definition": "the founder of a family",
+          "pos": "noun",
+          "examples": [
+            "keep the faith of our forefathers"
+          ]
+        },
+        {
+          "sense_id": "wn:father.n.05",
+          "homograph_id": null,
+          "definition": "a person who holds an important or distinguished position in some organization",
+          "pos": "noun",
+          "examples": [
+            "the tennis fathers ruled in her favor",
+            "the city fathers endorsed the proposal"
+          ]
+        },
+        {
+          "sense_id": "wn:father.n.06",
+          "homograph_id": null,
+          "definition": "God when considered as the first person in the Trinity",
+          "pos": "noun",
+          "examples": [
+            "hear our prayers, Heavenly Father"
+          ]
+        },
+        {
+          "sense_id": "wn:founder.n.02",
+          "homograph_id": null,
+          "definition": "a person who founds or establishes some institution",
+          "pos": "noun",
+          "examples": [
+            "George Washington is the father of his country"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "field",
+      "senses": [
+        {
+          "sense_id": "wn:field.n.01",
+          "homograph_id": null,
+          "definition": "a piece of land cleared of trees and usually enclosed",
+          "pos": "noun",
+          "examples": [
+            "he planted a field of wheat"
+          ]
+        },
+        {
+          "sense_id": "wn:battlefield.n.01",
+          "homograph_id": null,
+          "definition": "a region where a battle is being (or has been) fought",
+          "pos": "noun",
+          "examples": [
+            "they made a tour of Civil War battlefields"
+          ]
+        },
+        {
+          "sense_id": "wn:field.n.03",
+          "homograph_id": null,
+          "definition": "somewhere (away from a studio or office or library or laboratory) where practical work is done or data is collected",
+          "pos": "noun",
+          "examples": [
+            "anthropologists do much of their work in the field"
+          ]
+        },
+        {
+          "sense_id": "wn:discipline.n.01",
+          "homograph_id": null,
+          "definition": "a branch of knowledge",
+          "pos": "noun",
+          "examples": [
+            "in what discipline is his doctorate?",
+            "teachers should be well trained in their subject",
+            "anthropology is the study of human beings"
+          ]
+        },
+        {
+          "sense_id": "wn:field.n.06",
+          "homograph_id": null,
+          "definition": "a particular kind of commercial enterprise",
+          "pos": "noun",
+          "examples": [
+            "they are outstanding in their field"
+          ]
+        },
+        {
+          "sense_id": "wn:sphere.n.01",
+          "homograph_id": null,
+          "definition": "a particular environment or walk of life",
+          "pos": "noun",
+          "examples": [
+            "his social sphere is limited",
+            "it was a closed area of employment",
+            "he's out of my orbit"
+          ]
+        },
+        {
+          "sense_id": "wn:playing_field.n.02",
+          "homograph_id": null,
+          "definition": "a piece of land prepared for playing a game",
+          "pos": "noun",
+          "examples": [
+            "the home crowd cheered when Princeton took the field"
+          ]
+        },
+        {
+          "sense_id": "wn:plain.n.01",
+          "homograph_id": null,
+          "definition": "extensive tract of level open land",
+          "pos": "noun",
+          "examples": [
+            "they emerged from the woods onto a vast open plain",
+            "he longed for the fields of his youth"
+          ]
+        },
+        {
+          "sense_id": "wn:field.n.10",
+          "homograph_id": null,
+          "definition": "(mathematics) a set of elements such that addition and multiplication are commutative and associative and multiplication is distributive over addition and there are two elements 0 and 1",
+          "pos": "noun",
+          "examples": [
+            "the set of all rational numbers is a field"
+          ]
+        },
+        {
+          "sense_id": "wn:field.n.11",
+          "homograph_id": null,
+          "definition": "a region in which active military operations are in progress",
+          "pos": "noun",
+          "examples": [
+            "the army was in the field awaiting action",
+            "he served in the Vietnam theater for three years"
+          ]
+        },
+        {
+          "sense_id": "wn:field.n.14",
+          "homograph_id": null,
+          "definition": "a geographic region (land or sea) under which something valuable is found",
+          "pos": "noun",
+          "examples": [
+            "the diamond fields of South Africa"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "fire",
+      "senses": [
+        {
+          "sense_id": "wn:fire.n.01",
+          "homograph_id": null,
+          "definition": "the event of something burning (often destructive)",
+          "pos": "noun",
+          "examples": [
+            "they lost everything in the fire"
+          ]
+        },
+        {
+          "sense_id": "wn:fire.n.02",
+          "homograph_id": null,
+          "definition": "the act of firing weapons or artillery at an enemy",
+          "pos": "noun",
+          "examples": [
+            "hold your fire until you can see the whites of their eyes",
+            "they retreated in the face of withering enemy fire"
+          ]
+        },
+        {
+          "sense_id": "wn:fire.n.03",
+          "homograph_id": null,
+          "definition": "the process of combustion of inflammable materials producing heat and light and (often) smoke",
+          "pos": "noun",
+          "examples": [
+            "fire was one of our ancestors' first discoveries"
+          ]
+        },
+        {
+          "sense_id": "wn:fire.n.04",
+          "homograph_id": null,
+          "definition": "a fireplace in which a relatively small fire is burning",
+          "pos": "noun",
+          "examples": [
+            "they sat by the fire and talked"
+          ]
+        },
+        {
+          "sense_id": "wn:ardor.n.03",
+          "homograph_id": null,
+          "definition": "feelings of great warmth and intensity",
+          "pos": "noun",
+          "examples": [
+            "he spoke with great ardor"
+          ]
+        },
+        {
+          "sense_id": "wn:fire.n.07",
+          "homograph_id": null,
+          "definition": "fuel that is burning and is used as a means for cooking",
+          "pos": "noun",
+          "examples": [
+            "put the kettle on the fire",
+            "barbecue over an open fire"
+          ]
+        },
+        {
+          "sense_id": "wn:fire.n.08",
+          "homograph_id": null,
+          "definition": "a severe trial",
+          "pos": "noun",
+          "examples": [
+            "he went through fire and damnation"
+          ]
+        },
+        {
+          "sense_id": "wn:fire.n.09",
+          "homograph_id": null,
+          "definition": "intense adverse criticism",
+          "pos": "noun",
+          "examples": [
+            "Clinton directed his fire at the Republican Party",
+            "the government has come under attack",
+            "don't give me any flak"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "house",
+      "senses": [
+        {
+          "sense_id": "wn:house.n.01",
+          "homograph_id": null,
+          "definition": "a dwelling that serves as living quarters for one or more families",
+          "pos": "noun",
+          "examples": [
+            "he has a house on Cape Cod",
+            "she felt she had to get out of the house"
+          ]
+        },
+        {
+          "sense_id": "wn:firm.n.01",
+          "homograph_id": null,
+          "definition": "the members of a business organization that owns or operates one or more establishments",
+          "pos": "noun",
+          "examples": [
+            "he worked for a brokerage house"
+          ]
+        },
+        {
+          "sense_id": "wn:house.n.04",
+          "homograph_id": null,
+          "definition": "the audience gathered together in a theatre or cinema",
+          "pos": "noun",
+          "examples": [
+            "the house applauded",
+            "he counted the house"
+          ]
+        },
+        {
+          "sense_id": "wn:house.n.05",
+          "homograph_id": null,
+          "definition": "an official assembly having legislative powers",
+          "pos": "noun",
+          "examples": [
+            "a bicameral legislature has two houses"
+          ]
+        },
+        {
+          "sense_id": "wn:house.n.06",
+          "homograph_id": null,
+          "definition": "aristocratic family line",
+          "pos": "noun",
+          "examples": [
+            "the House of York"
+          ]
+        },
+        {
+          "sense_id": "wn:house.n.07",
+          "homograph_id": null,
+          "definition": "play in which children take the roles of father or mother or children and pretend to interact like adults",
+          "pos": "noun",
+          "examples": [
+            "the children were playing house"
+          ]
+        },
+        {
+          "sense_id": "wn:house.n.09",
+          "homograph_id": null,
+          "definition": "the management of a gambling house or casino",
+          "pos": "noun",
+          "examples": [
+            "the house gets a percentage of every bet"
+          ]
+        },
+        {
+          "sense_id": "wn:family.n.01",
+          "homograph_id": null,
+          "definition": "a social unit living together",
+          "pos": "noun",
+          "examples": [
+            "he moved his family to Virginia",
+            "It was a good Christian household",
+            "I waited until the whole house was asleep",
+            "the teacher asked how many people made up his home"
+          ]
+        },
+        {
+          "sense_id": "wn:theater.n.01",
+          "homograph_id": null,
+          "definition": "a building where theatrical performances or motion-picture shows can be presented",
+          "pos": "noun",
+          "examples": [
+            "the house was full"
+          ]
+        },
+        {
+          "sense_id": "wn:house.n.12",
+          "homograph_id": null,
+          "definition": "a building in which something is sheltered or located",
+          "pos": "noun",
+          "examples": [
+            "they had a large carriage house"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "identity",
+      "senses": [
+        {
+          "sense_id": "wn:identity.n.01",
+          "homograph_id": null,
+          "definition": "the distinct personality of an individual regarded as a persisting entity",
+          "pos": "noun",
+          "examples": [
+            "you can lose your identity when you join the army"
+          ]
+        },
+        {
+          "sense_id": "wn:identity.n.02",
+          "homograph_id": null,
+          "definition": "the individual characteristics by which a thing or person is recognized or known",
+          "pos": "noun",
+          "examples": [
+            "geneticists only recently discovered the identity of the gene that causes it",
+            "it was too dark to determine his identity",
+            "she guessed the identity of his lover"
+          ]
+        },
+        {
+          "sense_id": "wn:identity.n.03",
+          "homograph_id": null,
+          "definition": "an operator that leaves unchanged the element on which it operates",
+          "pos": "noun",
+          "examples": [
+            "the identity under numerical multiplication is 1"
+          ]
+        },
+        {
+          "sense_id": "wn:identity.n.04",
+          "homograph_id": null,
+          "definition": "exact sameness",
+          "pos": "noun",
+          "examples": [
+            "they shared an identity of interests"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "issue",
+      "senses": [
+        {
+          "sense_id": "wn:issue.n.01",
+          "homograph_id": null,
+          "definition": "an important question that is in dispute and must be settled",
+          "pos": "noun",
+          "examples": [
+            "the issue could be settled by requiring public education for everyone",
+            "politicians never discuss the real issues"
+          ]
+        },
+        {
+          "sense_id": "wn:issue.n.02",
+          "homograph_id": null,
+          "definition": "one of a series published periodically",
+          "pos": "noun",
+          "examples": [
+            "she found an old issue of the magazine in her dentist's waiting room"
+          ]
+        },
+        {
+          "sense_id": "wn:topic.n.02",
+          "homograph_id": null,
+          "definition": "some situation or event that is thought about",
+          "pos": "noun",
+          "examples": [
+            "he kept drifting off the topic",
+            "he had been thinking about the subject for several years",
+            "it is a matter for the police"
+          ]
+        },
+        {
+          "sense_id": "wn:issue.n.04",
+          "homograph_id": null,
+          "definition": "the act of providing an item for general use or for official purposes (usually in quantity)",
+          "pos": "noun",
+          "examples": [
+            "a new issue of stamps",
+            "the last issue of penicillin was over a month ago"
+          ]
+        },
+        {
+          "sense_id": "wn:return.n.06",
+          "homograph_id": null,
+          "definition": "the income or profit arising from such transactions as the sale of land or other property",
+          "pos": "noun",
+          "examples": [
+            "the average return was about 5%"
+          ]
+        },
+        {
+          "sense_id": "wn:consequence.n.01",
+          "homograph_id": null,
+          "definition": "a phenomenon that follows and is caused by some previous phenomenon",
+          "pos": "noun",
+          "examples": [
+            "the magnetic effect was greater when the rod was lengthwise",
+            "his decision had depressing consequences for business",
+            "he acted very wise after the event"
+          ]
+        },
+        {
+          "sense_id": "wn:offspring.n.01",
+          "homograph_id": null,
+          "definition": "the immediate descendants of a person",
+          "pos": "noun",
+          "examples": [
+            "she was the mother of many offspring",
+            "he died without issue"
+          ]
+        },
+        {
+          "sense_id": "wn:emergence.n.02",
+          "homograph_id": null,
+          "definition": "the becoming visible",
+          "pos": "noun",
+          "examples": [
+            "not a day's difference between the emergence of the andrenas and the opening of the willow catkins"
+          ]
+        },
+        {
+          "sense_id": "wn:exit.n.01",
+          "homograph_id": null,
+          "definition": "an opening that permits escape or release",
+          "pos": "noun",
+          "examples": [
+            "he blocked the way out",
+            "the canyon had only one issue"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "leadership",
+      "senses": [
+        {
+          "sense_id": "wn:leadership.n.01",
+          "homograph_id": null,
+          "definition": "the activity of leading",
+          "pos": "noun",
+          "examples": [
+            "his leadership inspired the team"
+          ]
+        },
+        {
+          "sense_id": "wn:leadership.n.02",
+          "homograph_id": null,
+          "definition": "the body of people who lead a group",
+          "pos": "noun",
+          "examples": [
+            "the national leadership adopted his plan"
+          ]
+        },
+        {
+          "sense_id": "wn:leadership.n.03",
+          "homograph_id": null,
+          "definition": "the status of a leader",
+          "pos": "noun",
+          "examples": [
+            "they challenged his leadership of the union"
+          ]
+        },
+        {
+          "sense_id": "wn:leadership.n.04",
+          "homograph_id": null,
+          "definition": "the ability to lead",
+          "pos": "noun",
+          "examples": [
+            "he believed that leadership can be taught"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "mouth",
+      "senses": [
+        {
+          "sense_id": "wn:mouth.n.01",
+          "homograph_id": null,
+          "definition": "the opening through which food is taken in and vocalizations emerge",
+          "pos": "noun",
+          "examples": [
+            "he stuffed his mouth with candy"
+          ]
+        },
+        {
+          "sense_id": "wn:mouth.n.02",
+          "homograph_id": null,
+          "definition": "the externally visible part of the oral cavity on the face and the system of organs surrounding the opening",
+          "pos": "noun",
+          "examples": [
+            "she wiped lipstick from her mouth"
+          ]
+        },
+        {
+          "sense_id": "wn:mouth.n.03",
+          "homograph_id": null,
+          "definition": "an opening that resembles a mouth (as of a cave or a gorge)",
+          "pos": "noun",
+          "examples": [
+            "he rode into the mouth of the canyon",
+            "they built a fire at the mouth of the cave"
+          ]
+        },
+        {
+          "sense_id": "wn:mouth.n.04",
+          "homograph_id": null,
+          "definition": "the point where a stream issues into a larger body of water",
+          "pos": "noun",
+          "examples": [
+            "New York is at the mouth of the Hudson"
+          ]
+        },
+        {
+          "sense_id": "wn:mouth.n.05",
+          "homograph_id": null,
+          "definition": "a person conceived as a consumer of food",
+          "pos": "noun",
+          "examples": [
+            "he has four mouths to feed"
+          ]
+        },
+        {
+          "sense_id": "wn:sass.n.01",
+          "homograph_id": null,
+          "definition": "an impudent or insolent rejoinder",
+          "pos": "noun",
+          "examples": [
+            "don't give me any of your sass"
+          ]
+        },
+        {
+          "sense_id": "wn:mouth.n.08",
+          "homograph_id": null,
+          "definition": "the opening of a jar or bottle",
+          "pos": "noun",
+          "examples": [
+            "the jar had a wide mouth"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "movement",
+      "senses": [
+        {
+          "sense_id": "wn:motion.n.03",
+          "homograph_id": null,
+          "definition": "a change of position that does not entail a change of location",
+          "pos": "noun",
+          "examples": [
+            "the reflex motion of his eyebrows revealed his surprise",
+            "movement is a sign of life",
+            "an impatient move of his hand",
+            "gastrointestinal motility"
+          ]
+        },
+        {
+          "sense_id": "wn:motion.n.06",
+          "homograph_id": null,
+          "definition": "the act of changing location from one place to another",
+          "pos": "noun",
+          "examples": [
+            "police controlled the motion of the crowd",
+            "the movement of people from the farms to the cities",
+            "his move put him directly in my path"
+          ]
+        },
+        {
+          "sense_id": "wn:movement.n.04",
+          "homograph_id": null,
+          "definition": "a group of people with a common ideology who try together to achieve certain general goals",
+          "pos": "noun",
+          "examples": [
+            "he was a charter member of the movement",
+            "politicians have to respect a mass movement",
+            "he led the national liberation front"
+          ]
+        },
+        {
+          "sense_id": "wn:movement.n.05",
+          "homograph_id": null,
+          "definition": "a major self-contained part of a symphony or sonata",
+          "pos": "noun",
+          "examples": [
+            "the second movement is slow and melodic"
+          ]
+        },
+        {
+          "sense_id": "wn:campaign.n.02",
+          "homograph_id": null,
+          "definition": "a series of actions advancing a principle or tending toward a particular end",
+          "pos": "noun",
+          "examples": [
+            "he supported populist campaigns",
+            "they worked in the cause of world peace",
+            "the team was ready for a drive toward the pennant",
+            "the movement to end slavery",
+            "contributed to the war effort"
+          ]
+        },
+        {
+          "sense_id": "wn:apparent_motion.n.01",
+          "homograph_id": null,
+          "definition": "an optical illusion of motion produced by viewing a rapid succession of still pictures of a moving object",
+          "pos": "noun",
+          "examples": [
+            "the cinema relies on apparent motion",
+            "the succession of flashing lights gave an illusion of movement"
+          ]
+        },
+        {
+          "sense_id": "wn:bowel_movement.n.01",
+          "homograph_id": null,
+          "definition": "a euphemism for defecation",
+          "pos": "noun",
+          "examples": [
+            "he had a bowel movement"
+          ]
+        },
+        {
+          "sense_id": "wn:drift.n.05",
+          "homograph_id": null,
+          "definition": "a general tendency to change (as of opinion)",
+          "pos": "noun",
+          "examples": [
+            "not openly liberal but that is the trend of the book",
+            "a broad movement of the electorate to the right"
+          ]
+        },
+        {
+          "sense_id": "wn:movement.n.10",
+          "homograph_id": null,
+          "definition": "the driving and regulating parts of a mechanism (as of a watch or clock)",
+          "pos": "noun",
+          "examples": [
+            "it was an expensive watch with a diamond movement"
+          ]
+        },
+        {
+          "sense_id": "wn:movement.n.11",
+          "homograph_id": null,
+          "definition": "the act of changing the location of something",
+          "pos": "noun",
+          "examples": [
+            "the movement of cargo onto the vessel"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "name",
+      "senses": [
+        {
+          "sense_id": "wn:name.n.01",
+          "homograph_id": null,
+          "definition": "a language unit by which a person or thing is known",
+          "pos": "noun",
+          "examples": [
+            "his name really is George Washington",
+            "those are two names for the same thing"
+          ]
+        },
+        {
+          "sense_id": "wn:name.n.02",
+          "homograph_id": null,
+          "definition": "a person's reputation",
+          "pos": "noun",
+          "examples": [
+            "he wanted to protect his good name"
+          ]
+        },
+        {
+          "sense_id": "wn:name.n.03",
+          "homograph_id": null,
+          "definition": "family based on male descent",
+          "pos": "noun",
+          "examples": [
+            "he had no sons and there was no one to carry on his name"
+          ]
+        },
+        {
+          "sense_id": "wn:name.n.04",
+          "homograph_id": null,
+          "definition": "a well-known or notable person",
+          "pos": "noun",
+          "examples": [
+            "they studied all the great names in the history of France",
+            "she is an important figure in modern music"
+          ]
+        },
+        {
+          "sense_id": "wn:name.n.05",
+          "homograph_id": null,
+          "definition": "by the sanction or authority of",
+          "pos": "noun",
+          "examples": [
+            "halt in the name of the law"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "newspaper",
+      "senses": [
+        {
+          "sense_id": "wn:newspaper.n.01",
+          "homograph_id": null,
+          "definition": "a daily or weekly publication on folded sheets; contains news and articles and advertisements",
+          "pos": "noun",
+          "examples": [
+            "he read his newspaper at breakfast"
+          ]
+        },
+        {
+          "sense_id": "wn:newspaper.n.02",
+          "homograph_id": null,
+          "definition": "a business firm that publishes newspapers",
+          "pos": "noun",
+          "examples": [
+            "Murdoch owns many newspapers"
+          ]
+        },
+        {
+          "sense_id": "wn:newspaper.n.03",
+          "homograph_id": null,
+          "definition": "the physical object that is the product of a newspaper publisher",
+          "pos": "noun",
+          "examples": [
+            "when it began to rain he covered his head with a newspaper"
+          ]
+        },
+        {
+          "sense_id": "wn:newspaper.n.04",
+          "homograph_id": null,
+          "definition": "cheap paper made from wood pulp and used for printing newspapers",
+          "pos": "noun",
+          "examples": [
+            "they used bales of newspaper every day"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "occupation",
+      "senses": [
+        {
+          "sense_id": "wn:occupation.n.01",
+          "homograph_id": null,
+          "definition": "the principal activity in your life that you do to earn money",
+          "pos": "noun",
+          "examples": [
+            "he's not in my line of business"
+          ]
+        },
+        {
+          "sense_id": "wn:occupation.n.03",
+          "homograph_id": null,
+          "definition": "any activity that occupies a person's attention",
+          "pos": "noun",
+          "examples": [
+            "he missed the bell in his occupation with the computer game"
+          ]
+        },
+        {
+          "sense_id": "wn:occupation.n.04",
+          "homograph_id": null,
+          "definition": "the act of occupying or taking possession of a building",
+          "pos": "noun",
+          "examples": [
+            "occupation of a building without a certificate of occupancy is illegal"
+          ]
+        },
+        {
+          "sense_id": "wn:occupation.n.05",
+          "homograph_id": null,
+          "definition": "the period of time during which a place or position or nation is occupied",
+          "pos": "noun",
+          "examples": [
+            "during the German occupation of Paris"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "paper",
+      "senses": [
+        {
+          "sense_id": "wn:composition.n.08",
+          "homograph_id": null,
+          "definition": "an essay (especially one written as an assignment)",
+          "pos": "noun",
+          "examples": [
+            "he got an A on his composition"
+          ]
+        },
+        {
+          "sense_id": "wn:newspaper.n.01",
+          "homograph_id": null,
+          "definition": "a daily or weekly publication on folded sheets; contains news and articles and advertisements",
+          "pos": "noun",
+          "examples": [
+            "he read his newspaper at breakfast"
+          ]
+        },
+        {
+          "sense_id": "wn:paper.n.04",
+          "homograph_id": null,
+          "definition": "a medium for written communication",
+          "pos": "noun",
+          "examples": [
+            "the notion of an office running without paper is absurd"
+          ]
+        },
+        {
+          "sense_id": "wn:paper.n.05",
+          "homograph_id": null,
+          "definition": "a scholarly article describing the results of observations or stating hypotheses",
+          "pos": "noun",
+          "examples": [
+            "he has written many scientific papers"
+          ]
+        },
+        {
+          "sense_id": "wn:newspaper.n.02",
+          "homograph_id": null,
+          "definition": "a business firm that publishes newspapers",
+          "pos": "noun",
+          "examples": [
+            "Murdoch owns many newspapers"
+          ]
+        },
+        {
+          "sense_id": "wn:newspaper.n.03",
+          "homograph_id": null,
+          "definition": "the physical object that is the product of a newspaper publisher",
+          "pos": "noun",
+          "examples": [
+            "when it began to rain he covered his head with a newspaper"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "phase",
+      "senses": [
+        {
+          "sense_id": "wn:phase.n.01",
+          "homograph_id": null,
+          "definition": "any distinct time period in a sequence of events",
+          "pos": "noun",
+          "examples": [
+            "we are in a transitional stage in which many former ideas must be revised or rejected"
+          ]
+        },
+        {
+          "sense_id": "wn:phase.n.02",
+          "homograph_id": null,
+          "definition": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary",
+          "pos": "noun",
+          "examples": [
+            "the reaction occurs in the liquid phase of the system"
+          ]
+        },
+        {
+          "sense_id": "wn:phase.n.04",
+          "homograph_id": null,
+          "definition": "(astronomy) the particular appearance of a body's state of illumination (especially one of the recurring shapes of the part of Earth's moon that is illuminated by the sun)",
+          "pos": "noun",
+          "examples": [
+            "the full phase of the moon"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "play",
+      "senses": [
+        {
+          "sense_id": "wn:play.n.01",
+          "homograph_id": null,
+          "definition": "a dramatic work intended for performance by actors on a stage",
+          "pos": "noun",
+          "examples": [
+            "he wrote several plays but only one was produced on Broadway"
+          ]
+        },
+        {
+          "sense_id": "wn:play.n.02",
+          "homograph_id": null,
+          "definition": "a theatrical performance of a drama",
+          "pos": "noun",
+          "examples": [
+            "the play lasted two hours"
+          ]
+        },
+        {
+          "sense_id": "wn:play.n.03",
+          "homograph_id": null,
+          "definition": "a preset plan of action in team sports",
+          "pos": "noun",
+          "examples": [
+            "the coach drew up the plays for her team"
+          ]
+        },
+        {
+          "sense_id": "wn:maneuver.n.03",
+          "homograph_id": null,
+          "definition": "a deliberate coordinated movement requiring dexterity and skill",
+          "pos": "noun",
+          "examples": [
+            "he made a great maneuver",
+            "the runner was out on a play by the shortstop"
+          ]
+        },
+        {
+          "sense_id": "wn:play.n.05",
+          "homograph_id": null,
+          "definition": "a state in which action is feasible",
+          "pos": "noun",
+          "examples": [
+            "the ball was still in play",
+            "insiders said the company's stock was in play"
+          ]
+        },
+        {
+          "sense_id": "wn:play.n.06",
+          "homograph_id": null,
+          "definition": "utilization or exercise",
+          "pos": "noun",
+          "examples": [
+            "the play of the imagination"
+          ]
+        },
+        {
+          "sense_id": "wn:bid.n.02",
+          "homograph_id": null,
+          "definition": "an attempt to get something",
+          "pos": "noun",
+          "examples": [
+            "they made a futile play for power",
+            "he made a bid to gain attention"
+          ]
+        },
+        {
+          "sense_id": "wn:play.n.08",
+          "homograph_id": null,
+          "definition": "activity by children that is guided more by imagination than by fixed rules",
+          "pos": "noun",
+          "examples": [
+            "Freud believed in the utility of play to a small child"
+          ]
+        },
+        {
+          "sense_id": "wn:playing_period.n.01",
+          "homograph_id": null,
+          "definition": "(in games or plays or other performances) the time during which play proceeds",
+          "pos": "noun",
+          "examples": [
+            "rain stopped play in the 4th inning"
+          ]
+        },
+        {
+          "sense_id": "wn:free_rein.n.01",
+          "homograph_id": null,
+          "definition": "the removal of constraints",
+          "pos": "noun",
+          "examples": [
+            "he gave free rein to his impulses",
+            "they gave full play to the artist's talent"
+          ]
+        },
+        {
+          "sense_id": "wn:shimmer.n.01",
+          "homograph_id": null,
+          "definition": "a weak and tremulous light",
+          "pos": "noun",
+          "examples": [
+            "the shimmer of colors on iridescent feathers",
+            "the play of light on the water"
+          ]
+        },
+        {
+          "sense_id": "wn:fun.n.02",
+          "homograph_id": null,
+          "definition": "verbal wit or mockery (often at another's expense but not to be taken seriously)",
+          "pos": "noun",
+          "examples": [
+            "he became a figure of fun",
+            "he said it in sport"
+          ]
+        },
+        {
+          "sense_id": "wn:looseness.n.05",
+          "homograph_id": null,
+          "definition": "movement or space for movement",
+          "pos": "noun",
+          "examples": [
+            "there was too much play in the steering wheel"
+          ]
+        },
+        {
+          "sense_id": "wn:play.n.14",
+          "homograph_id": null,
+          "definition": "gay or light-hearted recreational activity for diversion or amusement",
+          "pos": "noun",
+          "examples": [
+            "it was all done in play",
+            "their frolic in the surf threatened to become ugly"
+          ]
+        },
+        {
+          "sense_id": "wn:turn.n.03",
+          "homograph_id": null,
+          "definition": "(game) the activity of doing something in an agreed succession",
+          "pos": "noun",
+          "examples": [
+            "it is my turn",
+            "it is still my play"
+          ]
+        },
+        {
+          "sense_id": "wn:gambling.n.01",
+          "homograph_id": null,
+          "definition": "the act of playing for stakes in the hope of winning (including the payment of a price for a chance to win a prize)",
+          "pos": "noun",
+          "examples": [
+            "his gambling cost him a fortune",
+            "there was heavy play at the blackjack table"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "pool",
+      "senses": [
+        {
+          "sense_id": "wn:pond.n.01",
+          "homograph_id": null,
+          "definition": "a small lake",
+          "pos": "noun",
+          "examples": [
+            "the pond was too small for sailing"
+          ]
+        },
+        {
+          "sense_id": "wn:pool.n.03",
+          "homograph_id": null,
+          "definition": "an organization of people or resources that can be shared",
+          "pos": "noun",
+          "examples": [
+            "a car pool",
+            "a secretarial pool",
+            "when he was first hired he was assigned to the pool"
+          ]
+        },
+        {
+          "sense_id": "wn:pool.n.05",
+          "homograph_id": null,
+          "definition": "any communal combination of funds",
+          "pos": "noun",
+          "examples": [
+            "everyone contributed to the pool"
+          ]
+        },
+        {
+          "sense_id": "wn:pool.n.06",
+          "homograph_id": null,
+          "definition": "a small body of standing water (rainwater) or other liquid",
+          "pos": "noun",
+          "examples": [
+            "there were puddles of muddy water in the road after the rain",
+            "the body lay in a pool of blood"
+          ]
+        },
+        {
+          "sense_id": "wn:pool.n.08",
+          "homograph_id": null,
+          "definition": "something resembling a pool of liquid",
+          "pos": "noun",
+          "examples": [
+            "he stood in a pool of light",
+            "his chair sat in a puddle of books and magazines"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "practice",
+      "senses": [
+        {
+          "sense_id": "wn:practice.n.01",
+          "homograph_id": null,
+          "definition": "a customary way of operation or behavior",
+          "pos": "noun",
+          "examples": [
+            "it is their practice to give annual raises",
+            "they changed their dietary pattern"
+          ]
+        },
+        {
+          "sense_id": "wn:exercise.n.03",
+          "homograph_id": null,
+          "definition": "systematic training by multiple repetitions",
+          "pos": "noun",
+          "examples": [
+            "practice makes perfect"
+          ]
+        },
+        {
+          "sense_id": "wn:practice.n.03",
+          "homograph_id": null,
+          "definition": "translating an idea into action",
+          "pos": "noun",
+          "examples": [
+            "a hard theory to put into practice",
+            "differences between theory and praxis of communism"
+          ]
+        },
+        {
+          "sense_id": "wn:practice.n.04",
+          "homograph_id": null,
+          "definition": "the exercise of a profession",
+          "pos": "noun",
+          "examples": [
+            "the practice of the law",
+            "I took over his practice when he retired"
+          ]
+        },
+        {
+          "sense_id": "wn:practice.n.05",
+          "homograph_id": null,
+          "definition": "knowledge of how something is usually done",
+          "pos": "noun",
+          "examples": [
+            "it is not the local practice to wear shorts to dinner"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "relief",
+      "senses": [
+        {
+          "sense_id": "wn:relief.n.01",
+          "homograph_id": null,
+          "definition": "the feeling that comes when something burdensome is removed or reduced",
+          "pos": "noun",
+          "examples": [
+            "as he heard the news he was suddenly flooded with relief"
+          ]
+        },
+        {
+          "sense_id": "wn:relief.n.02",
+          "homograph_id": null,
+          "definition": "the condition of being comfortable or relieved (especially after being relieved of distress)",
+          "pos": "noun",
+          "examples": [
+            "he enjoyed his relief from responsibility",
+            "getting it off his conscience gave him some ease"
+          ]
+        },
+        {
+          "sense_id": "wn:relief.n.03",
+          "homograph_id": null,
+          "definition": "(law) redress awarded by a court",
+          "pos": "noun",
+          "examples": [
+            "was the relief supposed to be protection from future harm or compensation for past injury?"
+          ]
+        },
+        {
+          "sense_id": "wn:stand-in.n.01",
+          "homograph_id": null,
+          "definition": "someone who takes the place of another (as when things get dangerous or difficult)",
+          "pos": "noun",
+          "examples": [
+            "the star had a stand-in for dangerous scenes",
+            "we need extra employees for summer fill-ins"
+          ]
+        },
+        {
+          "sense_id": "wn:relief.n.05",
+          "homograph_id": null,
+          "definition": "assistance in time of difficulty",
+          "pos": "noun",
+          "examples": [
+            "the contributions provided some relief for the victims"
+          ]
+        },
+        {
+          "sense_id": "wn:respite.n.04",
+          "homograph_id": null,
+          "definition": "a pause for relaxation",
+          "pos": "noun",
+          "examples": [
+            "people actually accomplish more when they take time for short rests"
+          ]
+        },
+        {
+          "sense_id": "wn:relief.n.08",
+          "homograph_id": null,
+          "definition": "aid for the aged or indigent or handicapped",
+          "pos": "noun",
+          "examples": [
+            "he has been on relief for many years"
+          ]
+        },
+        {
+          "sense_id": "wn:easing.n.02",
+          "homograph_id": null,
+          "definition": "the act of reducing something unpleasant (as pain or annoyance)",
+          "pos": "noun",
+          "examples": [
+            "he asked the nurse for relief from the constant pain"
+          ]
+        },
+        {
+          "sense_id": "wn:relief.n.11",
+          "homograph_id": null,
+          "definition": "the act of freeing a city or town that has been besieged",
+          "pos": "noun",
+          "examples": [
+            "he asked for troops for the relief of Atlanta"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "rest",
+      "senses": [
+        {
+          "sense_id": "wn:remainder.n.01",
+          "homograph_id": null,
+          "definition": "something left after other parts have been taken away",
+          "pos": "noun",
+          "examples": [
+            "there was no remainder",
+            "he threw away the rest",
+            "he took what he wanted and I got the balance"
+          ]
+        },
+        {
+          "sense_id": "wn:rest.n.02",
+          "homograph_id": null,
+          "definition": "freedom from activity (work or strain or responsibility)",
+          "pos": "noun",
+          "examples": [
+            "took his repose by the swimming pool"
+          ]
+        },
+        {
+          "sense_id": "wn:respite.n.04",
+          "homograph_id": null,
+          "definition": "a pause for relaxation",
+          "pos": "noun",
+          "examples": [
+            "people actually accomplish more when they take time for short rests"
+          ]
+        },
+        {
+          "sense_id": "wn:rest.n.04",
+          "homograph_id": null,
+          "definition": "a state of inaction",
+          "pos": "noun",
+          "examples": [
+            "a body will continue in a state of rest until acted upon"
+          ]
+        },
+        {
+          "sense_id": "wn:rest.n.05",
+          "homograph_id": null,
+          "definition": "euphemisms for death (based on an analogy between lying in a bed and in a tomb)",
+          "pos": "noun",
+          "examples": [
+            "she was laid to rest beside her husband",
+            "they had to put their family pet to sleep"
+          ]
+        },
+        {
+          "sense_id": "wn:rest.n.06",
+          "homograph_id": null,
+          "definition": "a support on which things can be put",
+          "pos": "noun",
+          "examples": [
+            "the gun was steadied on a special rest"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "rule",
+      "senses": [
+        {
+          "sense_id": "wn:rule.n.01",
+          "homograph_id": null,
+          "definition": "a principle or condition that customarily governs behavior",
+          "pos": "noun",
+          "examples": [
+            "it was his rule to take a walk before breakfast",
+            "short haircuts were the regulation"
+          ]
+        },
+        {
+          "sense_id": "wn:convention.n.02",
+          "homograph_id": null,
+          "definition": "something regarded as a normative example",
+          "pos": "noun",
+          "examples": [
+            "the convention of not naming the main character",
+            "violence is the rule not the exception",
+            "his formula for impressing visitors"
+          ]
+        },
+        {
+          "sense_id": "wn:principle.n.01",
+          "homograph_id": null,
+          "definition": "a basic generalization that is accepted as true and that can be used as a basis for reasoning or conduct",
+          "pos": "noun",
+          "examples": [
+            "their principles of composition characterized all their works"
+          ]
+        },
+        {
+          "sense_id": "wn:rule.n.06",
+          "homograph_id": null,
+          "definition": "the duration of a monarch's or government's power",
+          "pos": "noun",
+          "examples": [
+            "during the rule of Elizabeth"
+          ]
+        },
+        {
+          "sense_id": "wn:dominion.n.01",
+          "homograph_id": null,
+          "definition": "dominance or power through legal authority",
+          "pos": "noun",
+          "examples": [
+            "France held undisputed dominion over vast areas of Africa",
+            "the rule of Caesar"
+          ]
+        },
+        {
+          "sense_id": "wn:rule.n.08",
+          "homograph_id": null,
+          "definition": "directions that define the way a game or sport is to be conducted",
+          "pos": "noun",
+          "examples": [
+            "he knew the rules of chess"
+          ]
+        },
+        {
+          "sense_id": "wn:rule.n.09",
+          "homograph_id": null,
+          "definition": "any one of a systematic body of regulations defining the way of life of members of a religious order",
+          "pos": "noun",
+          "examples": [
+            "the rule of St. Dominic"
+          ]
+        },
+        {
+          "sense_id": "wn:principle.n.04",
+          "homograph_id": null,
+          "definition": "a rule or law concerning a natural phenomenon or the function of a complex system",
+          "pos": "noun",
+          "examples": [
+            "the principle of the conservation of mass",
+            "the principle of jet propulsion",
+            "the right-hand rule for inductive fields"
+          ]
+        },
+        {
+          "sense_id": "wn:rule.n.11",
+          "homograph_id": null,
+          "definition": "(mathematics) a standard procedure for solving a class of mathematical problems",
+          "pos": "noun",
+          "examples": [
+            "he determined the upper bound with Descartes' rule of signs",
+            "he gave us a general formula for attacking polynomials"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "sense",
+      "senses": [
+        {
+          "sense_id": "wn:sense.n.01",
+          "homograph_id": null,
+          "definition": "a general conscious awareness",
+          "pos": "noun",
+          "examples": [
+            "a sense of security",
+            "a sense of happiness",
+            "a sense of danger",
+            "a sense of self"
+          ]
+        },
+        {
+          "sense_id": "wn:sense.n.02",
+          "homograph_id": null,
+          "definition": "the meaning of a word or expression; the way in which a word or expression or situation can be interpreted",
+          "pos": "noun",
+          "examples": [
+            "the dictionary gave several senses for the word",
+            "in the best sense charity is really a duty",
+            "the signifier is linked to the signified"
+          ]
+        },
+        {
+          "sense_id": "wn:sense.n.03",
+          "homograph_id": null,
+          "definition": "the faculty through which the external world is apprehended",
+          "pos": "noun",
+          "examples": [
+            "in the dark he had to depend on touch and on his senses of smell and hearing"
+          ]
+        },
+        {
+          "sense_id": "wn:common_sense.n.01",
+          "homograph_id": null,
+          "definition": "sound practical judgment",
+          "pos": "noun",
+          "examples": [
+            "Common sense is not so common",
+            "he hasn't got the sense God gave little green apples",
+            "fortunately she had the good sense to run away"
+          ]
+        },
+        {
+          "sense_id": "wn:sense.n.05",
+          "homograph_id": null,
+          "definition": "a natural appreciation or ability",
+          "pos": "noun",
+          "examples": [
+            "a keen musical sense",
+            "a good sense of timing"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "size",
+      "senses": [
+        {
+          "sense_id": "wn:size.n.01",
+          "homograph_id": null,
+          "definition": "the physical magnitude of something (how big it is)",
+          "pos": "noun",
+          "examples": [
+            "a wolf is about the size of a large dog"
+          ]
+        },
+        {
+          "sense_id": "wn:size.n.02",
+          "homograph_id": null,
+          "definition": "the property resulting from being one of a series of graduated measurements (as of clothing)",
+          "pos": "noun",
+          "examples": [
+            "he wears a size 13 shoe"
+          ]
+        },
+        {
+          "sense_id": "wn:size.n.03",
+          "homograph_id": null,
+          "definition": "any glutinous material used to fill pores in surfaces or to stiffen fabrics",
+          "pos": "noun",
+          "examples": [
+            "size gives body to a fabric"
+          ]
+        },
+        {
+          "sense_id": "wn:size.n.04",
+          "homograph_id": null,
+          "definition": "the actual state of affairs",
+          "pos": "noun",
+          "examples": [
+            "that's the size of the situation",
+            "she hates me, that's about the size of it"
+          ]
+        },
+        {
+          "sense_id": "wn:size.n.05",
+          "homograph_id": null,
+          "definition": "a large magnitude",
+          "pos": "noun",
+          "examples": [
+            "he blanched when he saw the size of the bill",
+            "the only city of any size in that area"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "spot",
+      "senses": [
+        {
+          "sense_id": "wn:topographic_point.n.01",
+          "homograph_id": null,
+          "definition": "a point located with respect to surface features of some region",
+          "pos": "noun",
+          "examples": [
+            "this is a nice place for a picnic",
+            "a bright spot on a planet"
+          ]
+        },
+        {
+          "sense_id": "wn:point.n.14",
+          "homograph_id": null,
+          "definition": "an outstanding characteristic",
+          "pos": "noun",
+          "examples": [
+            "his acting was one of the high points of the movie"
+          ]
+        },
+        {
+          "sense_id": "wn:smudge.n.02",
+          "homograph_id": null,
+          "definition": "a blemish made by dirt",
+          "pos": "noun",
+          "examples": [
+            "he had a smudge on his cheek"
+          ]
+        },
+        {
+          "sense_id": "wn:spot.n.05",
+          "homograph_id": null,
+          "definition": "a small contrasting part of something",
+          "pos": "noun",
+          "examples": [
+            "a bald spot",
+            "a leopard's spots",
+            "a patch of clouds",
+            "patches of thin ice",
+            "a fleck of red"
+          ]
+        },
+        {
+          "sense_id": "wn:spot.n.06",
+          "homograph_id": null,
+          "definition": "a section of an entertainment that is assigned to a specific performer or performance",
+          "pos": "noun",
+          "examples": [
+            "they changed his spot on the program"
+          ]
+        },
+        {
+          "sense_id": "wn:spot.n.07",
+          "homograph_id": null,
+          "definition": "a business establishment for entertainment",
+          "pos": "noun",
+          "examples": [
+            "night spot"
+          ]
+        },
+        {
+          "sense_id": "wn:position.n.06",
+          "homograph_id": null,
+          "definition": "a job in an organization",
+          "pos": "noun",
+          "examples": [
+            "he occupied a post in the treasury"
+          ]
+        },
+        {
+          "sense_id": "wn:touch.n.08",
+          "homograph_id": null,
+          "definition": "a slight attack of illness",
+          "pos": "noun",
+          "examples": [
+            "he has a touch of rheumatism"
+          ]
+        },
+        {
+          "sense_id": "wn:spot.n.10",
+          "homograph_id": null,
+          "definition": "a small piece or quantity of something",
+          "pos": "noun",
+          "examples": [
+            "a spot of tea",
+            "a bit of paper",
+            "a bit of lint",
+            "I gave him a bit of my mind"
+          ]
+        },
+        {
+          "sense_id": "wn:spot.n.13",
+          "homograph_id": null,
+          "definition": "a playing card with a specified number of pips on it to indicate its value",
+          "pos": "noun",
+          "examples": [
+            "an eight-spot"
+          ]
+        },
+        {
+          "sense_id": "wn:blot.n.02",
+          "homograph_id": null,
+          "definition": "an act that brings discredit to the person who does it",
+          "pos": "noun",
+          "examples": [
+            "he made a huge blot on his copybook"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "stop",
+      "senses": [
+        {
+          "sense_id": "wn:stop.n.01",
+          "homograph_id": null,
+          "definition": "the event of something ending",
+          "pos": "noun",
+          "examples": [
+            "it came to a stop at the bottom of the hill"
+          ]
+        },
+        {
+          "sense_id": "wn:stop.n.02",
+          "homograph_id": null,
+          "definition": "the act of stopping something",
+          "pos": "noun",
+          "examples": [
+            "the third baseman made some remarkable stops",
+            "his stoppage of the flow resulted in a flood"
+          ]
+        },
+        {
+          "sense_id": "wn:stop.n.03",
+          "homograph_id": null,
+          "definition": "a brief stay in the course of a journey",
+          "pos": "noun",
+          "examples": [
+            "they made a stopover to visit their friends"
+          ]
+        },
+        {
+          "sense_id": "wn:arrest.n.02",
+          "homograph_id": null,
+          "definition": "the state of inactivity following an interruption",
+          "pos": "noun",
+          "examples": [
+            "the negotiations were in arrest",
+            "held them in check",
+            "during the halt he got some lunch",
+            "the momentary stay enabled him to escape the blow",
+            "he spent the entire stop in his seat"
+          ]
+        },
+        {
+          "sense_id": "wn:stop.n.05",
+          "homograph_id": null,
+          "definition": "a spot where something halts or pauses",
+          "pos": "noun",
+          "examples": [
+            "his next stop is Atlanta"
+          ]
+        },
+        {
+          "sense_id": "wn:stop_consonant.n.01",
+          "homograph_id": null,
+          "definition": "a consonant produced by stopping the flow of air at some point and suddenly releasing it",
+          "pos": "noun",
+          "examples": [
+            "his stop consonants are too aspirated"
+          ]
+        },
+        {
+          "sense_id": "wn:period.n.07",
+          "homograph_id": null,
+          "definition": "a punctuation mark (.) placed at the end of a declarative sentence to indicate a full stop or after abbreviations",
+          "pos": "noun",
+          "examples": [
+            "in England they call a period a stop"
+          ]
+        },
+        {
+          "sense_id": "wn:stop.n.08",
+          "homograph_id": null,
+          "definition": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes",
+          "pos": "noun",
+          "examples": [
+            "the organist pulled out all the stops"
+          ]
+        },
+        {
+          "sense_id": "wn:diaphragm.n.01",
+          "homograph_id": null,
+          "definition": "a mechanical device in a camera that controls size of aperture of the lens",
+          "pos": "noun",
+          "examples": [
+            "the new cameras adjust the diaphragm automatically"
+          ]
+        },
+        {
+          "sense_id": "wn:catch.n.06",
+          "homograph_id": null,
+          "definition": "a restraint that checks the motion of something",
+          "pos": "noun",
+          "examples": [
+            "he used a book as a stop to hold the door open"
+          ]
+        },
+        {
+          "sense_id": "wn:blockage.n.02",
+          "homograph_id": null,
+          "definition": "an obstruction in a pipe or tube",
+          "pos": "noun",
+          "examples": [
+            "we had to call a plumber to clear out the blockage in the drainpipe"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "storage",
+      "senses": [
+        {
+          "sense_id": "wn:storehouse.n.01",
+          "homograph_id": null,
+          "definition": "a depository for goods",
+          "pos": "noun",
+          "examples": [
+            "storehouses were built close to the docks"
+          ]
+        },
+        {
+          "sense_id": "wn:memory.n.04",
+          "homograph_id": null,
+          "definition": "an electronic memory device",
+          "pos": "noun",
+          "examples": [
+            "a memory and the CPU form the central part of a computer to which peripherals are attached"
+          ]
+        },
+        {
+          "sense_id": "wn:repositing.n.01",
+          "homograph_id": null,
+          "definition": "depositing in a warehouse",
+          "pos": "noun",
+          "examples": [
+            "they decided to reposition their furniture in a recommended repository in Brooklyn",
+            "my car is in storage",
+            "publishers reduced print runs to cut down the cost of warehousing"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "strain",
+      "senses": [
+        {
+          "sense_id": "wn:stress.n.04",
+          "homograph_id": null,
+          "definition": "difficulty that causes worry or emotional tension; ; - R.J.Samuelson",
+          "pos": "noun",
+          "examples": [
+            "she endured the stresses and strains of life",
+            "he presided over the economy during the period of the greatest stress and danger"
+          ]
+        },
+        {
+          "sense_id": "wn:tune.n.01",
+          "homograph_id": null,
+          "definition": "a succession of notes forming a distinctive sequence",
+          "pos": "noun",
+          "examples": [
+            "she was humming an air from Beethoven"
+          ]
+        },
+        {
+          "sense_id": "wn:strain.n.04",
+          "homograph_id": null,
+          "definition": "(psychology) nervousness resulting from mental stress",
+          "pos": "noun",
+          "examples": [
+            "his responsibilities were a constant strain",
+            "the mental strain of staying alert hour after hour was too much for him"
+          ]
+        },
+        {
+          "sense_id": "wn:breed.n.01",
+          "homograph_id": null,
+          "definition": "a special variety of domesticated animals within a species",
+          "pos": "noun",
+          "examples": [
+            "he experimented on a particular breed of white rats",
+            "he created a new strain of sheep"
+          ]
+        },
+        {
+          "sense_id": "wn:form.n.09",
+          "homograph_id": null,
+          "definition": "(biology) a group of organisms within a species that differ in trivial ways from similar groups",
+          "pos": "noun",
+          "examples": [
+            "a new strain of microorganisms"
+          ]
+        },
+        {
+          "sense_id": "wn:tenor.n.05",
+          "homograph_id": null,
+          "definition": "the general meaning or substance of an utterance",
+          "pos": "noun",
+          "examples": [
+            "although I disagreed with him I could follow the tenor of his argument"
+          ]
+        },
+        {
+          "sense_id": "wn:song.n.03",
+          "homograph_id": null,
+          "definition": "the act of singing",
+          "pos": "noun",
+          "examples": [
+            "with a shout and a song they marched up to the gates"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "time",
+      "senses": [
+        {
+          "sense_id": "wn:time.n.01",
+          "homograph_id": null,
+          "definition": "an instance or single occasion for some event",
+          "pos": "noun",
+          "examples": [
+            "this time he succeeded",
+            "he called four times",
+            "he could do ten at a clip"
+          ]
+        },
+        {
+          "sense_id": "wn:time.n.02",
+          "homograph_id": null,
+          "definition": "a period of time considered as a resource under your control and sufficient to accomplish something",
+          "pos": "noun",
+          "examples": [
+            "take time to smell the roses",
+            "I didn't have time to finish",
+            "it took more than half my time"
+          ]
+        },
+        {
+          "sense_id": "wn:time.n.03",
+          "homograph_id": null,
+          "definition": "an indefinite period (usually marked by specific attributes or activities)",
+          "pos": "noun",
+          "examples": [
+            "he waited a long time",
+            "the time of year for planting",
+            "he was a great actor in his time"
+          ]
+        },
+        {
+          "sense_id": "wn:time.n.04",
+          "homograph_id": null,
+          "definition": "a suitable moment",
+          "pos": "noun",
+          "examples": [
+            "it is time to go"
+          ]
+        },
+        {
+          "sense_id": "wn:time.n.06",
+          "homograph_id": null,
+          "definition": "a person's experience on a particular occasion",
+          "pos": "noun",
+          "examples": [
+            "he had a time holding back the tears",
+            "they had a good time together"
+          ]
+        },
+        {
+          "sense_id": "wn:clock_time.n.01",
+          "homograph_id": null,
+          "definition": "a reading of a point in time as given by a clock",
+          "pos": "noun",
+          "examples": [
+            "do you know what time it is?",
+            "the time is 10 o'clock"
+          ]
+        },
+        {
+          "sense_id": "wn:prison_term.n.01",
+          "homograph_id": null,
+          "definition": "the period of time a prisoner is imprisoned",
+          "pos": "noun",
+          "examples": [
+            "he served a prison term of 15 months",
+            "his sentence was 5 to 10 years",
+            "he is doing time in the county jail"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "treatment",
+      "senses": [
+        {
+          "sense_id": "wn:treatment.n.02",
+          "homograph_id": null,
+          "definition": "the management of someone or something",
+          "pos": "noun",
+          "examples": [
+            "the handling of prisoners",
+            "the treatment of water sewage",
+            "the right to equal treatment in the criminal justice system"
+          ]
+        },
+        {
+          "sense_id": "wn:treatment.n.03",
+          "homograph_id": null,
+          "definition": "a manner of dealing with something artistically",
+          "pos": "noun",
+          "examples": [
+            "his treatment of space borrows from Italian architecture"
+          ]
+        },
+        {
+          "sense_id": "wn:discussion.n.01",
+          "homograph_id": null,
+          "definition": "an extended communication (often interactive) dealing with some particular topic",
+          "pos": "noun",
+          "examples": [
+            "the book contains an excellent discussion of modal logic",
+            "his treatment of the race question is badly biased"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "trust",
+      "senses": [
+        {
+          "sense_id": "wn:trust.n.01",
+          "homograph_id": null,
+          "definition": "something (as property) held by one party (the trustee) for the benefit of another (the beneficiary)",
+          "pos": "noun",
+          "examples": [
+            "he is the beneficiary of a generous trust set up by his father"
+          ]
+        },
+        {
+          "sense_id": "wn:reliance.n.01",
+          "homograph_id": null,
+          "definition": "certainty based on past experience",
+          "pos": "noun",
+          "examples": [
+            "he wrote the paper with considerable reliance on the work of other scientists",
+            "he put more trust in his own two legs than in the gun"
+          ]
+        },
+        {
+          "sense_id": "wn:trust.n.03",
+          "homograph_id": null,
+          "definition": "the trait of believing in the honesty and reliability of others",
+          "pos": "noun",
+          "examples": [
+            "the experience destroyed his trust and personal dignity"
+          ]
+        },
+        {
+          "sense_id": "wn:trust.n.04",
+          "homograph_id": null,
+          "definition": "a consortium of independent organizations formed to limit competition by controlling the production and distribution of a product or service",
+          "pos": "noun",
+          "examples": [
+            "they set up the trust in the hope of gaining a monopoly"
+          ]
+        },
+        {
+          "sense_id": "wn:faith.n.02",
+          "homograph_id": null,
+          "definition": "complete confidence in a person or plan etc",
+          "pos": "noun",
+          "examples": [
+            "he cherished the faith of a good woman",
+            "the doctor-patient relationship is based on trust"
+          ]
+        },
+        {
+          "sense_id": "wn:confidence.n.04",
+          "homograph_id": null,
+          "definition": "a trustful relationship",
+          "pos": "noun",
+          "examples": [
+            "he took me into his confidence",
+            "he betrayed their trust"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "understanding",
+      "senses": [
+        {
+          "sense_id": "wn:understanding.n.01",
+          "homograph_id": null,
+          "definition": "the cognitive condition of someone who understands",
+          "pos": "noun",
+          "examples": [
+            "he has virtually no understanding of social cause and effect"
+          ]
+        },
+        {
+          "sense_id": "wn:agreement.n.01",
+          "homograph_id": null,
+          "definition": "the statement (oral or written) of an exchange of promises",
+          "pos": "noun",
+          "examples": [
+            "they had an agreement that they would not interfere in each other's business",
+            "there was an understanding between management and the workers"
+          ]
+        },
+        {
+          "sense_id": "wn:sympathy.n.01",
+          "homograph_id": null,
+          "definition": "an inclination to support or be loyal to or to agree with an opinion",
+          "pos": "noun",
+          "examples": [
+            "his sympathies were always with the underdog",
+            "I knew I could count on his understanding"
+          ]
+        },
+        {
+          "sense_id": "wn:reason.n.03",
+          "homograph_id": null,
+          "definition": "the capacity for rational thought or inference or discrimination",
+          "pos": "noun",
+          "examples": [
+            "we are told that man is endowed with reason and capable of distinguishing good from evil"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "walk",
+      "senses": [
+        {
+          "sense_id": "wn:walk.n.01",
+          "homograph_id": null,
+          "definition": "the act of traveling by foot",
+          "pos": "noun",
+          "examples": [
+            "walking is a healthy form of exercise"
+          ]
+        },
+        {
+          "sense_id": "wn:base_on_balls.n.01",
+          "homograph_id": null,
+          "definition": "(baseball) an advance to first base by a batter who receives four balls",
+          "pos": "noun",
+          "examples": [
+            "he worked the pitcher for a base on balls"
+          ]
+        },
+        {
+          "sense_id": "wn:walk.n.03",
+          "homograph_id": null,
+          "definition": "manner of walking",
+          "pos": "noun",
+          "examples": [
+            "he had a funny walk"
+          ]
+        },
+        {
+          "sense_id": "wn:walk.n.04",
+          "homograph_id": null,
+          "definition": "the act of walking somewhere",
+          "pos": "noun",
+          "examples": [
+            "he took a walk after lunch"
+          ]
+        },
+        {
+          "sense_id": "wn:walk.n.05",
+          "homograph_id": null,
+          "definition": "a path set aside for walking",
+          "pos": "noun",
+          "examples": [
+            "after the blizzard he shoveled the front walk"
+          ]
+        },
+        {
+          "sense_id": "wn:walk_of_life.n.01",
+          "homograph_id": null,
+          "definition": "careers in general",
+          "pos": "noun",
+          "examples": [
+            "it happens in all walks of life"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "waste",
+      "senses": [
+        {
+          "sense_id": "wn:waste.n.01",
+          "homograph_id": null,
+          "definition": "any materials unused and rejected as worthless or unwanted",
+          "pos": "noun",
+          "examples": [
+            "they collect the waste once a week",
+            "much of the waste material is carried off in the sewers"
+          ]
+        },
+        {
+          "sense_id": "wn:waste.n.02",
+          "homograph_id": null,
+          "definition": "useless or profitless activity; using or expending or consuming thoughtlessly or carelessly",
+          "pos": "noun",
+          "examples": [
+            "if the effort brings no compensating gain it is a waste",
+            "mindless dissipation of natural resources"
+          ]
+        },
+        {
+          "sense_id": "wn:thriftlessness.n.01",
+          "homograph_id": null,
+          "definition": "the trait of wasting resources",
+          "pos": "noun",
+          "examples": [
+            "a life characterized by thriftlessness and waste",
+            "the wastefulness of missed opportunities"
+          ]
+        },
+        {
+          "sense_id": "wn:barren.n.01",
+          "homograph_id": null,
+          "definition": "an uninhabited wilderness that is worthless for cultivation",
+          "pos": "noun",
+          "examples": [
+            "the barrens of central Africa",
+            "the trackless wastes of the desert"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "weight",
+      "senses": [
+        {
+          "sense_id": "wn:weight.n.03",
+          "homograph_id": null,
+          "definition": "the relative importance granted to something",
+          "pos": "noun",
+          "examples": [
+            "his opinion carries great weight",
+            "the progression implied an increasing weightiness of the items listed"
+          ]
+        },
+        {
+          "sense_id": "wn:weight.n.05",
+          "homograph_id": null,
+          "definition": "an oppressive feeling of heavy force",
+          "pos": "noun",
+          "examples": [
+            "bowed down by the weight of responsibility"
+          ]
+        },
+        {
+          "sense_id": "wn:weight_unit.n.02",
+          "homograph_id": null,
+          "definition": "a unit used to measure weight",
+          "pos": "noun",
+          "examples": [
+            "he placed two weights in the scale pan"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "word",
+      "senses": [
+        {
+          "sense_id": "wn:word.n.01",
+          "homograph_id": null,
+          "definition": "a unit of language that native speakers can identify",
+          "pos": "noun",
+          "examples": [
+            "words are the blocks from which sentences are made",
+            "he hardly said ten words all morning"
+          ]
+        },
+        {
+          "sense_id": "wn:word.n.02",
+          "homograph_id": null,
+          "definition": "a brief statement",
+          "pos": "noun",
+          "examples": [
+            "he didn't say a word about it"
+          ]
+        },
+        {
+          "sense_id": "wn:news.n.01",
+          "homograph_id": null,
+          "definition": "information about recent and important events",
+          "pos": "noun",
+          "examples": [
+            "they awaited news of the outcome"
+          ]
+        },
+        {
+          "sense_id": "wn:word.n.04",
+          "homograph_id": null,
+          "definition": "a verbal command for action",
+          "pos": "noun",
+          "examples": [
+            "when I give the word, charge!"
+          ]
+        },
+        {
+          "sense_id": "wn:discussion.n.02",
+          "homograph_id": null,
+          "definition": "an exchange of views on some topic",
+          "pos": "noun",
+          "examples": [
+            "we had a good discussion",
+            "we had a word or two about it"
+          ]
+        },
+        {
+          "sense_id": "wn:parole.n.01",
+          "homograph_id": null,
+          "definition": "a promise",
+          "pos": "noun",
+          "examples": [
+            "he gave his word"
+          ]
+        },
+        {
+          "sense_id": "wn:word.n.07",
+          "homograph_id": null,
+          "definition": "a word is a string of bits stored in computer memory",
+          "pos": "noun",
+          "examples": [
+            "large computers use words up to 64 bits long"
+          ]
+        },
+        {
+          "sense_id": "wn:password.n.01",
+          "homograph_id": null,
+          "definition": "a secret word or phrase known only to a restricted group",
+          "pos": "noun",
+          "examples": [
+            "he forgot the password"
+          ]
+        },
+        {
+          "sense_id": "wn:bible.n.01",
+          "homograph_id": null,
+          "definition": "the sacred writings of the Christian religions",
+          "pos": "noun",
+          "examples": [
+            "he went to carry the Word to the heathen"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "world",
+      "senses": [
+        {
+          "sense_id": "wn:universe.n.01",
+          "homograph_id": null,
+          "definition": "everything that exists anywhere",
+          "pos": "noun",
+          "examples": [
+            "they study the evolution of the universe",
+            "the biggest tree in existence"
+          ]
+        },
+        {
+          "sense_id": "wn:world.n.02",
+          "homograph_id": null,
+          "definition": "people in general; especially a distinctive group of people with some shared interest",
+          "pos": "noun",
+          "examples": [
+            "the Western world"
+          ]
+        },
+        {
+          "sense_id": "wn:world.n.03",
+          "homograph_id": null,
+          "definition": "all of your experiences that determine how things appear to you",
+          "pos": "noun",
+          "examples": [
+            "his world was shattered",
+            "we live in different worlds",
+            "for them demons were as much a part of reality as trees were"
+          ]
+        },
+        {
+          "sense_id": "wn:earth.n.01",
+          "homograph_id": null,
+          "definition": "the 3rd planet from the sun; the planet we live on",
+          "pos": "noun",
+          "examples": [
+            "the Earth moves around the sun",
+            "he sailed around the world"
+          ]
+        },
+        {
+          "sense_id": "wn:populace.n.01",
+          "homograph_id": null,
+          "definition": "people in general considered as a whole",
+          "pos": "noun",
+          "examples": [
+            "he is a hero in the eyes of the public"
+          ]
+        },
+        {
+          "sense_id": "wn:world.n.06",
+          "homograph_id": null,
+          "definition": "a part of the earth that can be considered separately",
+          "pos": "noun",
+          "examples": [
+            "the outdoor world",
+            "the world of insects"
+          ]
+        },
+        {
+          "sense_id": "wn:worldly_concern.n.01",
+          "homograph_id": null,
+          "definition": "the concerns of this life as distinguished from heaven and the afterlife",
+          "pos": "noun",
+          "examples": [
+            "they consider the church to be independent of the world"
+          ]
+        },
+        {
+          "sense_id": "wn:world.n.08",
+          "homograph_id": null,
+          "definition": "all of the living human inhabitants of the earth",
+          "pos": "noun",
+          "examples": [
+            "all the world loves a lover",
+            "she always used `humankind' because `mankind' seemed to slight the women"
+          ]
+        }
+      ]
+    }
+  ]
+}

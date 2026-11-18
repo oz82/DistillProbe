@@ -6,7 +6,7 @@ from typing import Any
 
 import numpy as np
 
-from ..encoders.base import Encoder
+from ..encoders.base import Encoder, first_reference
 from ..metrics import bootstrap_ci
 from .base import ProbeModule, ProbeResult
 from .xlingual import _l2, _retrieval_metrics
@@ -44,12 +44,8 @@ class TatoebaModule(ProbeModule):
         extra = getattr(config, "extra", {}) or {}
         csls_k = int(extra.get("csls_k", 10))
 
-        # reference encoder = transformer/labse/e5; students = the rest
-        def is_ref(n: str) -> bool:
-            ln = encoders[n].name.lower()
-            return ("transformer" in ln) or ("labse" in ln) or ("e5" in ln)
-
-        ref = next((n for n in encoders if is_ref(n)), None)
+        # reference encoder = explicit role or contextual-name heuristic; students = the rest
+        ref = first_reference(encoders)
         students = [n for n in encoders if n != ref]
 
         per_lang: list[dict[str, Any]] = []

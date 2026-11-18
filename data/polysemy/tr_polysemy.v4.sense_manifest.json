@@ -1,0 +1,955 @@
+{
+ "language": "tr",
+ "version": "v4-tdk-random-2026-11-11",
+ "source": "TDK GTS API (https://sozluk.gov.tr/gts); noun senses of entries whose headword is exactly the lemma, with >= 1 example(s); words with >= 3 such senses, NOUN lemma frequency >= 5 in 3 PARSEME-tr file(s); the first 100 qualifying nouns in a seeded random order of the vocabulary (seed=42; 932 lemmas examined)",
+ "params": {
+  "n_words": 100,
+  "min_senses": 3,
+  "min_examples": 1,
+  "min_len": 3,
+  "min_freq": 5,
+  "seed": 42
+ },
+ "n_examined": 932,
+ "note": "Regeneration recipe for the Turkish polysemy v4 set: word -> kept TDK sense IDs, in order, without TDK text. Replay with scripts/build_polysemy_dataset_v4.py --manifest.",
+ "words": [
+  {
+   "word": "abla",
+   "sense_ids": [
+    "tdk:174",
+    "tdk:175",
+    "tdk:176",
+    "tdk:177"
+   ]
+  },
+  {
+   "word": "adım",
+   "sense_ids": [
+    "tdk:1077",
+    "tdk:1078",
+    "tdk:1079"
+   ]
+  },
+  {
+   "word": "aile",
+   "sense_ids": [
+    "tdk:2119",
+    "tdk:2120",
+    "tdk:2121",
+    "tdk:2122"
+   ]
+  },
+  {
+   "word": "alay",
+   "sense_ids": [
+    "tdk:3134",
+    "tdk:3136",
+    "tdk:3137",
+    "tdk:3139"
+   ]
+  },
+  {
+   "word": "arka",
+   "sense_ids": [
+    "tdk:5545",
+    "tdk:5546",
+    "tdk:5547",
+    "tdk:5548",
+    "tdk:5549",
+    "tdk:5550"
+   ]
+  },
+  {
+   "word": "askı",
+   "sense_ids": [
+    "tdk:6102",
+    "tdk:6103",
+    "tdk:6108"
+   ]
+  },
+  {
+   "word": "ateş",
+   "sense_ids": [
+    "tdk:6636",
+    "tdk:6638",
+    "tdk:6639",
+    "tdk:6640",
+    "tdk:6641",
+    "tdk:6642",
+    "tdk:6644"
+   ]
+  },
+  {
+   "word": "ayrım",
+   "sense_ids": [
+    "tdk:7773",
+    "tdk:7774",
+    "tdk:7777"
+   ]
+  },
+  {
+   "word": "aşık",
+   "sense_ids": [
+    "tdk:6368",
+    "tdk:6370",
+    "tdk:6371"
+   ]
+  },
+  {
+   "word": "balon",
+   "sense_ids": [
+    "tdk:9013",
+    "tdk:9014",
+    "tdk:9018"
+   ]
+  },
+  {
+   "word": "barış",
+   "sense_ids": [
+    "tdk:9299",
+    "tdk:9300",
+    "tdk:9301"
+   ]
+  },
+  {
+   "word": "baskı",
+   "sense_ids": [
+    "tdk:16370",
+    "tdk:16371",
+    "tdk:16372",
+    "tdk:16373",
+    "tdk:16374"
+   ]
+  },
+  {
+   "word": "bağ",
+   "sense_ids": [
+    "tdk:8243",
+    "tdk:8244",
+    "tdk:8245",
+    "tdk:8246",
+    "tdk:8247",
+    "tdk:8250",
+    "tdk:8251"
+   ]
+  },
+  {
+   "word": "baş",
+   "sense_ids": [
+    "tdk:16501",
+    "tdk:16502",
+    "tdk:16503",
+    "tdk:16504",
+    "tdk:16505",
+    "tdk:16506",
+    "tdk:16507",
+    "tdk:16508",
+    "tdk:16510",
+    "tdk:16511",
+    "tdk:16512"
+   ]
+  },
+  {
+   "word": "bel",
+   "sense_ids": [
+    "tdk:10118",
+    "tdk:10119",
+    "tdk:10121"
+   ]
+  },
+  {
+   "word": "birlik",
+   "sense_ids": [
+    "tdk:12228",
+    "tdk:12229",
+    "tdk:12230",
+    "tdk:12231"
+   ]
+  },
+  {
+   "word": "boy",
+   "sense_ids": [
+    "tdk:737201",
+    "tdk:13080",
+    "tdk:13081",
+    "tdk:13082",
+    "tdk:737202",
+    "tdk:13083",
+    "tdk:737203",
+    "tdk:737204",
+    "tdk:737205",
+    "tdk:13102",
+    "tdk:118648"
+   ]
+  },
+  {
+   "word": "can",
+   "sense_ids": [
+    "tdk:14742",
+    "tdk:14743",
+    "tdk:14744",
+    "tdk:14745",
+    "tdk:14747",
+    "tdk:14748"
+   ]
+  },
+  {
+   "word": "cemaat",
+   "sense_ids": [
+    "tdk:15258",
+    "tdk:746292",
+    "tdk:15259"
+   ]
+  },
+  {
+   "word": "cemiyet",
+   "sense_ids": [
+    "tdk:15285",
+    "tdk:15286",
+    "tdk:15287",
+    "tdk:15290"
+   ]
+  },
+  {
+   "word": "depo",
+   "sense_ids": [
+    "tdk:22582",
+    "tdk:22583",
+    "tdk:22584"
+   ]
+  },
+  {
+   "word": "ders",
+   "sense_ids": [
+    "tdk:22795",
+    "tdk:22796",
+    "tdk:22797",
+    "tdk:22798"
+   ]
+  },
+  {
+   "word": "devir",
+   "sense_ids": [
+    "tdk:739783",
+    "tdk:739784",
+    "tdk:23137",
+    "tdk:739786",
+    "tdk:739789"
+   ]
+  },
+  {
+   "word": "değer",
+   "sense_ids": [
+    "tdk:21741",
+    "tdk:21742",
+    "tdk:21744",
+    "tdk:21747"
+   ]
+  },
+  {
+   "word": "değişiklik",
+   "sense_ids": [
+    "tdk:21828",
+    "tdk:21829",
+    "tdk:21830"
+   ]
+  },
+  {
+   "word": "dip",
+   "sense_ids": [
+    "tdk:24024",
+    "tdk:24025",
+    "tdk:24026",
+    "tdk:24027",
+    "tdk:24028"
+   ]
+  },
+  {
+   "word": "dönem",
+   "sense_ids": [
+    "tdk:25484",
+    "tdk:25485",
+    "tdk:25487"
+   ]
+  },
+  {
+   "word": "dünya",
+   "sense_ids": [
+    "tdk:26363",
+    "tdk:26364",
+    "tdk:26365"
+   ]
+  },
+  {
+   "word": "ekmek",
+   "sense_ids": [
+    "tdk:27478",
+    "tdk:27479",
+    "tdk:27480"
+   ]
+  },
+  {
+   "word": "fen",
+   "sense_ids": [
+    "tdk:30834",
+    "tdk:30835",
+    "tdk:30836",
+    "tdk:30837"
+   ]
+  },
+  {
+   "word": "fıkra",
+   "sense_ids": [
+    "tdk:31162",
+    "tdk:31163",
+    "tdk:31164"
+   ]
+  },
+  {
+   "word": "geçmiş",
+   "sense_ids": [
+    "tdk:33125",
+    "tdk:33126",
+    "tdk:33127"
+   ]
+  },
+  {
+   "word": "göbek",
+   "sense_ids": [
+    "tdk:34419",
+    "tdk:34421",
+    "tdk:34423",
+    "tdk:34429"
+   ]
+  },
+  {
+   "word": "göz",
+   "sense_ids": [
+    "tdk:35290",
+    "tdk:35291",
+    "tdk:35292",
+    "tdk:35293",
+    "tdk:35294",
+    "tdk:35295",
+    "tdk:35297",
+    "tdk:35298",
+    "tdk:35299",
+    "tdk:35300",
+    "tdk:35301"
+   ]
+  },
+  {
+   "word": "güç",
+   "sense_ids": [
+    "tdk:35959",
+    "tdk:35961",
+    "tdk:35962",
+    "tdk:35963",
+    "tdk:35964",
+    "tdk:35965"
+   ]
+  },
+  {
+   "word": "halk",
+   "sense_ids": [
+    "tdk:37268",
+    "tdk:37269",
+    "tdk:37270",
+    "tdk:37271",
+    "tdk:37272"
+   ]
+  },
+  {
+   "word": "hayat",
+   "sense_ids": [
+    "tdk:38600",
+    "tdk:38601",
+    "tdk:38602",
+    "tdk:38603",
+    "tdk:38604",
+    "tdk:38605",
+    "tdk:38606",
+    "tdk:38607"
+   ]
+  },
+  {
+   "word": "hizmet",
+   "sense_ids": [
+    "tdk:40028",
+    "tdk:40029",
+    "tdk:40030"
+   ]
+  },
+  {
+   "word": "huzur",
+   "sense_ids": [
+    "tdk:40493",
+    "tdk:40494",
+    "tdk:40496",
+    "tdk:40495"
+   ]
+  },
+  {
+   "word": "idare",
+   "sense_ids": [
+    "tdk:41664",
+    "tdk:41666",
+    "tdk:41667",
+    "tdk:41668",
+    "tdk:41671"
+   ]
+  },
+  {
+   "word": "inanç",
+   "sense_ids": [
+    "tdk:43131",
+    "tdk:43133",
+    "tdk:43134"
+   ]
+  },
+  {
+   "word": "isabet",
+   "sense_ids": [
+    "tdk:43929",
+    "tdk:43931",
+    "tdk:43933"
+   ]
+  },
+  {
+   "word": "iyilik",
+   "sense_ids": [
+    "tdk:45647",
+    "tdk:45648",
+    "tdk:45649"
+   ]
+  },
+  {
+   "word": "kabuk",
+   "sense_ids": [
+    "tdk:46178",
+    "tdk:46180",
+    "tdk:46182"
+   ]
+  },
+  {
+   "word": "kart",
+   "sense_ids": [
+    "tdk:47640",
+    "tdk:47641",
+    "tdk:47643"
+   ]
+  },
+  {
+   "word": "kesim",
+   "sense_ids": [
+    "tdk:49903",
+    "tdk:49904",
+    "tdk:49905",
+    "tdk:49906"
+   ]
+  },
+  {
+   "word": "kesinti",
+   "sense_ids": [
+    "tdk:49931",
+    "tdk:49932",
+    "tdk:49933"
+   ]
+  },
+  {
+   "word": "kira",
+   "sense_ids": [
+    "tdk:51805",
+    "tdk:51806",
+    "tdk:51807"
+   ]
+  },
+  {
+   "word": "koltuk",
+   "sense_ids": [
+    "tdk:52559",
+    "tdk:52560",
+    "tdk:52561",
+    "tdk:52564",
+    "tdk:52565",
+    "tdk:52566",
+    "tdk:52567"
+   ]
+  },
+  {
+   "word": "kral",
+   "sense_ids": [
+    "tdk:55629",
+    "tdk:55630",
+    "tdk:55631"
+   ]
+  },
+  {
+   "word": "kulübe",
+   "sense_ids": [
+    "tdk:56103",
+    "tdk:56104",
+    "tdk:56105"
+   ]
+  },
+  {
+   "word": "köşe",
+   "sense_ids": [
+    "tdk:55461",
+    "tdk:55462",
+    "tdk:55463",
+    "tdk:55464",
+    "tdk:55466"
+   ]
+  },
+  {
+   "word": "kültür",
+   "sense_ids": [
+    "tdk:57389",
+    "tdk:57390",
+    "tdk:57391",
+    "tdk:57392",
+    "tdk:57394"
+   ]
+  },
+  {
+   "word": "laf",
+   "sense_ids": [
+    "tdk:57729",
+    "tdk:57730",
+    "tdk:57732"
+   ]
+  },
+  {
+   "word": "madde",
+   "sense_ids": [
+    "tdk:58904",
+    "tdk:58905",
+    "tdk:58906",
+    "tdk:58907"
+   ]
+  },
+  {
+   "word": "merak",
+   "sense_ids": [
+    "tdk:60964",
+    "tdk:60965",
+    "tdk:60966"
+   ]
+  },
+  {
+   "word": "ocak",
+   "sense_ids": [
+    "tdk:65970",
+    "tdk:65971",
+    "tdk:65972",
+    "tdk:65973",
+    "tdk:65974",
+    "tdk:65975",
+    "tdk:65976",
+    "tdk:65977",
+    "tdk:65979",
+    "tdk:65980",
+    "tdk:745489"
+   ]
+  },
+  {
+   "word": "oda",
+   "sense_ids": [
+    "tdk:66008",
+    "tdk:66009",
+    "tdk:66010",
+    "tdk:745539",
+    "tdk:745540"
+   ]
+  },
+  {
+   "word": "oyun",
+   "sense_ids": [
+    "tdk:67534",
+    "tdk:67536",
+    "tdk:67537",
+    "tdk:67538",
+    "tdk:67541",
+    "tdk:745790"
+   ]
+  },
+  {
+   "word": "parti",
+   "sense_ids": [
+    "tdk:69654",
+    "tdk:69656",
+    "tdk:69657",
+    "tdk:746979",
+    "tdk:69658",
+    "tdk:69661",
+    "tdk:69664"
+   ]
+  },
+  {
+   "word": "parça",
+   "sense_ids": [
+    "tdk:69483",
+    "tdk:69484",
+    "tdk:69485",
+    "tdk:69486",
+    "tdk:69487",
+    "tdk:69489",
+    "tdk:69490"
+   ]
+  },
+  {
+   "word": "perde",
+   "sense_ids": [
+    "tdk:70363",
+    "tdk:70364",
+    "tdk:70366",
+    "tdk:70367",
+    "tdk:70371",
+    "tdk:70372"
+   ]
+  },
+  {
+   "word": "post",
+   "sense_ids": [
+    "tdk:71413",
+    "tdk:71414",
+    "tdk:71415"
+   ]
+  },
+  {
+   "word": "resim",
+   "sense_ids": [
+    "tdk:72695",
+    "tdk:72696",
+    "tdk:72698"
+   ]
+  },
+  {
+   "word": "ruh",
+   "sense_ids": [
+    "tdk:73057",
+    "tdk:73059",
+    "tdk:73058"
+   ]
+  },
+  {
+   "word": "sakatlık",
+   "sense_ids": [
+    "tdk:73961",
+    "tdk:73962",
+    "tdk:73963"
+   ]
+  },
+  {
+   "word": "salon",
+   "sense_ids": [
+    "tdk:74300",
+    "tdk:74301",
+    "tdk:74302"
+   ]
+  },
+  {
+   "word": "sap",
+   "sense_ids": [
+    "tdk:74583",
+    "tdk:74584",
+    "tdk:74585",
+    "tdk:74587"
+   ]
+  },
+  {
+   "word": "saray",
+   "sense_ids": [
+    "tdk:74723",
+    "tdk:74724",
+    "tdk:74726",
+    "tdk:739088",
+    "tdk:74725",
+    "tdk:739087"
+   ]
+  },
+  {
+   "word": "ses",
+   "sense_ids": [
+    "tdk:76326",
+    "tdk:76328",
+    "tdk:76329"
+   ]
+  },
+  {
+   "word": "söz",
+   "sense_ids": [
+    "tdk:79098",
+    "tdk:79099",
+    "tdk:79100",
+    "tdk:79101"
+   ]
+  },
+  {
+   "word": "sınıf",
+   "sense_ids": [
+    "tdk:77008",
+    "tdk:77011",
+    "tdk:77012",
+    "tdk:77014"
+   ]
+  },
+  {
+   "word": "sıra",
+   "sense_ids": [
+    "tdk:77095",
+    "tdk:77096",
+    "tdk:77097",
+    "tdk:77098",
+    "tdk:77100",
+    "tdk:77103"
+   ]
+  },
+  {
+   "word": "sırt",
+   "sense_ids": [
+    "tdk:77233",
+    "tdk:77235",
+    "tdk:77236",
+    "tdk:77237"
+   ]
+  },
+  {
+   "word": "takım",
+   "sense_ids": [
+    "tdk:82727",
+    "tdk:82728",
+    "tdk:82733",
+    "tdk:82734"
+   ]
+  },
+  {
+   "word": "taraf",
+   "sense_ids": [
+    "tdk:83421",
+    "tdk:83422",
+    "tdk:83423",
+    "tdk:83425"
+   ]
+  },
+  {
+   "word": "tartışma",
+   "sense_ids": [
+    "tdk:83644",
+    "tdk:83645",
+    "tdk:83646"
+   ]
+  },
+  {
+   "word": "tatil",
+   "sense_ids": [
+    "tdk:84040",
+    "tdk:84041",
+    "tdk:84042"
+   ]
+  },
+  {
+   "word": "temizlik",
+   "sense_ids": [
+    "tdk:84797",
+    "tdk:84798",
+    "tdk:84799"
+   ]
+  },
+  {
+   "word": "tepe",
+   "sense_ids": [
+    "tdk:84989",
+    "tdk:84990",
+    "tdk:84991",
+    "tdk:84992",
+    "tdk:84993"
+   ]
+  },
+  {
+   "word": "ters",
+   "sense_ids": [
+    "tdk:85339",
+    "tdk:85340",
+    "tdk:85341",
+    "tdk:85342"
+   ]
+  },
+  {
+   "word": "top",
+   "sense_ids": [
+    "tdk:86660",
+    "tdk:86661",
+    "tdk:86662",
+    "tdk:86663"
+   ]
+  },
+  {
+   "word": "tüp",
+   "sense_ids": [
+    "tdk:87981",
+    "tdk:87982",
+    "tdk:87983"
+   ]
+  },
+  {
+   "word": "usta",
+   "sense_ids": [
+    "tdk:88744",
+    "tdk:88745",
+    "tdk:88746"
+   ]
+  },
+  {
+   "word": "vakit",
+   "sense_ids": [
+    "tdk:90180",
+    "tdk:90181",
+    "tdk:90182",
+    "tdk:90183",
+    "tdk:90185"
+   ]
+  },
+  {
+   "word": "yaprak",
+   "sense_ids": [
+    "tdk:93214",
+    "tdk:93216",
+    "tdk:93217",
+    "tdk:93218",
+    "tdk:93220"
+   ]
+  },
+  {
+   "word": "yapı",
+   "sense_ids": [
+    "tdk:93070",
+    "tdk:93071",
+    "tdk:93072"
+   ]
+  },
+  {
+   "word": "yar",
+   "sense_ids": [
+    "tdk:93262",
+    "tdk:93264",
+    "tdk:93266"
+   ]
+  },
+  {
+   "word": "yer",
+   "sense_ids": [
+    "tdk:94826",
+    "tdk:94827",
+    "tdk:94828",
+    "tdk:94829",
+    "tdk:94831",
+    "tdk:94832",
+    "tdk:94834",
+    "tdk:94835",
+    "tdk:94836",
+    "tdk:94837",
+    "tdk:94839"
+   ]
+  },
+  {
+   "word": "yön",
+   "sense_ids": [
+    "tdk:96159",
+    "tdk:96160",
+    "tdk:96161"
+   ]
+  },
+  {
+   "word": "çalışma",
+   "sense_ids": [
+    "tdk:17334",
+    "tdk:17335",
+    "tdk:17336"
+   ]
+  },
+  {
+   "word": "çay",
+   "sense_ids": [
+    "tdk:18085",
+    "tdk:18086",
+    "tdk:18088"
+   ]
+  },
+  {
+   "word": "çevre",
+   "sense_ids": [
+    "tdk:18843",
+    "tdk:18844",
+    "tdk:18845",
+    "tdk:18846",
+    "tdk:18847"
+   ]
+  },
+  {
+   "word": "çizgi",
+   "sense_ids": [
+    "tdk:19896",
+    "tdk:19897",
+    "tdk:19898",
+    "tdk:19899",
+    "tdk:19900",
+    "tdk:739323"
+   ]
+  },
+  {
+   "word": "çocuk",
+   "sense_ids": [
+    "tdk:736474",
+    "tdk:19988",
+    "tdk:19992"
+   ]
+  },
+  {
+   "word": "çıkma",
+   "sense_ids": [
+    "tdk:19077",
+    "tdk:19078",
+    "tdk:19080"
+   ]
+  },
+  {
+   "word": "örnek",
+   "sense_ids": [
+    "tdk:68404",
+    "tdk:68405",
+    "tdk:68407"
+   ]
+  },
+  {
+   "word": "üslup",
+   "sense_ids": [
+    "tdk:89701",
+    "tdk:89702",
+    "tdk:89703"
+   ]
+  },
+  {
+   "word": "ışık",
+   "sense_ids": [
+    "tdk:41012",
+    "tdk:41013",
+    "tdk:41014",
+    "tdk:41015",
+    "tdk:41016"
+   ]
+  },
+  {
+   "word": "şekil",
+   "sense_ids": [
+    "tdk:81365",
+    "tdk:81366",
+    "tdk:81367",
+    "tdk:81368",
+    "tdk:81369",
+    "tdk:81371"
+   ]
+  }
+ ]
+}

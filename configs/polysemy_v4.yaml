@@ -1,0 +1,18 @@
+# SECONDARY (upper-bound) polysemy probe: v4_aug augments sense prototypes with
+# PARSEME sentences assigned via LaBSE argmax, which leaks the reference encoder
+# into prototype construction. The PRIMARY result uses configs/polysemy_v4_primary.yaml
+# (un-augmented v4).
+module: polysemy
+data_path: data/polysemy/tr_polysemy.v4_aug.json
+seed: 42
+bootstrap_n: 10000
+control_perms: 1000
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean

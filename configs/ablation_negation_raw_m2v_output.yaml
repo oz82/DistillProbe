@@ -1,0 +1,15 @@
+# A1 controlled-distillation ablation (negation, raw mode). Student: LaBSE teacher + plain PCA-256/Zipf recipe (pre-Tokenlearn Model2Vec release).
+# One student per config because several modules select a single student encoder.
+module: negation
+data_path: data/negation/tr_negation.v3_clean.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+encoders:
+  m2v_multilingual_output:
+    type: model2vec
+    model_id: minishlab/M2V_multilingual_output
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean

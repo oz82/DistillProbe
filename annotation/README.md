@@ -1,28 +1,25 @@
 # Polysemy human annotation
 
-This directory holds the material for the **human gold standard and human
-ceiling** added to the polysemy probe: four native speakers of Turkish rated how
-readily each dictionary sense of a polysemous noun comes to mind for that word
-in isolation.
+This directory holds the material for the **human pilot** of the polysemy
+probe: four native speakers of Turkish rated how readily each dictionary sense of
+a polysemous noun comes to mind for that word in isolation. The pilot was run on
+the earlier 50-noun Turkish set (v3, 346 senses), not on the primary v4 set.
 
 ## Files
 
-- **`polysemy_annotation_GUIDE.md`** — the annotator guide. **Kept in Turkish
+- **`polysemy_annotation_GUIDE.md`** — the annotator guide. It was written for a
+  panel of up to five (forms A–E); four annotators took part. **Kept in Turkish
   verbatim**: it is the document the annotators actually read, so it is evidence
   of what participants were told, not documentation to be translated. An English
   summary is at the top of that file.
-- **`polysemy_form_annotator_A.xlsx` … `…_E.xlsx`** — blank annotation
+- **`polysemy_form_annotator_*.xlsx`** — blank annotation
   workbooks. They contain no personal data, **but their *Form* sheet embeds all
   346 TDK definitions and example sentences verbatim**, so they are excluded from
-  the public release for copyright reasons (`.gitattributes` export-ignore).
+  the public release for copyright reasons.
   Regenerate them from the released sense manifest with
-  `python scripts/build_polysemy_form.py -n 5`.
+  `python scripts/build_polysemy_form.py -n <number of annotators>`.
 - **`polysemy_ratings_anon.csv`** — the de-identified 0–3 ratings (R1–R4). **This
   is the published data artefact.**
-- **`ethics/etik_kurul_raporu.docx`** — an ethics-committee information report
-  (Turkish). **Development repository only**: it is an unfilled application form,
-  and the article states that committee review was not sought and not required,
-  so shipping a blank application alongside it would read as a contradiction.
 - **`responses/`** — raw filled workbooks and the name↔code map. Contains
   personal data; **gitignored, never released**.
 - Related: `data/polysemy/tr_polysemy.v3.sense_manifest.json` (+ `.sha256`) — the
@@ -43,12 +40,12 @@ constrained 0–3 dropdown, so out-of-range values cannot be entered.
    from the raw workbooks. Columns are `R1..R4` (no names, no initials), keyed by
    `kelime_no, anlam_no`. **The TDK gloss column is absent** — the text is
    copyrighted and joined back in from the manifest when needed. This CSV is the
-   scientific artefact that is committed and released. The name↔code mapping
-   exists only in the local, gitignored `responses/_coder_map.txt`.
+   scientific artefact that is committed and released. The name↔code mapping is
+   kept offline by the researcher and is not released.
 4. **Scoring:**
    ```bash
    python scripts/score_polysemy_annotation.py \
-     --encoder-metrics results/polysemy/<primary_run>/metrics.json
+     --encoder-metrics results/polysemy/<polysemy_v3_primary run>/metrics.json
    ```
    It reports the human ceiling (Krippendorff's ordinal α, plus
    leave-one-annotator-out α and the mean pairwise per-word rank correlation), a
@@ -57,7 +54,7 @@ constrained 0–3 dropdown, so out-of-range values cannot be entered.
    without `--encoder-metrics` to get the human-ceiling figures alone. Requires
    `pip install -e ".[annotation]"`.
 
-## Result (four annotators)
+## Result (pilot, four annotators)
 
 α = 0.477 (human ceiling; leave-one-out 0.463–0.499; mean pairwise per-word
 ρ = 0.514). Gold-vs-encoder: LaBSE ρ = 0.10, Model2Vec ρ = 0.06 — both
@@ -66,7 +63,7 @@ indistinguishable from zero.
 The annotators agree with each other five- to ten-fold more than either encoder
 agrees with them, so the cross-encoder agreement reported for the polysemy axis
 reflects shared embedding-space structure rather than human sense salience. See
-the "Human ceiling and gold-vs-encoder alignment" paragraph in the article.
+the "Human pilot: gold-vs-encoder alignment" paragraph in the article.
 
 ## Notes
 

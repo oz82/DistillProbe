@@ -1,7 +1,9 @@
 """Probing modules. Concrete modules register here to be discoverable from the CLI."""
 
 from .base import ProbeModule, ProbeResult
+from .downstream_clustering import DownstreamClusteringModule
 from .downstream_negation import DownstreamNegationModule
+from .downstream_retrieval import DownstreamRetrievalModule
 from .idiomaticity import IdiomaticityModule, IdiomaticityModuleV2
 from .morphology import MorphologyModule
 from .negation import NegationModule
@@ -22,6 +24,8 @@ REGISTRY: dict[str, type[ProbeModule]] = {
     "negation": NegationModule,
     "sts": STSModule,
     "downstream_negation": DownstreamNegationModule,
+    "downstream_clustering": DownstreamClusteringModule,
+    "downstream_retrieval": DownstreamRetrievalModule,
     "tatoeba": TatoebaModule,
 }
 

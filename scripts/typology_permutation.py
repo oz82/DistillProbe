@@ -3,11 +3,12 @@
 the three fusional languages larger than that of the two agglutinative languages
 by more than chance, given only five language-level gaps?
 
-Exact permutation: over all C(5,3)=10 ways to label three of the five languages
-"fusional", compute the difference of group means; the one-sided p-value is the
-fraction of labelings whose difference is >= the observed (PL,IT,EL-fusional)
-difference. Gaps are read from the canonical syntax runs listed in
-`results/_canonical_runs.txt`, so this reproduces the reported p=0.10.
+Exact permutation: over all ways to label k of the n languages "fusional" (k = the
+number of fusional languages present), compute the difference of group means; the
+one-sided p-value is the fraction of labelings whose difference is >= the observed
+one. With the five first-submission languages this reproduces p=0.10 (C(5,3)=10);
+the revision adds English (C(6,4)=15). Gaps are read from the canonical and
+revision syntax runs.
 
 Usage:  python scripts/typology_permutation.py
 """
@@ -20,19 +21,24 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "results" / "_canonical_runs.txt"
+MANIFESTS = (MANIFEST, ROOT / "results" / "_revision_runs.txt")
 
-# Ground-truth typology labels for the five replication languages.
-FUSIONAL = {"PL", "IT", "EL"}
+# Ground-truth typology labels. English is (weakly) fusional / analytic Indo-European;
+# it joins the fusional group, so the revision compares 4 fusional vs 2 agglutinative.
+FUSIONAL = {"PL", "IT", "EL", "EN"}
 SYNTAX_CFG = {"syntax_v2": "TR", "syntax_v2_eu": "EU", "syntax_v2_pl": "PL",
-              "syntax_v2_it": "IT", "syntax_v2_el": "EL"}
+              "syntax_v2_it": "IT", "syntax_v2_el": "EL", "syntax_v2_en": "EN"}
 
 
 def run_dirs() -> dict[str, Path]:
     out: dict[str, Path] = {}
-    for line in MANIFEST.read_text(encoding="utf-8").splitlines():
-        parts = line.split("\t")
-        if len(parts) >= 2 and parts[1].startswith("results/"):
-            out[parts[0]] = ROOT / parts[1]
+    for manifest in MANIFESTS:
+        if not manifest.exists():
+            continue
+        for line in manifest.read_text(encoding="utf-8").splitlines():
+            parts = line.split("\t")
+            if len(parts) >= 2 and parts[1].startswith("results/"):
+                out[parts[0]] = ROOT / parts[1]
     return out
 
 
@@ -65,11 +71,12 @@ def main() -> int:
         return sum(f) / len(f) - sum(agg) / len(agg)
 
     observed = diff(FUSIONAL)
-    perms = [set(c) for c in combinations(langs, 3)]
+    k = len(FUSIONAL & set(langs))
+    perms = [set(c) for c in combinations(langs, k)]
     ge = sum(1 for p in perms if diff(p) >= observed - 1e-12)
     p_one_sided = ge / len(perms)
     print(f"\nObserved fusional-minus-agglutinative gap difference: {observed:+.4f}")
-    print(f"Exact permutation over C(5,3)={len(perms)} labelings: "
+    print(f"Exact permutation over C({len(langs)},{k})={len(perms)} labelings: "
           f"{ge}/{len(perms)} >= observed  ->  one-sided p = {p_one_sided:.2f}")
     return 0
 

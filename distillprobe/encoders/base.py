@@ -21,7 +21,12 @@ class Encoder(ABC):
       - `dim` is the output dimension; constant for the lifetime of the instance
       - `encode(text)` returns a 1-D np.ndarray of shape (dim,), L2-normalized
       - `tokenize(text)` returns a list of sub-tokens / subwords for audit purposes
+      - `role` optionally declares how a probe should treat the encoder
+        ("student" | "reference" | "baseline"); set from the run config. When it is
+        None, modules fall back to the historical name heuristics below.
     """
+
+    role: str | None = None
 
     @property
     @abstractmethod
@@ -43,3 +48,37 @@ class Encoder(ABC):
 
     def __repr__(self) -> str:
         return f"{type(self).__name__}(name={self.name!r}, dim={self.dim})"
+
+
+_REFERENCE_NAME_MARKERS = ("transformer", "labse", "e5")
+
+
+def is_reference_encoder(enc: Encoder) -> bool:
+    """True for the contextual reference/teacher side of a probe.
+
+    An explicit `role` wins; otherwise the encoder name is matched against the
+    markers the canonical configs relied on (``transformer:``, LaBSE, mE5).
+    """
+    if enc.role is not None:
+        return enc.role == "reference"
+    lname = enc.name.lower()
+    return any(m in lname for m in _REFERENCE_NAME_MARKERS)
+
+
+def is_student_encoder(enc: Encoder) -> bool:
+    """True for a distilled/static student whose retention is being measured.
+
+    An explicit `role` wins; otherwise only Model2Vec encoders count (fastText is a
+    baseline, not a student, in the canonical configs).
+    """
+    if enc.role is not None:
+        return enc.role == "student"
+    return "model2vec" in enc.name.lower()
+
+
+def first_reference(encoders: dict[str, Encoder]) -> str | None:
+    return next((n for n, e in encoders.items() if is_reference_encoder(e)), None)
+
+
+def first_student(encoders: dict[str, Encoder]) -> str | None:
+    return next((n for n, e in encoders.items() if is_student_encoder(e)), None)

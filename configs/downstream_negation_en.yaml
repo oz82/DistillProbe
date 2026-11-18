@@ -1,0 +1,20 @@
+# English negation-controlled sentiment (Amazon polarity), mirrors downstream_negation.yaml.
+module: downstream_negation
+data_path: data/sts/en_negation_sentiment.json
+seed: 42
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+  fasttext_en:
+    type: fasttext
+    path: data/fasttext/cc.en.300.bin
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean
+  me5_base:
+    type: transformer
+    model_id: intfloat/multilingual-e5-base
+    pool: mean

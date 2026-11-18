@@ -1,6 +1,6 @@
 """Clean the v2 negation triplet dataset down to genuine lexical antonyms.
 
-Motivation (committee P0-3): the v2 KeNet-derived set is contaminated by
+Motivation: the v2 KeNet-derived set is contaminated by
 morphological-negation pairs — same-stem ``-lI``/``-sIz`` privatives such as
 ``bastonlu``/``bastonsuz`` ("with cane"/"without cane"). For these the "antonym"
 is itself a morphological negation that shares the stem token, so the headline

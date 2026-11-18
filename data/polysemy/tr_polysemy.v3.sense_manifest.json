@@ -1,14 +1,30 @@
 {
   "language": "tr",
   "version": "v3-kenet-2026-05-06",
-  "note": "Regeneration recipe for tr_polysemy.v3. Contains only structure (word -> TDK sense_ids kept, in order) so the full dataset can be rebuilt from the TDK GTS API via scripts/build_polysemy_dataset.py WITHOUT redistributing TDK's copyrighted definitions/examples. Verify the rebuild against sha256 in polysemy_v3.sha256.",
+  "params": {
+    "min_examples": 1,
+    "min_senses": 2
+  },
+  "note": "Regeneration recipe for tr_polysemy.v3. Contains only structure (word -> TDK sense_ids kept, in order) so the full dataset can be rebuilt from the TDK GTS API via scripts/build_polysemy_dataset.py WITHOUT redistributing TDK's copyrighted definitions/examples. Verify the rebuild against sha256 in tr_polysemy.v3.sha256.",
   "manual_edits": [
     {
       "word": "alem",
       "anlam_no": 3,
       "sense_id": "tdk:3303",
-      "edit": "dangling-anaphora resolved: definition inlined its antecedent tdk:3302 -> 'Aynı konu ile ilgili kimselerin uğraşlarının bütünü'",
-      "new_definition": "Aynı konu ile ilgili kimselerin uğraşlarının bütünü"
+      "edit": "dangling-anaphora resolved: the deictic phrase is replaced by the definition of its antecedent sense tdk:3302",
+      "definition_from": "tdk:3302",
+      "replace": "Bu kimseler"
+    },
+    {
+      "word": "hak",
+      "anlam_no": 8,
+      "sense_id": "tdk:37058",
+      "edit": "typo in TDK's example sentence",
+      "field": "examples",
+      "replace": [
+        "hakki",
+        "hakkı"
+      ]
     }
   ],
   "words": [

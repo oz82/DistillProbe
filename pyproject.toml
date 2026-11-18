@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "distillprobe"
-version = "0.1.0"
+version = "1.1.0"
 description = "A probing framework for distilled static embeddings (Model2Vec family)."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -35,7 +35,7 @@ dependencies = [
 
 [project.optional-dependencies]
 teacher = [
-    "sentence-transformers>=2.7,<3",
+    "sentence-transformers>=3.3",  # StaticEmbedding models; runs used 5.7.0
 ]
 dev = [
     "pytest>=7",

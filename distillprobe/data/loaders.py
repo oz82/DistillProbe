@@ -4,10 +4,12 @@ import json
 from pathlib import Path
 
 from .schemas import (
+    ClusteringDataset,
     IdiomaticityDataset,
     MorphologyDataset,
     NegationDataset,
     PolysemyDataset,
+    RetrievalDataset,
     STSDataset,
     SyntaxDataset,
     XLingualDataset,
@@ -61,3 +63,17 @@ def load_sts_dataset(path: str | Path) -> STSDataset:
     with p.open("r", encoding="utf-8") as f:
         raw = json.load(f)
     return STSDataset(**raw)
+
+
+def load_clustering_dataset(path: str | Path) -> ClusteringDataset:
+    p = Path(path)
+    with p.open("r", encoding="utf-8") as f:
+        raw = json.load(f)
+    return ClusteringDataset(**raw)
+
+
+def load_retrieval_dataset(path: str | Path) -> RetrievalDataset:
+    p = Path(path)
+    with p.open("r", encoding="utf-8") as f:
+        raw = json.load(f)
+    return RetrievalDataset(**raw)

@@ -6,7 +6,7 @@ from typing import Any
 
 import numpy as np
 
-from ..encoders.base import Encoder
+from ..encoders.base import Encoder, first_reference
 from ..metrics import wilson_ci
 from .base import ProbeModule, ProbeResult
 
@@ -83,11 +83,10 @@ class DownstreamNegationModule(ProbeModule):
             }
 
         # Student-vs-reference: difference in neg_drop (positive => student degrades
-        # more on negation, as predicted). Reference = transformer/labse/e5 encoder.
+        # more on negation, as predicted). Reference = explicit role or contextual-name heuristic.
         comparisons: dict[str, Any] = {}
         names = list(encoders.keys())
-        ref = next((n for n in names if any(t in encoders[n].name.lower()
-                                            for t in ("transformer", "labse", "e5"))), None)
+        ref = first_reference(encoders)
         students = [n for n in names if n != ref]
         if ref:
             for st in students:

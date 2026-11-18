@@ -71,8 +71,9 @@ def main() -> None:
                   f"spearman={ce['mean_spearman']:.3f} [{ce['spearman_ci_low']:.3f},{ce['spearman_ci_high']:.3f}] "
                   f"control={ce['control_mean_spearman']:.3f} sel={ce['spearman_selectivity']:.3f} p={ce['spearman_perm_p']:.4f}")
         return f
-    show("polysemy_v3_primary", poly("primary/leak-free"))
-    show("polysemy_v3", poly("secondary/aug"))
+    show("polysemy_v4_primary", poly("primary/leak-free"))
+    show("polysemy_v4", poly("secondary/aug"))
+    show("polysemy_v3_primary", poly("pilot set (human study)"))
 
     # syntax TR + 5-lang
     def syn(tag):
@@ -109,6 +110,8 @@ def main() -> None:
         return f
     show("negation_v3_clean_raw_baselines", neg("raw"))
     show("negation_v3_clean_carrier_baselines", neg("carrier"))
+    show("negation_v2_pool_raw", neg("uncleaned v2 pool, raw"))
+    show("negation_v2_pool_carrier", neg("uncleaned v2 pool, carrier"))
 
     # STS
     show("sts_v1", lambda m: print("[STS]", m.get("per_encoder", m)))
@@ -130,6 +133,75 @@ def main() -> None:
         for k, v in m.get("retention", {}).items():
             print(f"   retention {k}: {v['mean_p1_retention']:.3f} (CSLS {v.get('mean_p1_csls_retention',float('nan')):.3f}) [{m['n_langs']} langs]")
     show("tatoeba", tato)
+
+    # ------------------------------------------------------------ revision (2026-09)
+    print("\n=== English battery ===")
+    show("morph_en_corpus", lambda m: print("[morph EN] per_encoder:",
+         {k: round(v, 3) for k, v in m.get("per_encoder_mean_consistency", {}).items()}))
+    show("idiom_v2_en", idiom)
+    show("polysemy_en_primary", poly("EN primary"))
+    show("syntax_v2_en", syn("EN"))
+    show("negation_en_clean_raw_baselines", neg("EN raw"))
+    show("negation_en_clean_carrier_baselines", neg("EN carrier"))
+    show("sts_en", lambda m: print("[STS EN]", {k: round(v["spearman"], 4) for k, v in m["per_encoder"].items()}))
+    show("downstream_negation_en", downneg)
+
+    print("\n=== common-scale denominators (all encoders) ===")
+    for cfg in ("morph_tr_all_encoders", "morph_en_all_encoders"):
+        show(cfg, lambda m, c=cfg: print(f"[{c}]",
+             {k: round(v, 3) for k, v in m["per_encoder_mean_consistency"].items()}))
+    for cfg in ("sts_tr_all_encoders", "sts_en_all_encoders"):
+        show(cfg, lambda m, c=cfg: print(f"[{c}]",
+             {k: round(v["spearman"], 4) for k, v in m["per_encoder"].items()}))
+
+    print("\n=== controlled distillation ablation ===")
+    for cfg in sorted(c for c in runs if c.startswith("ablation_")):
+        m = load(runs[cfg])
+        if "per_encoder_mean_consistency" in m:
+            print(f"[{cfg}]", {k: round(v, 3) for k, v in m["per_encoder_mean_consistency"].items()})
+        elif "cross_encoder" in m:
+            ce = next(iter(m["cross_encoder"].values()))
+            print(f"[{cfg}] spearman={ce['mean_spearman']:.3f} agreement={ce['winner_agreement_rate']:.3f}")
+        elif "teacher_mean_acc" in m:
+            print(f"[{cfg}] teacher={m['teacher_mean_acc']:.3f} student={m['student_mean_acc']:.3f} "
+                  f"diff={m['mean_acc_diff_teacher_minus_student']:+.3f}")
+        elif "retention" in m:
+            print(f"[{cfg}]", {k: round(v["mean_p1_retention"], 3) for k, v in m["retention"].items()})
+        elif "per_encoder" in m and "use_carrier" in m:
+            print(f"[{cfg}]", {k: v["fraction_positive_flip"] for k, v in m["per_encoder"].items()})
+
+    print("\n=== distillation-family ablation ===")
+    for cfg in sorted(c for c in runs if c.startswith("family_")):
+        m = load(runs[cfg])
+        if "per_encoder_mean_consistency" in m:
+            print(f"[{cfg}]", {k: round(v, 3) for k, v in m["per_encoder_mean_consistency"].items()})
+        elif "cross_encoder" in m:
+            ce = next(iter(m["cross_encoder"].values()))
+            print(f"[{cfg}] spearman={ce['mean_spearman']:.3f}")
+        elif "teacher_mean_acc" in m:
+            print(f"[{cfg}] teacher={m['teacher_mean_acc']:.3f} student={m['student_mean_acc']:.3f} "
+                  f"diff={m['mean_acc_diff_teacher_minus_student']:+.3f}")
+        elif "retention" in m:
+            print(f"[{cfg}]", {k: round(v["mean_p1_retention"], 3) for k, v in m["retention"].items()})
+        elif "use_carrier" in m:
+            print(f"[{cfg}]", {k: v["fraction_positive_flip"] for k, v in m["per_encoder"].items()})
+        elif "per_encoder" in m and "spearman" in next(iter(m["per_encoder"].values())):
+            print(f"[{cfg}]", {k: round(v["spearman"], 4) for k, v in m["per_encoder"].items()})
+        elif "per_encoder" in m and "neg_drop" in next(iter(m["per_encoder"].values())):
+            print(f"[{cfg}]", {k: round(v["neg_drop"], 3) for k, v in m["per_encoder"].items()})
+
+    print("\n=== task-level (retrieval / clustering) ===")
+    for cfg in sorted(c for c in runs if c.startswith("downstream_retrieval") or c.startswith("downstream_clustering")):
+        m = load(runs[cfg])
+        key = f"ndcg@{m.get('k', 10)}" if "downstream_retrieval" in cfg else "v_measure_mean"
+        print(f"[{cfg}]", {k: round(v[key], 3) for k, v in m["per_encoder"].items()})
+
+    print("\n=== common scale (scripts/spectrum_scale.py) ===")
+    import subprocess
+    import sys
+
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "spectrum_scale.py"),
+                    "--out", str(ROOT / "results" / "spectrum_scale.json")], check=False)
 
 
 if __name__ == "__main__":

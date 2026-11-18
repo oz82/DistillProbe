@@ -1,0 +1,136 @@
+"""Summarise every revision run (plus the canonical runs) into one Markdown report.
+
+Reads `results/_canonical_runs.txt` and `results/_revision_runs.txt`, pulls the
+headline metric(s) of each run by module type, and pivots them into one table per
+(module, language) with encoders as rows. Output: `results/REVISION_SUMMARY.md`.
+
+Usage:
+    python scripts/summarize_revision.py [--out results/REVISION_SUMMARY.md]
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+from collections import defaultdict
+from pathlib import Path
+
+
+def _runs(path: Path) -> list[tuple[str, str]]:
+    out = []
+    if not path.exists():
+        return out
+    for line in path.read_text(encoding="utf-8").splitlines():
+        parts = line.split("\t")
+        if len(parts) >= 2 and parts[1].startswith("results/"):
+            out.append((parts[0], parts[1].strip()))
+    return out
+
+
+def _lang(m: dict, cfg: str) -> str:
+    lang = m.get("language") or m.get("dataset_language")
+    if lang:
+        return str(lang)
+    if "_en" in cfg or cfg.endswith("en") or "en_" in cfg:
+        return "en"
+    return "tr"
+
+
+def extract(cfg: str, run_dir: str) -> list[tuple[str, str, str, str, float]]:
+    """Return (module, language, config, encoder|pair, metric, value) rows."""
+    payload = json.loads((Path(run_dir) / "metrics.json").read_text(encoding="utf-8"))
+    m = payload.get("metrics", payload)
+    module = payload.get("module", "?")
+    lang = _lang(m, cfg)
+    rows: list[tuple] = []
+
+    def add(enc, metric, val):
+        if isinstance(val, int | float) and val == val:
+            rows.append((module, lang, cfg, enc, metric, float(val)))
+
+    if module == "morphology":
+        for enc, v in m.get("per_encoder_mean_consistency", {}).items():
+            add(enc, "mean_consistency", v)
+    elif module == "polysemy":
+        for pair, d in m.get("cross_encoder", {}).items():
+            add(pair, "spearman", d.get("mean_spearman"))
+            add(pair, "winner_agreement", d.get("winner_agreement_rate"))
+    elif module == "syntax_v2":
+        add("teacher", "loo_acc", m.get("teacher_mean_acc"))
+        add("student", "loo_acc", m.get("student_mean_acc"))
+        add("teacher-student", "gap", m.get("mean_acc_diff_teacher_minus_student"))
+    elif module == "negation":
+        mode = "carrier" if m.get("use_carrier") else "raw"
+        for enc, d in m.get("per_encoder", {}).items():
+            add(enc, f"flip_rate_{mode}", d.get("fraction_positive_flip"))
+            add(enc, f"mean_flip_{mode}", d.get("mean_flip"))
+            add(enc, f"n_{mode}", d.get("n_valid"))
+    elif module in ("xlingual", "tatoeba"):
+        for pair, d in m.get("retention", {}).items():
+            add(pair, "p1_retention", d.get("mean_p1_retention"))
+            add(pair, "p1_csls_retention", d.get("mean_p1_csls_retention"))
+    elif module == "sts":
+        for enc, d in m.get("per_encoder", {}).items():
+            add(enc, "spearman", d.get("spearman"))
+    elif module == "downstream_negation":
+        for enc, d in m.get("per_encoder", {}).items():
+            add(enc, "acc_no_neg", d.get("acc_no_negation"))
+            add(enc, "acc_neg", d.get("acc_negation"))
+            add(enc, "neg_drop", d.get("neg_drop"))
+    elif module == "idiomaticity_v2":
+        for cat, v in m.get("per_category_mean_gap", {}).items():
+            add(cat, "mean_gap", v)
+    elif module == "downstream_clustering":
+        for enc, d in m.get("per_encoder", {}).items():
+            add(enc, "v_measure", d.get("v_measure_mean"))
+        for pair, d in m.get("retention", {}).items():
+            add(pair, "v_retention", d.get("v_measure_retention"))
+    elif module == "downstream_retrieval":
+        k = m.get("k", 10)
+        for enc, d in m.get("per_encoder", {}).items():
+            add(enc, f"ndcg@{k}", d.get(f"ndcg@{k}"))
+            add(enc, f"recall@{k}", d.get(f"recall@{k}"))
+        for pair, d in m.get("retention", {}).items():
+            add(pair, f"ndcg@{k}_retention", d.get(f"ndcg@{k}_retention"))
+    return rows
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--out", default="results/REVISION_SUMMARY.md")
+    args = ap.parse_args()
+
+    runs = [("canonical", c, r) for c, r in _runs(Path("results/_canonical_runs.txt"))]
+    runs += [("revision", c, r) for c, r in _runs(Path("results/_revision_runs.txt"))]
+
+    table: dict[tuple[str, str], dict[tuple[str, str], dict[str, float]]] = defaultdict(
+        lambda: defaultdict(dict)
+    )
+    index: list[str] = []
+    for kind, cfg, run_dir in runs:
+        try:
+            rows = extract(cfg, run_dir)
+        except FileNotFoundError:
+            index.append(f"- `{cfg}` → {run_dir} **(missing metrics.json)**")
+            continue
+        index.append(f"- [{kind}] `{cfg}` → `{run_dir}`")
+        for module, lang, cfg_name, enc, metric, val in rows:
+            table[(module, lang)][(cfg_name, enc)][metric] = val
+
+    lines = ["# Revision run summary", "", "Generated by `scripts/summarize_revision.py`.", ""]
+    for (module, lang), block in sorted(table.items()):
+        metrics = sorted({mt for d in block.values() for mt in d})
+        lines += [f"## {module} — {lang.upper()}", "", "| config | encoder / pair | " + " | ".join(metrics) + " |",
+                  "|---|---|" + "---|" * len(metrics)]
+        for (cfg_name, enc), d in sorted(block.items()):
+            cells = [f"{d[mt]:.4f}" if mt in d else "" for mt in metrics]
+            lines.append(f"| `{cfg_name}` | {enc} | " + " | ".join(cells) + " |")
+        lines.append("")
+    lines += ["## Run index", ""] + index + [""]
+    Path(args.out).write_text("\n".join(lines), encoding="utf-8")
+    print(f"wrote {args.out}: {sum(len(b) for b in table.values())} rows across {len(table)} tables")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

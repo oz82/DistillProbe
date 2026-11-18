@@ -1,5 +1,9 @@
 """Minimal parser for the PARSEME `.cupt` format (CoNLL-U + 11th MWE column).
 
+Plain 10-column CoNLL-U files are accepted too (the MWE column is then read as
+`*` for every token), so UD treebanks without MWE annotation can feed the
+probes that only need the UD layer (syntax, morphology).
+
 The CUPT format is an extension of CoNLL-U with a single extra final column,
 `PARSEME:MWE`, encoding multiword-expression annotations:
 
@@ -96,8 +100,10 @@ def _parse_block(lines: list[str]) -> Sentence | None:
             continue
 
         cols = line.split("\t")
-        if len(cols) < 11:
+        if len(cols) < 10:
             continue  # malformed
+        # Plain CoNLL-U (10 columns, e.g. a UD treebank) has no PARSEME:MWE
+        # column; treat every token as MWE-free so the UD layer stays usable.
         tok = Token(
             id=cols[0],
             form=cols[1],
@@ -105,7 +111,7 @@ def _parse_block(lines: list[str]) -> Sentence | None:
             upos=cols[3],
             head=cols[6],
             deprel=cols[7],
-            mwe_field=cols[10],
+            mwe_field=cols[10] if len(cols) >= 11 else "*",
             feats=cols[5],
         )
         token_index = len(tokens)

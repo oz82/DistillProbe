@@ -1,6 +1,6 @@
-"""Generate the polysemy human-annotation forms (P1-5) from the primary dataset.
+"""Generate the polysemy human-annotation forms from the v3 (pilot) dataset.
 
-Produces, for each of two independent annotators (A/B), an Excel workbook (.xlsx):
+Produces one Excel workbook (.xlsx) per annotator (`-n`), lettered A, B, ...:
 annotator-friendly with 0-3 dropdown validation, frozen header, highlighted score
 column, per-word shading, and a short instructions sheet.
 

@@ -1,0 +1,18 @@
+# C2 distillation-family ablation (Tatoeba): non-distilled static student.
+module: tatoeba
+data_path: data/xlingual/tatoeba_langs.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+extra:
+  csls_k: 10
+encoders:
+  st_static_mrl:
+    type: transformer
+    model_id: sentence-transformers/static-similarity-mrl-multilingual-v1
+    role: student
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean
+    role: reference

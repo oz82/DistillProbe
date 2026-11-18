@@ -90,7 +90,11 @@ def build(
     with_literal: bool,
     max_literal: int,
     seed: int,
+    language: str = "tr",
+    drop_categories: set[str] | None = None,
 ) -> IdiomaticityDataset:
+    if drop_categories is None:
+        drop_categories = set(DROP_CATEGORIES)
     items: list[IdiomItem] = []
     literal_pool: list[IdiomItem] = []
     n_sents = 0
@@ -102,7 +106,7 @@ def build(
         for mwe in sent.mwes:
             if not mwe.token_indices:
                 continue
-            if mwe.category in DROP_CATEGORIES:
+            if mwe.category in drop_categories:
                 continue
             if len(mwe.token_indices) < MIN_TOKEN_COUNT:
                 continue
@@ -157,7 +161,7 @@ def build(
         print(f"  {c:14s} {n:5d}", file=sys.stderr)
 
     return IdiomaticityDataset(
-        language="tr",
+        language=language,
         version=version,
         source=source,
         items=items,
@@ -182,6 +186,13 @@ def main() -> int:
         help="max number of literal samples to keep (subsampled with seed)",
     )
     p.add_argument("--seed", type=int, default=42)
+    p.add_argument("--language", default="tr", help="ISO code for the dataset's language field")
+    p.add_argument(
+        "--drop-categories",
+        nargs="*",
+        default=sorted(DROP_CATEGORIES),
+        help="MWE categories to exclude (default: MVC, too sparse in TR); pass no value to keep all",
+    )
     args = p.parse_args()
 
     paths = [Path(s) for s in args.inputs]
@@ -197,6 +208,8 @@ def main() -> int:
         with_literal=args.with_literal,
         max_literal=args.max_literal,
         seed=args.seed,
+        language=args.language,
+        drop_categories=set(args.drop_categories),
     )
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)

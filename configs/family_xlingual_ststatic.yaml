@@ -1,0 +1,21 @@
+# C2 distillation-family ablation (cross-lingual, FLORES): non-distilled static student.
+module: xlingual
+data_path: data/xlingual/tr_flores.v3.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+encoders:
+  st_static_mrl:
+    type: transformer
+    model_id: sentence-transformers/static-similarity-mrl-multilingual-v1
+    role: student
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean
+    role: reference
+  me5_base:
+    type: transformer
+    model_id: intfloat/multilingual-e5-base
+    pool: mean
+    role: reference

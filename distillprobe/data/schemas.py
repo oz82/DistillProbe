@@ -163,3 +163,47 @@ class STSDataset(BaseModel):
     version: str
     source: str
     pairs: list[STSPair]
+
+
+# ---------------------------------------------------------------- clustering (downstream)
+
+
+class ClusteringSet(BaseModel):
+    """One clustering instance: texts with gold category labels (MTEB layout)."""
+
+    sentences: list[str]
+    labels: list[str]
+
+
+class ClusteringDataset(BaseModel):
+    language: str = "tr"
+    version: str
+    source: str
+    sets: list[ClusteringSet]
+
+
+# ---------------------------------------------------------------- retrieval (downstream)
+
+
+class RetrievalDoc(BaseModel):
+    id: str
+    title: str = ""
+    text: str
+
+
+class RetrievalQuery(BaseModel):
+    id: str
+    text: str
+
+
+class RetrievalDataset(BaseModel):
+    """BEIR-style ad-hoc retrieval: corpus, queries and graded relevance judgements."""
+
+    language: str = "tr"
+    version: str
+    source: str
+    corpus: list[RetrievalDoc]
+    queries: list[RetrievalQuery]
+    qrels: dict[str, dict[str, float]] = Field(
+        ..., description="query id -> {doc id -> relevance grade}; only judged queries are scored"
+    )

@@ -42,7 +42,7 @@ class IdiomaticityModule(ProbeModule):
             "Idiomaticity gap probe (PARSEME Turkish 1.2). "
             "For each phrase: gap = 1 − cos(encoder(phrase), mean(encoder(token_i))). "
             "Per-category bootstrap CI; ordered Mann–Whitney across the "
-            "VID > LVC.full > LITERAL spectrum (one-sided). See migration.md §9.1."
+            "VID > LVC.full > LITERAL spectrum (one-sided)."
         )
 
     # ----------------------------------------------------------- helpers

@@ -1,4 +1,4 @@
-"""Score the filled polysemy human-annotation forms (P1-5) for manuscript §4.3.
+"""Score the filled polysemy human-annotation forms (the human pilot on the v3 set).
 
 Two analyses, both gated on how many forms are actually filled in:
 

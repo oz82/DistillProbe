@@ -1,3 +1,6 @@
+# PILOT polysemy set (v3, 50 most-polysemous KeNet nouns): kept because the
+# four-annotator human study was run on these items (score_polysemy_annotation.py
+# reads this run's sense similarities). The headline result is polysemy_v4_primary.
 # PRIMARY polysemy probe (leak-free): un-augmented v3 (TDK definitions + examples
 # only). The v3_aug variant (configs/polysemy_v3.yaml) augments via LaBSE argmax
 # sense-assignment and is reported only as a secondary / upper-bound result.

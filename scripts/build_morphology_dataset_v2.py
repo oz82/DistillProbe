@@ -8,6 +8,12 @@ to throw out broken-lemma pairs.
 Output: corpus-derived dataset with same schema as v1; intended to be larger
 (~10× v1) but inherits PARSEME lemma quality concerns. Used for replication
 under expanded N.
+
+Stem validity (v3): the PARSEME-tr lemma column is machine-produced and sometimes
+holds a truncated stem (`çapk` for `çapkın`, `pua` for `puan`) or an already
+inflected word (`bireyler`, `gözlerimiz`). With `--lexicon <KeNet XML>` a stem is
+kept only if it is attested as a bare word form somewhere in the corpus OR is a
+single-word KeNet literal; everything else is dropped before sampling.
 """
 
 from __future__ import annotations
@@ -208,6 +214,36 @@ def feats_match(feats: dict[str, str], required: dict[str, str]) -> bool:
     return all(feats.get(k) == v for k, v in required.items())
 
 
+def load_kenet_literals(path: Path) -> set[str]:
+    """Single-word, alphabetic KeNet literals (normalized), used as a stem lexicon."""
+    import xml.etree.ElementTree as ET
+
+    out: set[str] = set()
+    for syn in ET.parse(path).getroot().findall("SYNSET"):
+        synonym = syn.find("SYNONYM")
+        if synonym is None:
+            continue
+        for lit in synonym.findall("LITERAL"):
+            w = normalize_tr((lit.text or "").strip().lower())
+            if w.isalpha():
+                out.add(w)
+    return out
+
+
+def bare_attested_forms(paths: list[Path]) -> set[str]:
+    """Words that occur in the corpus with surface form identical to their lemma."""
+    out: set[str] = set()
+    for sent in iter_many_cupt(paths):
+        for tok in sent.tokens:
+            if tok.is_range:
+                continue
+            form = normalize_tr(tok.form.lower())
+            lemma = normalize_tr((tok.lemma or "").lower())
+            if form == lemma and form.isalpha():
+                out.add(form)
+    return out
+
+
 def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--parseme", nargs="+", required=True)
@@ -215,13 +251,31 @@ def main() -> int:
     p.add_argument("--max-per-category", type=int, default=200)
     p.add_argument("--min-stem-len", type=int, default=2)
     p.add_argument("--version", default="v2-corpus-2026-05-06")
+    p.add_argument(
+        "--lexicon",
+        default=None,
+        help="KeNet XML; when given, a stem must be a bare-attested corpus word or a KeNet "
+        "literal (drops truncated and already-inflected lemmatizer outputs)",
+    )
     args = p.parse_args()
+
+    paths = [Path(s) for s in args.parseme]
+    valid_stem: set[str] | None = None
+    if args.lexicon:
+        lexicon = load_kenet_literals(Path(args.lexicon))
+        bare = bare_attested_forms(paths)
+        valid_stem = lexicon | bare
+        print(
+            f"stem lexicon: {len(lexicon)} KeNet literals + {len(bare)} bare-attested forms",
+            file=sys.stderr,
+        )
+    n_rejected_stem = 0
 
     by_cat: dict[str, "OrderedDict[tuple[str, str], None]"] = {
         c["id"]: OrderedDict() for c in CATEGORIES
     }
     n_sents = 0
-    for sent in iter_many_cupt([Path(s) for s in args.parseme]):
+    for sent in iter_many_cupt(paths):
         n_sents += 1
         for tok in sent.tokens:
             if tok.is_range or tok.upos != "NOUN":
@@ -247,11 +301,16 @@ def main() -> int:
                     continue
                 if not cat["validator"](lemma, form):
                     continue
+                if valid_stem is not None and lemma not in valid_stem:
+                    n_rejected_stem += 1
+                    break
                 key = (lemma, form)
                 by_cat[cat["id"]][key] = None
                 break  # one category per token
 
     print(f"scanned {n_sents} sentences", file=sys.stderr)
+    if valid_stem is not None:
+        print(f"rejected by stem-validity filter: {n_rejected_stem} tokens", file=sys.stderr)
 
     distractor_pool: list[str] = []
     seen_distractors: set[str] = set()

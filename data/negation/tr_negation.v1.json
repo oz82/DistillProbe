@@ -1,7 +1,7 @@
 {
   "language": "tr",
   "version": "v1-draft-2026-05-05",
-  "source": "Hand-curated antonymic adjective triplets (Turkish-speaker draft, pending user review)",
+  "source": "Hand-curated antonymic adjective triplets (single Turkish-speaking curator; superseded by v2/v3_clean)",
   "triplets": [
     {"positive": "iyi", "negation": "iyi değil", "antonym": "kötü"},
     {"positive": "büyük", "negation": "büyük değil", "antonym": "küçük"},

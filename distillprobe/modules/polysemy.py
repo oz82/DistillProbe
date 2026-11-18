@@ -74,8 +74,7 @@ class PolysemyModule(ProbeModule):
             "Polysemy retention probe. Per word and per encoder, computes per-sense "
             "prototype = mean(encoder(definition), encoder(example)), then ranks senses by "
             "cosine to the static word vector. Reports per-encoder concentration "
-            "(top1, margin, entropy) and cross-encoder agreement (winner match, Spearman). "
-            "See migration.md §9.2."
+            "(top1, margin, entropy) and cross-encoder agreement (winner match, Spearman)."
         )
 
     # ----------------------------------------------------------- run

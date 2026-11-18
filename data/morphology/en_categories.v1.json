@@ -1,0 +1,4545 @@
+{
+  "language": "en",
+  "version": "v1-en-corpus-2026-09-14",
+  "categories": [
+    {
+      "id": "plural_s",
+      "label": "noun plural -s",
+      "description": "Regular noun plural -s/-es/-ies (Number=Plur), UD English-EWT.",
+      "pairs": [
+        {
+          "stem": "kit",
+          "form": "kits",
+          "note": null
+        },
+        {
+          "stem": "wound",
+          "form": "wounds",
+          "note": null
+        },
+        {
+          "stem": "problem",
+          "form": "problems",
+          "note": null
+        },
+        {
+          "stem": "cap",
+          "form": "caps",
+          "note": null
+        },
+        {
+          "stem": "award",
+          "form": "awards",
+          "note": null
+        },
+        {
+          "stem": "mile",
+          "form": "miles",
+          "note": null
+        },
+        {
+          "stem": "appropriator",
+          "form": "appropriators",
+          "note": null
+        },
+        {
+          "stem": "republic",
+          "form": "republics",
+          "note": null
+        },
+        {
+          "stem": "highlight",
+          "form": "highlights",
+          "note": null
+        },
+        {
+          "stem": "separatist",
+          "form": "separatists",
+          "note": null
+        },
+        {
+          "stem": "experiment",
+          "form": "experiments",
+          "note": null
+        },
+        {
+          "stem": "halt",
+          "form": "halts",
+          "note": null
+        },
+        {
+          "stem": "scheme",
+          "form": "schemes",
+          "note": null
+        },
+        {
+          "stem": "operative",
+          "form": "operatives",
+          "note": null
+        },
+        {
+          "stem": "secessionist",
+          "form": "secessionists",
+          "note": null
+        },
+        {
+          "stem": "row",
+          "form": "rows",
+          "note": null
+        },
+        {
+          "stem": "garden",
+          "form": "gardens",
+          "note": null
+        },
+        {
+          "stem": "track",
+          "form": "tracks",
+          "note": null
+        },
+        {
+          "stem": "score",
+          "form": "scores",
+          "note": null
+        },
+        {
+          "stem": "week",
+          "form": "weeks",
+          "note": null
+        },
+        {
+          "stem": "bean",
+          "form": "beans",
+          "note": null
+        },
+        {
+          "stem": "fund",
+          "form": "funds",
+          "note": null
+        },
+        {
+          "stem": "cichlid",
+          "form": "cichlids",
+          "note": null
+        },
+        {
+          "stem": "slot",
+          "form": "slots",
+          "note": null
+        },
+        {
+          "stem": "grandson",
+          "form": "grandsons",
+          "note": null
+        },
+        {
+          "stem": "blackworm",
+          "form": "blackworms",
+          "note": null
+        },
+        {
+          "stem": "echelon",
+          "form": "echelons",
+          "note": null
+        },
+        {
+          "stem": "adviser",
+          "form": "advisers",
+          "note": null
+        },
+        {
+          "stem": "soldier",
+          "form": "soldiers",
+          "note": null
+        },
+        {
+          "stem": "activist",
+          "form": "activists",
+          "note": null
+        },
+        {
+          "stem": "railway",
+          "form": "railways",
+          "note": null
+        },
+        {
+          "stem": "lyric",
+          "form": "lyrics",
+          "note": null
+        },
+        {
+          "stem": "politician",
+          "form": "politicians",
+          "note": null
+        },
+        {
+          "stem": "customer",
+          "form": "customers",
+          "note": null
+        },
+        {
+          "stem": "furnace",
+          "form": "furnaces",
+          "note": null
+        },
+        {
+          "stem": "nation",
+          "form": "nations",
+          "note": null
+        },
+        {
+          "stem": "musician",
+          "form": "musicians",
+          "note": null
+        },
+        {
+          "stem": "plane",
+          "form": "planes",
+          "note": null
+        },
+        {
+          "stem": "redwing",
+          "form": "redwings",
+          "note": null
+        },
+        {
+          "stem": "rancher",
+          "form": "ranchers",
+          "note": null
+        },
+        {
+          "stem": "newsgroup",
+          "form": "newsgroups",
+          "note": null
+        },
+        {
+          "stem": "holiday",
+          "form": "holidays",
+          "note": null
+        },
+        {
+          "stem": "scene",
+          "form": "scenes",
+          "note": null
+        },
+        {
+          "stem": "march",
+          "form": "marches",
+          "note": null
+        },
+        {
+          "stem": "sandwich",
+          "form": "sandwiches",
+          "note": null
+        },
+        {
+          "stem": "bodyguard",
+          "form": "bodyguards",
+          "note": null
+        },
+        {
+          "stem": "present",
+          "form": "presents",
+          "note": null
+        },
+        {
+          "stem": "example",
+          "form": "examples",
+          "note": null
+        },
+        {
+          "stem": "holder",
+          "form": "holders",
+          "note": null
+        },
+        {
+          "stem": "mineral",
+          "form": "minerals",
+          "note": null
+        },
+        {
+          "stem": "girlfriend",
+          "form": "girlfriends",
+          "note": null
+        },
+        {
+          "stem": "interval",
+          "form": "intervals",
+          "note": null
+        },
+        {
+          "stem": "remnant",
+          "form": "remnants",
+          "note": null
+        },
+        {
+          "stem": "suite",
+          "form": "suites",
+          "note": null
+        },
+        {
+          "stem": "guarantee",
+          "form": "guarantees",
+          "note": null
+        },
+        {
+          "stem": "mark",
+          "form": "marks",
+          "note": null
+        },
+        {
+          "stem": "coreligionist",
+          "form": "coreligionists",
+          "note": null
+        },
+        {
+          "stem": "page",
+          "form": "pages",
+          "note": null
+        },
+        {
+          "stem": "hunk",
+          "form": "hunks",
+          "note": null
+        },
+        {
+          "stem": "label",
+          "form": "labels",
+          "note": null
+        },
+        {
+          "stem": "journal",
+          "form": "journals",
+          "note": null
+        },
+        {
+          "stem": "hen",
+          "form": "hens",
+          "note": null
+        },
+        {
+          "stem": "cube",
+          "form": "cubes",
+          "note": null
+        },
+        {
+          "stem": "down",
+          "form": "downs",
+          "note": null
+        },
+        {
+          "stem": "regime",
+          "form": "regimes",
+          "note": null
+        },
+        {
+          "stem": "peak",
+          "form": "peaks",
+          "note": null
+        },
+        {
+          "stem": "range",
+          "form": "ranges",
+          "note": null
+        },
+        {
+          "stem": "domain",
+          "form": "domains",
+          "note": null
+        },
+        {
+          "stem": "spike",
+          "form": "spikes",
+          "note": null
+        },
+        {
+          "stem": "ring",
+          "form": "rings",
+          "note": null
+        },
+        {
+          "stem": "street",
+          "form": "streets",
+          "note": null
+        },
+        {
+          "stem": "lounge",
+          "form": "lounges",
+          "note": null
+        },
+        {
+          "stem": "collectable",
+          "form": "collectables",
+          "note": null
+        },
+        {
+          "stem": "cannibal",
+          "form": "cannibals",
+          "note": null
+        },
+        {
+          "stem": "slice",
+          "form": "slices",
+          "note": null
+        },
+        {
+          "stem": "haven",
+          "form": "havens",
+          "note": null
+        },
+        {
+          "stem": "caucasian",
+          "form": "caucasians",
+          "note": null
+        },
+        {
+          "stem": "studio",
+          "form": "studios",
+          "note": null
+        },
+        {
+          "stem": "barrel",
+          "form": "barrels",
+          "note": null
+        },
+        {
+          "stem": "pancake",
+          "form": "pancakes",
+          "note": null
+        },
+        {
+          "stem": "query",
+          "form": "queries",
+          "note": null
+        },
+        {
+          "stem": "title",
+          "form": "titles",
+          "note": null
+        },
+        {
+          "stem": "vote",
+          "form": "votes",
+          "note": null
+        },
+        {
+          "stem": "taxpayer",
+          "form": "taxpayers",
+          "note": null
+        },
+        {
+          "stem": "counterparty",
+          "form": "counterparties",
+          "note": null
+        },
+        {
+          "stem": "keyword",
+          "form": "keywords",
+          "note": null
+        },
+        {
+          "stem": "raiser",
+          "form": "raisers",
+          "note": null
+        },
+        {
+          "stem": "incentive",
+          "form": "incentives",
+          "note": null
+        },
+        {
+          "stem": "hundred",
+          "form": "hundreds",
+          "note": null
+        },
+        {
+          "stem": "update",
+          "form": "updates",
+          "note": null
+        },
+        {
+          "stem": "earring",
+          "form": "earrings",
+          "note": null
+        },
+        {
+          "stem": "posting",
+          "form": "postings",
+          "note": null
+        },
+        {
+          "stem": "role",
+          "form": "roles",
+          "note": null
+        },
+        {
+          "stem": "scorpion",
+          "form": "scorpions",
+          "note": null
+        },
+        {
+          "stem": "traveler",
+          "form": "travelers",
+          "note": null
+        },
+        {
+          "stem": "pathogen",
+          "form": "pathogens",
+          "note": null
+        },
+        {
+          "stem": "amazon",
+          "form": "amazons",
+          "note": null
+        },
+        {
+          "stem": "wake",
+          "form": "wakes",
+          "note": null
+        },
+        {
+          "stem": "god",
+          "form": "gods",
+          "note": null
+        },
+        {
+          "stem": "workshop",
+          "form": "workshops",
+          "note": null
+        },
+        {
+          "stem": "bug",
+          "form": "bugs",
+          "note": null
+        },
+        {
+          "stem": "stay",
+          "form": "stays",
+          "note": null
+        },
+        {
+          "stem": "fitter",
+          "form": "fitters",
+          "note": null
+        },
+        {
+          "stem": "trainee",
+          "form": "trainees",
+          "note": null
+        },
+        {
+          "stem": "pool",
+          "form": "pools",
+          "note": null
+        },
+        {
+          "stem": "cue",
+          "form": "cues",
+          "note": null
+        },
+        {
+          "stem": "prisoner",
+          "form": "prisoners",
+          "note": null
+        },
+        {
+          "stem": "pocket",
+          "form": "pockets",
+          "note": null
+        },
+        {
+          "stem": "phony",
+          "form": "phonies",
+          "note": null
+        },
+        {
+          "stem": "poster",
+          "form": "posters",
+          "note": null
+        },
+        {
+          "stem": "stripe",
+          "form": "stripes",
+          "note": null
+        },
+        {
+          "stem": "tanker",
+          "form": "tankers",
+          "note": null
+        },
+        {
+          "stem": "city",
+          "form": "cities",
+          "note": null
+        },
+        {
+          "stem": "call",
+          "form": "calls",
+          "note": null
+        },
+        {
+          "stem": "hothead",
+          "form": "hotheads",
+          "note": null
+        },
+        {
+          "stem": "total",
+          "form": "totals",
+          "note": null
+        },
+        {
+          "stem": "table",
+          "form": "tables",
+          "note": null
+        },
+        {
+          "stem": "seller",
+          "form": "sellers",
+          "note": null
+        },
+        {
+          "stem": "jet",
+          "form": "jets",
+          "note": null
+        },
+        {
+          "stem": "sailor",
+          "form": "sailors",
+          "note": null
+        },
+        {
+          "stem": "outline",
+          "form": "outlines",
+          "note": null
+        },
+        {
+          "stem": "audiobook",
+          "form": "audiobooks",
+          "note": null
+        },
+        {
+          "stem": "fume",
+          "form": "fumes",
+          "note": null
+        },
+        {
+          "stem": "shelter",
+          "form": "shelters",
+          "note": null
+        },
+        {
+          "stem": "course",
+          "form": "courses",
+          "note": null
+        },
+        {
+          "stem": "trimmer",
+          "form": "trimmers",
+          "note": null
+        },
+        {
+          "stem": "block",
+          "form": "blocks",
+          "note": null
+        },
+        {
+          "stem": "story",
+          "form": "stories",
+          "note": null
+        },
+        {
+          "stem": "fritter",
+          "form": "fritters",
+          "note": null
+        },
+        {
+          "stem": "ringneck",
+          "form": "ringnecks",
+          "note": null
+        },
+        {
+          "stem": "nutrient",
+          "form": "nutrients",
+          "note": null
+        },
+        {
+          "stem": "fin",
+          "form": "fins",
+          "note": null
+        },
+        {
+          "stem": "set",
+          "form": "sets",
+          "note": null
+        },
+        {
+          "stem": "chick",
+          "form": "chicks",
+          "note": null
+        },
+        {
+          "stem": "district",
+          "form": "districts",
+          "note": null
+        },
+        {
+          "stem": "doc",
+          "form": "docs",
+          "note": null
+        },
+        {
+          "stem": "emergency",
+          "form": "emergencies",
+          "note": null
+        },
+        {
+          "stem": "innocent",
+          "form": "innocents",
+          "note": null
+        },
+        {
+          "stem": "coworker",
+          "form": "coworkers",
+          "note": null
+        },
+        {
+          "stem": "unit",
+          "form": "units",
+          "note": null
+        },
+        {
+          "stem": "companion",
+          "form": "companions",
+          "note": null
+        },
+        {
+          "stem": "limb",
+          "form": "limbs",
+          "note": null
+        },
+        {
+          "stem": "valley",
+          "form": "valleys",
+          "note": null
+        },
+        {
+          "stem": "pope",
+          "form": "popes",
+          "note": null
+        },
+        {
+          "stem": "amount",
+          "form": "amounts",
+          "note": null
+        },
+        {
+          "stem": "seeker",
+          "form": "seekers",
+          "note": null
+        },
+        {
+          "stem": "reviewer",
+          "form": "reviewers",
+          "note": null
+        },
+        {
+          "stem": "cell",
+          "form": "cells",
+          "note": null
+        },
+        {
+          "stem": "flood",
+          "form": "floods",
+          "note": null
+        },
+        {
+          "stem": "trillion",
+          "form": "trillions",
+          "note": null
+        },
+        {
+          "stem": "paw",
+          "form": "paws",
+          "note": null
+        },
+        {
+          "stem": "agent",
+          "form": "agents",
+          "note": null
+        },
+        {
+          "stem": "mercenary",
+          "form": "mercenaries",
+          "note": null
+        },
+        {
+          "stem": "buyer",
+          "form": "buyers",
+          "note": null
+        },
+        {
+          "stem": "website",
+          "form": "websites",
+          "note": null
+        },
+        {
+          "stem": "generator",
+          "form": "generators",
+          "note": null
+        },
+        {
+          "stem": "gesture",
+          "form": "gestures",
+          "note": null
+        },
+        {
+          "stem": "provider",
+          "form": "providers",
+          "note": null
+        },
+        {
+          "stem": "detective",
+          "form": "detectives",
+          "note": null
+        },
+        {
+          "stem": "scenario",
+          "form": "scenarios",
+          "note": null
+        },
+        {
+          "stem": "plan",
+          "form": "plans",
+          "note": null
+        },
+        {
+          "stem": "accessory",
+          "form": "accessories",
+          "note": null
+        },
+        {
+          "stem": "headline",
+          "form": "headlines",
+          "note": null
+        },
+        {
+          "stem": "mother",
+          "form": "mothers",
+          "note": null
+        },
+        {
+          "stem": "cucumber",
+          "form": "cucumbers",
+          "note": null
+        },
+        {
+          "stem": "regular",
+          "form": "regulars",
+          "note": null
+        },
+        {
+          "stem": "donation",
+          "form": "donations",
+          "note": null
+        },
+        {
+          "stem": "baker",
+          "form": "bakers",
+          "note": null
+        },
+        {
+          "stem": "crop",
+          "form": "crops",
+          "note": null
+        },
+        {
+          "stem": "resume",
+          "form": "resumes",
+          "note": null
+        },
+        {
+          "stem": "copy",
+          "form": "copies",
+          "note": null
+        },
+        {
+          "stem": "challenge",
+          "form": "challenges",
+          "note": null
+        },
+        {
+          "stem": "robot",
+          "form": "robots",
+          "note": null
+        },
+        {
+          "stem": "emperor",
+          "form": "emperors",
+          "note": null
+        },
+        {
+          "stem": "stable",
+          "form": "stables",
+          "note": null
+        },
+        {
+          "stem": "condo",
+          "form": "condos",
+          "note": null
+        },
+        {
+          "stem": "gate",
+          "form": "gates",
+          "note": null
+        },
+        {
+          "stem": "tool",
+          "form": "tools",
+          "note": null
+        },
+        {
+          "stem": "review",
+          "form": "reviews",
+          "note": null
+        },
+        {
+          "stem": "grade",
+          "form": "grades",
+          "note": null
+        },
+        {
+          "stem": "reporter",
+          "form": "reporters",
+          "note": null
+        },
+        {
+          "stem": "mind",
+          "form": "minds",
+          "note": null
+        },
+        {
+          "stem": "source",
+          "form": "sources",
+          "note": null
+        },
+        {
+          "stem": "memoir",
+          "form": "memoirs",
+          "note": null
+        },
+        {
+          "stem": "chip",
+          "form": "chips",
+          "note": null
+        },
+        {
+          "stem": "song",
+          "form": "songs",
+          "note": null
+        },
+        {
+          "stem": "theme",
+          "form": "themes",
+          "note": null
+        },
+        {
+          "stem": "observer",
+          "form": "observers",
+          "note": null
+        },
+        {
+          "stem": "voter",
+          "form": "voters",
+          "note": null
+        },
+        {
+          "stem": "kiss",
+          "form": "kisses",
+          "note": null
+        },
+        {
+          "stem": "conferee",
+          "form": "conferees",
+          "note": null
+        },
+        {
+          "stem": "swap",
+          "form": "swaps",
+          "note": null
+        },
+        {
+          "stem": "number",
+          "form": "numbers",
+          "note": null
+        },
+        {
+          "stem": "host",
+          "form": "hosts",
+          "note": null
+        },
+        {
+          "stem": "tyrant",
+          "form": "tyrants",
+          "note": null
+        },
+        {
+          "stem": "wing",
+          "form": "wings",
+          "note": null
+        },
+        {
+          "stem": "participant",
+          "form": "participants",
+          "note": null
+        },
+        {
+          "stem": "face",
+          "form": "faces",
+          "note": null
+        },
+        {
+          "stem": "radiograph",
+          "form": "radiographs",
+          "note": null
+        },
+        {
+          "stem": "attorney",
+          "form": "attorneys",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "past_ed",
+      "label": "verb past -ed",
+      "description": "Regular past tense -ed/-d/-ied with consonant doubling (Tense=Past, VerbForm=Fin).",
+      "pairs": [
+        {
+          "stem": "back",
+          "form": "backed",
+          "note": null
+        },
+        {
+          "stem": "confess",
+          "form": "confessed",
+          "note": null
+        },
+        {
+          "stem": "waive",
+          "form": "waived",
+          "note": null
+        },
+        {
+          "stem": "haul",
+          "form": "hauled",
+          "note": null
+        },
+        {
+          "stem": "prepare",
+          "form": "prepared",
+          "note": null
+        },
+        {
+          "stem": "hate",
+          "form": "hated",
+          "note": null
+        },
+        {
+          "stem": "instruct",
+          "form": "instructed",
+          "note": null
+        },
+        {
+          "stem": "pinch",
+          "form": "pinched",
+          "note": null
+        },
+        {
+          "stem": "schedule",
+          "form": "scheduled",
+          "note": null
+        },
+        {
+          "stem": "originate",
+          "form": "originated",
+          "note": null
+        },
+        {
+          "stem": "glance",
+          "form": "glanced",
+          "note": null
+        },
+        {
+          "stem": "miss",
+          "form": "missed",
+          "note": null
+        },
+        {
+          "stem": "join",
+          "form": "joined",
+          "note": null
+        },
+        {
+          "stem": "greet",
+          "form": "greeted",
+          "note": null
+        },
+        {
+          "stem": "stress",
+          "form": "stressed",
+          "note": null
+        },
+        {
+          "stem": "fuel",
+          "form": "fueled",
+          "note": null
+        },
+        {
+          "stem": "sense",
+          "form": "sensed",
+          "note": null
+        },
+        {
+          "stem": "slam",
+          "form": "slammed",
+          "note": null
+        },
+        {
+          "stem": "love",
+          "form": "loved",
+          "note": null
+        },
+        {
+          "stem": "reintroduce",
+          "form": "reintroduced",
+          "note": null
+        },
+        {
+          "stem": "test",
+          "form": "tested",
+          "note": null
+        },
+        {
+          "stem": "alert",
+          "form": "alerted",
+          "note": null
+        },
+        {
+          "stem": "rig",
+          "form": "rigged",
+          "note": null
+        },
+        {
+          "stem": "surpass",
+          "form": "surpassed",
+          "note": null
+        },
+        {
+          "stem": "accumulate",
+          "form": "accumulated",
+          "note": null
+        },
+        {
+          "stem": "annex",
+          "form": "annexed",
+          "note": null
+        },
+        {
+          "stem": "present",
+          "form": "presented",
+          "note": null
+        },
+        {
+          "stem": "mismanage",
+          "form": "mismanaged",
+          "note": null
+        },
+        {
+          "stem": "intercept",
+          "form": "intercepted",
+          "note": null
+        },
+        {
+          "stem": "hand",
+          "form": "handed",
+          "note": null
+        },
+        {
+          "stem": "reveal",
+          "form": "revealed",
+          "note": null
+        },
+        {
+          "stem": "turn",
+          "form": "turned",
+          "note": null
+        },
+        {
+          "stem": "bomb",
+          "form": "bombed",
+          "note": null
+        },
+        {
+          "stem": "register",
+          "form": "registered",
+          "note": null
+        },
+        {
+          "stem": "coincide",
+          "form": "coincided",
+          "note": null
+        },
+        {
+          "stem": "charge",
+          "form": "charged",
+          "note": null
+        },
+        {
+          "stem": "attack",
+          "form": "attacked",
+          "note": null
+        },
+        {
+          "stem": "rent",
+          "form": "rented",
+          "note": null
+        },
+        {
+          "stem": "compare",
+          "form": "compared",
+          "note": null
+        },
+        {
+          "stem": "adulterate",
+          "form": "adulterated",
+          "note": null
+        },
+        {
+          "stem": "roll",
+          "form": "rolled",
+          "note": null
+        },
+        {
+          "stem": "fail",
+          "form": "failed",
+          "note": null
+        },
+        {
+          "stem": "vacate",
+          "form": "vacated",
+          "note": null
+        },
+        {
+          "stem": "rally",
+          "form": "rallied",
+          "note": null
+        },
+        {
+          "stem": "devastate",
+          "form": "devastated",
+          "note": null
+        },
+        {
+          "stem": "reply",
+          "form": "replied",
+          "note": null
+        },
+        {
+          "stem": "ship",
+          "form": "shipped",
+          "note": null
+        },
+        {
+          "stem": "transform",
+          "form": "transformed",
+          "note": null
+        },
+        {
+          "stem": "die",
+          "form": "died",
+          "note": null
+        },
+        {
+          "stem": "serve",
+          "form": "served",
+          "note": null
+        },
+        {
+          "stem": "address",
+          "form": "addressed",
+          "note": null
+        },
+        {
+          "stem": "slack",
+          "form": "slacked",
+          "note": null
+        },
+        {
+          "stem": "sin",
+          "form": "sinned",
+          "note": null
+        },
+        {
+          "stem": "renege",
+          "form": "reneged",
+          "note": null
+        },
+        {
+          "stem": "finish",
+          "form": "finished",
+          "note": null
+        },
+        {
+          "stem": "imbue",
+          "form": "imbued",
+          "note": null
+        },
+        {
+          "stem": "travel",
+          "form": "travelled",
+          "note": null
+        },
+        {
+          "stem": "continue",
+          "form": "continued",
+          "note": null
+        },
+        {
+          "stem": "provoke",
+          "form": "provoked",
+          "note": null
+        },
+        {
+          "stem": "settle",
+          "form": "settled",
+          "note": null
+        },
+        {
+          "stem": "announce",
+          "form": "announced",
+          "note": null
+        },
+        {
+          "stem": "rip",
+          "form": "ripped",
+          "note": null
+        },
+        {
+          "stem": "target",
+          "form": "targeted",
+          "note": null
+        },
+        {
+          "stem": "drag",
+          "form": "dragged",
+          "note": null
+        },
+        {
+          "stem": "offer",
+          "form": "offered",
+          "note": null
+        },
+        {
+          "stem": "deserve",
+          "form": "deserved",
+          "note": null
+        },
+        {
+          "stem": "place",
+          "form": "placed",
+          "note": null
+        },
+        {
+          "stem": "wish",
+          "form": "wished",
+          "note": null
+        },
+        {
+          "stem": "value",
+          "form": "valued",
+          "note": null
+        },
+        {
+          "stem": "welcome",
+          "form": "welcomed",
+          "note": null
+        },
+        {
+          "stem": "smell",
+          "form": "smelled",
+          "note": null
+        },
+        {
+          "stem": "survive",
+          "form": "survived",
+          "note": null
+        },
+        {
+          "stem": "develop",
+          "form": "developed",
+          "note": null
+        },
+        {
+          "stem": "like",
+          "form": "liked",
+          "note": null
+        },
+        {
+          "stem": "revive",
+          "form": "revived",
+          "note": null
+        },
+        {
+          "stem": "deploy",
+          "form": "deployed",
+          "note": null
+        },
+        {
+          "stem": "pack",
+          "form": "packed",
+          "note": null
+        },
+        {
+          "stem": "renew",
+          "form": "renewed",
+          "note": null
+        },
+        {
+          "stem": "avail",
+          "form": "availed",
+          "note": null
+        },
+        {
+          "stem": "nominate",
+          "form": "nominated",
+          "note": null
+        },
+        {
+          "stem": "complete",
+          "form": "completed",
+          "note": null
+        },
+        {
+          "stem": "achieve",
+          "form": "achieved",
+          "note": null
+        },
+        {
+          "stem": "refer",
+          "form": "referred",
+          "note": null
+        },
+        {
+          "stem": "pump",
+          "form": "pumped",
+          "note": null
+        },
+        {
+          "stem": "refuse",
+          "form": "refused",
+          "note": null
+        },
+        {
+          "stem": "scare",
+          "form": "scared",
+          "note": null
+        },
+        {
+          "stem": "answer",
+          "form": "answered",
+          "note": null
+        },
+        {
+          "stem": "surface",
+          "form": "surfaced",
+          "note": null
+        },
+        {
+          "stem": "hire",
+          "form": "hired",
+          "note": null
+        },
+        {
+          "stem": "ensure",
+          "form": "ensured",
+          "note": null
+        },
+        {
+          "stem": "interview",
+          "form": "interviewed",
+          "note": null
+        },
+        {
+          "stem": "create",
+          "form": "created",
+          "note": null
+        },
+        {
+          "stem": "follow",
+          "form": "followed",
+          "note": null
+        },
+        {
+          "stem": "advance",
+          "form": "advanced",
+          "note": null
+        },
+        {
+          "stem": "claim",
+          "form": "claimed",
+          "note": null
+        },
+        {
+          "stem": "attribute",
+          "form": "attributed",
+          "note": null
+        },
+        {
+          "stem": "testify",
+          "form": "testified",
+          "note": null
+        },
+        {
+          "stem": "experience",
+          "form": "experienced",
+          "note": null
+        },
+        {
+          "stem": "listen",
+          "form": "listened",
+          "note": null
+        },
+        {
+          "stem": "capture",
+          "form": "captured",
+          "note": null
+        },
+        {
+          "stem": "cancel",
+          "form": "cancelled",
+          "note": null
+        },
+        {
+          "stem": "work",
+          "form": "worked",
+          "note": null
+        },
+        {
+          "stem": "appreciate",
+          "form": "appreciated",
+          "note": null
+        },
+        {
+          "stem": "grope",
+          "form": "groped",
+          "note": null
+        },
+        {
+          "stem": "post",
+          "form": "posted",
+          "note": null
+        },
+        {
+          "stem": "agree",
+          "form": "agreed",
+          "note": null
+        },
+        {
+          "stem": "divine",
+          "form": "divined",
+          "note": null
+        },
+        {
+          "stem": "cite",
+          "form": "cited",
+          "note": null
+        },
+        {
+          "stem": "surprise",
+          "form": "surprised",
+          "note": null
+        },
+        {
+          "stem": "supervise",
+          "form": "supervised",
+          "note": null
+        },
+        {
+          "stem": "nail",
+          "form": "nailed",
+          "note": null
+        },
+        {
+          "stem": "trip",
+          "form": "tripped",
+          "note": null
+        },
+        {
+          "stem": "upgrade",
+          "form": "upgraded",
+          "note": null
+        },
+        {
+          "stem": "fax",
+          "form": "faxed",
+          "note": null
+        },
+        {
+          "stem": "twist",
+          "form": "twisted",
+          "note": null
+        },
+        {
+          "stem": "rate",
+          "form": "rated",
+          "note": null
+        },
+        {
+          "stem": "broker",
+          "form": "brokered",
+          "note": null
+        },
+        {
+          "stem": "deny",
+          "form": "denied",
+          "note": null
+        },
+        {
+          "stem": "name",
+          "form": "named",
+          "note": null
+        },
+        {
+          "stem": "apprentice",
+          "form": "apprenticed",
+          "note": null
+        },
+        {
+          "stem": "earn",
+          "form": "earned",
+          "note": null
+        },
+        {
+          "stem": "drop",
+          "form": "dropped",
+          "note": null
+        },
+        {
+          "stem": "hiss",
+          "form": "hissed",
+          "note": null
+        },
+        {
+          "stem": "contract",
+          "form": "contracted",
+          "note": null
+        },
+        {
+          "stem": "dry",
+          "form": "dried",
+          "note": null
+        },
+        {
+          "stem": "parade",
+          "form": "paraded",
+          "note": null
+        },
+        {
+          "stem": "remove",
+          "form": "removed",
+          "note": null
+        },
+        {
+          "stem": "wait",
+          "form": "waited",
+          "note": null
+        },
+        {
+          "stem": "slap",
+          "form": "slapped",
+          "note": null
+        },
+        {
+          "stem": "recruit",
+          "form": "recruited",
+          "note": null
+        },
+        {
+          "stem": "accelerate",
+          "form": "accelerated",
+          "note": null
+        },
+        {
+          "stem": "communicate",
+          "form": "communicated",
+          "note": null
+        },
+        {
+          "stem": "itemize",
+          "form": "itemized",
+          "note": null
+        },
+        {
+          "stem": "imagine",
+          "form": "imagined",
+          "note": null
+        },
+        {
+          "stem": "delete",
+          "form": "deleted",
+          "note": null
+        },
+        {
+          "stem": "fill",
+          "form": "filled",
+          "note": null
+        },
+        {
+          "stem": "summarise",
+          "form": "summarised",
+          "note": null
+        },
+        {
+          "stem": "ban",
+          "form": "banned",
+          "note": null
+        },
+        {
+          "stem": "desert",
+          "form": "deserted",
+          "note": null
+        },
+        {
+          "stem": "admit",
+          "form": "admitted",
+          "note": null
+        },
+        {
+          "stem": "respond",
+          "form": "responded",
+          "note": null
+        },
+        {
+          "stem": "dismiss",
+          "form": "dismissed",
+          "note": null
+        },
+        {
+          "stem": "receive",
+          "form": "received",
+          "note": null
+        },
+        {
+          "stem": "press",
+          "form": "pressed",
+          "note": null
+        },
+        {
+          "stem": "summarize",
+          "form": "summarized",
+          "note": null
+        },
+        {
+          "stem": "invite",
+          "form": "invited",
+          "note": null
+        },
+        {
+          "stem": "author",
+          "form": "authored",
+          "note": null
+        },
+        {
+          "stem": "learn",
+          "form": "learned",
+          "note": null
+        },
+        {
+          "stem": "taste",
+          "form": "tasted",
+          "note": null
+        },
+        {
+          "stem": "label",
+          "form": "labelled",
+          "note": null
+        },
+        {
+          "stem": "void",
+          "form": "voided",
+          "note": null
+        },
+        {
+          "stem": "investigate",
+          "form": "investigated",
+          "note": null
+        },
+        {
+          "stem": "possess",
+          "form": "possessed",
+          "note": null
+        },
+        {
+          "stem": "release",
+          "form": "released",
+          "note": null
+        },
+        {
+          "stem": "dine",
+          "form": "dined",
+          "note": null
+        },
+        {
+          "stem": "introduce",
+          "form": "introduced",
+          "note": null
+        },
+        {
+          "stem": "blend",
+          "form": "blended",
+          "note": null
+        },
+        {
+          "stem": "apologise",
+          "form": "apologised",
+          "note": null
+        },
+        {
+          "stem": "walk",
+          "form": "walked",
+          "note": null
+        },
+        {
+          "stem": "state",
+          "form": "stated",
+          "note": null
+        },
+        {
+          "stem": "kill",
+          "form": "killed",
+          "note": null
+        },
+        {
+          "stem": "bruise",
+          "form": "bruised",
+          "note": null
+        },
+        {
+          "stem": "sacrifice",
+          "form": "sacrificed",
+          "note": null
+        },
+        {
+          "stem": "pose",
+          "form": "posed",
+          "note": null
+        },
+        {
+          "stem": "phone",
+          "form": "phoned",
+          "note": null
+        },
+        {
+          "stem": "tame",
+          "form": "tamed",
+          "note": null
+        },
+        {
+          "stem": "squeeze",
+          "form": "squeezed",
+          "note": null
+        },
+        {
+          "stem": "rush",
+          "form": "rushed",
+          "note": null
+        },
+        {
+          "stem": "carry",
+          "form": "carried",
+          "note": null
+        },
+        {
+          "stem": "train",
+          "form": "trained",
+          "note": null
+        },
+        {
+          "stem": "notify",
+          "form": "notified",
+          "note": null
+        },
+        {
+          "stem": "gain",
+          "form": "gained",
+          "note": null
+        },
+        {
+          "stem": "reschedule",
+          "form": "rescheduled",
+          "note": null
+        },
+        {
+          "stem": "launch",
+          "form": "launched",
+          "note": null
+        },
+        {
+          "stem": "criticize",
+          "form": "criticized",
+          "note": null
+        },
+        {
+          "stem": "start",
+          "form": "started",
+          "note": null
+        },
+        {
+          "stem": "clash",
+          "form": "clashed",
+          "note": null
+        },
+        {
+          "stem": "laminate",
+          "form": "laminated",
+          "note": null
+        },
+        {
+          "stem": "render",
+          "form": "rendered",
+          "note": null
+        },
+        {
+          "stem": "stage",
+          "form": "staged",
+          "note": null
+        },
+        {
+          "stem": "move",
+          "form": "moved",
+          "note": null
+        },
+        {
+          "stem": "mention",
+          "form": "mentioned",
+          "note": null
+        },
+        {
+          "stem": "oppose",
+          "form": "opposed",
+          "note": null
+        },
+        {
+          "stem": "discuss",
+          "form": "discussed",
+          "note": null
+        },
+        {
+          "stem": "realize",
+          "form": "realized",
+          "note": null
+        },
+        {
+          "stem": "recover",
+          "form": "recovered",
+          "note": null
+        },
+        {
+          "stem": "flirt",
+          "form": "flirted",
+          "note": null
+        },
+        {
+          "stem": "notice",
+          "form": "noticed",
+          "note": null
+        },
+        {
+          "stem": "encourage",
+          "form": "encouraged",
+          "note": null
+        },
+        {
+          "stem": "call",
+          "form": "called",
+          "note": null
+        },
+        {
+          "stem": "close",
+          "form": "closed",
+          "note": null
+        },
+        {
+          "stem": "convert",
+          "form": "converted",
+          "note": null
+        },
+        {
+          "stem": "lash",
+          "form": "lashed",
+          "note": null
+        },
+        {
+          "stem": "improve",
+          "form": "improved",
+          "note": null
+        },
+        {
+          "stem": "broach",
+          "form": "broached",
+          "note": null
+        },
+        {
+          "stem": "park",
+          "form": "parked",
+          "note": null
+        },
+        {
+          "stem": "vent",
+          "form": "vented",
+          "note": null
+        },
+        {
+          "stem": "embarrass",
+          "form": "embarrassed",
+          "note": null
+        },
+        {
+          "stem": "commence",
+          "form": "commenced",
+          "note": null
+        },
+        {
+          "stem": "reimburse",
+          "form": "reimbursed",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "participle_ing",
+      "label": "verb -ing",
+      "description": "Present participle / gerund -ing with e-deletion and doubling (VerbForm=Ger or Part+Tense=Pres).",
+      "pairs": [
+        {
+          "stem": "explore",
+          "form": "exploring",
+          "note": null
+        },
+        {
+          "stem": "kid",
+          "form": "kidding",
+          "note": null
+        },
+        {
+          "stem": "sink",
+          "form": "sinking",
+          "note": null
+        },
+        {
+          "stem": "model",
+          "form": "modelling",
+          "note": null
+        },
+        {
+          "stem": "report",
+          "form": "reporting",
+          "note": null
+        },
+        {
+          "stem": "purport",
+          "form": "purporting",
+          "note": null
+        },
+        {
+          "stem": "mean",
+          "form": "meaning",
+          "note": null
+        },
+        {
+          "stem": "enter",
+          "form": "entering",
+          "note": null
+        },
+        {
+          "stem": "practice",
+          "form": "practicing",
+          "note": null
+        },
+        {
+          "stem": "speak",
+          "form": "speaking",
+          "note": null
+        },
+        {
+          "stem": "hand",
+          "form": "handing",
+          "note": null
+        },
+        {
+          "stem": "lose",
+          "form": "losing",
+          "note": null
+        },
+        {
+          "stem": "touch",
+          "form": "touching",
+          "note": null
+        },
+        {
+          "stem": "ensure",
+          "form": "ensuring",
+          "note": null
+        },
+        {
+          "stem": "float",
+          "form": "floating",
+          "note": null
+        },
+        {
+          "stem": "step",
+          "form": "stepping",
+          "note": null
+        },
+        {
+          "stem": "kill",
+          "form": "killing",
+          "note": null
+        },
+        {
+          "stem": "sit",
+          "form": "sitting",
+          "note": null
+        },
+        {
+          "stem": "receive",
+          "form": "receiving",
+          "note": null
+        },
+        {
+          "stem": "downgrade",
+          "form": "downgrading",
+          "note": null
+        },
+        {
+          "stem": "rely",
+          "form": "relying",
+          "note": null
+        },
+        {
+          "stem": "incite",
+          "form": "inciting",
+          "note": null
+        },
+        {
+          "stem": "reinforce",
+          "form": "reinforcing",
+          "note": null
+        },
+        {
+          "stem": "procreate",
+          "form": "procreating",
+          "note": null
+        },
+        {
+          "stem": "value",
+          "form": "valuing",
+          "note": null
+        },
+        {
+          "stem": "release",
+          "form": "releasing",
+          "note": null
+        },
+        {
+          "stem": "purchase",
+          "form": "purchasing",
+          "note": null
+        },
+        {
+          "stem": "describe",
+          "form": "describing",
+          "note": null
+        },
+        {
+          "stem": "pass",
+          "form": "passing",
+          "note": null
+        },
+        {
+          "stem": "soar",
+          "form": "soaring",
+          "note": null
+        },
+        {
+          "stem": "declare",
+          "form": "declaring",
+          "note": null
+        },
+        {
+          "stem": "chat",
+          "form": "chatting",
+          "note": null
+        },
+        {
+          "stem": "influence",
+          "form": "influencing",
+          "note": null
+        },
+        {
+          "stem": "lash",
+          "form": "lashing",
+          "note": null
+        },
+        {
+          "stem": "grant",
+          "form": "granting",
+          "note": null
+        },
+        {
+          "stem": "fill",
+          "form": "filling",
+          "note": null
+        },
+        {
+          "stem": "pollute",
+          "form": "polluting",
+          "note": null
+        },
+        {
+          "stem": "chase",
+          "form": "chasing",
+          "note": null
+        },
+        {
+          "stem": "hedge",
+          "form": "hedging",
+          "note": null
+        },
+        {
+          "stem": "mutilate",
+          "form": "mutilating",
+          "note": null
+        },
+        {
+          "stem": "conclude",
+          "form": "concluding",
+          "note": null
+        },
+        {
+          "stem": "hope",
+          "form": "hoping",
+          "note": null
+        },
+        {
+          "stem": "buy",
+          "form": "buying",
+          "note": null
+        },
+        {
+          "stem": "price",
+          "form": "pricing",
+          "note": null
+        },
+        {
+          "stem": "assume",
+          "form": "assuming",
+          "note": null
+        },
+        {
+          "stem": "contemplate",
+          "form": "contemplating",
+          "note": null
+        },
+        {
+          "stem": "gloat",
+          "form": "gloating",
+          "note": null
+        },
+        {
+          "stem": "advise",
+          "form": "advising",
+          "note": null
+        },
+        {
+          "stem": "study",
+          "form": "studying",
+          "note": null
+        },
+        {
+          "stem": "justify",
+          "form": "justifying",
+          "note": null
+        },
+        {
+          "stem": "communicate",
+          "form": "communicating",
+          "note": null
+        },
+        {
+          "stem": "predict",
+          "form": "predicting",
+          "note": null
+        },
+        {
+          "stem": "waver",
+          "form": "wavering",
+          "note": null
+        },
+        {
+          "stem": "board",
+          "form": "boarding",
+          "note": null
+        },
+        {
+          "stem": "notify",
+          "form": "notifying",
+          "note": null
+        },
+        {
+          "stem": "overflow",
+          "form": "overflowing",
+          "note": null
+        },
+        {
+          "stem": "forget",
+          "form": "forgetting",
+          "note": null
+        },
+        {
+          "stem": "check",
+          "form": "checking",
+          "note": null
+        },
+        {
+          "stem": "compile",
+          "form": "compiling",
+          "note": null
+        },
+        {
+          "stem": "move",
+          "form": "moving",
+          "note": null
+        },
+        {
+          "stem": "rotate",
+          "form": "rotating",
+          "note": null
+        },
+        {
+          "stem": "operate",
+          "form": "operating",
+          "note": null
+        },
+        {
+          "stem": "scoop",
+          "form": "scooping",
+          "note": null
+        },
+        {
+          "stem": "invade",
+          "form": "invading",
+          "note": null
+        },
+        {
+          "stem": "feature",
+          "form": "featuring",
+          "note": null
+        },
+        {
+          "stem": "place",
+          "form": "placing",
+          "note": null
+        },
+        {
+          "stem": "determine",
+          "form": "determining",
+          "note": null
+        },
+        {
+          "stem": "escalate",
+          "form": "escalating",
+          "note": null
+        },
+        {
+          "stem": "bind",
+          "form": "binding",
+          "note": null
+        },
+        {
+          "stem": "mop",
+          "form": "mopping",
+          "note": null
+        },
+        {
+          "stem": "hide",
+          "form": "hiding",
+          "note": null
+        },
+        {
+          "stem": "utilise",
+          "form": "utilising",
+          "note": null
+        },
+        {
+          "stem": "creep",
+          "form": "creeping",
+          "note": null
+        },
+        {
+          "stem": "develop",
+          "form": "developing",
+          "note": null
+        },
+        {
+          "stem": "merge",
+          "form": "merging",
+          "note": null
+        },
+        {
+          "stem": "minimize",
+          "form": "minimizing",
+          "note": null
+        },
+        {
+          "stem": "feel",
+          "form": "feeling",
+          "note": null
+        },
+        {
+          "stem": "dial",
+          "form": "dialing",
+          "note": null
+        },
+        {
+          "stem": "rub",
+          "form": "rubbing",
+          "note": null
+        },
+        {
+          "stem": "surround",
+          "form": "surrounding",
+          "note": null
+        },
+        {
+          "stem": "hum",
+          "form": "humming",
+          "note": null
+        },
+        {
+          "stem": "state",
+          "form": "stating",
+          "note": null
+        },
+        {
+          "stem": "travel",
+          "form": "travelling",
+          "note": null
+        },
+        {
+          "stem": "fulfil",
+          "form": "fulfilling",
+          "note": null
+        },
+        {
+          "stem": "graze",
+          "form": "grazing",
+          "note": null
+        },
+        {
+          "stem": "reconcile",
+          "form": "reconciling",
+          "note": null
+        },
+        {
+          "stem": "breathe",
+          "form": "breathing",
+          "note": null
+        },
+        {
+          "stem": "sex",
+          "form": "sexing",
+          "note": null
+        },
+        {
+          "stem": "cause",
+          "form": "causing",
+          "note": null
+        },
+        {
+          "stem": "learn",
+          "form": "learning",
+          "note": null
+        },
+        {
+          "stem": "cycle",
+          "form": "cycling",
+          "note": null
+        },
+        {
+          "stem": "organize",
+          "form": "organizing",
+          "note": null
+        },
+        {
+          "stem": "lay",
+          "form": "laying",
+          "note": null
+        },
+        {
+          "stem": "visit",
+          "form": "visiting",
+          "note": null
+        },
+        {
+          "stem": "dump",
+          "form": "dumping",
+          "note": null
+        },
+        {
+          "stem": "laugh",
+          "form": "laughing",
+          "note": null
+        },
+        {
+          "stem": "hike",
+          "form": "hiking",
+          "note": null
+        },
+        {
+          "stem": "expel",
+          "form": "expelling",
+          "note": null
+        },
+        {
+          "stem": "provoke",
+          "form": "provoking",
+          "note": null
+        },
+        {
+          "stem": "stop",
+          "form": "stopping",
+          "note": null
+        },
+        {
+          "stem": "meet",
+          "form": "meeting",
+          "note": null
+        },
+        {
+          "stem": "wind",
+          "form": "winding",
+          "note": null
+        },
+        {
+          "stem": "adhere",
+          "form": "adhering",
+          "note": null
+        },
+        {
+          "stem": "research",
+          "form": "researching",
+          "note": null
+        },
+        {
+          "stem": "discuss",
+          "form": "discussing",
+          "note": null
+        },
+        {
+          "stem": "engage",
+          "form": "engaging",
+          "note": null
+        },
+        {
+          "stem": "enclose",
+          "form": "enclosing",
+          "note": null
+        },
+        {
+          "stem": "manage",
+          "form": "managing",
+          "note": null
+        },
+        {
+          "stem": "realize",
+          "form": "realizing",
+          "note": null
+        },
+        {
+          "stem": "roll",
+          "form": "rolling",
+          "note": null
+        },
+        {
+          "stem": "pose",
+          "form": "posing",
+          "note": null
+        },
+        {
+          "stem": "incorporate",
+          "form": "incorporating",
+          "note": null
+        },
+        {
+          "stem": "give",
+          "form": "giving",
+          "note": null
+        },
+        {
+          "stem": "invite",
+          "form": "inviting",
+          "note": null
+        },
+        {
+          "stem": "bundle",
+          "form": "bundling",
+          "note": null
+        },
+        {
+          "stem": "attempt",
+          "form": "attempting",
+          "note": null
+        },
+        {
+          "stem": "mourn",
+          "form": "mourning",
+          "note": null
+        },
+        {
+          "stem": "judge",
+          "form": "judging",
+          "note": null
+        },
+        {
+          "stem": "improve",
+          "form": "improving",
+          "note": null
+        },
+        {
+          "stem": "battle",
+          "form": "battling",
+          "note": null
+        },
+        {
+          "stem": "damage",
+          "form": "damaging",
+          "note": null
+        },
+        {
+          "stem": "specialize",
+          "form": "specializing",
+          "note": null
+        },
+        {
+          "stem": "eliminate",
+          "form": "eliminating",
+          "note": null
+        },
+        {
+          "stem": "change",
+          "form": "changing",
+          "note": null
+        },
+        {
+          "stem": "break",
+          "form": "breaking",
+          "note": null
+        },
+        {
+          "stem": "share",
+          "form": "sharing",
+          "note": null
+        },
+        {
+          "stem": "arrive",
+          "form": "arriving",
+          "note": null
+        },
+        {
+          "stem": "case",
+          "form": "casing",
+          "note": null
+        },
+        {
+          "stem": "love",
+          "form": "loving",
+          "note": null
+        },
+        {
+          "stem": "foster",
+          "form": "fostering",
+          "note": null
+        },
+        {
+          "stem": "explode",
+          "form": "exploding",
+          "note": null
+        },
+        {
+          "stem": "endure",
+          "form": "enduring",
+          "note": null
+        },
+        {
+          "stem": "click",
+          "form": "clicking",
+          "note": null
+        },
+        {
+          "stem": "search",
+          "form": "searching",
+          "note": null
+        },
+        {
+          "stem": "wane",
+          "form": "waning",
+          "note": null
+        },
+        {
+          "stem": "neighbor",
+          "form": "neighboring",
+          "note": null
+        },
+        {
+          "stem": "shed",
+          "form": "shedding",
+          "note": null
+        },
+        {
+          "stem": "introduce",
+          "form": "introducing",
+          "note": null
+        },
+        {
+          "stem": "trot",
+          "form": "trotting",
+          "note": null
+        },
+        {
+          "stem": "smile",
+          "form": "smiling",
+          "note": null
+        },
+        {
+          "stem": "examine",
+          "form": "examining",
+          "note": null
+        },
+        {
+          "stem": "aspire",
+          "form": "aspiring",
+          "note": null
+        },
+        {
+          "stem": "close",
+          "form": "closing",
+          "note": null
+        },
+        {
+          "stem": "wing",
+          "form": "winging",
+          "note": null
+        },
+        {
+          "stem": "decide",
+          "form": "deciding",
+          "note": null
+        },
+        {
+          "stem": "transfer",
+          "form": "transferring",
+          "note": null
+        },
+        {
+          "stem": "review",
+          "form": "reviewing",
+          "note": null
+        },
+        {
+          "stem": "pick",
+          "form": "picking",
+          "note": null
+        },
+        {
+          "stem": "slide",
+          "form": "sliding",
+          "note": null
+        },
+        {
+          "stem": "announce",
+          "form": "announcing",
+          "note": null
+        },
+        {
+          "stem": "articulate",
+          "form": "articulating",
+          "note": null
+        },
+        {
+          "stem": "rebuild",
+          "form": "rebuilding",
+          "note": null
+        },
+        {
+          "stem": "involve",
+          "form": "involving",
+          "note": null
+        },
+        {
+          "stem": "fail",
+          "form": "failing",
+          "note": null
+        },
+        {
+          "stem": "pipe",
+          "form": "piping",
+          "note": null
+        },
+        {
+          "stem": "participate",
+          "form": "participating",
+          "note": null
+        },
+        {
+          "stem": "blow",
+          "form": "blowing",
+          "note": null
+        },
+        {
+          "stem": "handle",
+          "form": "handling",
+          "note": null
+        },
+        {
+          "stem": "make",
+          "form": "making",
+          "note": null
+        },
+        {
+          "stem": "harbour",
+          "form": "harbouring",
+          "note": null
+        },
+        {
+          "stem": "execute",
+          "form": "executing",
+          "note": null
+        },
+        {
+          "stem": "prefer",
+          "form": "preferring",
+          "note": null
+        },
+        {
+          "stem": "assure",
+          "form": "assuring",
+          "note": null
+        },
+        {
+          "stem": "absent",
+          "form": "absenting",
+          "note": null
+        },
+        {
+          "stem": "forbid",
+          "form": "forbidding",
+          "note": null
+        },
+        {
+          "stem": "worry",
+          "form": "worrying",
+          "note": null
+        },
+        {
+          "stem": "graduate",
+          "form": "graduating",
+          "note": null
+        },
+        {
+          "stem": "warm",
+          "form": "warming",
+          "note": null
+        },
+        {
+          "stem": "treat",
+          "form": "treating",
+          "note": null
+        },
+        {
+          "stem": "return",
+          "form": "returning",
+          "note": null
+        },
+        {
+          "stem": "oversee",
+          "form": "overseeing",
+          "note": null
+        },
+        {
+          "stem": "promise",
+          "form": "promising",
+          "note": null
+        },
+        {
+          "stem": "assign",
+          "form": "assigning",
+          "note": null
+        },
+        {
+          "stem": "drive",
+          "form": "driving",
+          "note": null
+        },
+        {
+          "stem": "hurtle",
+          "form": "hurtling",
+          "note": null
+        },
+        {
+          "stem": "smell",
+          "form": "smelling",
+          "note": null
+        },
+        {
+          "stem": "sheet",
+          "form": "sheeting",
+          "note": null
+        },
+        {
+          "stem": "ridicule",
+          "form": "ridiculing",
+          "note": null
+        },
+        {
+          "stem": "speculate",
+          "form": "speculating",
+          "note": null
+        },
+        {
+          "stem": "flip",
+          "form": "flipping",
+          "note": null
+        },
+        {
+          "stem": "reschedule",
+          "form": "rescheduling",
+          "note": null
+        },
+        {
+          "stem": "generate",
+          "form": "generating",
+          "note": null
+        },
+        {
+          "stem": "punish",
+          "form": "punishing",
+          "note": null
+        },
+        {
+          "stem": "acknowledge",
+          "form": "acknowledging",
+          "note": null
+        },
+        {
+          "stem": "dine",
+          "form": "dining",
+          "note": null
+        },
+        {
+          "stem": "raid",
+          "form": "raiding",
+          "note": null
+        },
+        {
+          "stem": "calculate",
+          "form": "calculating",
+          "note": null
+        },
+        {
+          "stem": "evacuate",
+          "form": "evacuating",
+          "note": null
+        },
+        {
+          "stem": "marry",
+          "form": "marrying",
+          "note": null
+        },
+        {
+          "stem": "manipulate",
+          "form": "manipulating",
+          "note": null
+        },
+        {
+          "stem": "cite",
+          "form": "citing",
+          "note": null
+        },
+        {
+          "stem": "paw",
+          "form": "pawing",
+          "note": null
+        },
+        {
+          "stem": "fall",
+          "form": "falling",
+          "note": null
+        },
+        {
+          "stem": "torture",
+          "form": "torturing",
+          "note": null
+        },
+        {
+          "stem": "feed",
+          "form": "feeding",
+          "note": null
+        },
+        {
+          "stem": "sleep",
+          "form": "sleeping",
+          "note": null
+        },
+        {
+          "stem": "choose",
+          "form": "choosing",
+          "note": null
+        },
+        {
+          "stem": "meow",
+          "form": "meowing",
+          "note": null
+        },
+        {
+          "stem": "repeat",
+          "form": "repeating",
+          "note": null
+        },
+        {
+          "stem": "forward",
+          "form": "forwarding",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "third_singular_s",
+      "label": "verb 3sg present -s",
+      "description": "Third-person singular present -s/-es/-ies (Tense=Pres, Person=3, Number=Sing).",
+      "pairs": [
+        {
+          "stem": "grill",
+          "form": "grills",
+          "note": null
+        },
+        {
+          "stem": "finish",
+          "form": "finishes",
+          "note": null
+        },
+        {
+          "stem": "sound",
+          "form": "sounds",
+          "note": null
+        },
+        {
+          "stem": "tick",
+          "form": "ticks",
+          "note": null
+        },
+        {
+          "stem": "underscore",
+          "form": "underscores",
+          "note": null
+        },
+        {
+          "stem": "refuse",
+          "form": "refuses",
+          "note": null
+        },
+        {
+          "stem": "possess",
+          "form": "possesses",
+          "note": null
+        },
+        {
+          "stem": "clash",
+          "form": "clashes",
+          "note": null
+        },
+        {
+          "stem": "say",
+          "form": "says",
+          "note": null
+        },
+        {
+          "stem": "progress",
+          "form": "progresses",
+          "note": null
+        },
+        {
+          "stem": "benefit",
+          "form": "benefits",
+          "note": null
+        },
+        {
+          "stem": "learn",
+          "form": "learns",
+          "note": null
+        },
+        {
+          "stem": "send",
+          "form": "sends",
+          "note": null
+        },
+        {
+          "stem": "boast",
+          "form": "boasts",
+          "note": null
+        },
+        {
+          "stem": "deserve",
+          "form": "deserves",
+          "note": null
+        },
+        {
+          "stem": "argue",
+          "form": "argues",
+          "note": null
+        },
+        {
+          "stem": "shoe",
+          "form": "shoes",
+          "note": null
+        },
+        {
+          "stem": "fail",
+          "form": "fails",
+          "note": null
+        },
+        {
+          "stem": "fade",
+          "form": "fades",
+          "note": null
+        },
+        {
+          "stem": "arise",
+          "form": "arises",
+          "note": null
+        },
+        {
+          "stem": "carry",
+          "form": "carries",
+          "note": null
+        },
+        {
+          "stem": "equal",
+          "form": "equals",
+          "note": null
+        },
+        {
+          "stem": "look",
+          "form": "looks",
+          "note": null
+        },
+        {
+          "stem": "cite",
+          "form": "cites",
+          "note": null
+        },
+        {
+          "stem": "feel",
+          "form": "feels",
+          "note": null
+        },
+        {
+          "stem": "fold",
+          "form": "folds",
+          "note": null
+        },
+        {
+          "stem": "take",
+          "form": "takes",
+          "note": null
+        },
+        {
+          "stem": "remain",
+          "form": "remains",
+          "note": null
+        },
+        {
+          "stem": "recognize",
+          "form": "recognizes",
+          "note": null
+        },
+        {
+          "stem": "study",
+          "form": "studies",
+          "note": null
+        },
+        {
+          "stem": "oversee",
+          "form": "oversees",
+          "note": null
+        },
+        {
+          "stem": "react",
+          "form": "reacts",
+          "note": null
+        },
+        {
+          "stem": "dry",
+          "form": "dries",
+          "note": null
+        },
+        {
+          "stem": "sell",
+          "form": "sells",
+          "note": null
+        },
+        {
+          "stem": "predominate",
+          "form": "predominates",
+          "note": null
+        },
+        {
+          "stem": "express",
+          "form": "expresses",
+          "note": null
+        },
+        {
+          "stem": "preserve",
+          "form": "preserves",
+          "note": null
+        },
+        {
+          "stem": "wind",
+          "form": "winds",
+          "note": null
+        },
+        {
+          "stem": "match",
+          "form": "matches",
+          "note": null
+        },
+        {
+          "stem": "come",
+          "form": "comes",
+          "note": null
+        },
+        {
+          "stem": "feed",
+          "form": "feeds",
+          "note": null
+        },
+        {
+          "stem": "perpetuate",
+          "form": "perpetuates",
+          "note": null
+        },
+        {
+          "stem": "cut",
+          "form": "cuts",
+          "note": null
+        },
+        {
+          "stem": "show",
+          "form": "shows",
+          "note": null
+        },
+        {
+          "stem": "mark",
+          "form": "marks",
+          "note": null
+        },
+        {
+          "stem": "agree",
+          "form": "agrees",
+          "note": null
+        },
+        {
+          "stem": "long",
+          "form": "longs",
+          "note": null
+        },
+        {
+          "stem": "chair",
+          "form": "chairs",
+          "note": null
+        },
+        {
+          "stem": "know",
+          "form": "knows",
+          "note": null
+        },
+        {
+          "stem": "incorporate",
+          "form": "incorporates",
+          "note": null
+        },
+        {
+          "stem": "relate",
+          "form": "relates",
+          "note": null
+        },
+        {
+          "stem": "generate",
+          "form": "generates",
+          "note": null
+        },
+        {
+          "stem": "walk",
+          "form": "walks",
+          "note": null
+        },
+        {
+          "stem": "respond",
+          "form": "responds",
+          "note": null
+        },
+        {
+          "stem": "beg",
+          "form": "begs",
+          "note": null
+        },
+        {
+          "stem": "bounce",
+          "form": "bounces",
+          "note": null
+        },
+        {
+          "stem": "receive",
+          "form": "receives",
+          "note": null
+        },
+        {
+          "stem": "wear",
+          "form": "wears",
+          "note": null
+        },
+        {
+          "stem": "ride",
+          "form": "rides",
+          "note": null
+        },
+        {
+          "stem": "mention",
+          "form": "mentions",
+          "note": null
+        },
+        {
+          "stem": "aim",
+          "form": "aims",
+          "note": null
+        },
+        {
+          "stem": "fund",
+          "form": "funds",
+          "note": null
+        },
+        {
+          "stem": "check",
+          "form": "checks",
+          "note": null
+        },
+        {
+          "stem": "flow",
+          "form": "flows",
+          "note": null
+        },
+        {
+          "stem": "build",
+          "form": "builds",
+          "note": null
+        },
+        {
+          "stem": "give",
+          "form": "gives",
+          "note": null
+        },
+        {
+          "stem": "step",
+          "form": "steps",
+          "note": null
+        },
+        {
+          "stem": "open",
+          "form": "opens",
+          "note": null
+        },
+        {
+          "stem": "smack",
+          "form": "smacks",
+          "note": null
+        },
+        {
+          "stem": "meet",
+          "form": "meets",
+          "note": null
+        },
+        {
+          "stem": "refer",
+          "form": "refers",
+          "note": null
+        },
+        {
+          "stem": "realise",
+          "form": "realises",
+          "note": null
+        },
+        {
+          "stem": "trade",
+          "form": "trades",
+          "note": null
+        },
+        {
+          "stem": "place",
+          "form": "places",
+          "note": null
+        },
+        {
+          "stem": "kill",
+          "form": "kills",
+          "note": null
+        },
+        {
+          "stem": "change",
+          "form": "changes",
+          "note": null
+        },
+        {
+          "stem": "put",
+          "form": "puts",
+          "note": null
+        },
+        {
+          "stem": "supply",
+          "form": "supplies",
+          "note": null
+        },
+        {
+          "stem": "determine",
+          "form": "determines",
+          "note": null
+        },
+        {
+          "stem": "battle",
+          "form": "battles",
+          "note": null
+        },
+        {
+          "stem": "date",
+          "form": "dates",
+          "note": null
+        },
+        {
+          "stem": "weary",
+          "form": "wearies",
+          "note": null
+        },
+        {
+          "stem": "value",
+          "form": "values",
+          "note": null
+        },
+        {
+          "stem": "win",
+          "form": "wins",
+          "note": null
+        },
+        {
+          "stem": "live",
+          "form": "lives",
+          "note": null
+        },
+        {
+          "stem": "indicate",
+          "form": "indicates",
+          "note": null
+        },
+        {
+          "stem": "sing",
+          "form": "sings",
+          "note": null
+        },
+        {
+          "stem": "figure",
+          "form": "figures",
+          "note": null
+        },
+        {
+          "stem": "beat",
+          "form": "beats",
+          "note": null
+        },
+        {
+          "stem": "require",
+          "form": "requires",
+          "note": null
+        },
+        {
+          "stem": "understand",
+          "form": "understands",
+          "note": null
+        },
+        {
+          "stem": "dance",
+          "form": "dances",
+          "note": null
+        },
+        {
+          "stem": "claim",
+          "form": "claims",
+          "note": null
+        },
+        {
+          "stem": "become",
+          "form": "becomes",
+          "note": null
+        },
+        {
+          "stem": "admit",
+          "form": "admits",
+          "note": null
+        },
+        {
+          "stem": "strip",
+          "form": "strips",
+          "note": null
+        },
+        {
+          "stem": "prepare",
+          "form": "prepares",
+          "note": null
+        },
+        {
+          "stem": "surround",
+          "form": "surrounds",
+          "note": null
+        },
+        {
+          "stem": "identify",
+          "form": "identifies",
+          "note": null
+        },
+        {
+          "stem": "hear",
+          "form": "hears",
+          "note": null
+        },
+        {
+          "stem": "pass",
+          "form": "passes",
+          "note": null
+        },
+        {
+          "stem": "launch",
+          "form": "launches",
+          "note": null
+        },
+        {
+          "stem": "evacuate",
+          "form": "evacuates",
+          "note": null
+        },
+        {
+          "stem": "stay",
+          "form": "stays",
+          "note": null
+        },
+        {
+          "stem": "listen",
+          "form": "listens",
+          "note": null
+        },
+        {
+          "stem": "shape",
+          "form": "shapes",
+          "note": null
+        },
+        {
+          "stem": "bear",
+          "form": "bears",
+          "note": null
+        },
+        {
+          "stem": "return",
+          "form": "returns",
+          "note": null
+        },
+        {
+          "stem": "examine",
+          "form": "examines",
+          "note": null
+        },
+        {
+          "stem": "initial",
+          "form": "initials",
+          "note": null
+        },
+        {
+          "stem": "handle",
+          "form": "handles",
+          "note": null
+        },
+        {
+          "stem": "jump",
+          "form": "jumps",
+          "note": null
+        },
+        {
+          "stem": "end",
+          "form": "ends",
+          "note": null
+        },
+        {
+          "stem": "tout",
+          "form": "touts",
+          "note": null
+        },
+        {
+          "stem": "help",
+          "form": "helps",
+          "note": null
+        },
+        {
+          "stem": "serve",
+          "form": "serves",
+          "note": null
+        },
+        {
+          "stem": "blow",
+          "form": "blows",
+          "note": null
+        },
+        {
+          "stem": "cap",
+          "form": "caps",
+          "note": null
+        },
+        {
+          "stem": "drag",
+          "form": "drags",
+          "note": null
+        },
+        {
+          "stem": "call",
+          "form": "calls",
+          "note": null
+        },
+        {
+          "stem": "imply",
+          "form": "implies",
+          "note": null
+        },
+        {
+          "stem": "object",
+          "form": "objects",
+          "note": null
+        },
+        {
+          "stem": "produce",
+          "form": "produces",
+          "note": null
+        },
+        {
+          "stem": "try",
+          "form": "tries",
+          "note": null
+        },
+        {
+          "stem": "submit",
+          "form": "submits",
+          "note": null
+        },
+        {
+          "stem": "subside",
+          "form": "subsides",
+          "note": null
+        },
+        {
+          "stem": "affect",
+          "form": "affects",
+          "note": null
+        },
+        {
+          "stem": "reduce",
+          "form": "reduces",
+          "note": null
+        },
+        {
+          "stem": "advise",
+          "form": "advises",
+          "note": null
+        },
+        {
+          "stem": "operate",
+          "form": "operates",
+          "note": null
+        },
+        {
+          "stem": "make",
+          "form": "makes",
+          "note": null
+        },
+        {
+          "stem": "flip",
+          "form": "flips",
+          "note": null
+        },
+        {
+          "stem": "cry",
+          "form": "cries",
+          "note": null
+        },
+        {
+          "stem": "divide",
+          "form": "divides",
+          "note": null
+        },
+        {
+          "stem": "start",
+          "form": "starts",
+          "note": null
+        },
+        {
+          "stem": "speak",
+          "form": "speaks",
+          "note": null
+        },
+        {
+          "stem": "issue",
+          "form": "issues",
+          "note": null
+        },
+        {
+          "stem": "evolve",
+          "form": "evolves",
+          "note": null
+        },
+        {
+          "stem": "utilize",
+          "form": "utilizes",
+          "note": null
+        },
+        {
+          "stem": "last",
+          "form": "lasts",
+          "note": null
+        },
+        {
+          "stem": "focus",
+          "form": "focuses",
+          "note": null
+        },
+        {
+          "stem": "approve",
+          "form": "approves",
+          "note": null
+        },
+        {
+          "stem": "boggle",
+          "form": "boggles",
+          "note": null
+        },
+        {
+          "stem": "spill",
+          "form": "spills",
+          "note": null
+        },
+        {
+          "stem": "continue",
+          "form": "continues",
+          "note": null
+        },
+        {
+          "stem": "memorialize",
+          "form": "memorializes",
+          "note": null
+        },
+        {
+          "stem": "accuse",
+          "form": "accuses",
+          "note": null
+        },
+        {
+          "stem": "desire",
+          "form": "desires",
+          "note": null
+        },
+        {
+          "stem": "toss",
+          "form": "tosses",
+          "note": null
+        },
+        {
+          "stem": "present",
+          "form": "presents",
+          "note": null
+        },
+        {
+          "stem": "reserve",
+          "form": "reserves",
+          "note": null
+        },
+        {
+          "stem": "panic",
+          "form": "panics",
+          "note": null
+        },
+        {
+          "stem": "verify",
+          "form": "verifies",
+          "note": null
+        },
+        {
+          "stem": "let",
+          "form": "lets",
+          "note": null
+        },
+        {
+          "stem": "seek",
+          "form": "seeks",
+          "note": null
+        },
+        {
+          "stem": "see",
+          "form": "sees",
+          "note": null
+        },
+        {
+          "stem": "chase",
+          "form": "chases",
+          "note": null
+        },
+        {
+          "stem": "swirl",
+          "form": "swirls",
+          "note": null
+        },
+        {
+          "stem": "recruit",
+          "form": "recruits",
+          "note": null
+        },
+        {
+          "stem": "irritate",
+          "form": "irritates",
+          "note": null
+        },
+        {
+          "stem": "include",
+          "form": "includes",
+          "note": null
+        },
+        {
+          "stem": "apply",
+          "form": "applies",
+          "note": null
+        },
+        {
+          "stem": "note",
+          "form": "notes",
+          "note": null
+        },
+        {
+          "stem": "prove",
+          "form": "proves",
+          "note": null
+        },
+        {
+          "stem": "choose",
+          "form": "chooses",
+          "note": null
+        },
+        {
+          "stem": "train",
+          "form": "trains",
+          "note": null
+        },
+        {
+          "stem": "hope",
+          "form": "hopes",
+          "note": null
+        },
+        {
+          "stem": "melt",
+          "form": "melts",
+          "note": null
+        },
+        {
+          "stem": "think",
+          "form": "thinks",
+          "note": null
+        },
+        {
+          "stem": "address",
+          "form": "addresses",
+          "note": null
+        },
+        {
+          "stem": "lie",
+          "form": "lies",
+          "note": null
+        },
+        {
+          "stem": "debate",
+          "form": "debates",
+          "note": null
+        },
+        {
+          "stem": "raise",
+          "form": "raises",
+          "note": null
+        },
+        {
+          "stem": "tell",
+          "form": "tells",
+          "note": null
+        },
+        {
+          "stem": "invest",
+          "form": "invests",
+          "note": null
+        },
+        {
+          "stem": "fall",
+          "form": "falls",
+          "note": null
+        },
+        {
+          "stem": "contribute",
+          "form": "contributes",
+          "note": null
+        },
+        {
+          "stem": "employ",
+          "form": "employs",
+          "note": null
+        },
+        {
+          "stem": "point",
+          "form": "points",
+          "note": null
+        },
+        {
+          "stem": "specialize",
+          "form": "specializes",
+          "note": null
+        },
+        {
+          "stem": "contract",
+          "form": "contracts",
+          "note": null
+        },
+        {
+          "stem": "stand",
+          "form": "stands",
+          "note": null
+        },
+        {
+          "stem": "go",
+          "form": "goes",
+          "note": null
+        },
+        {
+          "stem": "observe",
+          "form": "observes",
+          "note": null
+        },
+        {
+          "stem": "turn",
+          "form": "turns",
+          "note": null
+        },
+        {
+          "stem": "spend",
+          "form": "spends",
+          "note": null
+        },
+        {
+          "stem": "write",
+          "form": "writes",
+          "note": null
+        },
+        {
+          "stem": "swivel",
+          "form": "swivels",
+          "note": null
+        },
+        {
+          "stem": "hiss",
+          "form": "hisses",
+          "note": null
+        },
+        {
+          "stem": "cease",
+          "form": "ceases",
+          "note": null
+        },
+        {
+          "stem": "reach",
+          "form": "reaches",
+          "note": null
+        },
+        {
+          "stem": "provide",
+          "form": "provides",
+          "note": null
+        },
+        {
+          "stem": "translate",
+          "form": "translates",
+          "note": null
+        },
+        {
+          "stem": "formalize",
+          "form": "formalizes",
+          "note": null
+        },
+        {
+          "stem": "involve",
+          "form": "involves",
+          "note": null
+        },
+        {
+          "stem": "taste",
+          "form": "tastes",
+          "note": null
+        },
+        {
+          "stem": "leave",
+          "form": "leaves",
+          "note": null
+        },
+        {
+          "stem": "sleep",
+          "form": "sleeps",
+          "note": null
+        },
+        {
+          "stem": "dig",
+          "form": "digs",
+          "note": null
+        },
+        {
+          "stem": "wake",
+          "form": "wakes",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "comparative_er",
+      "label": "adjective comparative -er",
+      "description": "Synthetic comparative -er/-ier (Degree=Cmp); periphrastic 'more X' is not a form.",
+      "pairs": [
+        {
+          "stem": "long",
+          "form": "longer",
+          "note": null
+        },
+        {
+          "stem": "bold",
+          "form": "bolder",
+          "note": null
+        },
+        {
+          "stem": "late",
+          "form": "later",
+          "note": null
+        },
+        {
+          "stem": "early",
+          "form": "earlier",
+          "note": null
+        },
+        {
+          "stem": "soon",
+          "form": "sooner",
+          "note": null
+        },
+        {
+          "stem": "close",
+          "form": "closer",
+          "note": null
+        },
+        {
+          "stem": "high",
+          "form": "higher",
+          "note": null
+        },
+        {
+          "stem": "large",
+          "form": "larger",
+          "note": null
+        },
+        {
+          "stem": "wide",
+          "form": "wider",
+          "note": null
+        },
+        {
+          "stem": "small",
+          "form": "smaller",
+          "note": null
+        },
+        {
+          "stem": "big",
+          "form": "bigger",
+          "note": null
+        },
+        {
+          "stem": "weird",
+          "form": "weirder",
+          "note": null
+        },
+        {
+          "stem": "broad",
+          "form": "broader",
+          "note": null
+        },
+        {
+          "stem": "busy",
+          "form": "busier",
+          "note": null
+        },
+        {
+          "stem": "heavy",
+          "form": "heavier",
+          "note": null
+        },
+        {
+          "stem": "great",
+          "form": "greater",
+          "note": null
+        },
+        {
+          "stem": "hard",
+          "form": "harder",
+          "note": null
+        },
+        {
+          "stem": "clear",
+          "form": "clearer",
+          "note": null
+        },
+        {
+          "stem": "low",
+          "form": "lower",
+          "note": null
+        },
+        {
+          "stem": "healthy",
+          "form": "healthier",
+          "note": null
+        },
+        {
+          "stem": "fast",
+          "form": "faster",
+          "note": null
+        },
+        {
+          "stem": "strong",
+          "form": "stronger",
+          "note": null
+        },
+        {
+          "stem": "deep",
+          "form": "deeper",
+          "note": null
+        },
+        {
+          "stem": "light",
+          "form": "lighter",
+          "note": null
+        },
+        {
+          "stem": "warm",
+          "form": "warmer",
+          "note": null
+        },
+        {
+          "stem": "bad",
+          "form": "badder",
+          "note": null
+        },
+        {
+          "stem": "young",
+          "form": "younger",
+          "note": null
+        },
+        {
+          "stem": "quick",
+          "form": "quicker",
+          "note": null
+        },
+        {
+          "stem": "cheap",
+          "form": "cheaper",
+          "note": null
+        },
+        {
+          "stem": "tall",
+          "form": "taller",
+          "note": null
+        },
+        {
+          "stem": "dirty",
+          "form": "dirtier",
+          "note": null
+        },
+        {
+          "stem": "dark",
+          "form": "darker",
+          "note": null
+        },
+        {
+          "stem": "slow",
+          "form": "slower",
+          "note": null
+        },
+        {
+          "stem": "nice",
+          "form": "nicer",
+          "note": null
+        },
+        {
+          "stem": "cool",
+          "form": "cooler",
+          "note": null
+        },
+        {
+          "stem": "crazy",
+          "form": "crazier",
+          "note": null
+        },
+        {
+          "stem": "wet",
+          "form": "wetter",
+          "note": null
+        },
+        {
+          "stem": "windy",
+          "form": "windier",
+          "note": null
+        },
+        {
+          "stem": "cold",
+          "form": "colder",
+          "note": null
+        },
+        {
+          "stem": "tight",
+          "form": "tighter",
+          "note": null
+        },
+        {
+          "stem": "thick",
+          "form": "thicker",
+          "note": null
+        },
+        {
+          "stem": "clean",
+          "form": "cleaner",
+          "note": null
+        },
+        {
+          "stem": "smooth",
+          "form": "smoother",
+          "note": null
+        },
+        {
+          "stem": "hot",
+          "form": "hotter",
+          "note": null
+        },
+        {
+          "stem": "strange",
+          "form": "stranger",
+          "note": null
+        },
+        {
+          "stem": "rude",
+          "form": "ruder",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "superlative_est",
+      "label": "adjective superlative -est",
+      "description": "Synthetic superlative -est/-iest (Degree=Sup).",
+      "pairs": [
+        {
+          "stem": "strong",
+          "form": "strongest",
+          "note": null
+        },
+        {
+          "stem": "big",
+          "form": "biggest",
+          "note": null
+        },
+        {
+          "stem": "large",
+          "form": "largest",
+          "note": null
+        },
+        {
+          "stem": "high",
+          "form": "highest",
+          "note": null
+        },
+        {
+          "stem": "slow",
+          "form": "slowest",
+          "note": null
+        },
+        {
+          "stem": "harsh",
+          "form": "harshest",
+          "note": null
+        },
+        {
+          "stem": "young",
+          "form": "youngest",
+          "note": null
+        },
+        {
+          "stem": "poor",
+          "form": "poorest",
+          "note": null
+        },
+        {
+          "stem": "sharp",
+          "form": "sharpest",
+          "note": null
+        },
+        {
+          "stem": "clean",
+          "form": "cleanest",
+          "note": null
+        },
+        {
+          "stem": "late",
+          "form": "latest",
+          "note": null
+        },
+        {
+          "stem": "light",
+          "form": "lightest",
+          "note": null
+        },
+        {
+          "stem": "low",
+          "form": "lowest",
+          "note": null
+        },
+        {
+          "stem": "early",
+          "form": "earliest",
+          "note": null
+        },
+        {
+          "stem": "weak",
+          "form": "weakest",
+          "note": null
+        },
+        {
+          "stem": "sick",
+          "form": "sickest",
+          "note": null
+        },
+        {
+          "stem": "near",
+          "form": "nearest",
+          "note": null
+        },
+        {
+          "stem": "dark",
+          "form": "darkest",
+          "note": null
+        },
+        {
+          "stem": "great",
+          "form": "greatest",
+          "note": null
+        },
+        {
+          "stem": "sure",
+          "form": "surest",
+          "note": null
+        },
+        {
+          "stem": "fast",
+          "form": "fastest",
+          "note": null
+        },
+        {
+          "stem": "hard",
+          "form": "hardest",
+          "note": null
+        },
+        {
+          "stem": "wide",
+          "form": "widest",
+          "note": null
+        },
+        {
+          "stem": "rich",
+          "form": "richest",
+          "note": null
+        },
+        {
+          "stem": "long",
+          "form": "longest",
+          "note": null
+        },
+        {
+          "stem": "small",
+          "form": "smallest",
+          "note": null
+        },
+        {
+          "stem": "cheap",
+          "form": "cheapest",
+          "note": null
+        },
+        {
+          "stem": "thin",
+          "form": "thinnest",
+          "note": null
+        },
+        {
+          "stem": "nice",
+          "form": "nicest",
+          "note": null
+        },
+        {
+          "stem": "mean",
+          "form": "meanest",
+          "note": null
+        },
+        {
+          "stem": "drunk",
+          "form": "drunkest",
+          "note": null
+        },
+        {
+          "stem": "classy",
+          "form": "classiest",
+          "note": null
+        },
+        {
+          "stem": "fine",
+          "form": "finest",
+          "note": null
+        },
+        {
+          "stem": "crazy",
+          "form": "craziest",
+          "note": null
+        },
+        {
+          "stem": "rude",
+          "form": "rudest",
+          "note": null
+        },
+        {
+          "stem": "dumb",
+          "form": "dumbest",
+          "note": null
+        },
+        {
+          "stem": "hot",
+          "form": "hottest",
+          "note": null
+        },
+        {
+          "stem": "slight",
+          "form": "slightest",
+          "note": null
+        },
+        {
+          "stem": "kind",
+          "form": "kindest",
+          "note": null
+        },
+        {
+          "stem": "wild",
+          "form": "wildest",
+          "note": null
+        },
+        {
+          "stem": "close",
+          "form": "closest",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "distractor_pool": [
+    "force",
+    "preacher",
+    "mosque",
+    "town",
+    "border",
+    "killing",
+    "cleric",
+    "trouble",
+    "year",
+    "authority",
+    "cell",
+    "official",
+    "level",
+    "member",
+    "bomber",
+    "head",
+    "investment",
+    "firm",
+    "market",
+    "bombing",
+    "target",
+    "district",
+    "capital",
+    "announcement",
+    "progress",
+    "terror",
+    "news",
+    "government",
+    "officer",
+    "side",
+    "guerrilla",
+    "police",
+    "commander",
+    "percent",
+    "jump",
+    "number",
+    "kidnapping",
+    "surgeon",
+    "wife",
+    "way",
+    "car",
+    "bomb",
+    "population",
+    "lookout",
+    "saboteur",
+    "willingness",
+    "difference",
+    "south",
+    "center",
+    "north",
+    "country",
+    "dean",
+    "driver",
+    "engineer",
+    "clan",
+    "elder",
+    "branch",
+    "tribe",
+    "mother",
+    "attack"
+  ]
+}

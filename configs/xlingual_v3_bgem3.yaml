@@ -1,7 +1,7 @@
 # Cross-lingual probe with bge-m3 — potion-multilingual-128M's ACTUAL teacher —
 # added alongside LaBSE. Lets us report potion's retention relative to its true
 # teacher (bge-m3) vs the reference encoder (LaBSE), partially disentangling the
-# teacher/recipe confound flagged in the encoder ablation (§6.1, P0-4).
+# teacher/recipe confound examined in the encoder ablation.
 module: xlingual
 data_path: data/xlingual/tr_flores.v3.json
 seed: 42

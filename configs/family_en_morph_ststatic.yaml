@@ -1,0 +1,15 @@
+# C2 distillation-family ablation (EN). Student: sentence-transformers/static-similarity-mrl-multilingual-v1 (static embeddings trained from scratch with contrastive/Matryoshka loss, no teacher) — a non-distilled static family.
+module: morphology
+data_path: data/morphology/en_categories.v1.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+encoders:
+  st_static_mrl:
+    type: transformer
+    model_id: sentence-transformers/static-similarity-mrl-multilingual-v1
+    role: student
+  fasttext_en:
+    type: fasttext
+    path: data/fasttext/cc.en.300.bin
+    role: baseline

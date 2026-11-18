@@ -50,3 +50,21 @@ __all__ = [
 ]
 from .schemas import STSDataset, STSPair  # noqa: E402
 from .loaders import load_sts_dataset  # noqa: E402
+from .schemas import (  # noqa: E402
+    ClusteringDataset,
+    ClusteringSet,
+    RetrievalDataset,
+    RetrievalDoc,
+    RetrievalQuery,
+)
+from .loaders import load_clustering_dataset, load_retrieval_dataset  # noqa: E402
+
+__all__ += [
+    "ClusteringDataset",
+    "ClusteringSet",
+    "RetrievalDataset",
+    "RetrievalDoc",
+    "RetrievalQuery",
+    "load_clustering_dataset",
+    "load_retrieval_dataset",
+]

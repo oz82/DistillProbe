@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 DistillProbe Author
+Copyright (c) 2026 Özkan Aslan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +19,23 @@ honor KeNet's copyleft; a verbatim copy of that license is provided in
 COPYING.GPL-3.0. PARSEME 1.2 corpora are used under their original CC-BY-NC-SA
 4.0 terms (for Polish the licence is layer-dependent) and FLORES-200 under
 CC-BY-SA; neither is redistributed (obtain them from their distributors and
-pass the paths to the build scripts). The STS-Tr test split is redistributed
-from the public emrecan/stsb-mt-turkish dataset under its own terms. TDK GTS
-definitions are accessed via the public API and cited rather than
-redistributed.
+pass the paths to the build scripts). The Turkish morphology pair lists
+(tr_categories.v2/v3: lemma and word-form pairs extracted from the PARSEME 1.2
+Turkish UD layer) are redistributed under CC-BY-NC-SA 4.0, the licence of their
+source. Author-curated word lists (tr_categories.v1, tr_negation.v1) are released
+under CC-BY 4.0. The PARSEME 1.3 English corpus (CC-BY-SA
+4.0 for the UD layer, CC-BY 4.0 for the VMWE annotations), UD English-EWT
+(CC-BY-SA 4.0) and UniMorph eng (CC-BY-SA 3.0) are likewise obtained from their
+distributors. The English morphology set derived from UD English-EWT (filtered
+with UniMorph) and the English polysemy and negation sets derived from Princeton
+WordNet 3.0 (WordNet license) are redistributed under those terms; the English
+syntax set (UD English-EWT) and idiomaticity set (PARSEME 1.3 English) are not
+redistributed and are rebuilt by the build scripts. The STS test
+splits are redistributed from the public emrecan/stsb-mt-turkish and
+mteb/stsbenchmark-sts datasets under their own terms. TDK GTS definitions are
+accessed via the public API and cited rather than redistributed. The locally
+distilled student models/m2v_bgem3_pca256_sif inherits the MIT license of its
+teacher, BAAI/bge-m3.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

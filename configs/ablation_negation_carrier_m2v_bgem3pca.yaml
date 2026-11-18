@@ -1,0 +1,20 @@
+# A1 controlled-distillation ablation (negation, carrier mode). Student: bge-m3 teacher + plain PCA-256/SIF recipe, distilled locally with model2vec 0.8.1 (same teacher as potion, different recipe).
+# One student per config because several modules select a single student encoder.
+module: negation
+data_path: data/negation/tr_negation.v3_clean.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+extra:
+  use_carrier: true
+  carrier_pos: "Bu çok {x}."
+  carrier_neg: "Bu çok {x} değil."
+  carrier_ant: "Bu çok {x}."
+encoders:
+  m2v_bgem3_pca256_sif:
+    type: model2vec
+    model_id: models/m2v_bgem3_pca256_sif
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean

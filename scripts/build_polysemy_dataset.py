@@ -173,11 +173,21 @@ def detect_dangling_anaphora(
     return dangling
 
 
-def _apply_manifest(built: list[PolysemyWord], manifest_path: Path) -> list[PolysemyWord]:
+def _apply_manifest(
+    built: list[PolysemyWord],
+    manifest_path: Path,
+    fetched: dict[str, list[PolysemySense]],
+) -> list[PolysemyWord]:
     """Reconcile a freshly fetched build against a released sense manifest.
 
     The manifest records exactly which TDK sense IDs the published dataset kept,
-    in order, plus the manual edits applied to them. Replaying it turns the
+    in order, plus the manual edits applied to them. Edits are recorded as rules
+    rather than as dictionary text: `definition_from` + `replace` substitutes the
+    antecedent sense's definition for a deictic phrase in the edited gloss (for a
+    dangling "Bu ..." reference), and `field` + `replace` = [old, new] fixes a typo
+    in that field's text. `new_definition` (literal text) is still accepted.
+    `fetched` holds every sense TDK returned per word, before filtering, so a
+    `definition_from` antecedent can be a sense the filter dropped. Replaying it turns the
     build into a deterministic regeneration of the published dataset rather than
     a fresh crawl whose contents drift with the dictionary. This is what makes
     the "cited, not redistributed" release honest: the recipe reproduces the
@@ -188,11 +198,27 @@ def _apply_manifest(built: list[PolysemyWord], manifest_path: Path) -> list[Poly
     """
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     by_word = {w.word: w for w in built}
-    edits: dict[tuple[str, str], str] = {}
+    edits: dict[tuple[str, str], list[dict]] = {}
     for e in manifest.get("manual_edits", []):
-        new_def = e.get("new_definition")
-        if new_def:
-            edits[(e["word"], e["sense_id"])] = new_def
+        edits.setdefault((e["word"], e["sense_id"]), []).append(e)
+
+    def apply_edit(word: str, sense: PolysemySense, e: dict) -> PolysemySense:
+        if "new_definition" in e:
+            return sense.model_copy(update={"definition": e["new_definition"]})
+        if "definition_from" in e:
+            source = {x.sense_id: x for x in fetched.get(word, [])}.get(e["definition_from"])
+            if source is None or e["replace"] not in sense.definition:
+                raise SystemExit(f"[{word}] manual edit {e} no longer applies to TDK's text")
+            definition = sense.definition.replace(e["replace"], source.definition, 1)
+            return sense.model_copy(update={"definition": definition})
+        old, new = e["replace"]
+        field = e["field"]
+        value = getattr(sense, field)
+        texts = value if isinstance(value, list) else [value]
+        if not any(old in t for t in texts):
+            raise SystemExit(f"[{word}] manual edit {e} no longer applies to TDK's text")
+        fixed = [t.replace(old, new) for t in texts]
+        return sense.model_copy(update={field: fixed if isinstance(value, list) else fixed[0]})
 
     out: list[PolysemyWord] = []
     problems: list[str] = []
@@ -211,9 +237,8 @@ def _apply_manifest(built: list[PolysemyWord], manifest_path: Path) -> list[Poly
         senses = []
         for sid in want:
             s = have[sid]
-            new_def = edits.get((word, sid))
-            if new_def:
-                s = s.model_copy(update={"definition": new_def})
+            for e in edits.get((word, sid), []):
+                s = apply_edit(word, s, e)
             senses.append(s)
         out.append(PolysemyWord(word=word, senses=senses))
 
@@ -258,6 +283,14 @@ def main() -> int:
     )
     args = p.parse_args()
 
+    if args.manifest:
+        # A manifest records the parameters it was built with; replaying it with
+        # the defaults would filter out recorded senses.
+        recorded = json.loads(Path(args.manifest).read_text(encoding="utf-8"))
+        for key, value in recorded.get("params", {}).items():
+            setattr(args, key, value)
+        args.version = recorded.get("version", args.version)
+
     if args.candidates:
         candidates = args.candidates
     elif args.manifest:
@@ -270,6 +303,7 @@ def main() -> int:
     print(f"querying TDK GTS for {len(candidates)} candidates", file=sys.stderr)
 
     kept: list[PolysemyWord] = []
+    fetched: dict[str, list[PolysemySense]] = {}
     dropped: list[tuple[str, str]] = []
     dangling_report: list[str] = []
 
@@ -280,6 +314,7 @@ def main() -> int:
             dropped.append((w, "fetch failed"))
             continue
         senses = extract_senses(records, w)
+        fetched[w] = senses
         n_total = len(senses)
         n_qualifying = sum(1 for s in senses if len(s.examples) >= args.min_examples)
         kept_senses = filter_word(senses, args.min_examples, args.min_senses)
@@ -353,7 +388,7 @@ def main() -> int:
     kept = deduped
 
     if args.manifest:
-        kept = _apply_manifest(kept, Path(args.manifest))
+        kept = _apply_manifest(kept, Path(args.manifest), fetched)
 
     ds = PolysemyDataset(
         language="tr",

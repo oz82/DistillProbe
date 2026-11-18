@@ -139,4 +139,3 @@ Aynı kelimenin tüm anlamlarını **art arda** görürsün (örn. "baş"ın 11 
 ## 10. Tek cümlelik özet
 
 > Her satırdaki anlam için: **"bu kelimeyi tek başına duysam bu anlam ne kadar aklıma gelir?"** → 3 (ilk gelir) / 2 (yaygın ikincil) / 1 (nadir) / 0 (biliyorum ama marjinal). Bilmiyorsan boş bırak + NOT'a yaz. Örnek cümleye değil, kendi sezgine güven.
-</content>

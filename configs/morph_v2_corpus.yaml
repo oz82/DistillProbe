@@ -1,5 +1,6 @@
+# Name kept from the first submission; the data are the stem-validity-filtered v3 pairs.
 module: morphology
-data_path: data/morphology/tr_categories.v2.json
+data_path: data/morphology/tr_categories.v3.json
 seed: 42
 bootstrap_n: 10000
 output_dir: results

@@ -1,0 +1,38 @@
+# Morphology with the contextual reference encoders included, so the axis can be placed on the
+# teacher-relative retention scale (consistency_student / consistency_reference). All students at once.
+module: morphology
+data_path: data/morphology/tr_categories.v3.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+    role: student
+  m2v_multilingual_output:
+    type: model2vec
+    model_id: minishlab/M2V_multilingual_output
+    role: student
+  m2v_bgem3_pca256_sif:
+    type: model2vec
+    model_id: models/m2v_bgem3_pca256_sif
+    role: student
+  st_static_mrl:
+    type: transformer
+    model_id: sentence-transformers/static-similarity-mrl-multilingual-v1
+    role: student
+  fasttext_tr:
+    type: fasttext
+    path: data/fasttext/cc.tr.300.bin
+    role: baseline
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean
+    role: reference
+  me5_base:
+    type: transformer
+    model_id: intfloat/multilingual-e5-base
+    pool: mean
+    role: reference

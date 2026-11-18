@@ -1,0 +1,21 @@
+# C2 distillation-family ablation (EN). Student: Wada et al. 2025 SWE (GTE-base -> sentence-level PCA -> knowledge distillation; English only) — a non-Model2Vec distillation family.
+module: negation
+data_path: data/negation/en_negation.v3_clean.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+extra:
+  use_carrier: true
+  carrier_pos: "This is very {x}."
+  carrier_neg: "This is not very {x}."
+  carrier_ant: "This is very {x}."
+encoders:
+  wada_gte256_en:
+    type: static_wordvec
+    path: external/swe4semantics/embeddings/swe_gte256_en.txt
+    role: student
+  labse:
+    type: transformer
+    model_id: sentence-transformers/LaBSE
+    pool: mean
+    role: reference

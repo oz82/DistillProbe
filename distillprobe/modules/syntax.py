@@ -7,7 +7,7 @@ from typing import Any
 import numpy as np
 
 from ..data import load_syntax_dataset
-from ..encoders.base import Encoder
+from ..encoders.base import Encoder, first_student
 from ..metrics import bootstrap_ci, paired_wilcoxon
 from .base import ProbeModule, ProbeResult
 
@@ -127,14 +127,8 @@ class SyntaxModule(ProbeModule):
         self._ensure_model(teacher_id)
 
         teacher_label = self._teacher_label
-        # Pick the M2V student (if any) by name pattern
-        student_name: str | None = None
-        student: Encoder | None = None
-        for n, e in encoders.items():
-            if "model2vec" in e.name:
-                student_name = n
-                student = e
-                break
+        student_name = first_student(encoders)
+        student: Encoder | None = encoders.get(student_name) if student_name else None
 
         if len(ds.target_roles) != 2:
             raise ValueError(
@@ -387,9 +381,7 @@ class SyntaxModuleV2(ProbeModule):
         ctrl_rng = np.random.default_rng(seed)
         self._ensure_model(teacher_id)
 
-        student_name = next(
-            (n for n, e in encoders.items() if "model2vec" in e.name), None
-        )
+        student_name = first_student(encoders)
         student = encoders.get(student_name) if student_name else None
 
         if len(ds.target_roles) != 2:

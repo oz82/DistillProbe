@@ -1,0 +1,13 @@
+module: idiomaticity_v2
+data_path: data/idiomaticity/en_parseme.v2.json
+seed: 42
+bootstrap_n: 10000
+output_dir: results
+# encoders dict is required by RunConfig but not used by V2 (V2 talks to HF directly).
+encoders:
+  m2v_potion:
+    type: model2vec
+    model_id: minishlab/potion-multilingual-128M
+extra:
+  teacher_model_id: sentence-transformers/LaBSE
+  teacher_max_length: 256
